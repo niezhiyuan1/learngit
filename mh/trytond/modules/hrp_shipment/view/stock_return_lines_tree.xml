@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<tree string="Stock Return Lines" sequence="1" editable="bottom">
+
+    <field name="line"/>
+
+    <field name="code"/>
+
+    <field name="product_name"/>
+
+    <field name="note"/>
+
+    <field name="drug_specifications"/>
+
+    <field name="quantity"/>
+
+    <field name="lot"/>
+
+    <field name="shelf_life_expiration_date"/>
+
+    <field name="ensure"/>
+
+</tree>

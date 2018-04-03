@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<form string="Stock Shipment Report" >
+
+    <label name="time_start"/>
+    <field name="time_start"/>
+
+    <label name="time_end"/>
+    <field name="time_end"/>
+
+    <label name="type"/>
+    <field name="type"/>
+
+    <label name="party"/>
+    <field name="party"/>
+
+</form>

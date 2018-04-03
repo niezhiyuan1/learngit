@@ -1,0 +1,57 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+
+
+msgctxt "model:ir.ui.menu,name:menu_product_quantity"
+msgid "Product Quantity"
+msgstr "物资位置维护"
+
+msgctxt "view:product_quantity:"
+msgid "Quantity"
+msgstr "物资位置维护"
+
+msgctxt "model:ir.action,name:product_quantity_act"
+msgid "Product Quantity"
+msgstr "物资位置维护"
+
+msgctxt "field:product_quantity,product:"
+msgid "Product"
+msgstr "检索"
+
+msgctxt "field:product_quantity,categories:"
+msgid "Categories"
+msgstr "物资种类"
+
+msgctxt "field:product_quantity,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:product_quantity,default_uom:"
+msgid "Default UOM"
+msgstr "单位"
+
+msgctxt "field:product_quantity,location:"
+msgid "location"
+msgstr "货位"
+
+msgctxt "field:product_quantity,quantity:"
+msgid "quantity"
+msgstr "最大值"
+
+msgctxt "field:product_quantity,sequence:"
+msgid "sequence"
+msgstr "优先级"
+
+msgctxt "field:product_quantity,product_code:"
+msgid "product_code"
+msgstr "物资编码"
+
+msgctxt "field:product_quantity,product_name:"
+msgid "product_name"
+msgstr "物资名称"
+
+msgctxt "field:product_quantity,additional:"
+msgid "additional"
+msgstr "附加"

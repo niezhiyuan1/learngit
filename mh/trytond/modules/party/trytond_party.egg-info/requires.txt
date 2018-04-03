@@ -1,0 +1,7 @@
+python-sql >= 0.4
+python-stdnum
+trytond_country >= 4.0, < 4.1
+trytond >= 4.0, < 4.1
+
+[VAT]
+python-stdnum

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<form string="Stock Return">
+
+    <label name="order_category"/>
+    <field name="order_category"/>
+
+    <label name="categories"/>
+    <field name="categories"/>
+
+    <label name="state"/>
+    <field name="state"/>
+
+    <label name="order_no"/>
+    <field name="order_no"/>
+
+    <field name="stock_return_lines" colspan="4"/>
+
+
+</form>

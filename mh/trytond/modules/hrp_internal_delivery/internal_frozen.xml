@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+        <!--Frozen-->
+        <record model="ir.ui.view" id="internal_frozen_view_form">
+            <field name="model">hrp_internal_delivery.internal_frozen</field>
+            <field name="type">form</field>
+            <field name="name">internal_frozen_form</field>
+        </record>
+        <record model="ir.action.wizard" id="act_internal_frozen">
+            <field name="name">Hrp Frozen</field>
+            <field name="wiz_name">hrp_internal_delivery.internal_frozen_wizard</field>
+        </record>
+
+        <menuitem name="Hrp Frozen" id="menu_internal_frozens"  action="act_internal_frozen" sequence="-15"/>
+
+        <!--Test Frozen-->
+        <record model="ir.ui.view" id="test_frozen_view_form">
+            <field name="model">hrp_internal_delivery.test_frozen</field>
+            <field name="type">form</field>
+            <field name="name">test_frozen_form</field>
+        </record>
+       <record model="ir.ui.view" id="test_frozen_view_tree">
+            <field name="model">hrp_internal_delivery.test_frozen</field>
+            <field name="type">tree</field>
+            <field name="name">test_frozen_tree</field>
+       </record>
+    </data>
+</tryton>

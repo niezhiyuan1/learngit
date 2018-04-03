@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+ <!--editable="top"-->
+<tree string="Hrp New Return" editable="top">
+    <!--<field name="product"/>-->
+    <field name="code"/>
+    <field name="product_name"/>
+    <field name="drug_specifications"/>
+    <field name="lot"/>
+    <!--<field name="from_location"/>-->
+    <!--<field name="to_location"/>-->
+    <field name="return_quantity"/>
+    <field name="uom"/>
+    <field name="examine"/>
+    <field name="reason"/>
+    <field name="comment"/>
+</tree>
+

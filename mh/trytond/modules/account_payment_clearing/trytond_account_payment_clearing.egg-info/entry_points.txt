@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    account_payment_clearing = trytond.modules.account_payment_clearing
+    

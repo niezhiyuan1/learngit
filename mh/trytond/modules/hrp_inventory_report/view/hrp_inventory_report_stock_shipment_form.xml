@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<form string="Stock Shipment Report" >
+    <label name="number"/>
+    <field name="number"/>
+
+    <label name="name"/>
+    <field name="name"/>
+
+    <label name="code"/>
+    <field name="code"/>
+
+    <label name="category"/>
+    <field name="category"/>
+
+    <label name="actual_payment"/>
+    <field name="actual_payment"/>
+
+    <label name="wholesale_payment"/>
+    <field name="wholesale_payment"/>
+
+    <label name="retail_payment"/>
+    <field name="retail_payment"/>
+
+</form>

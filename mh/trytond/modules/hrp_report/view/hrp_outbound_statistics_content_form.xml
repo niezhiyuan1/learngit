@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<form>
+    <label name="start_time"/>
+    <field name="start_time"/>
+    <label name="end_time"/>
+    <field name="end_time"/>
+    <label name="location"/>
+    <field name="location"/>
+    <label name="drug_type"/>
+    <field name="drug_type"/>
+    <label name="customer"/>
+    <field name="customer"/>
+    <label name="statistical_type"/>
+    <field name="statistical_type"/>
+</form>

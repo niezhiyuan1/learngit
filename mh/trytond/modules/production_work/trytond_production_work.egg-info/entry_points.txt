@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    production_work = trytond.modules.production_work
+    

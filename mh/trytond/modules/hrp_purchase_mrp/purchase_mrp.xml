@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+
+        <record model="ir.action.wizard" id="act_purchase_request_create">
+            <field name="name">Hrp Create Purchase Mrp</field>
+            <field name="wiz_name">hrp_purchase_mrp_create_purchase_mrp</field>
+        </record>
+
+        <record model="ir.ui.view" id="hrp_purchase_mrp_create_purchase_mrp_start_view_form">
+            <field name="model">hrp_purchase_mrp_create_purchase_mrp_start</field>
+            <field name="type">form</field>
+            <field name="name">hrp_purchase_mrp_create_purchase_mrp_start_form</field>
+        </record>
+        <menuitem parent="hrp_party.menu_hrp_Drug_level_management"
+            sequence="1" action="act_purchase_request_create"
+            id="menu_new_purchase_mrp_create"/>
+
+        <record model="ir.ui.view" id="purchase_lines_view_tree">
+            <field name="model">hrp_purchase_mrp.purchase_mrp_lines</field>
+            <field name="type">tree</field>
+            <field name="name">purchase_lines_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="purchase_lines_view_form">
+            <field name="model">hrp_purchase_mrp.purchase_mrp_lines</field>
+            <field name="type">form</field>
+            <field name="name">purchase_lines_form</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_purchase_mrp_lines">
+            <field name="name">Hrp Purchase Mrp Lines</field>
+            <field name="res_model">hrp_purchase_mrp.purchase_mrp_lines</field>
+        </record>
+
+        <record model="ir.action.act_window.domain" id="act_purchase_lines_domain_tree_draft">
+            <field name="name">Draft</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain"
+                eval="[('state', '=', 'draft')]" pyson="1"/>
+            <field name="act_window" ref="act_purchase_mrp_lines"/>
+        </record>
+
+        <record model="ir.action.act_window.domain" id="act_purchase_lines_domain_tree_purchase">
+            <field name="name">Purchase</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain"
+                eval="[('state', '=', 'purchase')]" pyson="1"/>
+            <field name="act_window" ref="act_purchase_mrp_lines"/>
+        </record>
+
+        <record model="ir.action.act_window.domain" id="act_purchase_lines_tree_domain_all">
+            <field name="name">All</field>
+            <field name="sequence" eval="30"/>
+            <field name="domain"></field>
+            <field name="act_window" ref="act_purchase_mrp_lines"/>
+        </record>
+
+        <menuitem parent="hrp_party.menu_hrp_Drug_level_management"
+            sequence="10" action="act_purchase_mrp_lines" icon = "tryton-list"
+            id="menu_purchase_mrp_lines"/>
+
+
+        <!--<record model="ir.action.act_window" id="act_hrp_purchase">-->
+            <!--<field name="name">Purchasse</field>-->
+            <!--<field name="res_model">purchase.purchase.purchase</field>-->
+        <!--</record>-->
+
+        <!--<menuitem parent="hrp_party.menu_hrp_purchase_order"-->
+            <!--sequence="4" action="act_hrp_purchase" icon = "tryton-list"-->
+            <!--id="menu_hrp_purchase"/>-->
+
+
+        <!--            在上边标题创建向导            -->
+        <record model="ir.ui.view" id="create_purchase_ask_party_start">
+            <field name="model">hrp_purchase_mrp.create_purchase_ask_party</field>
+            <field name="type">form</field>
+            <field name="name">purchase_request_mrp_create_purchase_ask_party_form</field>
+        </record>
+        <record model="ir.action.wizard" id="wizard_create_purchase">
+            <field name="name">Purchase sddw</field>
+            <field name="wiz_name">hrp_purchase_mrp.create_purchase</field>
+            <field name="model">hrp_purchase_mrp.purchase_mrp_lines</field>
+        </record>
+        <record model="ir.action.keyword" id="wizard_create_purchase_keyword">
+            <field name="action" ref="wizard_create_purchase"/>
+            <field name="keyword">form_action</field>
+            <field name="model">hrp_purchase_mrp.purchase_mrp_lines,-1</field>
+        </record>
+
+        <record model="ir.ui.view" id="lot_view_tree">
+            <field name="model">stock.lot</field>
+            <field name="inherit" ref="stock_lot.lot_view_tree"/>
+            <field name="name">stock_lot_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="lot_view_form">
+            <field name="model">stock.lot</field>
+            <field name="inherit" ref="stock_lot.lot_view_form"/>
+            <field name="name">stock_lot_form</field>
+        </record>
+
+
+
+
+
+    </data>
+</tryton>

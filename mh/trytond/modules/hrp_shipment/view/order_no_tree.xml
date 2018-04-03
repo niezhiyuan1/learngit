@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<tree string="Order">
+
+    <field name="number"/>
+
+    <field name="time"/>
+
+</tree>

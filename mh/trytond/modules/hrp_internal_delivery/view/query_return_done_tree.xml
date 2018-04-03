@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<tree >
+    <field name="number"/>
+    <field name="processing_time"/>
+    <field name="code"/>
+    <field name="product"/>
+    <field name="additional"/>
+    <field name="drug_specifications"/>
+    <field name="odd_numbers"/>
+    <field name="proposal"/>
+    <field name="company"/>
+    <field name="lot"/>
+    <field name="time"/>
+    <field name="cost_price"/>
+    <field name="list_price"/>
+
+</tree>

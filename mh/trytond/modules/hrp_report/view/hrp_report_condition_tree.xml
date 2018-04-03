@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--editable ="top" 对tree可以修改-->
+<tree string ='Hrp Report Condition'>
+    <field name="product"/>
+    <field name="lot"/>
+    <field name="drug_type"/>
+    <field name="time"/>
+    <field name="location"/>
+    <field name="medicine"/>
+    <field name="moves"/>
+</tree>

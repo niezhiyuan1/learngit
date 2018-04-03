@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<tree string="Hrp Test Return Request" editable="top">
+    <field name="from_location"/>
+    <field name="party"/>
+    <field name="code"/>
+    <field name="product_name"/>
+    <field name="drug_specifications"/>
+    <field name="uom"/>
+    <field name="return_quantity"/>
+    <field name="can_return_quantity"/>
+    <field name="examine"/>
+    <!--<field name="lot"/>-->
+    <!--<field name="product"/>-->
+    <!--<field name="to_location"/>-->
+</tree>
+

@@ -1,0 +1,7 @@
+trytond_account >= 4.0, < 4.1
+trytond_account_invoice >= 4.0, < 4.1
+trytond_account_product >= 4.0, < 4.1
+trytond_account_stock_continental >= 4.0, < 4.1
+trytond_purchase >= 4.0, < 4.1
+trytond_sale >= 4.0, < 4.1
+trytond >= 4.0, < 4.1

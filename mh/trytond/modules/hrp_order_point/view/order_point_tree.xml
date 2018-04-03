@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+
+
+    <xpath expr="/tree/field[@name='max_quantity']" position="replace">
+         <field name="max_quantity" tree_invisible="1"/>
+    </xpath>
+
+    <xpath expr="/tree/field[@name='min_quantity']" position="replace">
+         <field name="min_quantity" tree_invisible="1"/>
+    </xpath>
+    <xpath expr="/tree/field[@name='product']" position="before">
+        <field name="code"/>
+        <field name="name"/>
+    </xpath>
+
+    <xpath expr="/tree/field[@name='product']" position="replace">
+        <field name="product" tree_invisible="1"/>
+    </xpath>
+</data>

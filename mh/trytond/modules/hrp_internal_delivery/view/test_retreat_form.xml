@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<form string="Hrp New Return">
+    <!--<label name="product"/>-->
+    <!--<field name="product"/>-->
+    <label name="code"/>
+    <field name="code"/>
+    <label name="product_name"/>
+    <field name="product_name"/>
+    <label name="from_location"/>
+    <field name="from_location"/>
+    <label name="to_location"/>
+    <field name="to_location"/>
+    <label name="lot"/>
+    <field name="lot"/>
+    <label name="drug_specifications"/>
+    <field name="drug_specifications"/>
+    <label name="uom"/>
+    <field name="uom"/>
+    <label name="return_quantity"/>
+    <field name="return_quantity"/>
+    <label name="reason"/>
+    <field name="reason"/>
+    <label name="comment"/>
+    <field name="comment"/>
+    <label name="examine"/>
+    <field name="examine"/>
+</form>

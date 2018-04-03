@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--editable ="top" 对tree可以修改-->
+<tree>
+    <field name="customer"/>
+    <field name="code"/>
+    <field name="product"/>
+    <field name="drug_specifications"/>
+    <field name="quantity"/>
+    <field name="list_price"/>
+    <field name="cost_price"/>
+    <!--<field name="effective_date"/>-->
+</tree>

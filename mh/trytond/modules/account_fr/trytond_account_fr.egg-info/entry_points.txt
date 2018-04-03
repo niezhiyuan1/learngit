@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    account_fr = trytond.modules.account_fr
+    

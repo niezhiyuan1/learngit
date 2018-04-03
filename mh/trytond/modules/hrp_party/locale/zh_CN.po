@@ -1,0 +1,126 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:party.party,new_name:"
+msgid "Name1"
+msgstr "供应商别名"
+
+msgctxt "field:party.party,finance_code:"
+msgid "finance_code"
+msgstr "财务编码"
+
+msgctxt "field:party.party,settlement:"
+msgid "settlement"
+msgstr "结算方式"
+
+msgctxt "field:party.party,currency:"
+msgid "currency"
+msgstr "货币"
+
+msgctxt "field:party.party,phone:"
+msgid "phone"
+msgstr "电话"
+
+msgctxt "field:party.party,contact_name:"
+msgid "contact_name"
+msgstr "联系人"
+
+msgctxt "field:party.party,type_:"
+msgid "Type"
+msgstr "类型"
+
+msgctxt "field:hrp_party.new_party,new_name:"
+msgid "Name1"
+msgstr "供应商别名"
+
+msgctxt "field:hrp_party.new_party,finance_code:"
+msgid "finance_code"
+msgstr "财务编码"
+
+msgctxt "field:hrp_party.new_party,settlement:"
+msgid "settlement"
+msgstr "结算方式"
+
+msgctxt "field:hrp_party.new_party,currency:"
+msgid "currency"
+msgstr "货币"
+
+msgctxt "field:hrp_party.new_party,phone:"
+msgid "phone"
+msgstr "电话"
+
+msgctxt "field:hrp_party.new_party,contact_name:"
+msgid "contact_name"
+msgstr "联系人"
+
+msgctxt "field:hrp_party.new_party,mark:"
+msgid "Mark"
+msgstr ""
+
+msgctxt "field:hrp_party.new_party,code:"
+msgid "Code"
+msgstr "供应商编码"
+
+msgctxt "field:hrp_party.new_party,name:"
+msgid "Name"
+msgstr "供应商"
+
+msgctxt "field:hrp_party.new_party,supplier_payment_term:"
+msgid "Supplier Payment Term"
+msgstr "结算账期"
+
+msgctxt "field:hrp_party.new_party,street:"
+msgid "Street"
+msgstr "地址"
+
+msgctxt "field:hrp_party.new_party,invoice:"
+msgid "Invoice"
+msgstr "是否发票"
+
+msgctxt "field:hrp_party.new_party,deivery:"
+msgid "Delivery"
+msgstr "是否传递"
+
+msgctxt "field:hrp_party.new_party,active:"
+msgid "Active"
+msgstr "是否激活"
+
+msgctxt "field:hrp_party.new_party,address_active:"
+msgid "Address_active"
+msgstr "地址激活"
+
+msgctxt "model:ir.action,name:act_hrp_party"
+msgid "hrp_party"
+msgstr "供应商主数据"
+
+
+msgctxt "model:ir.ui.menu,name:PIS_menu"
+msgid "hrp_party"
+msgstr "采购管理"
+
+msgctxt "model:ir.ui.menu,name:menu_hrp_master_data"
+msgid "master_data"
+msgstr "主数据"
+
+msgctxt "model:ir.ui.menu,name:menu_hrp_purchase_order"
+msgid "purchase_order"
+msgstr "采购管理"
+
+msgctxt "model:ir.ui.menu,name:menu_hrp_Drug_level_management"
+msgid "Drug_level_management"
+msgstr "一级药库管理"
+
+msgctxt "model:ir.ui.menu,name:menu_hrp_party"
+msgid "hrp_party"
+msgstr "供应商主数据"
+
+msgctxt "model:ir.ui.menu,name:menu_hrp_secondary_library_management"
+msgid "secondary_library_management"
+msgstr "二级药库管理"
+
+
+
+
+
+

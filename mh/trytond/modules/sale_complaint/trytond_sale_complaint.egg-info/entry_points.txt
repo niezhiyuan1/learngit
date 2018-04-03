@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    sale_complaint = trytond.modules.sale_complaint
+    

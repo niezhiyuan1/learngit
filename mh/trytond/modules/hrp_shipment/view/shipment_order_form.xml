@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<form string="Shipment Order">
+    <label name="pick_out"/>
+    <field name="pick_out"/>
+
+    <label name="location"/>
+    <field name="location"/>
+
+    <label name="product"/>
+    <field name="product"/>
+
+    <label name="manufacturers_describtion"/>
+    <field name="manufacturers_describtion"/>
+
+    <label name="drug_specifications"/>
+    <field name="drug_specifications"/>
+
+    <label name="drug_approval_number"/>
+    <field name="drug_approval_number"/>
+
+    <label name="retail_package"/>
+    <field name="retail_package"/>
+
+    <label name="cost_price"/>
+    <field name="cost_price"/>
+
+    <label name="lot"/>
+    <field name="lot"/>
+
+    <label name="list_price"/>
+    <field name="list_price"/>
+
+    <label name="quantity"/>
+    <field name="quantity"/>
+
+    <label name="dom"/>
+    <field name="dom"/>
+
+    <label name="cause"/>
+    <field name="cause"/>
+
+    <label name="exp_date"/>
+    <field name="exp_date"/>
+
+    <label name="shipment_order" invisible="1"/>
+    <field name="shipment_order" invisible="1"/>
+
+    <label name="shipment_order"/>
+    <field name="shipment_order"/>
+
+    <field name="shipment_order_lines" colspan="4"/>
+
+
+</form>

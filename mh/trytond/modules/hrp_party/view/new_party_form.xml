@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<form string="New_party">
+
+    <label name="code"/>
+    <field name="code"/>
+
+    <label name="contact_name"/>
+    <field name="contact_name"/>
+
+    <label name="name"/>
+    <field name="name"/>
+
+    <label name="phone"/>
+    <field name="phone"/>
+
+    <label name="new_name"/>
+    <field name="new_name"/>
+
+    <label name="street"/>
+    <field name="street"/>
+
+    <label name="finance_code"/>
+    <field name="finance_code"/>
+
+    <label name="invoice"/>
+    <field name="invoice"/>
+
+    <label name="currency"/>
+    <field name="currency"/>
+
+    <label name="deivery"/>
+    <field name="deivery"/>
+
+    <label name="settlement"/>
+    <field name="settlement"/>
+
+    <label name="address_active"/>
+    <field name="address_active"/>
+
+    <label name="supplier_payment_term"/>
+    <field name="supplier_payment_term"/>
+
+    <label name="active"/>
+    <field name="active"/>
+</form>

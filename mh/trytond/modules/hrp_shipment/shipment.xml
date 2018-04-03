@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+            <!--手工药品消耗-->
+        <record model="ir.ui.view" id="hrp_sale_lines_view_tree">
+            <field name="model">hrp_sale_lines</field>
+            <field name="type">tree</field>
+            <field name="name">hrp_sale_lines_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="hrp_sale_view_form">
+            <field name="model">hrp_sale</field>
+            <field name="type">form</field>
+            <field name="name">hrp_sale_form</field>
+        </record>
+
+        <record model="ir.action.wizard" id="act_hrp_create_sale">
+            <field name="name">Hrp Create Sale</field>
+            <field name="wiz_name">hrp_create_sale</field>
+        </record>
+
+         <record model="ir.action.report" id="hrp_shipment_hrp_sale_report">
+            <field name="name">Sale Report</field>
+            <field name="model">hrp_sale</field>
+            <field name="report_name">hrp_sale_report</field>
+            <field name="report">hrp_shipment/SaleReport.odt</field>
+        </record>
+        <menuitem parent="hrp_party.menu_hrp_secondary_library_management"
+            sequence="6" action="act_hrp_create_sale"
+            id="menu_act_hrp_create_sale"/>
+
+        <record model="ir.ui.view" id="shipment_order_lines_view_tree">
+            <field name="model">shipment_order_lines</field>
+            <field name="type">tree</field>
+            <field name="name">shipment_order_lines_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="shipment_order_view_form">
+            <field name="model">shipment_order</field>
+            <field name="type">form</field>
+            <field name="name">shipment_order_form</field>
+        </record>
+
+        <record model="ir.action.wizard" id="act_create_shipment_order">
+            <field name="name">Hrp Create Shipment Order</field>
+            <field name="wiz_name">create_shipment_order</field>
+        </record>
+
+        <menuitem parent="hrp_party.menu_hrp_secondary_library_management"
+            sequence="7" action="act_create_shipment_order"
+            id="menu_act_create_shipment_order"/>
+
+        <record model="ir.ui.view" id="hrp_shipment_return_lines_view_tree">
+            <field name="model">hrp_shipment_return_lines</field>
+            <field name="type">tree</field>
+            <field name="name">hrp_shipment_return_lines_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="hrp_shipment_return_view_form">
+            <field name="model">hrp_shipment_return</field>
+            <field name="type">form</field>
+            <field name="name">hrp_shipment_return_form</field>
+        </record>
+
+        <record model="ir.action.wizard" id="act_hrp_shipment_return_create">
+            <field name="name">Hrp Shipment Return</field>
+            <field name="wiz_name">create_purchase_shipment_return</field>
+        </record>
+
+        <menuitem parent="hrp_party.menu_hrp_purchase_order"
+            sequence="3" action="act_hrp_shipment_return_create"
+            id="menu_hrp_shipment_return_create"/>
+
+        <record model="ir.ui.view" id="hrp_shipment_lines_view_tree">
+            <field name="model">hrp_shipment_lines</field>
+            <field name="type">tree</field>
+            <field name="name">hrp_shipment_lines_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="hrp_shipment_lines_view_form">
+            <field name="model">hrp_shipment_lines</field>
+            <field name="type">form</field>
+            <field name="name">hrp_shipment_lines_form</field>
+        </record>
+
+
+        <record model="ir.ui.view" id="hrp_shipment_view_tree">
+            <field name="model">hrp_shipment</field>
+            <field name="type">tree</field>
+            <field name="name">hrp_shipment_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="hrp_shipment_view_form">
+            <field name="model">hrp_shipment</field>
+            <field name="type">form</field>
+            <field name="name">hrp_shipment_form</field>
+        </record>
+
+        <record model="ir.action.wizard" id="act_hrp_shipment_create">
+            <field name="name">Hrp Shipment Create</field>
+            <field name="wiz_name">create_purchase_shipment</field>
+        </record>
+
+        <menuitem parent="hrp_party.menu_hrp_purchase_order"
+            sequence="2" action="act_hrp_shipment_create"
+            id="menu_hrp_shipment_create"/>
+
+        <record model="ir.ui.view" id="shipment_in_view_form">
+            <field name="model">stock.shipment.in</field>
+            <field name="inherit" ref="stock.shipment_in_view_form"/>
+            <field name="name">shipment_in_form</field>
+        </record>
+
+    </data>
+</tryton>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<form string="Audit Caustic Excessive">
+    <label name="type"/>
+    <field name="type"/>
+
+    <label name="state"/>
+    <field name="state"/>
+
+    <label name="location"/>
+    <field name="location"/>
+
+    <label name="order_no"/>
+    <field name="order_no"/>
+
+    <field name="audit_caustic_excessive_lines" colspan="4"/>
+
+</form>

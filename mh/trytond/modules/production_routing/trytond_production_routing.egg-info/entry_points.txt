@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    production_routing = trytond.modules.production_routing
+    

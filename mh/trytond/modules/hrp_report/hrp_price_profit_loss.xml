@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+        <!--report-->
+        <record model="ir.action.wizard" id="act_price_profit_loss_wizard">
+            <field name="name">Price Profit Loss Wizard</field>
+            <field name="wiz_name">hrp_report.price_profit_loss_wizard</field>
+        </record>
+        <menuitem parent="hrp_report_menu" action="act_price_profit_loss_wizard" id="menu_price_profit_loss" sequence="3" />
+
+
+        <!--price_profit_loss-->
+        <record model="ir.ui.view" id="hrp_price_profit_loss_view_form">
+            <field name="model">hrp_report.price_profit_loss</field>
+            <field name="type">form</field>
+            <field name="name">hrp_price_profit_loss_form</field>
+        </record>
+
+
+        <!--price_profit_loss_message-->
+        <record model="ir.ui.view" id="hrp_price_profit_loss_message_view_form">
+            <field name="model">hrp_report.price_profit_loss_message</field>
+            <field name="type">form</field>
+            <field name="name">hrp_price_profit_loss_message_form</field>
+        </record>
+        <record model="ir.ui.view" id="hrp_price_profit_loss_message_view_tree">
+            <field name="model">hrp_report.price_profit_loss_message</field>
+            <field name="type">tree</field>
+            <field name="name">hrp_price_profit_loss_message_tree</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_hrp_price_profit_loss_message">
+            <field name="name">Price Profit Loss Message</field>
+            <field name="res_model">hrp_report.price_profit_loss_message</field>
+        </record>
+    </data>
+</tryton>

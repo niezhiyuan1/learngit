@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<form string = 'Hrp Retreat'>
+    <label name="actives"/>
+    <field name="actives"/>
+    <label name="planned_date"/>
+    <field name="planned_date"/>
+    <label name="drug_type"/>
+    <field name="drug_type"/>
+    <label name="message_find"/>
+    <field name="message_find"/>
+    <field name="moves" colspan="4"/>
+</form>

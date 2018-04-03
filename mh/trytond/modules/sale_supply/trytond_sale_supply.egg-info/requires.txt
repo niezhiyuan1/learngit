@@ -1,0 +1,5 @@
+trytond_purchase >= 4.0, < 4.1
+trytond_purchase_request >= 4.0, < 4.1
+trytond_sale >= 4.0, < 4.1
+trytond_stock >= 4.0, < 4.1
+trytond >= 4.0, < 4.1

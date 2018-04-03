@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!--editable ="top" 对tree可以修改-->
+<tree>
+    <field name="customer"/>
+    <field name="list_price"/>
+    <field name="cost_price"/>
+</tree>

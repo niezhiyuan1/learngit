@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/notebook/page[@id='general']/field[@name='type']" position="after">
+        <label name="medical_insurance_code" />
+        <field name="medical_insurance_code" />
+        <label name="attach" />
+        <field name="attach" />
+        <label name="concentration" />
+        <field name="concentration" />
+        <label name="dose" />
+        <field name="dose" />
+        <label name="dose_unit" />
+        <field name="dose_unit" />
+        <label name="retrieve_the_code" />
+        <field name="retrieve_the_code" />
+        <label name="capacity" />
+        <field name="capacity" />
+        <label name="drug_specifications" />
+        <field name="drug_specifications" />
+        <label name="is_direct_sending" />
+        <field name="is_direct_sending" />
+        <label name="is_antimicrobials" />
+        <field name="is_antimicrobials" />
+        <label name="a_charge" />
+        <field name="a_charge" />
+        <label name="drup_level" />
+        <field name="drup_level" />
+        <label name="compound_dose" />
+        <field name="compound_dose" />
+        <label name="purchase_code" />
+        <field name="purchase_code" />
+        <label name="retail_package" />
+        <field name="retail_package" />
+        <label name="medical_insurance_description" />
+        <field name="medical_insurance_description" />
+        <label name="new_term" />
+        <field name="new_term" />
+        <label name="state" />
+        <field name="state" />
+        <label name="min_Package" />
+        <field name="min_Package" />
+        <label name="manufacturers_code"/>
+        <field name="manufacturers_code"/>
+        <label name="dosage_form_description" />
+        <field name="dosage_form_description" />
+        <label name="manufacturers_describtion" />
+        <field name="manufacturers_describtion" />
+        <label name="poison_hemp_spirit" />
+        <field name="poison_hemp_spirit" />
+
+        <label name="approval_number" />
+        <field name="approval_number" />
+
+        <label name="national_essential_medicines" />
+        <field name="national_essential_medicines" />
+        <label name="interim" />
+        <field name="interim" />
+
+        <label name="is_atict"/>
+        <field name="is_atict"/>
+    </xpath>
+</data>

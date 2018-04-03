@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+        <!--Relieve-->
+        <record model="ir.ui.view" id="internal_relieve_view_form">
+            <field name="model">hrp_internal_delivery.internal_relieve</field>
+            <field name="type">form</field>
+            <field name="name">internal_relieve_form</field>
+        </record>
+        <record model="ir.action.wizard" id="act_internal_relieve">
+            <field name="name">Hrp Relieve</field>
+            <field name="wiz_name">hrp_internal_delivery.internal_relieve_wizard</field>
+        </record>
+        <!--<menuitem parent="hrp_internal_delivery_menu"-->
+            <!--action="act_internal_relieve"-->
+            <!--id="menu_internal_relieve" sequence="4" />-->
+    </data>
+</tryton>

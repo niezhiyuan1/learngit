@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+        <!--Allocation-->
+        <record model="ir.ui.view" id="internal_apply_list_view_form">
+            <field name="model">hrp_internal_delivery.internal_apply_list</field>
+            <field name="type">form</field>
+            <field name="name">internal_apply_list_form</field>
+        </record>
+        <record model="ir.action.wizard" id="act_internal_apply_list">
+            <field name="name">Internal Apply Modify</field>
+            <field name="wiz_name">hrp_internal_delivery.apply_modify_wizard</field>
+        </record>
+
+        <!--internal_apply_modify-->
+        <record model="ir.ui.view" id="internal_apply_modify_view_form">
+            <field name="model">hrp_internal_delivery.internal_apply_modify</field>
+            <field name="type">form</field>
+            <field name="name">internal_apply_modify_form</field>
+        </record>
+        <record model="ir.ui.view" id="internal_apply_modify_view_tree">
+            <field name="model">hrp_internal_delivery.internal_apply_modify</field>
+            <field name="type">tree</field>
+            <field name="name">internal_apply_modify_tree</field>
+        </record>
+
+        <!--apply_list_exhibition-->
+        <record model="ir.ui.view" id="apply_list_exhibition_view_form">
+            <field name="model">hrp_internal_delivery.apply_list_exhibition</field>
+            <field name="type">form</field>
+            <field name="name">apply_list_exhibition_form</field>
+        </record>
+        <record model="ir.ui.view" id="apply_list_exhibition_view_tree">
+            <field name="model">hrp_internal_delivery.apply_list_exhibition</field>
+            <field name="type">tree</field>
+            <field name="name">apply_list_exhibition_tree</field>
+        </record>
+        <menuitem action="act_internal_apply_list" id="menu_apply_modify" sequence="-14" />
+    </data>
+</tryton>

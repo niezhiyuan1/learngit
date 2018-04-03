@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form string="purchase Lines">
+    <label name="purchase_date"/>
+    <field name="purchase_date"/>
+    <label name="product"/>
+    <field name="product"/>
+    <label name="drug_specifications"/>
+    <field name="drug_specifications"/>
+    <label name="uom"/>
+    <field name="uom"/>
+    <label name="attach"/>
+    <field name="attach"/>
+    <label name="interim"/>
+    <field name="interim"/>
+    <label name="a_charge"/>
+    <field name="a_charge"/>
+    <label name="stock_level"/>
+    <field name="stock_level"/>
+    <label name="outpatient_7days"/>
+    <field name="outpatient_7days"/>
+    <label name="hospitalized_7days"/>
+    <field name="hospitalized_7days"/>
+    <label name="outpatient_stock"/>
+    <field name="outpatient_stock"/>
+    <label name="hospitalized_stock"/>
+    <field name="hospitalized_stock"/>
+    <label name="advice_quantity"/>
+    <field name="advice_quantity"/>
+    <label name="quantity"/>
+    <field name="quantity"/>
+    <label name="is_create"/>
+    <field name="is_create"/>
+    <label name="state"/>
+    <field name="state"/>
+
+</form>

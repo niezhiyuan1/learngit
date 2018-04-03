@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<tree string="Stock Shipment Report" >
+
+    <field name="number"/>
+
+    <field name="name"/>
+
+    <field name="code"/>
+
+    <field name="category"/>
+
+    <field name="actual_payment"/>
+
+    <field name="wholesale_payment"/>
+
+    <field name="retail_payment"/>
+
+</tree>

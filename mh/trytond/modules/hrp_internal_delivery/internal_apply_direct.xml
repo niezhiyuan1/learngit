@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+        <!--Allocation-->
+        <record model="ir.ui.view" id="internal_apply_list_direct_view_form">
+            <field name="model">hrp_internal_delivery.internal_apply_list_direct</field>
+            <field name="type">form</field>
+            <field name="name">internal_apply_list_direct_form</field>
+        </record>
+        <record model="ir.action.wizard" id="act_internal_apply_list_direct_direct">
+            <field name="name">Internal Apply Direct</field>
+            <field name="wiz_name">hrp_internal_delivery.apply_direct_wizard</field>
+        </record>
+
+        <!--internal_apply_direct-->
+        <record model="ir.ui.view" id="internal_apply_direct_view_form">
+            <field name="model">hrp_internal_delivery.internal_apply_direct</field>
+            <field name="type">form</field>
+            <field name="name">internal_apply_direct_form</field>
+        </record>
+        <record model="ir.ui.view" id="internal_apply_direct_view_tree">
+            <field name="model">hrp_internal_delivery.internal_apply_direct</field>
+            <field name="type">tree</field>
+            <field name="name">internal_apply_direct_tree</field>
+        </record>
+
+        <!--apply_list_exhibition_direct-->
+        <record model="ir.ui.view" id="apply_list_exhibition_direct_view_form">
+            <field name="model">hrp_internal_delivery.apply_list_exhibition_direct</field>
+            <field name="type">form</field>
+            <field name="name">apply_list_exhibition_direct_form</field>
+        </record>
+        <record model="ir.ui.view" id="apply_list_exhibition_direct_view_tree">
+            <field name="model">hrp_internal_delivery.apply_list_exhibition_direct</field>
+            <field name="type">tree</field>
+            <field name="name">apply_list_exhibition_direct_tree</field>
+        </record>
+        <menuitem action="act_internal_apply_list_direct_direct" id="menu_apply_direct" sequence="-14" />
+    </data>
+</tryton>

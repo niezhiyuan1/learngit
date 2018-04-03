@@ -1,0 +1,4 @@
+trytond_account_stock_landed_cost >= 4.0, < 4.1
+trytond_product >= 4.0, < 4.1
+trytond_product_measurements >= 4.0, < 4.1
+trytond >= 4.0, < 4.1

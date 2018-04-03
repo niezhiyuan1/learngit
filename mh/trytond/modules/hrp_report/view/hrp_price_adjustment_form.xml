@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<form>
+    <label name="type"/>
+    <field name="type"/>
+    <label name="drug_code"/>
+    <field name="drug_code"/>
+    <label name="start_time"/>
+    <field name="start_time"/>
+    <label name="end_time"/>
+    <field name="end_time"/>
+</form>

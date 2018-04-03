@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+        <!--Apply-->
+        <!--<menuitem name="hrp_internal_delivery" id="hrp_internal_delivery_menu" icon="tryton-tree"药房移动/>-->
+        <record model="ir.ui.view" id="internal_apply_view_form">
+            <field name="model">hrp_internal_delivery.internal_apply</field>
+            <field name="type">form</field>
+            <field name="name">internal_apply_form</field>
+
+        </record>
+        <record model="ir.action.wizard" id="act_hrp_internal_delivery">
+            <field name="name">Hrp Internal</field>
+            <field name="wiz_name">hrp_internal_delivery.internal_apply_wizard</field>
+        </record>
+        <menuitem parent="hrp_party.menu_hrp_secondary_library_management"
+            action="act_hrp_internal_delivery"
+            id="menu_internal_apply" sequence="2" />
+
+        <!--Test-->
+        <record model="ir.ui.view" id="test_apply_view_form">
+            <field name="model">hrp_internal_delivery.test_apply</field>
+            <field name="type">form</field>
+            <field name="name">test_apply_form</field>
+        </record>
+        <record model="ir.ui.view" id="test_apply_view_tree">
+            <field name="model">hrp_internal_delivery.test_apply</field>
+            <field name="type">tree</field>
+            <field name="name">test_apply_tree</field>
+        </record>
+
+
+        <!--move字段的扩充-->
+        <record model="ir.ui.view" id="move_view_tree">
+            <field name="model">stock.move</field>
+            <field name="inherit" ref="stock.move_view_tree"/>
+            <field name="name">move_tree</field>
+        </record>
+        <record model="ir.ui.view" id="move_view_form">
+            <field name="model">stock.move</field>
+            <field name="inherit" ref="stock.move_view_form"/>
+            <field name="name">move_form</field>
+        </record>
+
+    </data>
+</tryton>

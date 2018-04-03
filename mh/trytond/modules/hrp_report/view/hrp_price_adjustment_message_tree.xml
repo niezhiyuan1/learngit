@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--editable ="top" 对tree可以修改-->
+<tree string="Hrp Price Adjustment Wizard">
+    <field name="code"/>
+    <field name="product"/>
+    <field name="drug_specifications"/>
+    <field name="list_price"/>
+    <field name="cost_price"/>
+    <field name="new_list_price"/>
+    <field name="new_cost_price"/>
+    <field name="effective_date"/>
+    <field name="modify_reason"/>
+</tree>

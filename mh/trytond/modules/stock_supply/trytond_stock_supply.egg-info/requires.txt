@@ -1,0 +1,8 @@
+python-sql
+trytond_account >= 4.0, < 4.1
+trytond_party >= 4.0, < 4.1
+trytond_product >= 4.0, < 4.1
+trytond_purchase >= 4.0, < 4.1
+trytond_purchase_request >= 4.0, < 4.1
+trytond_stock >= 4.0, < 4.1
+trytond >= 4.0, < 4.1

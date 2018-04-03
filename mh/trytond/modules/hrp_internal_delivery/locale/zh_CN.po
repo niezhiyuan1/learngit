@@ -1,0 +1,2329 @@
+##########  用户组 ##########
+msgctxt "model:res.group,name:central_pharmacy_store_group"
+msgid "menu_hrp_central_pharmacy_store"
+msgstr "MH-中心药库"
+
+msgctxt "model:res.group,name:inpatient_dispensary_group"
+msgid "menu_hrp_inpatient_dispensary"
+msgstr "MH-住院药房"
+
+msgctxt "model:res.group,name:outpatient_pharmacy_group"
+msgid "menu_hrp_outpatient_pharmacy"
+msgstr "MH-门诊药房"
+
+msgctxt "model:res.group,name:purchase_pharmacy_group"
+msgid "menu_hrp_purchase_pharmacy"
+msgstr "MH-采购"
+
+msgctxt "model:res.group,name:drug_manufacturing_room_group"
+msgid "menu_hrp_drug_manufacturing_room"
+msgstr "MH-制剂室"
+
+msgctxt "model:res.group,name:endoscopic_pharmacy_group"
+msgid "menu_hrp_endoscopic_pharmacy"
+msgstr "MH-内镜药房"
+
+msgctxt "model:res.group,name:radiology_department_group"
+msgid "menu_hrp_radiology_department"
+msgstr "MH-放射科"
+
+msgctxt "model:res.group,name:herbalist_stalls_group"
+msgid "menu_hrp_herbalist_stalls"
+msgstr "MH-草药房"
+
+
+
+
+
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hrp_internal_delivery.test_apply,product:"
+msgid "Product"
+msgstr "药品名称"
+
+msgctxt "field:hrp_internal_delivery.test_apply,product_name:"
+msgid "product_name"
+msgstr "药品名称"
+
+msgctxt "field:hrp_internal_delivery.test_straight,product_name:"
+msgid "product_name"
+msgstr "药品名称"
+
+msgctxt "field:hrp_internal_delivery.test_frozen,product_name:"
+msgid "product_name"
+msgstr "药品名称"
+
+msgctxt "field:hrp_internal_delivery.test_retreat,product_name:"
+msgid "product_name"
+msgstr "药品名称"
+
+msgctxt "field:hrp_internal_delivery.test_apply,code:"
+msgid "code"
+msgstr "药品编码"
+
+msgctxt "field:hrp_internal_delivery.test_apply,drug_specifications:"
+msgid "drug_specifications"
+msgstr "药品规格"
+
+msgctxt "field:hrp_internal_delivery.test_apply,company:"
+msgid "company"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.test_apply,odd_numbers:"
+msgid "odd_numbers"
+msgstr "建议请领量"
+
+msgctxt "field:hrp_internal_delivery.test_apply,a_charge:"
+msgid "a_charge"
+msgstr "件装量"
+
+msgctxt "field:hrp_internal_delivery.test_apply,stock_level:"
+msgid "stock_level"
+msgstr "当前库存"
+
+msgctxt "field:hrp_internal_delivery.test_apply,outpatient_7days:"
+msgid "Outpatient_7days"
+msgstr "7日消耗量"
+
+msgctxt "field:hrp_internal_delivery.test_apply,proposal:"
+msgid "proposal"
+msgstr "请领数量"
+
+msgctxt "field:hrp_internal_delivery.test_apply,is_direct_sending:"
+msgid "Is_direct_sending"
+msgstr "是否直送"
+
+msgctxt "field:hrp_internal_delivery.test_apply,is_collar:"
+msgid "is_collar"
+msgstr "是否请领"
+
+msgctxt "field:hrp_internal_delivery.test_apply,party:"
+msgid "Party"
+msgstr "供应商"
+
+msgctxt "field:hrp_internal_delivery.test_apply,unit_price:"
+msgid "unit_price"
+msgstr "批发价"
+
+msgctxt "field:hrp_internal_delivery.internal_apply,number:"
+msgid "Number"
+msgstr "单号"
+
+msgctxt "field:hrp_internal_delivery.internal_apply,moves:"
+msgid "Moves"
+msgstr " "
+
+msgctxt "field:hrp_internal_delivery.internal_apply,starts:"
+msgid "Starts"
+msgstr "药品种类"
+
+msgctxt "field:hrp_internal_delivery.internal_apply,medicine:"
+msgid "medicine"
+msgstr "特殊"
+
+msgctxt "field:hrp_internal_delivery.internal_apply,temporary_purchasing:"
+msgid "temporary_purchasing"
+msgstr "特殊"
+
+msgctxt "field:hrp_internal_delivery.internal_apply,special:"
+msgid "special"
+msgstr "直送"
+
+msgctxt "field:hrp_internal_delivery.internal_apply,effective_date:"
+msgid "Effective Date"
+msgstr "生效时间"
+
+msgctxt "field:hrp_internal_delivery.internal_apply,planned_date:"
+msgid "Planned Date"
+msgstr "计划时间"
+
+msgctxt "field:hrp_internal_delivery.internal_apply,company:"
+msgid "Company"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.internal_apply,type:"
+msgid "Type"
+msgstr "类型"
+
+msgctxt "field:hrp_internal_delivery.internal_apply,from_location:"
+msgid "from_location"
+msgstr "始发地"
+
+msgctxt "field:hrp_internal_delivery.internal_apply,to_location:"
+msgid "to_location"
+msgstr "到达地"
+
+msgctxt "field:stock.move,starts:"
+msgid "Starts"
+msgstr "移动类型"
+
+msgctxt "field:stock.move,outgoing_audit:"
+msgid "utgoing_Audit"
+msgstr "状态"
+
+msgctxt "field:stock.move,is_direct_sending:"
+msgid "is_direct_sending"
+msgstr "是否直送"
+
+msgctxt "field:stock.move,outpatient_7days:"
+msgid "Stock Level"
+msgstr "当前库存"
+
+msgctxt "field:stock.move,real_number:"
+msgid "Real Number"
+msgstr "请领数量"
+
+msgctxt "field:stock.move,reason:"
+msgid "Reason"
+msgstr "退药原因"
+
+msgctxt "field:stock.move,comment:"
+msgid "Comment"
+msgstr "备注"
+
+msgctxt "field:hrp_internal_delivery.test_frozen,product:"
+msgid "Product"
+msgstr "药品名称"
+
+msgctxt "field:hrp_internal_delivery.test_frozen,moves:"
+msgid "Moves"
+msgstr " "
+
+msgctxt "field:hrp_internal_delivery.test_frozen,type:"
+msgid "Type"
+msgstr "类型"
+
+msgctxt "field:hrp_internal_delivery.test_frozen,code:"
+msgid "code"
+msgstr "药品编码"
+
+msgctxt "field:hrp_internal_delivery.test_frozen,drug_specifications:"
+msgid "drug_specifications"
+msgstr "药品规格"
+
+msgctxt "field:hrp_internal_delivery.test_frozen,uom:"
+msgid "company"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.test_frozen,odd_numbers:"
+msgid "odd_numbers"
+msgstr ""
+
+msgctxt "field:hrp_internal_delivery.test_frozen,a_charge:"
+msgid "a_charge"
+msgstr "件装量"
+
+msgctxt "field:hrp_internal_delivery.test_frozen,stock_level:"
+msgid "stock_level"
+msgstr "当前库存"
+
+msgctxt "field:hrp_internal_delivery.test_frozen,outpatient_7days:"
+msgid "Outpatient_7days"
+msgstr "7日消耗"
+
+msgctxt "field:hrp_internal_delivery.test_frozen,proposal:"
+msgid "proposal"
+msgstr "数量"
+
+msgctxt "field:hrp_internal_delivery.test_frozen,is_direct_sending:"
+msgid "Is_direct_sending"
+msgstr "是否直送"
+
+msgctxt "field:hrp_internal_delivery.test_frozen,is_collar:"
+msgid "is_collar"
+msgstr "是否请领"
+
+msgctxt "field:hrp_internal_delivery.test_frozen,from_location:"
+msgid "from_location"
+msgstr "始发地"
+
+msgctxt "field:hrp_internal_delivery.test_frozen,drug_type:"
+msgid "Starts"
+msgstr "药品类型"
+
+msgctxt "field:hrp_internal_delivery.test_frozen,retrieve_the_code:"
+msgid "retrieve_the_code"
+msgstr "拼音简码"
+
+msgctxt "field:hrp_internal_delivery.test_frozen,lot:"
+msgid "Lot"
+msgstr "批次"
+
+msgctxt "field:hrp_internal_delivery.test_frozen,lots:"
+msgid "Lot"
+msgstr "批次"
+
+msgctxt "field:hrp_internal_delivery.internal_frozen,number:"
+msgid "Number"
+msgstr ""
+
+msgctxt "field:hrp_internal_delivery.internal_frozen,effective_date:"
+msgid "Effective Date"
+msgstr "生效时间"
+
+msgctxt "field:hrp_internal_delivery.internal_frozen,planned_date:"
+msgid "Planned Date"
+msgstr "计划时间"
+
+msgctxt "field:hrp_internal_delivery.internal_frozen,type:"
+msgid "Type"
+msgstr "类型"
+
+msgctxt "field:hrp_internal_delivery.internal_frozen,from_location:"
+msgid "from_location"
+msgstr "始发地"
+
+msgctxt "field:hrp_internal_delivery.internal_frozen,to_location:"
+msgid "to_location"
+msgstr "到达地"
+
+msgctxt "field:hrp_internal_delivery.internal_frozen,moves:"
+msgid "Moves"
+msgstr " "
+
+msgctxt "field:hrp_internal_delivery.test_retreat,product:"
+msgid "Product"
+msgstr "药品名称"
+
+msgctxt "field:hrp_internal_delivery.test_retreat,actives:"
+msgid "actives"
+msgstr "类型"
+
+msgctxt "field:hrp_internal_delivery.test_retreat,from_location:"
+msgid "from_location"
+msgstr "始发地"
+
+msgctxt "field:hrp_internal_delivery.test_retreat,to_location:"
+msgid "to_location"
+msgstr "到达地"
+
+msgctxt "field:hrp_internal_delivery.test_retreat,code:"
+msgid "code"
+msgstr "药品编码"
+
+msgctxt "field:hrp_internal_delivery.test_retreat,drug_specifications:"
+msgid "drug_specifications"
+msgstr "药品规格"
+
+msgctxt "field:hrp_internal_delivery.test_retreat,uom:"
+msgid "company"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.test_retreat,return_quantity:"
+msgid "Return Quantity"
+msgstr "请退数量"
+
+msgctxt "field:hrp_internal_delivery.test_retreat,lot:"
+msgid "Lot"
+msgstr "批次"
+
+msgctxt "field:hrp_internal_delivery.test_retreat,reason:"
+msgid "Reason"
+msgstr "退药原因"
+
+msgctxt "field:hrp_internal_delivery.test_retreat,comment:"
+msgid "Comment"
+msgstr "备注"
+
+msgctxt "field:hrp_internal_delivery.test_retreat,is_direct_sending:"
+msgid "Is_direct_sending"
+msgstr "是否直送"
+
+msgctxt "field:hrp_internal_delivery.test_retreat,examine:"
+msgid "Examine"
+msgstr "退药审核"
+
+msgctxt "field:hrp_internal_delivery.internal_retreat,effective_date:"
+msgid "Effective Date"
+msgstr "生效时间"
+
+msgctxt "field:hrp_internal_delivery.internal_retreat,planned_date:"
+msgid "Planned Date"
+msgstr "计划时间"
+
+msgctxt "field:hrp_internal_delivery.internal_retreat,actives:"
+msgid "actives"
+msgstr "类型"
+
+msgctxt "field:hrp_internal_delivery.internal_retreat,moves:"
+msgid "Moves"
+msgstr " "
+
+msgctxt "field:hrp_internal_delivery.internal_retreat,state:"
+msgid "State"
+msgstr " "
+
+msgctxt "field:hrp_internal_delivery.internal_retreat,drug_type:"
+msgid "Starts"
+msgstr "药品类型"
+
+msgctxt "field:hrp_internal_delivery.internal_retreat,message_find:"
+msgid "message_find"
+msgstr "查找"
+
+msgctxt "field:hrp_internal_delivery.test_straight,product:"
+msgid "Product"
+msgstr "药品检索"
+
+msgctxt "field:hrp_internal_delivery.test_straight,type:"
+msgid "type"
+msgstr "类型"
+
+msgctxt "field:hrp_internal_delivery.test_straight,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_internal_delivery.test_straight,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_internal_delivery.test_straight,uom:"
+msgid "company"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.test_straight,a_charge:"
+msgid "a_charge"
+msgstr "件装量"
+
+msgctxt "field:hrp_internal_delivery.test_straight,proposal:"
+msgid "proposal"
+msgstr "数量"
+
+msgctxt "field:hrp_internal_delivery.test_straight,stock_level:"
+msgid "stock_level"
+msgstr "现有库存数"
+
+msgctxt "field:hrp_internal_delivery.test_straight,lot:"
+msgid "lot"
+msgstr "批次"
+
+msgctxt "field:hrp_internal_delivery.test_straight,is_collar:"
+msgid "is_collar"
+msgstr "确认"
+
+msgctxt "field:hrp_internal_delivery.internal_straights,number:"
+msgid "Number"
+msgstr "单号"
+
+msgctxt "field:hrp_internal_delivery.internal_straights,product:"
+msgid "product"
+msgstr "药品简码"
+
+msgctxt "field:hrp_internal_delivery.internal_straights,proposal:"
+msgid "proposal"
+msgstr "调拨数量"
+
+msgctxt "field:hrp_internal_delivery.internal_straights,uom:"
+msgid "uom"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.internal_straights,effective_date:"
+msgid "Effective Date"
+msgstr "生效时间"
+
+msgctxt "field:hrp_internal_delivery.internal_straights,planned_date:"
+msgid "Planned Date"
+msgstr "计划时间"
+
+msgctxt "field:hrp_internal_delivery.internal_straights,moves:"
+msgid "Moves"
+msgstr " "
+
+msgctxt "field:hrp_internal_delivery.internal_straights,type:"
+msgid "Type"
+msgstr "类型"
+
+msgctxt "field:hrp_internal_delivery.internal_straights,from_location:"
+msgid "from_location"
+msgstr "发药部门"
+
+msgctxt "field:hrp_internal_delivery.internal_straights,to_location:"
+msgid "to_location"
+msgstr "到达地"
+
+msgctxt "field:hrp_internal_delivery.internal_straights,message_confirm:"
+msgid "message_confirm"
+msgstr "确认"
+
+msgctxt "field:purchase.purchase,delivery_place:"
+msgid "delivery_place"
+msgstr ""
+
+msgctxt "field:purchase.request,is_direct_sending:"
+msgid "is_direct_sending"
+msgstr "是否直送"
+
+msgctxt "field:stock.shipment.internal,straights:"
+msgid "straights"
+msgstr ""
+
+msgctxt "field:stock.shipment.internal,drug_starts:"
+msgid "drug_starts"
+msgstr "药品类型"
+
+msgctxt "model:ir.ui.menu,name:menu_internal_retreat"
+msgid "Hrp Retreatl"
+msgstr "请退申请"
+
+msgctxt "model:ir.ui.menu,name:menu_internal_straights"
+msgid "Hrp Straight"
+msgstr "药房间调拨"
+
+msgctxt "model:ir.ui.menu,name:menu_internal_apply"
+msgid "Hrp Internal"
+msgstr "请领申请"
+
+msgctxt "model:ir.ui.menu,name:hrp_internal_delivery_menu"
+msgid "hrp_internal_delivery"
+msgstr "药房移动"
+
+msgctxt "model:ir.action,name:act_internal_allocation"
+msgid "Hrp Allocation"
+msgstr "内部单据处理(集中)"
+
+msgctxt "model:ir.action,name:act_hrp_internal_delivery"
+msgid "Hrp Internal"
+msgstr "请领单"
+
+msgctxt "model:ir.action,name:act_internal_frozen"
+msgid "Hrp Frozen"
+msgstr "冻结转非限制/非限制转冻结"
+
+msgctxt "model:ir.action,name:act_internal_retreat"
+msgid "Hrp Retreatl"
+msgstr "请退单"
+
+msgctxt "model:ir.ui.menu:menu_internal_retreat"
+msgid "Hrp Retreatl"
+msgstr "请退单"
+
+msgctxt "view:hrp_internal_delivery.test_straight:"
+msgid "Hrp Retreatl"
+msgstr "请退单"
+
+msgctxt "model:ir.action,name:act_internal_straights"
+msgid "Hrp Straight"
+msgstr "内部调拨"
+
+
+
+##########################    Hrp Allocation  ###############################
+msgctxt "field:hrp_internal_delivery.internal_move_list,location:"
+msgid "location"
+msgstr "部门"
+
+msgctxt "field:hrp_internal_delivery.internal_move_list,move_number:"
+msgid "move_number"
+msgstr "单号"
+
+msgctxt "field:hrp_internal_delivery.internal_move_list,message_confirm:"
+msgid "message_confirm"
+msgstr "确认"
+
+msgctxt "field:hrp_internal_delivery.internal_move_list,move_apply:"
+msgid "move_apply"
+msgstr "请领单"
+
+msgctxt "field:hrp_internal_delivery.internal_move_list,move_look_two:"
+msgid "move_look_two"
+msgstr "请领单"
+
+msgctxt "field:hrp_internal_delivery.internal_move_list,move_return:"
+msgid "move_return"
+msgstr "请退单"
+
+msgctxt "field:hrp_internal_delivery.internal_move_list,move_return_two:"
+msgid "move_return_two"
+msgstr "请退单"
+
+msgctxt "field:hrp_internal_delivery.internal_move_list,move_straight:"
+msgid "move_straight"
+msgstr "内部调拨"
+
+msgctxt "field:hrp_internal_delivery.internal_move_list,move_time:"
+msgid "move_time"
+msgstr "创建时间"
+
+msgctxt "field:hrp_internal_delivery.internal_move_list,state:"
+msgid "state"
+msgstr "单据状态"
+
+
+
+###############  中心药库 请领单界面   #####################
+msgctxt "field:hrp_internal_delivery.apply_move_look,product:"
+msgid "product"
+msgstr "名称"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look,lot:"
+msgid "lot"
+msgstr "批次"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look,company:"
+msgid "company"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look,odd_numbers:"
+msgid "odd_numbers"
+msgstr "建议请领数量"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look,a_charge:"
+msgid "a_charge"
+msgstr "件装量"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look,stock_level:"
+msgid "stock_level"
+msgstr "现有库存数"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look,outpatient_7days:"
+msgid "outpatient_7days"
+msgstr "7日消耗量"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look,proposal:"
+msgid "proposal"
+msgstr "请领数量"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look,is_direct_sending:"
+msgid "is_direct_sending"
+msgstr "是否直送"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look,party:"
+msgid "party"
+msgstr "供应商"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look,unit_price:"
+msgid "unit_price"
+msgstr "价格"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look,outgoing_audit:"
+msgid "outgoing_audit"
+msgstr "发药状态"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look,state:"
+msgid "state"
+msgstr "状态"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look,prompt:"
+msgid "prompt"
+msgstr "提示"
+
+###############  二级库房 请领单界面   #####################
+msgctxt "field:hrp_internal_delivery.apply_move_look_two,product:"
+msgid "product"
+msgstr "名称"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look_two,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look_two,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look_two,company:"
+msgid "company"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look_two,odd_numbers:"
+msgid "odd_numbers"
+msgstr "请领数量"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look_two,a_charge:"
+msgid "a_charge"
+msgstr "件装量"
+
+
+msgctxt "field:hrp_internal_delivery.apply_move_look_two,stock_level:"
+msgid "stock_level"
+msgstr "现有库存量"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look_two,outpatient_7days:"
+msgid "outpatient_7days"
+msgstr "7日消耗量"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look_two,proposal:"
+msgid "proposal"
+msgstr "实发数量"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look_two,is_direct_sending:"
+msgid "is_direct_sending"
+msgstr "是否直送"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look_two,is_collar:"
+msgid "is_collar"
+msgstr "是否请领"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look_two,party:"
+msgid "party"
+msgstr "供应商"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look_two,unit_price:"
+msgid "unit_price"
+msgstr "价格"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look_two,lot:"
+msgid "lot"
+msgstr "批次"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look_two,shelf_life_expiration_date:"
+msgid "shelf_life_expiration_date"
+msgstr "有效期至"
+
+msgctxt "field:hrp_internal_delivery.apply_move_look_two,storage:"
+msgid "storage"
+msgstr "确认"
+
+
+
+###############   中心请退单界面  #####################
+msgctxt "field:hrp_internal_delivery.return_move_look,product:"
+msgid "product"
+msgstr "名称"
+
+msgctxt "field:hrp_internal_delivery.return_move_look,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_internal_delivery.return_move_look,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_internal_delivery.return_move_look,uom:"
+msgid "uom"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.return_move_look,return_quantity:"
+msgid "return_quantity"
+msgstr "请退数量"
+
+msgctxt "field:hrp_internal_delivery.return_move_look,lot:"
+msgid "lot"
+msgstr "批次"
+
+msgctxt "field:hrp_internal_delivery.return_move_look,reason:"
+msgid "reason"
+msgstr "退药原因"
+
+msgctxt "field:hrp_internal_delivery.return_move_look,comment:"
+msgid "comment"
+msgstr "备注"
+
+msgctxt "field:hrp_internal_delivery.return_move_look,is_direct_sending:"
+msgid "is_direct_sending"
+msgstr "是否直送"
+
+msgctxt "field:hrp_internal_delivery.return_move_look,examine:"
+msgid "examine"
+msgstr "审核状态"
+
+msgctxt "field:hrp_internal_delivery.return_move_look,shelf_life_expiration_date:"
+msgid "shelf_life_expiration_date"
+msgstr "有效期至"
+
+
+###############   二级药库请退单界面   #####################
+msgctxt "field:hrp_internal_delivery.return_move_look_two,product:"
+msgid "product"
+msgstr "名称"
+
+msgctxt "field:hrp_internal_delivery.return_move_look_two,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_internal_delivery.return_move_look_two,drug_specifications:"
+msgid "drug_specifications"
+msgstr "件装量"
+
+msgctxt "field:hrp_internal_delivery.return_move_look_two,uom:"
+msgid "uom"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.return_move_look_two,return_quantity:"
+msgid "return_quantity"
+msgstr "请退数量"
+
+msgctxt "field:hrp_internal_delivery.return_move_look_two,lot:"
+msgid "lot"
+msgstr "批次"
+
+msgctxt "field:hrp_internal_delivery.return_move_look_two,shelf_life_expiration_date:"
+msgid "shelf_life_expiration_date"
+msgstr "有效期至"
+
+msgctxt "field:hrp_internal_delivery.return_move_look_two,reason:"
+msgid "reason"
+msgstr "退药原因"
+
+msgctxt "field:hrp_internal_delivery.return_move_look_two,comment:"
+msgid "comment"
+msgstr "备注"
+
+msgctxt "field:hrp_internal_delivery.return_move_look_two,is_direct_sending:"
+msgid "is_direct_sending"
+msgstr "是否直送"
+
+msgctxt "field:hrp_internal_delivery.return_move_look_two,examine:"
+msgid "examine"
+msgstr "审核状态"
+
+
+
+##############  二级间的内部移动   #####################
+msgctxt "field:hrp_internal_delivery.straight_move_look,product:"
+msgid "product"
+msgstr "名称"
+
+msgctxt "field:hrp_internal_delivery.straight_move_look,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_internal_delivery.straight_move_look,uom:"
+msgid "uom"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.straight_move_look,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_internal_delivery.straight_move_look,proposal:"
+msgid "proposal"
+msgstr "请领数量"
+
+msgctxt "field:hrp_internal_delivery.straight_move_look,lot:"
+msgid "lot"
+msgstr "批次"
+
+msgctxt "field:hrp_internal_delivery.straight_move_look,shelf_life_expiration_date:"
+msgid "shelf_life_expiration_date"
+msgstr "有效期至"
+
+msgctxt "field:hrp_internal_delivery.straight_move_look,storage:"
+msgid "storage"
+msgstr "确认"
+
+
+
+
+
+
+###############  二级冻结/非限制   #####################
+msgctxt "field:hrp_internal_delivery.frozen_move_look,product:"
+msgid "product"
+msgstr "名称"
+
+msgctxt "field:hrp_internal_delivery.frozen_move_look,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_internal_delivery.frozen_move_look,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_internal_delivery.frozen_move_look,uom:"
+msgid "uom"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.frozen_move_look,a_charge:"
+msgid "a_charge"
+msgstr "件装量"
+
+msgctxt "field:hrp_internal_delivery.frozen_move_look,stock_level:"
+msgid "stock_level"
+msgstr "现有库存量"
+
+msgctxt "field:hrp_internal_delivery.frozen_move_look,drug_type:"
+msgid "drug_type"
+msgstr "药品类型"
+
+msgctxt "field:hrp_internal_delivery.frozen_move_look,retrieve_the_code:"
+msgid "retrieve_the_code"
+msgstr "拼音简码"
+
+msgctxt "field:hrp_internal_delivery.frozen_move_look,lot:"
+msgid "lot"
+msgstr "批次"
+
+msgctxt "field:hrp_internal_delivery.frozen_move_look,shelf_life_expiration_date:"
+msgid "shelf_life_expiration_date"
+msgstr "有效期至"
+
+msgctxt "field:hrp_internal_delivery.frozen_move_look,proposal:"
+msgid "proposal"
+msgstr "冻结数量"
+
+
+msgctxt "field:hrp_internal_delivery.internal_allocation,starts:"
+msgid "starts"
+msgstr "单据类型"
+
+msgctxt "field:hrp_internal_delivery.internal_allocation,to_location:"
+msgid "to_location"
+msgstr "所在部门"
+
+msgctxt "field:hrp_internal_delivery.internal_allocation,moves:"
+msgid "moves"
+msgstr " "
+
+msgctxt "field:hrp_internal_delivery.internal_allocation,state:"
+msgid "state"
+msgstr "状态"
+
+msgctxt "field:hrp_internal_delivery.internal_allocation,message_find:"
+msgid "message_find"
+msgstr "查找"
+
+msgctxt "field:hrp_internal_delivery.internal_allocation,drug_starts:"
+msgid "drug_starts"
+msgstr "药品类型"
+
+
+msgctxt "model:ir.ui.menu,name:menu_internal_frozens"
+msgid "Hrp Frozen"
+msgstr "不合格品管理"
+
+msgctxt "model:ir.ui.menu,name:menu_internal_allocation"
+msgid "Hrp Allocation"
+msgstr "内部单据处理(集中)"
+
+msgctxt "model:ir.ui.menu,name:menu_internal_core_drug"
+msgid "Hrp Core Drug"
+msgstr "内部单据处理(集中)"
+
+msgctxt "model:ir.ui.menu,name:menu_apply_modify"
+msgid "Internal Apply Modify"
+msgstr "请领单修改"
+
+
+msgctxt "model:ir.ui.menu,name:menu_apply_direct"
+msgid "Internal Apply Direct"
+msgstr "直送请领单查询"
+
+
+##################      中心药库处理（集中）   #########################
+
+msgctxt "field:hrp_internal_delivery.internal_core_drug,department:"
+msgid "department"
+msgstr "部门"
+
+msgctxt "field:hrp_internal_delivery.internal_core_drug,starts:"
+msgid "starts"
+msgstr "单据类型"
+
+msgctxt "field:hrp_internal_delivery.internal_core_drug,to_location:"
+msgid "to_location"
+msgstr "所在部门"
+
+msgctxt "field:hrp_internal_delivery.internal_core_drug,moves:"
+msgid "moves"
+msgstr " "
+
+msgctxt "field:hrp_internal_delivery.internal_core_drug,state:"
+msgid "state"
+msgstr "状态"
+
+msgctxt "field:hrp_internal_delivery.internal_core_drug,message_find:"
+msgid "message_find"
+msgstr "查找"
+
+msgctxt "field:hrp_internal_delivery.internal_core_drug,drug_starts:"
+msgid "drug_starts"
+msgstr "药品类型"
+
+msgctxt "field:hrp_internal_delivery.internal_core_drug,number:"
+msgid "number"
+msgstr "单号"
+
+
+
+###################      请领申请修改    #############################
+
+msgctxt "field:hrp_internal_delivery.internal_apply_modify,move_number:"
+msgid "move_number"
+msgstr "单号"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_modify,move_time:"
+msgid "move_time"
+msgstr "创建时间"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_modify,location:"
+msgid "location"
+msgstr "来自部门"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_modify,from_location:"
+msgid "from_location"
+msgstr "来自库存地"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_modify,to_location:"
+msgid "to_location"
+msgstr "到达库存地"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_modify,place_of_service:"
+msgid "place_of_service"
+msgstr "中转库存地"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_modify,message_confirm:"
+msgid "message_confirm"
+msgstr "确认"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_modify,state:"
+msgid "state"
+msgstr "状态"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_modify,drug_type:"
+msgid "drug_type"
+msgstr "药品类型"
+
+
+
+
+###################      直送查询界面    #############################
+
+msgctxt "field:hrp_internal_delivery.internal_apply_direct,move_number:"
+msgid "move_number"
+msgstr "单号"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_direct,move_time:"
+msgid "move_time"
+msgstr "创建时间"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_direct,location:"
+msgid "location"
+msgstr "来自部门"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_direct,from_location:"
+msgid "from_location"
+msgstr "来自库存地"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_direct,to_location:"
+msgid "to_location"
+msgstr "到达库存地"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_direct,place_of_service:"
+msgid "place_of_service"
+msgstr "中转库存地"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_direct,message_confirm:"
+msgid "message_confirm"
+msgstr "确认"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_direct,state:"
+msgid "state"
+msgstr "状态"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_direct,drug_type:"
+msgid "drug_type"
+msgstr "药品类型"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_direct,moves:"
+msgid "moves"
+msgstr "明细"
+
+
+
+###############################     请领单修改显示内容界面       ###############################
+
+msgctxt "field:hrp_internal_delivery.apply_list_exhibition,product:"
+msgid "product"
+msgstr "名称"
+
+msgctxt "field:hrp_internal_delivery.apply_list_exhibition,product_choice:"
+msgid "product_choice"
+msgstr "名称"
+
+msgctxt "field:hrp_internal_delivery.apply_list_exhibition,drug_type:"
+msgid "drug_type"
+msgstr "药品类型"
+
+msgctxt "field:hrp_internal_delivery.apply_list_exhibition,code:"
+msgid "code"
+msgstr "药品编码"
+
+msgctxt "field:hrp_internal_delivery.apply_list_exhibition,company:"
+msgid "company"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.apply_list_exhibition,lot:"
+msgid "lot"
+msgstr "批次"
+
+msgctxt "field:hrp_internal_delivery.apply_list_exhibition,odd_numbers:"
+msgid "odd_numbers"
+msgstr "建议请领量"
+
+msgctxt "field:hrp_internal_delivery.apply_list_exhibition,a_charge:"
+msgid "a_charge"
+msgstr "件装量"
+
+msgctxt "field:hrp_internal_delivery.apply_list_exhibition,stock_level:"
+msgid "stock_level"
+msgstr "现有库存量"
+
+msgctxt "field:hrp_internal_delivery.apply_list_exhibition,outpatient_7days:"
+msgid "outpatient_7days"
+msgstr "7日消耗量"
+
+msgctxt "field:hrp_internal_delivery.apply_list_exhibition,proposal:"
+msgid "proposal"
+msgstr "请领数量"
+
+
+###############################     直送单显示内容界面       ###############################
+
+msgctxt "field:hrp_internal_delivery.apply_list_exhibition_direct,product:"
+msgid "product"
+msgstr "名称"
+
+msgctxt "field:hrp_internal_delivery.apply_list_exhibition_direct,product_choice:"
+msgid "product_choice"
+msgstr "名称"
+
+msgctxt "field:hrp_internal_delivery.apply_list_exhibition_direct,drug_type:"
+msgid "drug_type"
+msgstr "药品类型"
+
+msgctxt "field:hrp_internal_delivery.apply_list_exhibition_direct,code:"
+msgid "code"
+msgstr "药品编码"
+
+msgctxt "field:hrp_internal_delivery.apply_list_exhibition_direct,company:"
+msgid "company"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.apply_list_exhibition_direct,lot:"
+msgid "lot"
+msgstr "批次"
+
+msgctxt "field:hrp_internal_delivery.apply_list_exhibition_direct,odd_numbers:"
+msgid "odd_numbers"
+msgstr "建议请领量"
+
+msgctxt "field:hrp_internal_delivery.apply_list_exhibition_direct,a_charge:"
+msgid "a_charge"
+msgstr "件装量"
+
+msgctxt "field:hrp_internal_delivery.apply_list_exhibition_direct,stock_level:"
+msgid "stock_level"
+msgstr "现有库存量"
+
+msgctxt "field:hrp_internal_delivery.apply_list_exhibition_direct,outpatient_7days:"
+msgid "outpatient_7days"
+msgstr "7日消耗量"
+
+msgctxt "field:hrp_internal_delivery.apply_list_exhibition_direct,proposal:"
+msgid "proposal"
+msgstr "请领数量"
+
+
+
+##########################  hrp_internal_delivery.internal_apply_list  #######################
+msgctxt "field:hrp_internal_delivery.internal_apply_list,starts:"
+msgid "starts"
+msgstr "移动类型"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_list,state:"
+msgid "state"
+msgstr "状态"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_list,to_location:"
+msgid "to_location"
+msgstr "所在部门"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_list,message_find:"
+msgid "message_find"
+msgstr "查找"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_list,number:"
+msgid "number"
+msgstr "单号"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_list,moves:"
+msgid "moves"
+msgstr " "
+
+
+##########################  hrp_internal_delivery.internal_apply_list  #######################
+msgctxt "field:hrp_internal_delivery.internal_apply_list_direct,starts:"
+msgid "starts"
+msgstr "移动类型"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_list_direct,state:"
+msgid "state"
+msgstr "状态"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_list_direct,to_location:"
+msgid "to_location"
+msgstr "所在部门"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_list_direct,message_find:"
+msgid "message_find"
+msgstr "查找"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_list_direct,number:"
+msgid "number"
+msgstr "单号"
+
+msgctxt "field:hrp_internal_delivery.internal_apply_list_direct,moves:"
+msgid "moves"
+msgstr " "
+
+
+
+####################################     用户组翻译    #########################################
+
+msgctxt "model:res.group,name:group_menu_hrp_master_data"
+msgid "menu_hrp_master_data"
+msgstr "hrp主数据"
+
+msgctxt "model:res.group,name:group_menu_hrp_party"
+msgid "menu_hrp_party"
+msgstr "hrp主数据／供应商主数据"
+
+msgctxt "model:res.group,name:group_menu_product_menu"
+msgid "Menu Product Menu"
+msgstr "hrp主数据／产品主数据"
+
+msgctxt "model:res.group,name:group_menu_price_master_datas_pricedata"
+msgid "Menu Price Master Datas Pricedata"
+msgstr "hrp主数据／价格主数据"
+
+msgctxt "model:res.group,name:group_menu_menu_dep"
+msgid "Menu_dep"
+msgstr "hrp主数据／科室主数据"
+
+msgctxt "model:res.group,name:group_menu_hrp_party_menu_hrp_purchase_order"
+msgid "Hrp Party Menu Hrp Purchase Order"
+msgstr "hrp采购管理"
+
+msgctxt "model:res.group,name:group_menu_menu_hrp_shipment_create"
+msgid "Menu Hrp Shipment Create"
+msgstr "hrp采购管理／电子发票收货"
+
+msgctxt "model:res.group,name:group_menu_menu_hrp_shipment_return_create"
+msgid "Menu Hrp Shipment Return Create"
+msgstr "hrp采购管理／采退订单维护"
+
+msgctxt "model:res.group,name:group_menu_menu_internal_return_request"
+msgid "Menu Internal Return Request"
+msgstr "hrp采购管理／可退药品通知单"
+
+msgctxt "model:res.group,name:group_menu_menu_act_create_stock_return"
+msgid "Menu Act Create Stock Return"
+msgstr "hrp出入库确认"
+
+msgctxt "model:res.group,name:group_menu_menu_hrp_Drug_level_management"
+msgid "Menu_hrp_Drug_level_management"
+msgstr "hrp一级药库管理"
+
+msgctxt "model:res.group,name:group_menu_menu_hrp_inventory_inventory"
+msgid "Menu_hrp_inventory_inventory"
+msgstr "hrp一级药库管理／一级库盘点"
+
+msgctxt "model:res.group,name:group_menu_menu_new_purchase_mrp_create"
+msgid "Menu_new_purchase_mrp_create"
+msgstr "hrp一级药库管理／药品需求计划"
+
+msgctxt "model:res.group,name:group_menu_menu_purchase_mrp_lines"
+msgid "Menu_purchase_mrp_lines"
+msgstr "hrp一级药库管理／采购申请"
+
+msgctxt "model:res.group,name:group_menu_menu_hrp_secondary_library_management"
+msgid "Menu_hrp_secondary_library_management"
+msgstr "hrp二级药库管理"
+
+msgctxt "model:res.group,name:group_menu_menu_hrp_inventory_inventory_two"
+msgid "Menu_hrp_inventory_inventory_two"
+msgstr "hrp库房盘点"
+
+msgctxt "model:res.group,name:group_menu_menu_apply_modify"
+msgid "Menu_apply_modify"
+msgstr "hrp二级药库管理／请领单修改"
+
+msgctxt "model:res.group,name:group_menu_menu_apply_direct"
+msgid "Menu_apply_direct"
+msgstr "hrp二级药库管理／直送请领单查询"
+
+msgctxt "model:res.group,name:group_menu_menu_internal_apply"
+msgid "Menu_internal_apply"
+msgstr "hrp二级药库管理／请领申请"
+
+msgctxt "model:res.group,name:group_menu_menu_internal_retreat"
+msgid "Menu_internal_retreat"
+msgstr "hrp二级药库管理／请退申请"
+
+msgctxt "model:res.group,name:group_menu_menu_internal_straights"
+msgid "Menu_internal_straights"
+msgstr "hrp二级药库管理／药房间调拨"
+
+msgctxt "model:res.group,name:group_menu_menu_act_hrp_create_sale"
+msgid "Menu_act_hrp_create_sale"
+msgstr "hrp二级药库管理／手工药品消耗／退药（科室）"
+
+msgctxt "model:res.group,name:group_menu_menu_act_create_shipment_order"
+msgid "Menu_act_create_shipment_order"
+msgstr "hrp二级药库管理／无采购订单入库（药房）"
+
+msgctxt "model:res.group,name:group_menu_menu_hrp_shipment_audit_caustic_excessive_create"
+msgid "menu_hrp_shipment_audit_caustic_excessive_create"
+msgstr "hrp药品报废审核"
+
+msgctxt "model:res.group,name:group_menu_menu_hrp_shipment_caustic_excessive_create"
+msgid "Menu_hrp_shipment_caustic_excessive_create"
+msgstr "hrp药品报废管理"
+
+msgctxt "model:res.group,name:group_menu_menu_internal_frozens"
+msgid "Menu_internal_frozens"
+msgstr "hrp不合格品管理"
+
+msgctxt "model:res.group,name:group_menu_menu_hrp_inventory_available_medicine"
+msgid "Menu_hrp_inventory_available_medicine"
+msgstr "hrp药库/药房盘点单位表"
+
+msgctxt "model:res.group,name:group_menu_menu_internal_allocation"
+msgid "Menu_internal_allocation"
+msgstr "hrp内部单据处理(集中)"
+
+msgctxt "model:res.group,name:group_menu_internal_core_drug"
+msgid "Menu_internal_core_drug"
+msgstr "hrp内部单据处理(集中)（中心药库）"
+
+msgctxt "model:res.group,name:group_hrp_new_product_menu"
+msgid "Hrp_new_product_menu"
+msgstr "hrp后台作业"
+
+msgctxt "model:res.group,name:group_hrp_menu_product_condition"
+msgid "Menu_product_condition"
+msgstr "hrp后台作业／药品请领信息获取"
+
+msgctxt "model:res.group,name:group_hrp_report_menu"
+msgid "Hrp_report_menu"
+msgstr "hrp报表"
+
+msgctxt "model:res.group,name:group_menu_menu_hrp_report"
+msgid "Menu_hrp_report"
+msgstr "hrp报表／库存报表"
+
+msgctxt "model:res.group,name:group_menu_menu_hrp_expiry_lot_wizard"
+msgid "Menu_hrp_expiry_lot_wizard"
+msgstr "hrp报表／失效期查询报表"
+
+msgctxt "model:res.group,name:group_menu_price_adjustment"
+msgid "menu_price_adjustment"
+msgstr "hrp报表／调价查询报表"
+
+msgctxt "model:res.group,name:group_menu_price_profit_loss"
+msgid "menu_price_profit_loss"
+msgstr "hrp报表／调价盈亏报表"
+
+
+msgctxt "model:res.group,name:group_menu_product_quantity"
+msgid "Menu_product_quantity"
+msgstr "hrp药品位置维护"
+
+msgctxt "model:res.group,name:group_menu_menu_party"
+msgid "Menu_party"
+msgstr "hrp交易方"
+
+msgctxt "model:res.group,name:group_menu_internal_core_query"
+msgid "internal_core_query"
+msgstr "hrp内部单据完成查询报表(中心药库)"
+
+msgctxt "model:res.group,name:group_menu_internal_query"
+msgid "internal_query"
+msgstr "hrp内部单据完成查询报表(二级药房)"
+
+
+#############  系统用户组翻译  ################
+msgctxt "model:res.group,name:group_menu_menu_main_product"
+msgid "Menu_main_product"
+msgstr "hrp产品"
+
+msgctxt "model:res.group,name:group_menu_menu_configuration"
+msgid "Menu_configuration"
+msgstr "hrp产品／配置"
+
+msgctxt "model:res.group,name:group_menu_menu_product_configuration"
+msgid "Menu_product_configuration"
+msgstr "hrp产品／配置／产品配置"
+
+msgctxt "model:res.group,name:group_menu_menu_template"
+msgid "Menu_template"
+msgstr "hrp产品／产品"
+
+msgctxt "model:res.group,name:group_menu_menu_product"
+msgid "Menu_product"
+msgstr "hrp产品／产品／变量"
+
+msgctxt "model:res.group,name:group_menu_menu_category_tree"
+msgid "Menu_category_tree"
+msgstr "hrp产品／分类"
+
+msgctxt "model:res.group,name:group_menu_menu_category_list"
+msgid "Menu_category_list"
+msgstr "hrp产品／分类／分类"
+
+msgctxt "model:res.group,name:group_menu_menu_uom_form"
+msgid "Menu_uom_form"
+msgstr "hrp产品／计量单位"
+
+msgctxt "model:res.group,name:group_menu_menu_uom_category_form"
+msgid "Menu_uom_category_form"
+msgstr "hrp产品／计量单位／分类"
+
+msgctxt "model:res.group,name:group_menu_menu_product_supplier_purchase"
+msgid "Menu_purchase_supplier_purchase"
+msgstr "hrp产品／产品供应商"
+
+msgctxt "model:res.group,name:group_menu_menu_stock"
+msgid "Menu_stock"
+msgstr "hrp库存和进货"
+
+
+msgctxt "model:res.group,name:group_menu_menu_configuration_stock"
+msgid "Menu_configuration_stock"
+msgstr "hrp库存和进货／配置"
+
+msgctxt "model:res.group,name:group_menu_menu_location_tree"
+msgid "Menu_location_tree"
+msgstr "hrp库存和进货／配置／库存地"
+
+msgctxt "model:res.group,name:group_menu_shipment_in_form"
+msgid "Menu_shipment_in_form"
+msgstr "hrp库存和进货／供应商交货"
+
+msgctxt "model:res.group,name:group_menu_shipment_out_form"
+msgid "Menu_shipment_out_form"
+msgstr "hrp库存和进货／客户交货"
+
+msgctxt "model:res.group,name:group_stock_menu_shipment_internal_form"
+msgid "Menu_shipment_internal_form"
+msgstr "hrp库存和进货／内部交货"
+
+msgctxt "model:res.group,name:group_menu_move_form"
+msgid "Menu_move_form"
+msgstr "hrp库存和进货／移动"
+
+msgctxt "model:res.group,name:group_menu_lot_form"
+msgid "Menu_lot_form"
+msgstr "hrp库存和进货／lots"
+
+msgctxt "model:res.group,name:group_menu_inventory_form"
+msgid "Menu_inventory_form"
+msgstr "hrp库存和进货／库存"
+
+msgctxt "model:res.group,name:group_menu_menu_order_point_form"
+msgid "Menu_order_point_form"
+msgstr "hrp库存和进货／订货点"
+
+msgctxt "model:res.group,name:group_menu_menu_purchase"
+msgid "Menu_purchase"
+msgstr "hrp采购"
+
+msgctxt "model:res.group,name:group_menu_menu_purchase_form"
+msgid "Menu_purchase_form"
+msgstr "hrp采购／采购"
+
+msgctxt "model:res.group,name:group_menu_menu_configuration_purchase"
+msgid "Menu_configuration_purchase"
+msgstr "hrp采购／配置"
+
+msgctxt "model:res.group,name:group_menu_purchase_configuration"
+msgid "Menu_purchase_configuration"
+msgstr "hrp采购／配置／采购配置"
+
+msgctxt "model:res.group,name:group_menu_purchase_request_form"
+msgid "Menu_purchase_request_form"
+msgstr "hrp采购／采购申请"
+
+
+
+
+
+
+###################      内部单据查询报表    #############################
+msgctxt "model:ir.ui.menu,name:internal_query"
+msgid "Hrp Query"
+msgstr "内部单据完成报表"
+
+
+msgctxt "field:hrp_internal_delivery.internal_query,location:"
+msgid "location"
+msgstr "所在部门"
+
+msgctxt "field:hrp_internal_delivery.internal_query,start_time:"
+msgid "start_time"
+msgstr "开始时间"
+
+msgctxt "field:hrp_internal_delivery.internal_query,end_time:"
+msgid "end_time"
+msgstr "结束时间"
+
+msgctxt "field:hrp_internal_delivery.internal_query,number:"
+msgid "number"
+msgstr "单号"
+
+msgctxt "field:hrp_internal_delivery.internal_query,drug_type:"
+msgid "Starts"
+msgstr "药品类型"
+
+msgctxt "field:hrp_internal_delivery.internal_query,product:"
+msgid "product"
+msgstr "药品检索"
+
+msgctxt "field:hrp_internal_delivery.internal_query,detailed_query:"
+msgid "detailed_query"
+msgstr "明细查询"
+
+msgctxt "field:hrp_internal_delivery.internal_query,project_query:"
+msgid "project_query"
+msgstr "项目查询"
+
+msgctxt "field:hrp_internal_delivery.internal_query,document_type:"
+msgid "document_type"
+msgstr "单据类型"
+
+msgctxt "field:hrp_internal_delivery.internal_query,message_find:"
+msgid "message_find"
+msgstr "查找"
+
+msgctxt "field:hrp_internal_delivery.internal_query,move_query_apply:"
+msgid "move_query_apply"
+msgstr "请领单查询表"
+
+msgctxt "field:hrp_internal_delivery.internal_query,move_query_return:"
+msgid "move_query_return"
+msgstr "请退单查询表"
+
+msgctxt "field:hrp_internal_delivery.internal_query,move_query_allocation:"
+msgid "move_query_allocation"
+msgstr "药房间调拨"
+
+msgctxt "field:hrp_internal_delivery.internal_query,move_query_frozen:"
+msgid "move_query_frozen"
+msgstr "不合格管理"
+
+msgctxt "field:hrp_internal_delivery.internal_query,move_query_scrap:"
+msgid "move_query_scrap"
+msgstr "报废管理"
+
+msgctxt "field:hrp_internal_delivery.internal_query,move_query_purchase:"
+msgid "move_query_purchase"
+msgstr "无采购订单"
+
+msgctxt "field:hrp_internal_delivery.internal_query,move_query_department:"
+msgid "move_query_department"
+msgstr "科室领药单"
+
+msgctxt "field:hrp_internal_delivery.internal_query,move_project:"
+msgid "move_project"
+msgstr "项目查询"
+
+msgctxt "field:hrp_internal_delivery.internal_query,detailed_project:"
+msgid "detailed_project"
+msgstr "查询类型"
+
+
+###############       请领完成    ###################################
+
+msgctxt "field:hrp_internal_delivery.query_apply_done,number:"
+msgid "number"
+msgstr "单号"
+
+msgctxt "field:hrp_internal_delivery.query_apply_done,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_internal_delivery.query_apply_done,processing_time:"
+msgid "processing_time"
+msgstr "处理时间"
+
+msgctxt "field:hrp_internal_delivery.query_apply_done,product:"
+msgid "product"
+msgstr "产品"
+
+msgctxt "field:hrp_internal_delivery.query_apply_done,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_internal_delivery.query_apply_done,company:"
+msgid "company"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.query_apply_done,lot:"
+msgid "lot"
+msgstr "批次"
+
+msgctxt "field:hrp_internal_delivery.query_apply_done,additional:"
+msgid "additional"
+msgstr "附加"
+
+msgctxt "field:hrp_internal_delivery.query_apply_done,time:"
+msgid "time"
+msgstr "有效期至"
+
+msgctxt "field:hrp_internal_delivery.query_apply_done,odd_numbers:"
+msgid "odd_numbers"
+msgstr "请领数量"
+
+msgctxt "field:hrp_internal_delivery.query_apply_done,proposal:"
+msgid "proposal"
+msgstr "实发数量"
+
+msgctxt "field:hrp_internal_delivery.query_apply_done,cost_price:"
+msgid "cost_price"
+msgstr "批发总价"
+
+msgctxt "field:hrp_internal_delivery.query_apply_done,list_price:"
+msgid "list_price"
+msgstr "零售总价"
+
+
+###############       请退单完成    ###################################
+
+msgctxt "field:hrp_internal_delivery.query_return_done,number:"
+msgid "number"
+msgstr "单号"
+
+msgctxt "field:hrp_internal_delivery.query_return_done,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_internal_delivery.query_return_done,processing_time:"
+msgid "processing_time"
+msgstr "处理时间"
+
+msgctxt "field:hrp_internal_delivery.query_return_done,product:"
+msgid "product"
+msgstr "产品"
+
+msgctxt "field:hrp_internal_delivery.query_return_done,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_internal_delivery.query_return_done,company:"
+msgid "company"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.query_return_done,lot:"
+msgid "lot"
+msgstr "批次"
+
+msgctxt "field:hrp_internal_delivery.query_return_done,additional:"
+msgid "additional"
+msgstr "附加"
+
+msgctxt "field:hrp_internal_delivery.query_return_done,time:"
+msgid "time"
+msgstr "有效期至"
+
+msgctxt "field:hrp_internal_delivery.query_return_done,odd_numbers:"
+msgid "odd_numbers"
+msgstr "请退数量"
+
+msgctxt "field:hrp_internal_delivery.query_return_done,proposal:"
+msgid "proposal"
+msgstr "实退数量"
+
+msgctxt "field:hrp_internal_delivery.query_return_done,cost_price:"
+msgid "cost_price"
+msgstr "批发总价"
+
+msgctxt "field:hrp_internal_delivery.query_return_done,list_price:"
+msgid "list_price"
+msgstr "零售总价"
+
+
+
+
+###############       内部调拨出货完成    ###################################
+
+msgctxt "field:hrp_internal_delivery.query_allocation_done,number:"
+msgid "number"
+msgstr "单号"
+
+msgctxt "field:hrp_internal_delivery.query_allocation_done,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_internal_delivery.query_allocation_done,processing_time:"
+msgid "processing_time"
+msgstr "处理时间"
+
+msgctxt "field:hrp_internal_delivery.query_allocation_done,product:"
+msgid "product"
+msgstr "产品"
+
+msgctxt "field:hrp_internal_delivery.query_allocation_done,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_internal_delivery.query_allocation_done,company:"
+msgid "company"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.query_allocation_done,lot:"
+msgid "lot"
+msgstr "批次"
+
+msgctxt "field:hrp_internal_delivery.query_allocation_done,additional:"
+msgid "additional"
+msgstr "附加"
+
+msgctxt "field:hrp_internal_delivery.query_allocation_done,time:"
+msgid "time"
+msgstr "有效期至"
+
+msgctxt "field:hrp_internal_delivery.query_allocation_done,odd_numbers:"
+msgid "odd_numbers"
+msgstr "申请数量"
+
+msgctxt "field:hrp_internal_delivery.query_allocation_done,proposal:"
+msgid "proposal"
+msgstr "实发数量"
+
+msgctxt "field:hrp_internal_delivery.query_allocation_done,cost_price:"
+msgid "cost_price"
+msgstr "批发总价"
+
+msgctxt "field:hrp_internal_delivery.query_allocation_done,list_price:"
+msgid "list_price"
+msgstr "零售总价"
+
+
+
+###############       不合格管理    ###################################
+
+msgctxt "field:hrp_internal_delivery.query_frozen_done,number:"
+msgid "number"
+msgstr "单号"
+
+msgctxt "field:hrp_internal_delivery.query_frozen_done,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_internal_delivery.query_frozen_done,processing_time:"
+msgid "processing_time"
+msgstr "处理时间"
+
+msgctxt "field:hrp_internal_delivery.query_frozen_done,product:"
+msgid "product"
+msgstr "产品"
+
+msgctxt "field:hrp_internal_delivery.query_frozen_done,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_internal_delivery.query_frozen_done,company:"
+msgid "company"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.query_frozen_done,lot:"
+msgid "lot"
+msgstr "批次"
+
+msgctxt "field:hrp_internal_delivery.query_frozen_done,additional:"
+msgid "additional"
+msgstr "附加"
+
+msgctxt "field:hrp_internal_delivery.query_frozen_done,time:"
+msgid "time"
+msgstr "有效期至"
+
+msgctxt "field:hrp_internal_delivery.query_frozen_done,proposal:"
+msgid "proposal"
+msgstr "数量"
+
+msgctxt "field:hrp_internal_delivery.query_frozen_done,cost_price:"
+msgid "cost_price"
+msgstr "批发总价"
+
+msgctxt "field:hrp_internal_delivery.query_frozen_done,list_price:"
+msgid "list_price"
+msgstr "零售总价"
+
+
+###############       报废单    ###################################
+
+msgctxt "field:hrp_internal_delivery.query_scrap_done,number:"
+msgid "number"
+msgstr "单号"
+
+msgctxt "field:hrp_internal_delivery.query_scrap_done,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_internal_delivery.query_scrap_done,processing_time:"
+msgid "processing_time"
+msgstr "处理时间"
+
+msgctxt "field:hrp_internal_delivery.query_scrap_done,product:"
+msgid "product"
+msgstr "产品"
+
+msgctxt "field:hrp_internal_delivery.query_scrap_done,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_internal_delivery.query_scrap_done,company:"
+msgid "company"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.query_scrap_done,lot:"
+msgid "lot"
+msgstr "批次"
+
+msgctxt "field:hrp_internal_delivery.query_scrap_done,additional:"
+msgid "additional"
+msgstr "附加"
+
+msgctxt "field:hrp_internal_delivery.query_scrap_done,time:"
+msgid "time"
+msgstr "有效期至"
+
+msgctxt "field:hrp_internal_delivery.query_scrap_done,proposal:"
+msgid "proposal"
+msgstr "报废数量"
+
+msgctxt "field:hrp_internal_delivery.query_scrap_done,cost_price:"
+msgid "cost_price"
+msgstr "批发总价"
+
+msgctxt "field:hrp_internal_delivery.query_scrap_done,list_price:"
+msgid "list_price"
+msgstr "零售总价"
+
+
+msgctxt "field:hrp_internal_delivery.query_scrap_done,state:"
+msgid "state"
+msgstr "单据状态"
+
+msgctxt "field:hrp_internal_delivery.query_scrap_done,why:"
+msgid "why"
+msgstr "报废原因"
+
+msgctxt "field:hrp_internal_delivery.query_scrap_done,create_user:"
+msgid "create_user"
+msgstr "报单人"
+
+msgctxt "field:hrp_internal_delivery.query_scrap_done,write_user:"
+msgid "write_user"
+msgstr "审核人"
+
+msgctxt "field:hrp_internal_delivery.query_scrap_done,write_time:"
+msgid "write_time"
+msgstr "审核时间"
+
+
+###############       无采购单    ###################################
+
+msgctxt "field:hrp_internal_delivery.query_purchase_done,number:"
+msgid "number"
+msgstr "单号"
+
+msgctxt "field:hrp_internal_delivery.query_purchase_done,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_internal_delivery.query_purchase_done,processing_time:"
+msgid "processing_time"
+msgstr "处理时间"
+
+msgctxt "field:hrp_internal_delivery.query_purchase_done,product:"
+msgid "product"
+msgstr "产品"
+
+msgctxt "field:hrp_internal_delivery.query_purchase_done,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_internal_delivery.query_purchase_done,company:"
+msgid "company"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.query_purchase_done,lot:"
+msgid "lot"
+msgstr "批次"
+
+msgctxt "field:hrp_internal_delivery.query_purchase_done,additional:"
+msgid "additional"
+msgstr "附加"
+
+msgctxt "field:hrp_internal_delivery.query_purchase_done,time:"
+msgid "time"
+msgstr "有效期至"
+
+msgctxt "field:hrp_internal_delivery.query_purchase_done,proposal:"
+msgid "proposal"
+msgstr "数量"
+
+msgctxt "field:hrp_internal_delivery.query_purchase_done,cost_price:"
+msgid "cost_price"
+msgstr "批发总价"
+
+msgctxt "field:hrp_internal_delivery.query_purchase_done,list_price:"
+msgid "list_price"
+msgstr "零售总价"
+
+
+
+
+###############       科室领药单    ###################################
+
+msgctxt "field:hrp_internal_delivery.query_department_done,number:"
+msgid "number"
+msgstr "单号"
+
+msgctxt "field:hrp_internal_delivery.query_department_done,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_internal_delivery.query_department_done,processing_time:"
+msgid "processing_time"
+msgstr "处理时间"
+
+msgctxt "field:hrp_internal_delivery.query_department_done,product:"
+msgid "product"
+msgstr "产品"
+
+msgctxt "field:hrp_internal_delivery.query_department_done,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_internal_delivery.query_department_done,company:"
+msgid "company"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.query_department_done,lot:"
+msgid "lot"
+msgstr "批次"
+
+msgctxt "field:hrp_internal_delivery.query_department_done,additional:"
+msgid "additional"
+msgstr "附加"
+
+msgctxt "field:hrp_internal_delivery.query_department_done,time:"
+msgid "time"
+msgstr "有效期至"
+
+msgctxt "field:hrp_internal_delivery.query_department_done,proposal:"
+msgid "proposal"
+msgstr "数量"
+
+msgctxt "field:hrp_internal_delivery.query_department_done,cost_price:"
+msgid "cost_price"
+msgstr "批发总价"
+
+msgctxt "field:hrp_internal_delivery.query_department_done,list_price:"
+msgid "list_price"
+msgstr "零售总价"
+
+msgctxt "field:hrp_internal_delivery.query_department_done,drug_receiving_section:"
+msgid "drug_receiving_section"
+msgstr "领药科室"
+
+msgctxt "field:hrp_internal_delivery.query_department_done,drug_receiving_code:"
+msgid "drug_receiving_code"
+msgstr "科室编码"
+
+
+
+###############       项目查询界面    ###################################
+
+msgctxt "field:hrp_internal_delivery.internal_detailed,number:"
+msgid "number"
+msgstr "单号"
+
+msgctxt "field:hrp_internal_delivery.internal_detailed,processing_time:"
+msgid "processing_time"
+msgstr "处理时间"
+
+msgctxt "field:hrp_internal_delivery.internal_detailed,product_name:"
+msgid "product_name"
+msgstr "产品名称"
+
+msgctxt "field:hrp_internal_delivery.internal_detailed,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_internal_delivery.internal_detailed,company:"
+msgid "company"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.internal_detailed,lot:"
+msgid "lot"
+msgstr "批次"
+
+msgctxt "field:hrp_internal_delivery.internal_detailed,time:"
+msgid "time"
+msgstr "有效期至"
+
+msgctxt "field:hrp_internal_delivery.internal_detailed,cost_price:"
+msgid "unit_price"
+msgstr "批发总价"
+
+msgctxt "field:hrp_internal_delivery.internal_detailed,list_price:"
+msgid "list_price"
+msgstr "零售总价"
+
+msgctxt "field:hrp_internal_delivery.internal_detailed,additional:"
+msgid "additional"
+msgstr "附加"
+
+##########   项目查界面 ######
+
+msgctxt "field:hrp_internal_delivery.internal_project,number:"
+msgid "number"
+msgstr "单号"
+
+msgctxt "field:hrp_internal_delivery.internal_project,processing_time:"
+msgid "processing_time"
+msgstr "处理时间"
+
+msgctxt "field:hrp_internal_delivery.internal_project,project_query:"
+msgid "project_query"
+msgstr "项目查询"
+
+msgctxt "field:hrp_internal_delivery.internal_project,document_type:"
+msgid "document_type"
+msgstr "单据类型"
+
+msgctxt "field:hrp_internal_delivery.internal_project,move_query_apply:"
+msgid "move_query_apply"
+msgstr "请领单查询"
+
+msgctxt "field:hrp_internal_delivery.internal_project,move_query_return:"
+msgid "move_query_return"
+msgstr "请退单查询"
+
+msgctxt "field:hrp_internal_delivery.internal_project,move_query_allocation:"
+msgid "move_query_allocation"
+msgstr "内部药品调拨"
+
+msgctxt "field:hrp_internal_delivery.internal_project,move_query_frozen:"
+msgid "move_query_frozen"
+msgstr "不合格品管理"
+
+msgctxt "field:hrp_internal_delivery.internal_project,move_query_scrap:"
+msgid "move_query_scrap"
+msgstr "报废管理"
+
+msgctxt "field:hrp_internal_delivery.internal_project,move_query_purchase:"
+msgid "move_query_purchase"
+msgstr "无采购订单"
+
+msgctxt "field:hrp_internal_delivery.internal_project,move_query_department:"
+msgid "move_query_department"
+msgstr "科室领药单"
+
+
+
+
+
+
+
+###################      内部单据查询报表    #############################
+msgctxt "model:ir.ui.menu,name:internal_core_query"
+msgid "Hrp Core Query"
+msgstr "内部单据完成报表"
+
+
+msgctxt "field:hrp_internal_delivery.internal_core_query,location:"
+msgid "location"
+msgstr "所在部门"
+
+msgctxt "field:hrp_internal_delivery.internal_core_query,start_time:"
+msgid "start_time"
+msgstr "开始时间"
+
+msgctxt "field:hrp_internal_delivery.internal_core_query,end_time:"
+msgid "end_time"
+msgstr "结束时间"
+
+msgctxt "field:hrp_internal_delivery.internal_core_query,number:"
+msgid "number"
+msgstr "单号"
+
+msgctxt "field:hrp_internal_delivery.internal_core_query,drug_type:"
+msgid "Starts"
+msgstr "药品类型"
+
+msgctxt "field:hrp_internal_delivery.internal_core_query,product:"
+msgid "product"
+msgstr "药品检索"
+
+msgctxt "field:hrp_internal_delivery.internal_core_query,detailed_query:"
+msgid "detailed_query"
+msgstr "明细查询"
+
+msgctxt "field:hrp_internal_delivery.internal_core_query,project_query:"
+msgid "project_query"
+msgstr "项目查询"
+
+msgctxt "field:hrp_internal_delivery.internal_core_query,document_type:"
+msgid "document_type"
+msgstr "单据类型"
+
+msgctxt "field:hrp_internal_delivery.internal_core_query,message_find:"
+msgid "message_find"
+msgstr "查找"
+
+msgctxt "field:hrp_internal_delivery.internal_core_query,move_query_apply:"
+msgid "move_query_apply"
+msgstr "请领单查询表"
+
+msgctxt "field:hrp_internal_delivery.internal_core_query,move_query_return:"
+msgid "move_query_return"
+msgstr "请退单查询表"
+
+msgctxt "field:hrp_internal_delivery.internal_core_query,move_query_frozen:"
+msgid "move_query_frozen"
+msgstr "不合格管理"
+
+
+msgctxt "field:hrp_internal_delivery.internal_core_query,move_project:"
+msgid "move_project"
+msgstr "项目查询"
+
+msgctxt "field:hrp_internal_delivery.internal_core_query,detailed_project:"
+msgid "detailed_project"
+msgstr "查询类型"
+
+
+###############       项目查询界面    ###################################
+
+msgctxt "field:hrp_internal_delivery.internal_core_detailed,number:"
+msgid "number"
+msgstr "单号"
+
+msgctxt "field:hrp_internal_delivery.internal_core_detailed,processing_time:"
+msgid "processing_time"
+msgstr "处理时间"
+
+msgctxt "field:hrp_internal_delivery.internal_core_detailed,product_name:"
+msgid "product_name"
+msgstr "产品名称"
+
+msgctxt "field:hrp_internal_delivery.internal_core_detailed,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_internal_delivery.internal_core_detailed,company:"
+msgid "company"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.internal_core_detailed,lot:"
+msgid "lot"
+msgstr "批次"
+
+msgctxt "field:hrp_internal_delivery.internal_core_detailed,time:"
+msgid "time"
+msgstr "有效期至"
+
+msgctxt "field:hrp_internal_delivery.internal_core_detailed,cost_price:"
+msgid "unit_price"
+msgstr "批发总价"
+
+msgctxt "field:hrp_internal_delivery.internal_core_detailed,list_price:"
+msgid "list_price"
+msgstr "零售总价"
+
+msgctxt "field:hrp_internal_delivery.internal_core_detailed,additional:"
+msgid "additional"
+msgstr "附加"
+
+
+
+msgctxt "field:hrp_internal_delivery.internal_core_project,number:"
+msgid "number"
+msgstr "单号"
+
+msgctxt "field:hrp_internal_delivery.internal_core_project,processing_time:"
+msgid "processing_time"
+msgstr "处理时间"
+
+msgctxt "field:hrp_internal_delivery.internal_core_project,project_query:"
+msgid "project_query"
+msgstr "项目查询"
+
+msgctxt "field:hrp_internal_delivery.internal_core_project,document_type:"
+msgid "document_type"
+msgstr "单据类型"
+
+msgctxt "field:hrp_internal_delivery.internal_core_project,move_query_apply:"
+msgid "move_query_apply"
+msgstr "请领单查询"
+
+msgctxt "field:hrp_internal_delivery.internal_core_project,move_query_return:"
+msgid "move_query_return"
+msgstr "请退单查询"
+
+msgctxt "field:hrp_internal_delivery.internal_core_project,move_query_frozen:"
+msgid "move_query_frozen"
+msgstr "不合格品管理"
+
+
+
+###############       中心请领完成    ###################################
+
+msgctxt "field:hrp_internal_delivery.query_core_apply_done,number:"
+msgid "number"
+msgstr "单号"
+
+msgctxt "field:hrp_internal_delivery.query_core_apply_done,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_internal_delivery.query_core_apply_done,processing_time:"
+msgid "processing_time"
+msgstr "处理时间"
+
+msgctxt "field:hrp_internal_delivery.query_core_apply_done,product:"
+msgid "product"
+msgstr "产品"
+
+msgctxt "field:hrp_internal_delivery.query_core_apply_done,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_internal_delivery.query_core_apply_done,company:"
+msgid "company"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.query_core_apply_done,lot:"
+msgid "lot"
+msgstr "批次"
+
+msgctxt "field:hrp_internal_delivery.query_core_apply_done,additional:"
+msgid "additional"
+msgstr "附加"
+
+msgctxt "field:hrp_internal_delivery.query_core_apply_done,time:"
+msgid "time"
+msgstr "有效期至"
+
+msgctxt "field:hrp_internal_delivery.query_core_apply_done,odd_numbers:"
+msgid "odd_numbers"
+msgstr "请领数量"
+
+msgctxt "field:hrp_internal_delivery.query_core_apply_done,proposal:"
+msgid "proposal"
+msgstr "实发数量"
+
+msgctxt "field:hrp_internal_delivery.query_core_apply_done,cost_price:"
+msgid "cost_price"
+msgstr "批发总价"
+
+msgctxt "field:hrp_internal_delivery.query_core_apply_done,list_price:"
+msgid "list_price"
+msgstr "零售总价"
+
+
+
+###############       中心请退单完成    ###################################
+
+msgctxt "field:hrp_internal_delivery.query_core_return_done,number:"
+msgid "number"
+msgstr "单号"
+
+msgctxt "field:hrp_internal_delivery.query_core_return_done,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_internal_delivery.query_core_return_done,processing_time:"
+msgid "processing_time"
+msgstr "处理时间"
+
+msgctxt "field:hrp_internal_delivery.query_core_return_done,product:"
+msgid "product"
+msgstr "产品"
+
+msgctxt "field:hrp_internal_delivery.query_core_return_done,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_internal_delivery.query_core_return_done,company:"
+msgid "company"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.query_core_return_done,lot:"
+msgid "lot"
+msgstr "批次"
+
+msgctxt "field:hrp_internal_delivery.query_core_return_done,additional:"
+msgid "additional"
+msgstr "附加"
+
+msgctxt "field:hrp_internal_delivery.query_core_return_done,time:"
+msgid "time"
+msgstr "有效期至"
+
+msgctxt "field:hrp_internal_delivery.query_core_return_done,odd_numbers:"
+msgid "odd_numbers"
+msgstr "请退数量"
+
+msgctxt "field:hrp_internal_delivery.query_core_return_done,proposal:"
+msgid "proposal"
+msgstr "实退数量"
+
+msgctxt "field:hrp_internal_delivery.query_core_return_done,cost_price:"
+msgid "cost_price"
+msgstr "批发总价"
+
+msgctxt "field:hrp_internal_delivery.query_core_return_done,list_price:"
+msgid "list_price"
+msgstr "零售总价"
+
+
+###############       中心不合格管理    ###################################
+
+msgctxt "field:hrp_internal_delivery.query_core_frozen_done,number:"
+msgid "number"
+msgstr "单号"
+
+msgctxt "field:hrp_internal_delivery.query_core_frozen_done,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_internal_delivery.query_core_frozen_done,processing_time:"
+msgid "processing_time"
+msgstr "处理时间"
+
+msgctxt "field:hrp_internal_delivery.query_core_frozen_done,product:"
+msgid "product"
+msgstr "产品"
+
+msgctxt "field:hrp_internal_delivery.query_core_frozen_done,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_internal_delivery.query_core_frozen_done,company:"
+msgid "company"
+msgstr "单位"
+
+msgctxt "field:hrp_internal_delivery.query_core_frozen_done,lot:"
+msgid "lot"
+msgstr "批次"
+
+msgctxt "field:hrp_internal_delivery.query_core_frozen_done,additional:"
+msgid "additional"
+msgstr "附加"
+
+msgctxt "field:hrp_internal_delivery.query_core_frozen_done,time:"
+msgid "time"
+msgstr "有效期至"
+
+msgctxt "field:hrp_internal_delivery.query_core_frozen_done,proposal:"
+msgid "proposal"
+msgstr "数量"
+
+msgctxt "field:hrp_internal_delivery.query_core_frozen_done,cost_price:"
+msgid "cost_price"
+msgstr "批发总价"
+
+msgctxt "field:hrp_internal_delivery.query_core_frozen_done,list_price:"
+msgid "list_price"
+msgstr "零售总价"

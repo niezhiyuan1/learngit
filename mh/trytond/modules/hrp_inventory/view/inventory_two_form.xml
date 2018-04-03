@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<form string="InventoryTwo" col="12">
+
+    <label name="categories_two"/>
+    <field name="categories_two" colspan="2"/>
+
+    <label name="warehouse"/>
+    <field name="warehouse" colspan="2"/>
+
+    <label name="state"/>
+    <field name="state" colspan="2"/>
+
+    <label name="inventory_time" />
+    <field name="inventory_time" colspan="2"/>
+
+    <label name="amount"/>
+    <field name="amount" colspan="2"/>
+
+    <label name="varieties_num"/>
+    <field name="varieties_num" colspan="2"/>
+
+    <label name="drug_inventory"/>
+    <field name="drug_inventory" colspan="2"/>
+
+    <label name="shelves_inventory"/>
+    <field name="shelves_inventory" colspan="2"/>
+
+    <newline/>
+
+    <button name="create_the_inventory" string="Create the inventory" colspan="6"/>
+
+    <button name="create_wizard" string="Create wizard" colspan="6"/>
+
+    <field name="Inventory_details" colspan="12"/>
+
+    <button name="balance_of_inventory" string="The balance of inventory" colspan="12"/>
+
+</form>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<tree string="New_party">
+
+    <field name="active"/>
+
+    <field name="code"/>
+
+    <field name="name"/>
+
+    <field name="new_name"/>
+
+    <field name="contact_name"/>
+
+    <field name="phone"/>
+
+    <field name="street"/>
+
+    <field name="finance_code"/>
+
+    <field name="currency"/>
+
+    <field name="settlement"/>
+
+    <field name="supplier_payment_term"/>
+
+    <field name="invoice"/>
+
+    <field name="deivery"/>
+
+    <field name="address_active"/>
+
+</tree>

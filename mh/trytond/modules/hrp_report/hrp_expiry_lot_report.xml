@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+        <!--Hrp Expiry Lot Wizard-->
+        <record model="ir.ui.view" id="hrp_expiry_lot_content_view_form">
+            <field name="model">hrp_report.hrp_expiry_lot_content</field>
+            <field name="type">form</field>
+            <field name="name">hrp_expiry_lot_content_form</field>
+        </record>
+        <record model="ir.action.wizard" id="act_hrp_expiry_lot_wizard">
+            <field name="name">Hrp Expiry Lot Wizard</field>
+            <field name="wiz_name">hrp_report.hrp_expiry_lot_wizard</field>
+        </record>
+        <menuitem  parent="hrp_report_menu" action="act_hrp_expiry_lot_wizard" id="menu_hrp_expiry_lot_wizard" sequence="2" />
+
+        <!--Hrp Expiry Lot Report Message-->
+        <record model="ir.ui.view" id="hrp_expiry_lot_message_report_view_form">
+            <field name="model">hrp_report.hrp_expiry_lot_message_report</field>
+            <field name="type">form</field>
+            <field name="name">hrp_expiry_lot_message_report_form</field>
+        </record>
+        <record model="ir.ui.view" id="hrp_expiry_lot_message_report_view_tree">
+            <field name="model">hrp_report.hrp_expiry_lot_message_report</field>
+            <field name="type">tree</field>
+            <field name="name">hrp_expiry_lot_message_report_tree</field>
+        </record>
+        <record model="ir.action.act_window" id="act_hrp_expiry_lot_message_report">
+            <field name="name">Hrp Expiry Lot Report Message</field>
+            <field name="res_model">hrp_report.hrp_expiry_lot_message_report</field>
+        </record>
+    </data>
+</tryton>

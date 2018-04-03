@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<tree string="Hrp Shipment Lines" sequence="1" editable="bottom">
+
+
+    <field name="supply_name"/>
+
+    <field name="purchase_code"/>
+
+    <field name="item_code"/>
+
+    <field name="drug_code"/>
+
+    <field name="name"/>
+
+    <field name="drug_specifications"/>
+
+    <field name="manufacturers_describtion"/>
+
+    <field name="quantity"/>
+
+    <field name="retail_package"/>
+
+    <field name="cost_price"/>
+
+    <field name="list_price"/>
+
+    <field name="invoice_code"/>
+
+    <field name="invoice_date"/>
+
+    <field name="invoice_amount"/>
+
+    <field name="retail_amount"/>
+
+    <field name="drug_approval_number"/>
+
+    <field name="lot"/>
+
+    <field name="dom"/>
+
+    <field name="exp_date"/>
+
+    <field name="arriving"/>
+    <field name="state"/>
+    <field name="error_message"/>
+     <!--<field name="is_electronic_invoice"/>-->
+    <!--<field name="number"/>-->
+
+</tree>

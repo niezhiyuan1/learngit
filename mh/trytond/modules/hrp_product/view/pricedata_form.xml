@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<form string="Pricedata">
+    <label name="retrieve_the_code"/>
+    <field name="retrieve_the_code"/>
+
+    <!--<label name="code"/>-->
+    <!--<field name="code"/>-->
+
+    <label name="product_code"/>
+    <field name="product_code"/>
+
+    <label name="product_name"/>
+    <field name="product_name"/>
+
+    <!--<label name="name"/>-->
+    <!--<field name="name"/>-->
+
+    <label name="attach"/>
+    <field name="attach"/>
+
+    <label name="drug_specifications"/>
+    <field name="drug_specifications"/>
+
+    <label name="cost_price"/>
+    <field name="cost_price"/>
+
+    <label name="list_price"/>
+    <field name="list_price"/>
+
+    <label name="new_cost_price"/>
+    <field name="new_cost_price"/>
+
+    <label name="new_list_price"/>
+    <field name="new_list_price"/>
+
+    <label name="modify_reason"/>
+    <field name="modify_reason"/>
+
+    <label name="effective_date"/>
+    <field name="effective_date"/>
+
+</form>

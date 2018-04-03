@@ -1,0 +1,6 @@
+vobject >= 0.8.0
+PyWebDAV >= 0.9.8
+python-sql
+trytond_party >= 4.0, < 4.1
+trytond_webdav >= 4.0, < 4.1
+trytond >= 4.0, < 4.1

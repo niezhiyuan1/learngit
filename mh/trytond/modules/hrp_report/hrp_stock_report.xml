@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+        <!--Report-->
+        <menuitem name="hrp_report" id="hrp_report_menu" icon="tryton-tree"/>
+        <record model="ir.ui.view" id="hrp_stock_report_view_form">
+            <field name="model">hrp_report.hrp_stock_report</field>
+            <field name="type">form</field>
+            <field name="name">hrp_stock_report_form</field>
+        </record>
+        <record model="ir.action.wizard" id="act_hrp_stock_report_wizard">
+            <field name="name">Hrp Stock Report</field>
+            <field name="wiz_name">hrp_report.hrp_stock_report_wizard</field>
+        </record>
+        <menuitem name="Hrp Stock Report" parent="hrp_report_menu" action="act_hrp_stock_report_wizard"
+                  id="menu_hrp_report" sequence="-16"/>
+
+        <!--Hrp Report Display-->
+        <record model="ir.ui.view" id="hrp_report_display_view_form">
+            <field name="model">hrp_report.hrp_report_display</field>
+            <field name="type">form</field>
+            <field name="name">hrp_report_display_form</field>
+        </record>
+        <record model="ir.ui.view" id="hrp_report_display_view_tree">
+            <field name="model">hrp_report.hrp_report_display</field>
+            <field name="type">tree</field>
+            <field name="name">hrp_report_display_tree</field>
+        </record>
+        <record model="ir.action.act_window" id="act_hrp_report_display">
+            <field name="name">Hrp Report Display</field>
+            <field name="res_model">hrp_report.hrp_report_display</field>
+        </record>
+
+
+
+        <!--Hrp Report Condition-->
+        <record model="ir.ui.view" id="hrp_report_condition_view_form">
+            <field name="model">hrp_report.hrp_report_condition</field>
+            <field name="type">form</field>
+            <field name="name">hrp_report_condition_form</field>
+        </record>
+        <record model="ir.ui.view" id="hrp_report_condition_view_tree">
+            <field name="model">hrp_report.hrp_report_condition</field>
+            <field name="type">tree</field>
+            <field name="name">hrp_report_condition_tree</field>
+        </record>
+        <record model="ir.action.act_window" id="act_hrp_report_condition">
+            <field name="name">Hrp Report Condition</field>
+            <field name="res_model">hrp_report.hrp_report_condition</field>
+        </record>
+        <!--<menuitem parent="hrp_report_menu" name="Hrp Report Condition"-->
+        <!--id="menu_hrp_report_condition" icon="tryton-list"-->
+        <!--action="act_hrp_report_condition" sequence="1"/>-->
+    </data>
+</tryton>

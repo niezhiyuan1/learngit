@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<form string="InventoryLines">
+
+    <label name="warehouse"/>
+    <field name="warehouse"/>
+
+    <label name="product"/>
+    <field name="product"/>
+
+    <label name="safety_stock"/>
+    <field name="safety_stock"/>
+
+    <label name="scattered_uom"/>
+    <field name="scattered_uom"/>
+
+    <label name="shelves_code"/>
+    <field name="shelves_code"/>
+
+    <label name="new_shelves_code"/>
+    <field name="new_shelves_code"/>
+
+    <label name="drug_specifications"/>
+    <field name="drug_specifications"/>
+
+    <label name="manufacturers_code"/>
+    <field name="manufacturers_code"/>
+
+    <label name="manufacturers"/>
+    <field name="manufacturers"/>
+
+</form>

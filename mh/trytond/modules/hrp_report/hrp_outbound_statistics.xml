@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+        <!--Hrp Expiry Lot Wizard-->
+        <record model="ir.ui.view" id="hrp_outbound_statistics_content_view_form">
+            <field name="model">hrp_report.hrp_outbound_statistics_content</field>
+            <field name="type">form</field>
+            <field name="name">hrp_outbound_statistics_content_form</field>
+        </record>
+        <record model="ir.action.wizard" id="act_hrp_outbound_statistics_wizard">
+            <field name="name">Hrp Outbound Statistics Wizard</field>
+            <field name="wiz_name">hrp_report.hrp_outbound_statistics_wizard</field>
+        </record>
+        <menuitem  parent="hrp_report_menu" action="act_hrp_outbound_statistics_wizard" id="menu_hrp_outbound_statistics_wizard" sequence="3" />
+
+        <!--hrp_outbound_statistics_report_one-->
+        <record model="ir.ui.view" id="hrp_outbound_statistics_report_one_view_form">
+            <field name="model">hrp_report.hrp_outbound_statistics_report_one</field>
+            <field name="type">form</field>
+            <field name="name">hrp_outbound_statistics_report_one_form</field>
+        </record>
+        <record model="ir.ui.view" id="hrp_outbound_statistics_report_one_view_tree">
+            <field name="model">hrp_report.hrp_outbound_statistics_report_one</field>
+            <field name="type">tree</field>
+            <field name="name">hrp_outbound_statistics_report_one_tree</field>
+        </record>
+        <record model="ir.action.act_window" id="act_hrp_outbound_statistics_one">
+            <field name="name">Hrp Outbound Statistics Report One</field>
+            <field name="res_model">hrp_report.hrp_outbound_statistics_report_one</field>
+        </record>
+
+
+        <!--hrp_outbound_statistics_report_product-->
+        <record model="ir.ui.view" id="hrp_outbound_statistics_report_product_view_form">
+            <field name="model">hrp_report.hrp_outbound_statistics_report_product</field>
+            <field name="type">form</field>
+            <field name="name">hrp_outbound_statistics_report_product_form</field>
+        </record>
+        <record model="ir.ui.view" id="hrp_outbound_statistics_report_product_view_tree">
+            <field name="model">hrp_report.hrp_outbound_statistics_report_product</field>
+            <field name="type">tree</field>
+            <field name="name">hrp_outbound_statistics_report_product_tree</field>
+        </record>
+        <record model="ir.action.act_window" id="act_hrp_outbound_statistics_product">
+            <field name="name">Hrp Outbound Statistics Report Product</field>
+            <field name="res_model">hrp_report.hrp_outbound_statistics_report_product</field>
+        </record>
+
+
+        <!--Hrp Outbound Statistics Report Customer-->
+        <record model="ir.ui.view" id="hrp_hrp_outbound_statistics_customer_view_form">
+            <field name="model">hrp_report.hrp_outbound_statistics_customer</field>
+            <field name="type">form</field>
+            <field name="name">hrp_outbound_statistics_customer_form</field>
+        </record>
+        <record model="ir.ui.view" id="hrp_hrp_outbound_statistics_customer_view_tree">
+            <field name="model">hrp_report.hrp_outbound_statistics_customer</field>
+            <field name="type">tree</field>
+            <field name="name">hrp_outbound_statistics_customer_tree</field>
+        </record>
+        <record model="ir.action.act_window" id="act_hrp_hrp_outbound_statistics_customer">
+            <field name="name">Hrp Outbound Statistics Report Customer</field>
+            <field name="res_model">hrp_report.hrp_outbound_statistics_customer</field>
+        </record>
+
+
+    </data>
+</tryton>

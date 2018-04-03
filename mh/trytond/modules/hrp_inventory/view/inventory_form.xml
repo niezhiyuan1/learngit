@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<form string="Inventory" col="12">
+
+    <label name="categories"/>
+    <field name="categories" colspan="3"/>
+
+    <label name="warehouse"/>
+    <field name="warehouse" colspan="3"/>
+
+    <label name="inventory_time" />
+    <field name="inventory_time" colspan="3"/>
+
+    <label name="amount"/>
+    <field name="amount" colspan="3"/>
+
+    <label name="varieties_num"/>
+    <field name="varieties_num" colspan="3"/>
+
+    <label name="state"/>
+    <field name="state" colspan="3"/>
+
+    <newline/>
+
+    <button name="create_the_inventory" string="Create the inventory" colspan="6"/>
+
+    <button name="balance_of_inventory" string="The balance of inventory" colspan="6"/>
+
+    <field name="Inventory_details" colspan="12"/>
+
+</form>

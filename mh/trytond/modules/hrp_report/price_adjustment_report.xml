@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+        <!--Report-->
+        <record model="ir.action.wizard" id="act_price_adjustment_wizard">
+            <field name="name">Hrp Price Adjustment Wizard</field>
+            <field name="wiz_name">hrp_report.price_adjustment_wizard</field>
+        </record>
+        <menuitem parent="hrp_report_menu" action="act_price_adjustment_wizard" id="menu_price_adjustment" sequence="2" />
+
+
+        <!--price adjustment-->
+        <record model="ir.ui.view" id="hrp_price_adjustment_view_form">
+            <field name="model">hrp_report.price_adjustment</field>
+            <field name="type">form</field>
+            <field name="name">hrp_price_adjustment_form</field>
+        </record>
+
+
+        <!--price_adjustment_message-->
+        <record model="ir.ui.view" id="hrp_price_adjustment_message_view_form">
+            <field name="model">hrp_report.price_adjustment_message</field>
+            <field name="type">form</field>
+            <field name="name">hrp_price_adjustment_message_form</field>
+        </record>
+        <record model="ir.ui.view" id="hrp_price_adjustment_message_view_tree">
+            <field name="model">hrp_report.price_adjustment_message</field>
+            <field name="type">tree</field>
+            <field name="name">hrp_price_adjustment_message_tree</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_hrp_price_adjustment_message">
+            <field name="name">Price Adjustment Message</field>
+            <field name="res_model">hrp_report.price_adjustment_message</field>
+        </record>
+    </data>
+</tryton>

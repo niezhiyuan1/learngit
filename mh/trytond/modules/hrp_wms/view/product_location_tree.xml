@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<tree string="WMS">
+
+    <field name="locations"/>
+
+    <field name="categories"/>
+
+    <field name="location"/>
+
+</tree>

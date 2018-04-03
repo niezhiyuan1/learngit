@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+        <!--Internal Return Request-->
+        <record model="ir.ui.view" id="internal_return_request_view_form">
+            <field name="model">hrp_new_product.internal_return_request</field>
+            <field name="type">form</field>
+            <field name="name">internal_return_request_form</field>
+        </record>
+        <record model="ir.action.wizard" id="act_internal_return_request">
+            <field name="name">Hrp Return Request</field>
+            <field name="wiz_name">hrp_new_product.internal_return_request_wizard</field>
+        </record>
+        <menuitem parent="hrp_party.menu_hrp_purchase_order"
+            action="act_internal_return_request"
+            id="menu_internal_return_request" sequence="5" />
+
+
+        <!--test_return_request-->
+        <record model="ir.ui.view" id="test_return_request_view_form">
+            <field name="model">hrp_new_product.test_return_request</field>
+            <field name="type">form</field>
+            <field name="name">test_return_request_form</field>
+        </record>
+       <record model="ir.ui.view" id="test_return_request_view_tree">
+            <field name="model">hrp_new_product.test_return_request</field>
+            <field name="type">tree</field>
+            <field name="name">test_return_request_tree</field>
+        </record>
+    </data>
+</tryton>

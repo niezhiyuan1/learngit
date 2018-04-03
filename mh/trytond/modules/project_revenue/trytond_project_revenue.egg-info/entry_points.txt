@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    project_revenue = trytond.modules.project_revenue
+    

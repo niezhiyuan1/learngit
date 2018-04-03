@@ -1,0 +1,3 @@
+trytond_account >= 4.0, < 4.1
+trytond_country >= 4.0, < 4.1
+trytond >= 4.0, < 4.1

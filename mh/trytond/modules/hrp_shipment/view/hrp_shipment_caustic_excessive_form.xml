@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<form string="Hrp Caustic Excessive">
+    <label name="type"/>
+    <field name="type"/>
+
+
+    <label name="location"/>
+    <field name="location"/>
+
+    <label name="retrieve_the_code"/>
+    <field name="retrieve_the_code"/>
+
+    <label name="lot"/>
+    <field name="lot"/>
+
+    <label name="drug_specifications"/>
+    <field name="drug_specifications"/>
+
+    <label name="quantity"/>
+    <field name="quantity"/>
+
+    <label name="retail_package"/>
+    <field name="retail_package"/>
+
+    <label name="caustic_why"/>
+    <field name="caustic_why"/>
+
+    <label name="excessive_why"/>
+    <field name="excessive_why"/>
+
+    <label name="done"/>
+    <field name="done"/>
+
+    <field name="caustic_excessive_lines" colspan="4"/>
+
+</form>

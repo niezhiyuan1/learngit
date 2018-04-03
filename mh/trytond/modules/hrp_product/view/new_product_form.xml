@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<form string="New_products" col="12">
+    <separator string="基本信息一" colspan="12" id="info"/>
+    <label name="categories"/>
+    <field name="categories" colspan="2"/>
+    <newline/>
+    <label name="code"/>
+    <field name="code" colspan="5"/>
+
+    <label name="name"/>
+    <field name="name" colspan="5"/>
+
+    <label name="purchase_code"/>
+    <field name="purchase_code" colspan="5"/>
+
+    <label name="approval_number" />
+    <field name="approval_number" colspan="5"/>
+
+    <label name="retrieve_the_code"/>
+    <field name="retrieve_the_code" colspan="2"/>
+
+    <label name="a_charge"/>
+    <field name="a_charge" colspan="2"/>
+
+     <label name="attach"/>
+    <field name="attach" colspan="2"/>
+
+    <label name="cost_price"/>
+    <field name="cost_price" colspan="2"/>
+
+    <label name="concentration"/>
+    <field name="concentration" colspan="2"/>
+
+    <label name="dose"/>
+    <field name="dose" colspan="2"/>
+
+    <label name="capacity"/>
+    <field name="capacity" colspan="2"/>
+
+    <label name="list_price"/>
+    <field name="list_price" colspan="2"/>
+
+    <label name="concentration_unit"/>
+    <field name="concentration_unit" colspan="2"/>
+
+    <label name="dose_unit"/>
+    <field name="dose_unit" colspan="2"/>
+
+    <label name="cost_price_method"/>
+    <field name="cost_price_method" colspan="2"/>
+
+    <label name="party"/>
+    <field name="party" colspan="2"/>
+
+    <label name="uom_default_uom"/>
+    <field name="uom_default_uom" colspan="2"/>
+
+    <label name="uom_min_Package" />
+    <field name="uom_min_Package" colspan="2"/>
+
+    <label name="retail_package"/>
+    <field name="retail_package" colspan="2"/>
+
+    <label name="drug_specifications"/>
+    <field name="drug_specifications" colspan="2"/>
+    <separator string="基本信息二" colspan="12" id="info"/>
+
+    <label name="dosage_form_description"/>
+    <field name="dosage_form_description" colspan="5"/>
+
+    <label name="medical_insurance_code"/>
+    <field name="medical_insurance_code" colspan="5"/>
+
+    <label name="medical_insurance_description"/>
+    <field name="medical_insurance_description" colspan="5"/>
+
+    <label name="new_term"/>
+    <field name="new_term" colspan="5"/>
+
+    <label name="poison_hemp_spirit"/>
+    <field name="poison_hemp_spirit" colspan="2"/>
+
+    <label name="interim"/>
+    <field name="interim" colspan="2"/>
+
+    <label name="compound_dose"/>
+    <field name="compound_dose" colspan="2"/>
+
+    <label name="drup_level"/>
+    <field name="drup_level" colspan="2"/>
+
+    <label name="manufacturers_describtion"/>
+    <field name="manufacturers_describtion" colspan="2"/>
+
+    <label name="manufacturers_code"/>
+    <field name="manufacturers_code" colspan="2"/>
+
+    <label name="state"/>
+    <field name="state" colspan="2"/>
+
+    <label name="type"/>
+    <field name="type" colspan="2"/>
+    <separator string="控制标识" colspan="12" id="info"/>
+
+    <label name="active"/>
+    <field name="active" colspan="2"/>
+
+    <label name="is_direct_sending"/>
+    <field name="is_direct_sending" colspan="2"/>
+
+    <label name="is_antimicrobials" />
+    <field name="is_antimicrobials" colspan="2" />
+
+    <label name="national_essential_medicines"/>
+    <field name="national_essential_medicines" colspan="2"/>
+
+    <label name="salable"/>
+    <field name="salable" colspan="2"/>
+
+    <label name="purchasable"/>
+    <field name="purchasable" colspan="2"/>
+
+
+    <label name="consumable"/>
+    <field name="consumable" colspan="2"/>
+
+    <label name="is_atict"/>
+    <field name="is_atict" colspan="2"/>
+
+    <label name="homemade"/>
+    <field name="homemade" colspan="2"/>
+
+</form>

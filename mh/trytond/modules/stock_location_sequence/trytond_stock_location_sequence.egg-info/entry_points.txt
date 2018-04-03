@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    stock_location_sequence = trytond.modules.stock_location_sequence
+    

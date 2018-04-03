@@ -1,0 +1,73 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:stock.order_point,upper_period:"
+msgid "upper_period"
+msgstr "消耗周期"
+
+msgctxt "field:stock.order_point,secondary:"
+msgid "Secondary"
+msgstr "二级药房"
+
+msgctxt "field:stock.order_point,code:"
+msgid "Code"
+msgstr "物资编码"
+
+msgctxt "field:stock.order_point,name:"
+msgid "name"
+msgstr "物资名称"
+
+msgctxt "field:stock.order_point,retrieve_the_code:"
+msgid "Retrieve_the_code"
+msgstr "拼音简码"
+
+msgctxt "field:stock.order_point,drug_specifications:"
+msgid "Drug_specifications"
+msgstr "物资规格"
+
+msgctxt "field:stock.order_point,attach:"
+msgid "Attach"
+msgstr "附加"
+
+msgctxt "field:stock.order_point,a_charge:"
+msgid "A_charge"
+msgstr "件装量"
+
+msgctxt "field:stock.order_point,interim:"
+msgid "interim"
+msgstr "临采"
+
+msgctxt "field:hrp_order_point.purchaser_reference,product:"
+msgid "product"
+msgstr "物资名称"
+
+msgctxt "field:hrp_order_point.purchaser_reference,warehouse:"
+msgid "Warehouse"
+msgstr "仓库"
+
+msgctxt "field:hrp_order_point.purchaser_reference,seven_days:"
+msgid "Seven days"
+msgstr "7日消耗"
+
+msgctxt "field:hrp_order_point.purchaser_reference,fourteen_days:"
+msgid "Fourteen days"
+msgstr "14日消耗"
+
+msgctxt "field:hrp_order_point.purchaser_reference,one_biggest:"
+msgid "One Biggest"
+msgstr "一周最高消耗"
+
+msgctxt "field:hrp_order_point.purchaser_reference,is_level:"
+msgid "Is Level"
+msgstr "是否是一级库"
+
+
+
+
+
+
+
+
+
+

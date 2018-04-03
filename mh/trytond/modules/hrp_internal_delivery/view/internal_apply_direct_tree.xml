@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!--editable ="top" 对tree可以修改-->
+<tree >
+    <!--<field name="location"/>-->
+    <field name="move_number"/>
+    <field name="move_time"/>
+    <!--<field name="state"/>-->
+    <field name="drug_type"/>
+    <!--<field name="message_confirm"/>-->
+</tree>

@@ -1,0 +1,2 @@
+trytond_account_payment >= 4.0, < 4.1
+trytond >= 4.0, < 4.1

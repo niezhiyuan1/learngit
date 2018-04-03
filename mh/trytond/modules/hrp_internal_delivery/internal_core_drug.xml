@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+        <!--internal_core_drug_wizard-->
+        <record model="ir.ui.view" id="internal_core_drug_view_form">
+            <field name="model">hrp_internal_delivery.internal_core_drug</field>
+            <field name="type">form</field>
+            <field name="name">internal_core_drug_form</field>
+        </record>
+
+        <record model="ir.action.wizard" id="act_internal_core_drug_wizard">
+            <field name="name">Hrp Core Drug</field>
+            <field name="wiz_name">hrp_internal_delivery.internal_core_drug_wizard</field>
+        </record>
+
+        <menuitem action="act_internal_core_drug_wizard" id="menu_internal_core_drug" sequence="-15" />
+
+        <record model="ir.action.report" id="internal_delivery_core_drug_report">
+            <field name="name">CoreDrugReport</field>
+            <field name="model">hrp_internal_delivery.internal_core_drug</field>
+            <field name="report_name">hrp_internal_delivery.core_drug_report</field>
+            <field name="report">hrp_internal_delivery/core_drug_report.odt</field>
+        </record>
+
+
+    </data>
+</tryton>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/field[@name='company']" position="after">
+        <newline/>
+        <label name="move_type"/>
+        <field name="move_type"/>
+        <label name="starts"/>
+        <field name="starts"/>
+        <label name="is_direct_sending"/>
+        <field name="is_direct_sending"/>
+        <label name="outpatient_7days"/>
+        <field name="outpatient_7days"/>
+        <label name="real_number"/>
+        <field name="real_number"/>
+        <label name="outgoing_audit"/>
+        <field name="outgoing_audit"/>
+        <label name="reason"/>
+        <field name="reason"/>
+        <label name="comment"/>
+        <field name="comment"/>
+        <label name="actual_return"/>
+        <field name="actual_return"/>
+        <label name="list_price"/>
+        <field name="list_price"/>
+        <label name="cost_price"/>
+        <field name="cost_price"/>
+    </xpath>
+</data>

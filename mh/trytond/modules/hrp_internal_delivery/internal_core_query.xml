@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="internal_core_query_view_form">
+            <field name="model">hrp_internal_delivery.internal_core_query</field>
+            <field name="type">form</field>
+            <field name="name">internal_core_query_form</field>
+        </record>
+
+        <record model="ir.action.wizard" id="act_hrp_internal_core_query">
+            <field name="name">Hrp Core Query</field>
+            <field name="wiz_name">hrp_internal_delivery.internal_core_query_wizard</field>
+        </record>
+
+        <menuitem parent="hrp_party.menu_hrp_Drug_level_management"
+            action="act_hrp_internal_core_query" icon="tryton-print" id="internal_core_query" sequence="-14" />
+
+
+        <!--internal_detailed-->
+        <record model="ir.ui.view" id="internal_core_detailed_view_form">
+            <field name="model">hrp_internal_delivery.internal_core_detailed</field>
+            <field name="type">form</field>
+            <field name="name">internal_core_detailed_form</field>
+        </record>
+        <record model="ir.ui.view" id="internal_core_detailed_view_tree">
+            <field name="model">hrp_internal_delivery.internal_core_detailed</field>
+            <field name="type">tree</field>
+            <field name="name">internal_core_detailed_tree</field>
+        </record>
+
+
+        <!--internal_project-->
+        <record model="ir.ui.view" id="internal_core_project_view_form">
+            <field name="model">hrp_internal_delivery.internal_core_project</field>
+            <field name="type">form</field>
+            <field name="name">internal_core_project_form</field>
+        </record>
+        <record model="ir.ui.view" id="internal_core_project_view_tree">
+            <field name="model">hrp_internal_delivery.internal_core_project</field>
+            <field name="type">tree</field>
+            <field name="name">internal_core_project_tree</field>
+        </record>
+
+
+        <!--query_apply_done-->
+        <record model="ir.ui.view" id="query_core_apply_done_view_form">
+            <field name="model">hrp_internal_delivery.query_core_apply_done</field>
+            <field name="type">form</field>
+            <field name="name">query_core_apply_done_form</field>
+        </record>
+        <record model="ir.ui.view" id="query_core_apply_done_view_tree">
+            <field name="model">hrp_internal_delivery.query_core_apply_done</field>
+            <field name="type">tree</field>
+            <field name="name">query_core_apply_done_tree</field>
+        </record>
+
+        <!--query_return_done-->
+        <record model="ir.ui.view" id="query_core_return_done_view_form">
+            <field name="model">hrp_internal_delivery.query_core_return_done</field>
+            <field name="type">form</field>
+            <field name="name">query_core_return_done_form</field>
+        </record>
+        <record model="ir.ui.view" id="query_core_return_done_view_tree">
+            <field name="model">hrp_internal_delivery.query_core_return_done</field>
+            <field name="type">tree</field>
+            <field name="name">query_core_return_done_tree</field>
+        </record>
+
+
+        <!--query_frozen_done-->
+        <record model="ir.ui.view" id="query_core_frozen_done_view_form">
+            <field name="model">hrp_internal_delivery.query_core_frozen_done</field>
+            <field name="type">form</field>
+            <field name="name">query_core_frozen_done_form</field>
+        </record>
+        <record model="ir.ui.view" id="query_core_frozen_done_view_tree">
+            <field name="model">hrp_internal_delivery.query_core_frozen_done</field>
+            <field name="type">tree</field>
+            <field name="name">query_core_frozen_done_tree</field>
+        </record>
+
+        <record model="ir.action.report" id="internal_delivery_core_report_general_journal">
+            <field name="name">General Core Journal</field>
+            <field name="model">hrp_internal_delivery.internal_core_query</field>
+            <field name="report_name">hrp_internal_delivery.general_core_journal</field>
+            <field name="report">hrp_internal_delivery/core_report.odt</field>
+        </record>
+    </data>
+</tryton>

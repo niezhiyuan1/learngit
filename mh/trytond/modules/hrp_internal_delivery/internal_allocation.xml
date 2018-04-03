@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+        <!--Allocation-->
+        <record model="ir.ui.view" id="internal_allocation_view_form">
+            <field name="model">hrp_internal_delivery.internal_allocation</field>
+            <field name="type">form</field>
+            <field name="name">internal_allocation_form</field>
+        </record>
+        <record model="ir.action.wizard" id="act_internal_allocation">
+            <field name="name">Hrp Allocation</field>
+            <field name="wiz_name">hrp_internal_delivery.internal_allocation_wizard</field>
+        </record>
+
+        <!--internal_move_list-->
+        <record model="ir.ui.view" id="internal_move_list_view_form">
+            <field name="model">hrp_internal_delivery.internal_move_list</field>
+            <field name="type">form</field>
+            <field name="name">internal_move_list_form</field>
+        </record>
+        <record model="ir.ui.view" id="internal_move_list_view_tree">
+            <field name="model">hrp_internal_delivery.internal_move_list</field>
+            <field name="type">tree</field>
+            <field name="name">internal_move_list_tree</field>
+        </record>
+
+        <!--apply_move_look-->
+        <record model="ir.ui.view" id="apply_move_look_view_form">
+            <field name="model">hrp_internal_delivery.apply_move_look</field>
+            <field name="type">form</field>
+            <field name="name">apply_move_look_form</field>
+        </record>
+        <record model="ir.ui.view" id="apply_move_look_view_tree">
+            <field name="model">hrp_internal_delivery.apply_move_look</field>
+            <field name="type">tree</field>
+            <field name="name">apply_move_look_tree</field>
+        </record>
+
+        <!--apply_move_look_two-->
+        <record model="ir.ui.view" id="apply_move_look_two_view_form">
+            <field name="model">hrp_internal_delivery.apply_move_look_two</field>
+            <field name="type">form</field>
+            <field name="name">apply_move_look_two_form</field>
+        </record>
+        <record model="ir.ui.view" id="apply_move_look_two_view_tree">
+            <field name="model">hrp_internal_delivery.apply_move_look_two</field>
+            <field name="type">tree</field>
+            <field name="name">apply_move_look_two_tree</field>
+        </record>
+
+        <!--return_move_look-->
+        <record model="ir.ui.view" id="return_move_look_view_form">
+            <field name="model">hrp_internal_delivery.return_move_look</field>
+            <field name="type">form</field>
+            <field name="name">return_move_look_form</field>
+        </record>
+        <record model="ir.ui.view" id="return_move_look_view_tree">
+            <field name="model">hrp_internal_delivery.return_move_look</field>
+            <field name="type">tree</field>
+            <field name="name">return_move_look_tree</field>
+        </record>
+
+        <!--return_move_look_two-->
+        <record model="ir.ui.view" id="return_move_look_two_view_form">
+            <field name="model">hrp_internal_delivery.return_move_look_two</field>
+            <field name="type">form</field>
+            <field name="name">return_move_look_two_form</field>
+        </record>
+        <record model="ir.ui.view" id="return_move_look_two_view_tree">
+            <field name="model">hrp_internal_delivery.return_move_look_two</field>
+            <field name="type">tree</field>
+            <field name="name">return_move_look_two_tree</field>
+        </record>
+
+        <!--straight_move_look-->
+        <record model="ir.ui.view" id="straight_move_look_view_form">
+            <field name="model">hrp_internal_delivery.straight_move_look</field>
+            <field name="type">form</field>
+            <field name="name">straight_move_look_form</field>
+        </record>
+        <record model="ir.ui.view" id="straight_move_look_view_tree">
+            <field name="model">hrp_internal_delivery.straight_move_look</field>
+            <field name="type">tree</field>
+            <field name="name">straight_move_look_tree</field>
+        </record>
+
+        <!--frozen_move_look-->
+        <record model="ir.ui.view" id="frozen_move_look_view_form">
+            <field name="model">hrp_internal_delivery.frozen_move_look</field>
+            <field name="type">form</field>
+            <field name="name">frozen_move_look_form</field>
+        </record>
+        <record model="ir.ui.view" id="frozen_move_look_view_tree">
+            <field name="model">hrp_internal_delivery.frozen_move_look</field>
+            <field name="type">tree</field>
+            <field name="name">frozen_move_look_tree</field>
+        </record>
+        <menuitem action="act_internal_allocation" id="menu_internal_allocation" sequence="-14" />
+    </data>
+</tryton>

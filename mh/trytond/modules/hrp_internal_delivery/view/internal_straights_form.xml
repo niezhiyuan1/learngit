@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form>
+    <!--<label name="starts"/>-->
+    <!--<field name="starts"/>-->
+    <label name="type"/>
+    <field name="type"/>
+    <!--<label name="number"/>-->
+    <!--<field name="number"/>-->
+
+    <label name="product"/>
+    <field name="product"/>
+
+    <label name="uom"/>
+    <field name="uom"/>
+    <label name="from_location"/>
+    <field name="from_location"/>
+    <label name="to_location"/>
+    <field name="to_location"/>
+    <!--<label name="special"/>-->
+    <!--<field name="special"/>-->
+    <label name="proposal"/>
+    <field name="proposal"/>
+    <!--<label name="location_two"/>-->
+    <!--<field name="location_two"/>-->
+    <label name="planned_date"/>
+    <field name="planned_date"/>
+
+    <label name="message_confirm"/>
+    <field name="message_confirm"/>
+    <!--<group>-->
+        <!--<button name="confirm" string="Create the inventory" colspan="2" delete="1"/>-->
+    <!--</group>-->
+    <field name="moves" colspan="4"/>
+</form>

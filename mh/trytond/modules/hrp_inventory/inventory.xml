@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+
+        <record model="ir.ui.view" id="hrp_inventory_time_view_tree">
+            <field name="model">hrp_inventory.inventory_time</field>
+            <field name="type">tree</field>
+            <field name="name">inventory_time_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="hrp_inventory_inventory_view_tree">
+            <field name="model">hrp_inventory.inventory</field>
+            <field name="type">tree</field>
+            <field name="name">inventory_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="hrp_inventory_inventory_view_form">
+            <field name="model">hrp_inventory.inventory</field>
+            <field name="type">form</field>
+            <field name="name">inventory_form</field>
+        </record>
+
+        <record model="ir.action.act_window" id="hrp_inventory_inventory_act">
+            <field name="name">Inventory</field>
+            <field name="res_model">hrp_inventory.inventory</field>
+        </record>
+
+
+
+        <record model="ir.ui.view" id="hrp_inventory_inventory_lines_view_tree">
+            <field name="model">hrp_inventory.inventory_lines</field>
+            <field name="type">tree</field>
+            <field name="name">inventory_lines_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="hrp_inventory_inventory_lines_view_form">
+            <field name="model">hrp_inventory.inventory_lines</field>
+            <field name="type">form</field>
+            <field name="name">lines_form</field>
+        </record>
+
+        <record model="ir.action.report" id="report_inventory">
+            <field name="name">Inventory</field>
+            <field name="model">hrp_inventory.inventory</field>
+            <field name="report_name">hrp_inventory.inventory</field>
+            <field name="report">hrp_inventory/inventory .odt</field>
+        </record>
+        <record model="ir.action.keyword" id="report_inventory_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">hrp_inventory.inventory,-1</field>
+            <field name="action" ref="report_inventory"/>
+        </record>
+
+        <!--二级药库盘点-->
+
+         <record model="ir.ui.view" id="hrp_inventory_inventory_two_view_tree">
+            <field name="model">hrp_inventory.inventory_two</field>
+            <field name="type">tree</field>
+            <field name="name">inventory_two_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="hrp_inventory_inventory_two_view_form">
+            <field name="model">hrp_inventory.inventory_two</field>
+            <field name="type">form</field>
+            <field name="name">inventory_two_form</field>
+        </record>
+
+        <record model="ir.action.act_window" id="hrp_inventory_inventory_two_act">
+            <field name="name">Inventory Two</field>
+            <field name="res_model">hrp_inventory.inventory_two</field>
+        </record>
+
+        <menuitem sequence="-17" id="menu_hrp_inventory_inventory_two" icon="tryton-list"
+                  action="hrp_inventory_inventory_two_act"/>
+
+        <record model="ir.ui.view" id="hrp_inventory_inventory_two_lines_view_tree">
+            <field name="model">hrp_inventory.inventory_two_lines</field>
+            <field name="type">tree</field>
+            <field name="name">inventory_two_lines_tree</field>
+        </record>
+
+        <record model="ir.action.report" id="report_inventory_two">
+            <field name="name">Inventory Two</field>
+            <field name="model">hrp_inventory.inventory_two</field>
+            <field name="report_name">hrp_inventory.inventory_two</field>
+            <field name="report">hrp_inventory/inventory .odt</field>
+        </record>
+        <record model="ir.action.keyword" id="report_inventory_two_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">hrp_inventory.inventory_two,-1</field>
+            <field name="action" ref="report_inventory_two"/>
+        </record>
+
+        <!--修改数量-->
+
+        <record model="ir.ui.view" id="hrp_inventory_modify_the_view_form">
+            <field name="model">modify_the</field>
+            <field name="type">form</field>
+            <field name="name">hrp_inventory_modify_the_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="hrp_inventory_modify_the_inventory_lines_view_tree">
+            <field name="model">modify_the_inventory_lines</field>
+            <field name="type">tree</field>
+            <field name="name">hrp_inventory_modify_the_inventory_lines_tree</field>
+        </record>
+
+        <record model="ir.action.wizard" id="wizard_modify_the_inventory">
+            <field name="name">Modify The Inventory</field>
+            <field name="wiz_name">modify_the_inventory</field>
+        </record>
+
+
+    </data>
+</tryton>

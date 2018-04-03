@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--editable ="top" 对tree可以修改-->
+<tree>
+    <!--<field name="starts"/>-->
+    <field name="location"/>
+    <field name="move_number"/>
+    <field name="move_time"/>
+    <field name="state"/>
+    <!--<field name="from_location"/>-->
+    <!--<field name="to_location"/>-->
+    <!--<field name="place_of_service"/>-->
+    <field name="message_confirm"/>
+</tree>

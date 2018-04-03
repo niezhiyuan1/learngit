@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<tree string="Hrp Caustic Excessive Lines" sequence="1" >
+
+    <field name="product_code"/>
+
+    <field name="product_name"/>
+
+    <field name="drug_specifications"/>
+
+    <field name="lot"/>
+
+    <field name="exp_date"/>
+
+    <field name="quantity"/>
+
+    <field name="retail_package"/>
+
+    <field name="list_price"/>
+
+    <field name="cost_price"/>
+
+    <field name="caustic_why"/>
+
+</tree>

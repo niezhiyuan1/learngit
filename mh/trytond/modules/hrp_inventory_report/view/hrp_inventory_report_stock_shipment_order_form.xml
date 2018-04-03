@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<form string="Stock Shipment Order In Report" >
+
+    <label name="number"/>
+    <field name="number"/>
+
+    <label name="order"/>
+    <field name="order"/>
+
+    <label name="time_end"/>
+    <field name="time_end"/>
+
+    <label name="actual_payment"/>
+    <field name="actual_payment"/>
+
+    <label name="wholesale_payment"/>
+    <field name="wholesale_payment"/>
+
+    <label name="retail_payment"/>
+    <field name="retail_payment"/>
+
+</form>

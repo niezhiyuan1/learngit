@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<form string="Stock Inventory Report">
+
+    <label name="shelves_code"/>
+    <field name="shelves_code"/>
+
+    <label name="code"/>
+    <field name="code"/>
+
+    <label name="name"/>
+    <field name="name"/>
+
+    <label name="drug_specifications"/>
+    <field name="drug_specifications"/>
+
+    <label name="quantity"/>
+    <field name="quantity"/>
+
+    <label name="uom"/>
+    <field name="uom"/>
+
+    <label name="freeze_quantity"/>
+    <field name="freeze_quantity"/>
+
+    <label name="scanning_quantity"/>
+    <field name="scanning_quantity"/>
+
+</form>

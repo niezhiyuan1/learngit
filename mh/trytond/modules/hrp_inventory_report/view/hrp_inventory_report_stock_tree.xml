@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<tree string="Stock Inventory Report" >
+
+    <field name="shelves_code"/>
+
+    <field name="code"/>
+
+    <field name="name"/>
+
+    <field name="drug_specifications"/>
+
+    <field name="quantity"/>
+
+    <field name="uom"/>
+
+    <field name="freeze_quantity"/>
+
+    <field name="scanning_quantity"/>
+
+</tree>

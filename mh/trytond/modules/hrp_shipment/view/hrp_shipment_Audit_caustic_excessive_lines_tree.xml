@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<tree string="Audit Caustic Excessive Lines" sequence="1" editable="bottom">
+
+    <field name="lines"/>
+
+    <field name="product_code"/>
+
+    <field name="product_name"/>
+
+    <field name="quantity"/>
+
+    <field name="retail_package"/>
+
+    <field name="describe"/>
+
+    <field name="list_price"/>
+
+    <field name="cost_price"/>
+
+    <field name="drug_specifications"/>
+
+    <field name="why"/>
+
+    <field name="lot"/>
+
+    <field name="exp_date"/>
+
+    <field name="state"/>
+
+</tree>

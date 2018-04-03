@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+
+        <record model="ir.ui.view" id="hrp_shipment_caustic_excessive_lines_view_tree">
+            <field name="model">hrp_shipment_caustic_excessive_lines</field>
+            <field name="type">tree</field>
+            <field name="name">hrp_shipment_caustic_excessive_lines_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="hrp_shipment_caustic_excessive_view_form">
+            <field name="model">hrp_shipment_caustic_excessive</field>
+            <field name="type">form</field>
+            <field name="name">hrp_shipment_caustic_excessive_form</field>
+        </record>
+
+        <record model="ir.action.wizard" id="act_hrp_shipment_caustic_excessive_create">
+            <field name="name">Hrp Caustic Excessive Create</field>
+            <field name="wiz_name">hrp_shipment_caustic_excessive_Create</field>
+        </record>
+
+        <menuitem name="caustic_excessive" id="menu_hrp_shipment_caustic_excessive_create" action="act_hrp_shipment_caustic_excessive_create" sequence="-16"/>
+
+        <record model="ir.ui.view" id="hrp_shipment_Audit_caustic_excessive_lines_view_tree">
+            <field name="model">hrp_shipment_Audit_caustic_excessive_lines</field>
+            <field name="type">tree</field>
+            <field name="name">hrp_shipment_Audit_caustic_excessive_lines_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="hrp_shipment_Audit_caustic_excessive_view_form">
+            <field name="model">hrp_shipment_Audit_caustic_excessive</field>
+            <field name="type">form</field>
+            <field name="name">hrp_shipment_Audit_caustic_excessive_form</field>
+        </record>
+
+        <record model="ir.action.wizard" id="act_hrp_shipment_audit_caustic_excessive_create">
+            <field name="name">Audit Caustic Excessive Create</field>
+            <field name="wiz_name">hrp_shipment_audit_caustic_excessive_create</field>
+        </record>
+
+        <menuitem name="Audit_caustic_excessive" id="menu_hrp_shipment_audit_caustic_excessive_create" action="act_hrp_shipment_audit_caustic_excessive_create" sequence="-17"/>
+
+        <record model="ir.ui.view" id="stock_shipment_out_return_view_form">
+            <field name="model">stock.shipment.out.return</field>
+            <field name="inherit" ref="stock.shipment_out_return_view_form"/>
+            <field name="name">hrp_stock_shipment_out_return_form</field>
+        </record>
+
+    </data>
+</tryton>

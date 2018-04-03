@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <!--盘盈盘亏表-->
+        <record model="ir.ui.view" id="hrp_inventory_report_conditions_start_view_form">
+            <field name="model">hrp_inventrory_report.inventory_report_conditions_start</field>
+            <field name="type">form</field>
+            <field name="name">conditions_start_form</field>
+        </record>
+
+        <record model="ir.action.wizard" id="act_inventory_report_conditions">
+            <field name="name">Inventory Report</field>
+            <field name="wiz_name">hrp_inventory_report.inventory_report_conditions</field>
+        </record>
+
+        <menuitem  name="inventory report" id="menu_hrp_inventory_report" action="act_inventory_report_conditions" sequence="-16"/>
+
+        <record model="ir.ui.view" id="hrp_inventory_report_view_form">
+            <field name="model">hrp_inventory_report.inventory_report</field>
+            <field name="type">form</field>
+            <field name="name">hrp_inventory_report_form</field>
+        </record>
+        <record model="ir.ui.view" id="hrp_inventory_report_view_tree">
+            <field name="model">hrp_inventory_report.inventory_report</field>
+            <field name="type">tree</field>
+            <field name="name">hrp_inventory_report_tree</field>
+        </record>
+        <record model="ir.action.act_window" id="act_hrp_inventory_report">
+            <field name="name">Hrp Inventory Report</field>
+            <field name="res_model">hrp_inventory_report.inventory_report</field>
+        </record>
+
+        <!--库存清点表-->
+
+        <record model="ir.ui.view" id="hrp_inventory_report_stock_start_view_form">
+            <field name="model">hrp_inventrory_report.stock_inventory_report_start</field>
+            <field name="type">form</field>
+            <field name="name">stock_start_form</field>
+        </record>
+
+        <record model="ir.action.wizard" id="act_inventory_report_stock">
+            <field name="name">Stock Inventory Report</field>
+            <field name="wiz_name">hrp_inventory_report.stock_inventory_report</field>
+        </record>
+
+        <menuitem  name="Stock Inventory Report" id="menu_hrp_inventory_report_stock" action="act_inventory_report_stock" sequence="-16"/>
+
+        <record model="ir.ui.view" id="hrp_inventory_report_stock_view_form">
+            <field name="model">hrp_inventory_report.stock_inventory_report</field>
+            <field name="type">form</field>
+            <field name="name">hrp_inventory_report_stock_form</field>
+        </record>
+        <record model="ir.ui.view" id="hrp_inventory_report_stock_view_tree">
+            <field name="model">hrp_inventory_report.stock_inventory_report</field>
+            <field name="type">tree</field>
+            <field name="name">hrp_inventory_report_stock_tree</field>
+        </record>
+        <record model="ir.action.act_window" id="act_hrp_inventory_report_stock">
+            <field name="name">Stock Inventory Report</field>
+            <field name="res_model">hrp_inventory_report.stock_inventory_report</field>
+        </record>
+
+        <!--药品出入库统计表-->
+        <record model="ir.ui.view" id="hrp_inventory_report_stock_shipment_report_start_view_form">
+            <field name="model">hrp_inventory_report.stock_shipment_report_start</field>
+            <field name="type">form</field>
+            <field name="name">stock_shipment_report_start_form</field>
+        </record>
+
+        <record model="ir.action.wizard" id="act_inventory_report_stock_shipment">
+            <field name="name">Stock Shipment Report</field>
+            <field name="wiz_name">hrp_inventory_report.stock_shipment_report_wizard</field>
+        </record>
+
+        <menuitem  name="Stock Shipment Report" id="menu_hrp_inventory_report_stock_shipment" action="act_inventory_report_stock_shipment" sequence="-16"/>
+        <!--按药品类型-->
+        <record model="ir.ui.view" id="hrp_inventory_report_stock_shipment_view_form">
+            <field name="model">hrp_inventory_report.stock_shipment_category_report</field>
+            <field name="type">form</field>
+            <field name="name">hrp_inventory_report_stock_shipment_form</field>
+        </record>
+        <record model="ir.ui.view" id="hrp_inventory_report_stock_shipment_view_tree">
+            <field name="model">hrp_inventory_report.stock_shipment_category_report</field>
+            <field name="type">tree</field>
+            <field name="name">hrp_inventory_report_stock_shipment_tree</field>
+        </record>
+        <record model="ir.action.act_window" id="act_hrp_inventory_report_stock_shipment">
+            <field name="name">Stock Shipment Report</field>
+            <field name="res_model">hrp_inventory_report.stock_shipment_category_report</field>
+        </record>
+            <!--按单号-->
+        <record model="ir.ui.view" id="hrp_inventory_report_stock_shipment_order_view_form">
+            <field name="model">hrp_inventory_report.stock_shipment_order_in_report</field>
+            <field name="type">form</field>
+            <field name="name">hrp_inventory_report_stock_shipment_order_form</field>
+        </record>
+        <record model="ir.ui.view" id="hrp_inventory_report_stock_shipment_order_view_tree">
+            <field name="model">hrp_inventory_report.stock_shipment_order_in_report</field>
+            <field name="type">tree</field>
+            <field name="name">hrp_inventory_report_stock_shipment_order_tree</field>
+        </record>
+        <record model="ir.action.act_window" id="act_hrp_inventory_report_stock_shipment_order">
+            <field name="name">Stock Shipment Order Report</field>
+            <field name="res_model">hrp_inventory_report.stock_shipment_order_in_report</field>
+        </record>
+        <!--按发票-->
+        <record model="ir.ui.view" id="hrp_inventory_report_stock_shipment_invoice_view_form">
+            <field name="model">hrp_inventory_report.stock_shipment_invoice_report</field>
+            <field name="type">form</field>
+            <field name="name">hrp_inventory_report_stock_shipment_invoice_form</field>
+        </record>
+        <record model="ir.ui.view" id="hrp_inventory_report_stock_shipment_view_invoice_tree">
+            <field name="model">hrp_inventory_report.stock_shipment_invoice_report</field>
+            <field name="type">tree</field>
+            <field name="name">hrp_inventory_report_stock_shipment_invoice_tree</field>
+        </record>
+        <record model="ir.action.act_window" id="act_hrp_inventory_report_stock_shipment_invoice">
+            <field name="name">Stock Shipment Invoice Report</field>
+            <field name="res_model">hrp_inventory_report.stock_shipment_invoice_report</field>
+        </record>
+    </data>
+</tryton>

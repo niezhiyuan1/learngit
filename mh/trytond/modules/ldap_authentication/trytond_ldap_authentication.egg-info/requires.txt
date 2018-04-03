@@ -1,0 +1,2 @@
+python-ldap
+trytond >= 4.0, < 4.1

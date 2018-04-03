@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form>
+
+    <label name="product_name"/>
+    <field name="product_name"/>
+    <label name="drug_specifications"/>
+    <field name="drug_specifications"/>
+    <label name="company"/>
+    <field name="company"/>
+    <label name="lot"/>
+    <field name="lot"/>
+    <label name="time"/>
+    <field name="time"/>
+    <label name="unit_price"/>
+    <field name="unit_price"/>
+    <label name="list_price"/>
+    <field name="list_price"/>
+    <label name="additional"/>
+    <field name="additional"/>
+</form>

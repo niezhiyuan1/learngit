@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<form>
+    <!--<label name="starts"/>-->
+    <!--<field name="starts"/>-->
+
+    <label name="state"/>
+    <field name="state"/>
+
+    <label name="move_time"/>
+    <field name="move_time"/>
+
+    <label name="move_number"/>
+    <field name="move_number"/>
+
+    <!--<label name="from_location"/>-->
+    <!--<field name="from_location"/>-->
+
+    <!--<label name="place_of_service"/>-->
+    <!--<field name="place_of_service"/>-->
+
+    <!--<label name="to_location"/>-->
+    <!--<field name="to_location"/>-->
+    <label name="message_confirm"/>
+    <field name="message_confirm"/>
+    <field name="move_apply" colspan="4"/>
+    <field name="move_look_two" colspan="4"/>
+    <field name="move_return" colspan="4"/>
+    <field name="move_return_two" colspan="4"/>
+    <field name="move_straight" colspan="4"/>
+    <field name="move_frozen" colspan="4"/>
+</form>

@@ -1,0 +1,165 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hrp_new_product.new_product,warehouse_location:"
+msgid "warehouse_location"
+msgstr ""
+
+msgctxt "field:hrp_new_product.new_product,from_location:"
+msgid "from_location"
+msgstr ""
+
+msgctxt "field:hrp_new_product.new_product,to_location:"
+msgid "to_location"
+msgstr ""
+
+msgctxt "field:hrp_new_product.new_product,product:"
+msgid "Product"
+msgstr "物资名称"
+
+msgctxt "field:hrp_new_product.new_product,code:"
+msgid "code"
+msgstr "物资编码"
+
+msgctxt "field:hrp_new_product.new_product,drug_specifications:"
+msgid "drug_specifications"
+msgstr "物资规格"
+
+msgctxt "field:hrp_new_product.new_product,uom:"
+msgid "uom"
+msgstr "单位"
+
+msgctxt "field:hrp_new_product.new_product,odd_numbers:"
+msgid "odd_numbers"
+msgstr ""
+
+msgctxt "field:hrp_new_product.new_product,a_charge:"
+msgid "a_charge"
+msgstr "件装量"
+
+msgctxt "field:hrp_new_product.new_product,stock_level:"
+msgid "stock_level"
+msgstr "当前库存"
+
+msgctxt "field:hrp_new_product.new_product,outpatient_7days:"
+msgid "Outpatient_7days"
+msgstr "7日消耗"
+
+msgctxt "field:hrp_new_product.new_product,proposal:"
+msgid "proposal"
+msgstr "建议请领量"
+
+msgctxt "field:hrp_new_product.new_product,is_direct_sending:"
+msgid "Is_direct_sending"
+msgstr "是否直送"
+
+msgctxt "field:hrp_new_product.new_product,lot:"
+msgid "Lot"
+msgstr "批次"
+
+msgctxt "field:hrp_new_product.new_product,is_collar:"
+msgid "is_collar"
+msgstr "是否请领"
+
+msgctxt "field:hrp_new_product.new_product,befor_number:"
+msgid "befor_number"
+msgstr "实发数量"
+
+msgctxt "field:hrp_new_product.new_product,drug_type:"
+msgid "drug_type"
+msgstr "物资类型"
+
+msgctxt "field:hrp_new_product.new_product,retrieve_the_code:"
+msgid "retrieve_the_code"
+msgstr "拼音简码"
+
+msgctxt "field:hrp_new_product.new_product,party:"
+msgid "Party"
+msgstr "供应商"
+
+msgctxt "field:hrp_new_product.new_product,unit_price:"
+msgid "unit_price"
+msgstr "批发价"
+
+msgctxt "model:ir.ui.menu,name:menu_internal_return_request"
+msgid "Hrp Return Request"
+msgstr "可退物资通知单"
+
+msgctxt "model:ir.ui.menu,name:hrp_new_product_menu"
+msgid "hrp_new_product"
+msgstr "后台作业"
+
+msgctxt "model:ir.ui.menu,name:menu_hrp_new_product_new_product"
+msgid "Hrp New Product"
+msgstr "获取内部需求计划"
+
+msgctxt "model:ir.ui.menu,name:menu_hrp_new_product_new_return"
+msgid "Hrp New Return"
+msgstr "可退物资信息获取"
+
+msgctxt "model:ir.ui.menu,name:menu_product_condition"
+msgid "Hrp Product Condition"
+msgstr "物资请领信息获取"
+
+
+
+
+###########    test_return_request  ##################
+
+msgctxt "field:hrp_new_product.test_return_request,product_name:"
+msgid "product_name"
+msgstr "物资名称"
+
+msgctxt "field:hrp_new_product.test_return_request,from_location:"
+msgid "from_location"
+msgstr "来自部门"
+
+msgctxt "field:hrp_new_product.test_return_request,code:"
+msgid "code"
+msgstr "物资编码"
+
+msgctxt "field:hrp_new_product.test_return_request,party:"
+msgid "party"
+msgstr "供应商"
+
+msgctxt "field:hrp_new_product.test_return_request,uom:"
+msgid "company"
+msgstr "单位"
+
+msgctxt "field:hrp_new_product.test_return_request,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_new_product.test_return_request,return_quantity:"
+msgid "return_quantity"
+msgstr "请退数量"
+
+msgctxt "field:hrp_new_product.test_return_request,can_return_quantity:"
+msgid "can_return_quantity"
+msgstr "可退数量"
+
+msgctxt "field:hrp_new_product.test_return_request,examine:"
+msgid "examine"
+msgstr "审核状态"
+
+
+#################   internal_return_request   ######################
+
+msgctxt "field:hrp_new_product.internal_return_request,starts:"
+msgid "Starts"
+msgstr "物资类型"
+
+msgctxt "field:hrp_new_product.internal_return_request,company:"
+msgid "Company"
+msgstr "公司"
+
+msgctxt "field:hrp_new_product.internal_return_request,number:"
+msgid "Number"
+msgstr "物资检索"
+
+
+
+
+
+

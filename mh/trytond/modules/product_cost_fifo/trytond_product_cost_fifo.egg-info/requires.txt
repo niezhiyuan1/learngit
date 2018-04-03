@@ -1,0 +1,3 @@
+trytond_product >= 4.0, < 4.1
+trytond_stock >= 4.0, < 4.1
+trytond >= 4.0, < 4.1

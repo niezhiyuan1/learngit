@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+
+    <!--<xpath expr="/form/label[@name='max_quantity']" position="replace">-->
+         <!--<label name="max_quantity" invisible="1"/>-->
+    <!--</xpath>-->
+
+    <!--<xpath expr="/form/field[@name='max_quantity']" position="replace">-->
+         <!--<field name="max_quantity" invisible="1"/>-->
+    <!--</xpath>-->
+
+    <!--<xpath expr="/form/label[@name='min_quantity']" position="replace">-->
+         <!--<label name="min_quantity" invisible="1"/>-->
+    <!--</xpath>-->
+
+    <!--<xpath expr="/form/field[@name='min_quantity']" position="replace">-->
+         <!--<field name="min_quantity" invisible="1"/>-->
+    <!--</xpath>-->
+
+    <!--<xpath expr="/form/field[@name='company']" position="after">-->
+        <!--<label name="secondary"/>-->
+        <!--<field name="secondary"/>-->
+
+    <!--</xpath>-->
+    <xpath expr="/form/field[@name='unit']" position="after">
+        <label name="code"/>
+        <field name="code"/>
+
+        <label name="retrieve_the_code"/>
+        <field name="retrieve_the_code"/>
+
+        <label name="drug_specifications"/>
+        <field name="drug_specifications"/>
+
+        <label name="attach"/>
+        <field name="attach"/>
+
+        <label name="a_charge"/>
+        <field name="a_charge"/>
+
+        <label name="interim"/>
+        <field name="interim"/>
+
+        <label name="upper_period"/>
+        <field name="upper_period"/>
+        <newline/>
+    </xpath>
+</data>

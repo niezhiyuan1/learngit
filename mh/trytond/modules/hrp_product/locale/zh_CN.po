@@ -1,0 +1,390 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.configuration,account_payable:"
+msgid "Account Payable"
+msgstr "应付帐款"
+
+msgctxt "field:product.configuration,account_receivable:"
+msgid "Account Receivable"
+msgstr "应收帐款"
+
+msgctxt "field:product.configuration,account_revenue:"
+msgid "Account Revenue"
+msgstr "账户的收入"
+
+msgctxt "field:product.configuration,account_expense:"
+msgid "Account Expense"
+msgstr "帐户费用"
+
+msgctxt "field:product.configuration,shelf_life_state:"
+msgid "Shelf Life Time State"
+msgstr "上架有效期"
+
+msgctxt "field:product.configuration,expiration_state:"
+msgid "Expiration State"
+msgstr "过期状态"
+
+msgctxt "field:product.template,manufacturers_code:"
+msgid "Manufacturers_code"
+msgstr "厂商编码"
+
+msgctxt "field:product.template,medical_insurance_code:"
+msgid "Medical_insurance_code"
+msgstr "医保编码"
+
+msgctxt "field:product.template,attach:"
+msgid "Attach"
+msgstr "附加"
+
+msgctxt "field:product.template,concentration:"
+msgid "Concentration"
+msgstr "浓度"
+
+msgctxt "field:hrp_product.new_products,homemade:"
+msgid "homemade"
+msgstr "制剂室品种"
+
+msgctxt "field:product.template,concentration_unit:"
+msgid "Concentration_unit"
+msgstr "浓度单位"
+
+msgctxt "field:product.template,dose:"
+msgid "Dose"
+msgstr "剂量"
+
+msgctxt "field:product.template,dose_unit:"
+msgid "Dose_unit"
+msgstr "剂量单位"
+
+msgctxt "field:product.template,retrieve_the_code:"
+msgid "Retrieve_the_code"
+msgstr "拼音简码"
+
+msgctxt "field:product.template,capacity:"
+msgid "Capacity"
+msgstr "容量"
+
+msgctxt "field:hrp_product.new_products,uom_default_uom:"
+msgid "Uom Default UOM"
+msgstr "最小包装"
+
+msgctxt "field:hrp_product.new_products,uom_min_Package:"
+msgid "Uom Min Package"
+msgstr "最小单位"
+
+msgctxt "field:product.template,drug_specifications:"
+msgid "Drug_specifications"
+msgstr "物资规格"
+
+msgctxt "field:product.template,is_direct_sending:"
+msgid "Is_direct_sending"
+msgstr "是否直送"
+
+msgctxt "field:product.template,is_antimicrobials:"
+msgid "Is_antimicrobials"
+msgstr "是否抗菌药"
+
+msgctxt "field:product.template,a_charge:"
+msgid "A_charge"
+msgstr "件装量"
+
+msgctxt "field:product.template,drup_level:"
+msgid "Drup_level"
+msgstr "物资等级"
+
+msgctxt "field:product.template,compound_dose:"
+msgid "Compound_dose"
+msgstr "复合剂量"
+
+msgctxt "field:product.template,purchase_code:"
+msgid "purchase_code"
+msgstr "采购集中编码"
+
+msgctxt "field:product.template,retail_package:"
+msgid "retail_package"
+msgstr "零售包装"
+
+msgctxt "field:product.template,medical_insurance_description:"
+msgid "Medical_insurance_description"
+msgstr "医保剂型"
+
+msgctxt "field:product.template,new_term:"
+msgid "new_term"
+msgstr "新38项"
+
+msgctxt "field:product.template,state:"
+msgid "State"
+msgstr "状态"
+
+msgctxt "field:product.template,min_Package:"
+msgid "Min_Package"
+msgstr "最小单位"
+
+msgctxt "field:product.template,dosage_form_description:"
+msgid "Dosage_form_description"
+msgstr "本院剂型"
+
+msgctxt "field:product.template,manufacturers_describtion:"
+msgid "Manufacturers_describtion"
+msgstr "厂商"
+
+msgctxt "field:product.template,poison_hemp_spirit:"
+msgid "Poison_hemp_spirit"
+msgstr "毒麻精神药"
+
+msgctxt "field:product.template,national_essential_medicines:"
+msgid "National_essential_medicines"
+msgstr "国家基本药物"
+
+msgctxt "field:product.template,interim:"
+msgid "interim"
+msgstr "临采"
+
+msgctxt "field:product.template,approval_number:"
+msgid "Approval number"
+msgstr "批准文号"
+
+msgctxt "field:product.template,is_atict:"
+msgid "is_atict"
+msgstr "允许容差"
+
+msgctxt "field:hrp_product.new_products,manufacturers_code:"
+msgid "Manufacturers_code"
+msgstr "厂商编码"
+
+msgctxt "field:hrp_product.new_products,medical_insurance_code:"
+msgid "Medical_insurance_code"
+msgstr "医保编码"
+
+msgctxt "field:hrp_product.new_products,attach:"
+msgid "Attach"
+msgstr "附加"
+
+msgctxt "field:hrp_product.new_products,concentration:"
+msgid "Concentration"
+msgstr "浓度"
+
+msgctxt "field:hrp_product.new_products,concentration_unit:"
+msgid "Concentration_unit"
+msgstr "浓度单位"
+
+msgctxt "field:hrp_product.new_products,dose:"
+msgid "Dose"
+msgstr "剂量"
+
+msgctxt "field:hrp_product.new_products,dose_unit:"
+msgid "Dose_unit"
+msgstr "剂量单位"
+
+msgctxt "field:hrp_product.new_products,retrieve_the_code:"
+msgid "Retrieve_the_code"
+msgstr "拼音简码"
+
+msgctxt "field:hrp_product.new_products,capacity:"
+msgid "Capacity"
+msgstr "容量"
+
+msgctxt "field:hrp_product.new_products,drug_specifications:"
+msgid "Drug_specifications"
+msgstr "物资规格"
+
+msgctxt "field:hrp_product.new_products,is_direct_sending:"
+msgid "Is_direct_sending"
+msgstr "是否直送"
+
+msgctxt "field:hrp_product.new_products,is_antimicrobials:"
+msgid "Is_antimicrobials"
+msgstr "是否抗菌药"
+
+msgctxt "field:hrp_product.new_products,a_charge:"
+msgid "A_charge"
+msgstr "件装量"
+
+msgctxt "field:hrp_product.new_products,drup_level:"
+msgid "Drup_level"
+msgstr "物资等级"
+
+msgctxt "field:hrp_product.new_products,compound_dose:"
+msgid "Compound_dose"
+msgstr "复合剂量"
+
+msgctxt "field:hrp_product.new_products,purchase_code:"
+msgid "purchase_code"
+msgstr "采购集中编码"
+
+msgctxt "field:hrp_product.new_products,retail_package:"
+msgid "retail_package"
+msgstr "零售包装"
+
+msgctxt "field:hrp_product.new_products,medical_insurance_description:"
+msgid "Medical_insurance_description"
+msgstr "医保剂型"
+
+msgctxt "field:hrp_product.new_products,new_term:"
+msgid "new_term"
+msgstr "新38项"
+
+msgctxt "field:hrp_product.new_products,state:"
+msgid "State"
+msgstr "状态"
+
+msgctxt "field:hrp_product.new_products,min_Package:"
+msgid "Min_Package"
+msgstr "最小单位"
+
+msgctxt "field:hrp_product.new_products,dosage_form_description:"
+msgid "Dosage_form_description"
+msgstr "本院剂型"
+
+msgctxt "field:hrp_product.new_products,manufacturers_describtion:"
+msgid "Manufacturers_describtion"
+msgstr "厂商"
+
+msgctxt "field:hrp_product.new_products,poison_hemp_spirit:"
+msgid "Poison_hemp_spirit"
+msgstr "毒麻精神药"
+
+msgctxt "field:hrp_product.new_products,national_essential_medicines:"
+msgid "National_essential_medicines"
+msgstr "国家基本药物"
+
+msgctxt "field:hrp_product.new_products,interim:"
+msgid "interim"
+msgstr "临采"
+
+msgctxt "field:hrp_product.new_products,mark:"
+msgid "Mark"
+msgstr ""
+
+msgctxt "field:hrp_product.new_products,name:"
+msgid "Name"
+msgstr "物资名称"
+
+msgctxt "field:hrp_product.new_products,active:"
+msgid "Active"
+msgstr "是否激活"
+
+msgctxt "field:hrp_product.new_products,type:"
+msgid "Type"
+msgstr "类型"
+
+msgctxt "field:hrp_product.new_products,default_uom:"
+msgid "Default UOM"
+msgstr "单位"
+
+msgctxt "field:hrp_product.new_products,code:"
+msgid "Code"
+msgstr "物资编码"
+
+msgctxt "field:hrp_product.new_products,list_price:"
+msgid "List Price"
+msgstr "零售价"
+
+msgctxt "field:hrp_product.new_products,cost_price:"
+msgid "Cost Price"
+msgstr "批发价"
+
+msgctxt "field:hrp_product.new_products,cost_price_method:"
+msgid "Cost Method"
+msgstr "成本计算方法"
+
+msgctxt "field:hrp_product.new_products,categories:"
+msgid "Categories"
+msgstr "物资种类"
+
+msgctxt "field:hrp_product.new_products,salable:"
+msgid "Salable"
+msgstr "可销售"
+
+msgctxt "field:hrp_product.new_products,purchasable:"
+msgid "Purchasable"
+msgstr "可采购"
+
+msgctxt "field:hrp_product.new_products,consumable:"
+msgid "Consumable"
+msgstr "可消耗"
+
+msgctxt "field:hrp_product.new_products,party:"
+msgid "Supplier"
+msgstr "供应商"
+
+msgctxt "field:hrp_product.new_products,approval_number:"
+msgid "Approval number"
+msgstr "批准文号"
+
+msgctxt "field:hrp_product.new_products,is_atict:"
+msgid "is_atict"
+msgstr "允许容差"
+
+msgctxt "field:price_master_datas.pricedata,retrieve_the_code:"
+msgid "retrieve_the_code"
+msgstr "物资检索"
+
+msgctxt "field:price_master_datas.pricedata,code:"
+msgid "Code"
+msgstr "物资编码"
+
+msgctxt "field:price_master_datas.pricedata,product_code:"
+msgid "product_code"
+msgstr "物资编码"
+
+msgctxt "field:price_master_datas.pricedata,product_name:"
+msgid "product_name"
+msgstr "物资名称"
+
+msgctxt "field:price_master_datas.pricedata,name:"
+msgid "Name"
+msgstr "物资名称"
+
+msgctxt "field:price_master_datas.pricedata,attach:"
+msgid "attach"
+msgstr "附加"
+
+msgctxt "field:price_master_datas.pricedata,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:price_master_datas.pricedata,cost_price:"
+msgid "cost_price"
+msgstr "旧批发价"
+
+msgctxt "field:price_master_datas.pricedata,list_price:"
+msgid "list_price"
+msgstr "旧零售价"
+
+msgctxt "field:price_master_datas.pricedata,new_cost_price:"
+msgid "new_cost_price"
+msgstr "新批发价"
+
+msgctxt "field:price_master_datas.pricedata,new_list_price:"
+msgid "new_list_price"
+msgstr "新零售价"
+
+msgctxt "field:price_master_datas.pricedata,modify_reason:"
+msgid "Modify_reason"
+msgstr "更改原因"
+
+msgctxt "field:price_master_datas.pricedata,effective_date:"
+msgid "effective_date"
+msgstr "生效时间"
+
+msgctxt "model:ir.ui.menu,name:menu_product_menu"
+msgid "hrp_product"
+msgstr "产品主数据"
+
+msgctxt "model:ir.ui.menu,name:menu_price_master_datas_pricedata"
+msgid "Hrp Price Master Data"
+msgstr "价格主数据"
+
+msgctxt "model:ir.action,name:act_PIS_menu"
+msgid "hrp_product"
+msgstr "产品主数据"
+
+msgctxt "model:ir.action,name:price_master_datas_act_pricedata"
+msgid "Hrp Price Master Data"
+msgstr "价格主数据"
+
+
+

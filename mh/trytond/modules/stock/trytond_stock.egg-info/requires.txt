@@ -1,0 +1,6 @@
+python-sql >= 0.4
+trytond_company >= 4.0, < 4.1
+trytond_currency >= 4.0, < 4.1
+trytond_party >= 4.0, < 4.1
+trytond_product >= 4.0, < 4.1
+trytond >= 4.0, < 4.1

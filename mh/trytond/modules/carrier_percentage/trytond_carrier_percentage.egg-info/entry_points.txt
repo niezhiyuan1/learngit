@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    carrier_percentage = trytond.modules.carrier_percentage
+    

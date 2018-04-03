@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form>
+    <label name="type"/>
+    <field name="type"/>
+    <label name="starts"/>
+    <field name="starts"/>
+    <label name="from_location"/>
+    <field name="from_location"/>
+    <label name="to_location"/>
+    <field name="to_location"/>
+    <label name="special"/>
+    <field name="special"/>
+    <label name="medicine"/>
+    <field name="medicine"/>
+    <!--<label name="number"/>-->
+    <!--<field name="number"/>-->
+    <label name="planned_date"/>
+    <field name="planned_date"/>
+    <!--<label name="effective_date"/>-->
+    <!--<field name="effective_date"/>-->
+    <!--<label name="company"/>-->
+    <!--<field name="company"/>-->
+    <!--<label name="change_state"/>-->
+    <!--<field name="change_state"/>-->
+    <field name="moves" colspan="4"/>
+    <field name="warehouse_to_location" invisible="1"/>
+</form>

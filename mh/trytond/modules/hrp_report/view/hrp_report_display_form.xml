@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<form>
+    <label name="code"/>
+    <field name="code"/>
+
+    <label name="name"/>
+    <field name="name"/>
+
+    <!--<label name="product"/>-->
+    <!--<field name="product"/>-->
+
+    <!--<field name="drug_specifications"/>-->
+    <label name="lot"/>
+    <field name="lot"/>
+
+    <label name="unrestricted"/>
+    <field name="unrestricted"/>
+
+    <label name="unrestricted_two"/>
+    <field name="unrestricted_two"/>
+
+    <label name="frozen"/>
+    <field name="frozen"/>
+
+    <label name="frozen_two"/>
+    <field name="frozen_two"/>
+
+    <label name="term_of_validity"/>
+    <field name="term_of_validity"/>
+</form>

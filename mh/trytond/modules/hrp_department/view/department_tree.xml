@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<tree string="Department">
+
+    <field name="active"/>
+
+    <field name="department_code"/>
+
+    <field name="department_name"/>
+
+</tree>

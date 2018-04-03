@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<form string="Stock Return Lines">
+
+    <label name="line"/>
+    <field name="line"/>
+
+    <label name="code"/>
+    <field name="code"/>
+
+    <label name="product_name"/>
+    <field name="product_name"/>
+
+    <label name="note"/>
+    <field name="note"/>
+
+    <label name="drug_specifications"/>
+    <field name="drug_specifications"/>
+
+    <label name="quantity"/>
+    <field name="quantity"/>
+
+    <label name="ensure"/>
+    <field name="ensure"/>
+
+</form>

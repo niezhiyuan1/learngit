@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--editable ="top" 对tree可以修改-->
+<tree>
+    <field name="number"/>
+    <field name="code"/>
+    <field name="product"/>
+    <field name="drug_specifications"/>
+    <field name="cost_price"/>
+    <field name="list_price"/>
+    <field name="new_cost_price"/>
+    <field name="new_list_price"/>
+    <field name="effective_date"/>
+    <field name="inventory"/>
+    <field name="uom"/>
+    <field name="price_profit_loss"/>
+    <field name="price_list_profit_loss"/>
+    <field name="party"/>
+</tree>

@@ -1,0 +1,1400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+        <!--中心药房-->
+        <record model="res.group" id="central_pharmacy_store_group">
+            <field name="name">menu_hrp_central_pharmacy_store</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_central_pharmacy_store_group">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="central_pharmacy_store_group"/>
+        </record>
+
+        <!--住院药房-->
+        <record model="res.group" id="inpatient_dispensary_group">
+            <field name="name">menu_hrp_inpatient_dispensary</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_inpatient_dispensary">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="inpatient_dispensary_group"/>
+        </record>
+
+
+        <!--门诊药房-->
+        <record model="res.group" id="outpatient_pharmacy_group">
+            <field name="name">menu_hrp_outpatient_pharmacy</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_outpatient_pharmacy">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="outpatient_pharmacy_group"/>
+        </record>
+
+        <!--采购-->
+        <record model="res.group" id="purchase_pharmacy_group">
+            <field name="name">menu_hrp_purchase_pharmacy</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_purchase_pharmacy">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="purchase_pharmacy_group"/>
+        </record>
+
+        <!--制剂室-->
+        <record model="res.group" id="drug_manufacturing_room_group">
+            <field name="name">menu_hrp_drug_manufacturing_room</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_drug_manufacturing_room">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="drug_manufacturing_room_group"/>
+        </record>
+
+
+        <!--内镜药房-->
+        <record model="res.group" id="endoscopic_pharmacy_group">
+            <field name="name">menu_hrp_endoscopic_pharmacy</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_endoscopic_pharmacy">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="endoscopic_pharmacy_group"/>
+        </record>
+
+        <!--放射科-->
+        <record model="res.group" id="radiology_department_group">
+            <field name="name">menu_hrp_radiology_department</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_radiology_department">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="radiology_department_group"/>
+        </record>
+
+        <!--草药房-->
+        <record model="res.group" id="herbalist_stalls_group">
+            <field name="name">menu_hrp_herbalist_stalls</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_herbalist_stalls">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="herbalist_stalls_group"/>
+        </record>
+
+
+        <!--主数据-->
+        <record model="res.group" id="group_menu_hrp_master_data">
+            <field name="name">menu_hrp_master_data</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_inpatient_pharmacy">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_hrp_master_data"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_menu_hrp_master_data">
+            <field name="menu" ref="hrp_party.menu_hrp_master_data"/>
+            <field name="group" ref="group_menu_hrp_master_data"/>
+        </record>
+
+        <!--供应商主数据-->
+        <record model="res.group" id="group_menu_hrp_party">
+            <field name="name">menu_hrp_party</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_hrp_party">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_hrp_party"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_group_menu_hrp_party">
+            <field name="menu" ref="hrp_party.menu_hrp_party"/>
+            <field name="group" ref="group_menu_hrp_party"/>
+        </record>
+
+
+        <!--产品主数据-->
+        <record model="res.group" id="group_menu_product_menu">
+            <field name="name">Menu Product Menu</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_product_menu">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_product_menu"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="menu_hrp_menu_product_menu">
+            <field name="menu" ref="hrp_product.menu_product_menu"/>
+            <field name="group" ref="group_menu_product_menu"/>
+        </record>
+
+        <record model="ir.model.access" id="access_group_stock_product_uom_category">
+            <field name="model" search="[('model','=','product.uom.category')]"/>
+            <field name="group" ref="group_menu_product_menu"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+        <record model="ir.model.access" id="access_group_stock_product_uom_product">
+            <field name="model" search="[('model','=','product.uom')]"/>
+            <field name="group" ref="group_menu_product_menu"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+        <record model="ir.model.access" id="access_group_stock_prduct_template_product">
+            <field name="model" search="[('model','=','product.template')]"/>
+            <field name="group" ref="group_menu_product_menu"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+        <record model="ir.model.access" id="access_group_stock_prduct_product">
+            <field name="model" search="[('model','=','product.product')]"/>
+            <field name="group" ref="group_menu_product_menu"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+        <record model="ir.model.access" id="access_group_stock_purchase_product_supplier">
+            <field name="model" search="[('model','=','purchase.product_supplier')]"/>
+            <field name="group" ref="group_menu_product_menu"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+
+        <!--价格主数据-->
+        <record model="res.group" id="group_menu_price_master_datas_pricedata">
+            <field name="name">Menu Price Master Datas Pricedata</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_menu_price_master_datas_pricedata">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_price_master_datas_pricedata"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="hrp_menu_price_master_datas_pricedata">
+            <field name="menu" ref="hrp_product.menu_price_master_datas_pricedata"/>
+            <field name="group" ref="group_menu_price_master_datas_pricedata"/>
+        </record>
+
+
+        <!--科室主数据-->
+        <record model="res.group" id="group_menu_menu_dep">
+            <field name="name">Menu_dep</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_menu_menu_dep">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_dep"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="hrp_menu_menu_dep">
+            <field name="menu" ref="hrp_department.menu_dep"/>
+            <field name="group" ref="group_menu_menu_dep"/>
+        </record>
+
+
+        <!--采购管理-->
+        <record model="res.group" id="group_menu_hrp_party_menu_hrp_purchase_order">
+            <field name="name">Hrp Party Menu Hrp Purchase Order</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_menu_hrp_party_menu_hrp_purchase_order">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_hrp_party_menu_hrp_purchase_order"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="hrp_menu_hrp_party_menu_hrp_purchase_order">
+            <field name="menu" ref="hrp_party.menu_hrp_purchase_order"/>
+            <field name="group" ref="group_menu_hrp_party_menu_hrp_purchase_order"/>
+        </record>
+
+
+        <!--电子发票收货-->
+        <record model="res.group" id="group_menu_menu_hrp_shipment_create">
+            <field name="name">Menu Hrp Shipment Create</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_hrp_shipment_create">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_hrp_shipment_create"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="menu_hrp_menu_menu_hrp_shipment_create">
+            <field name="menu" ref="hrp_shipment.menu_hrp_shipment_create"/>
+            <field name="group" ref="group_menu_menu_hrp_shipment_create"/>
+        </record>
+
+        <record model="ir.model.access" id="access_group_stock_lot_stock">
+            <field name="model" search="[('model','=','stock.lot')]"/>
+            <field name="group" ref="group_menu_menu_hrp_shipment_create"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+
+        <!--采退订单维护-->
+        <record model="res.group" id="group_menu_menu_hrp_shipment_return_create">
+            <field name="name">Menu Hrp Shipment Return Create</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_hrp_shipment_return_create">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_hrp_shipment_return_create"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="menu_hrp_menu_hrp_shipment_return_create">
+            <field name="menu" ref="hrp_shipment.menu_hrp_shipment_return_create"/>
+            <field name="group" ref="group_menu_menu_hrp_shipment_return_create"/>
+        </record>
+
+        <record model="ir.model.access" id="access_group_hrp_shipment_return_create">
+            <field name="model" search="[('model','=','stock.lot')]"/>
+            <field name="group" ref="group_menu_menu_hrp_shipment_return_create"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+
+        <!--可退药品通知单-->
+        <record model="res.group" id="group_menu_menu_internal_return_request">
+            <field name="name">Menu Internal Return Request</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_internal_return_request">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_internal_return_request"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="menu_hrp_menu_hrp_master_data">
+            <field name="menu" ref="hrp_new_product.menu_internal_return_request"/>
+            <field name="group" ref="group_menu_menu_internal_return_request"/>
+        </record>
+
+
+        <!--出入库确认-->
+        <record model="res.group" id="group_menu_menu_act_create_stock_return">
+            <field name="name">Menu Act Create Stock Return</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_menu_act_create_stock_return">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_act_create_stock_return"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_act_create_stock_return">
+            <field name="menu" ref="hrp_shipment.menu_act_create_stock_return"/>
+            <field name="group" ref="group_menu_menu_act_create_stock_return"/>
+        </record>
+
+        <record model="ir.model.access" id="access_group_stock_shipment_in_return_return">
+            <field name="model" search="[('model','=','stock.shipment.in.return')]"/>
+            <field name="group" ref="group_menu_menu_act_create_stock_return"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+
+        <!--一级药库管理-->
+        <record model="res.group" id="group_menu_menu_hrp_Drug_level_management">
+            <field name="name">Menu_hrp_Drug_level_management</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_hrp_Drug_level_management">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_hrp_Drug_level_management"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_hrp_Drug_level_management">
+            <field name="menu" ref="hrp_party.menu_hrp_Drug_level_management"/>
+            <field name="group" ref="group_menu_menu_hrp_Drug_level_management"/>
+        </record>
+
+
+        <!--&lt;!&ndash;一级库盘点&ndash;&gt;-->
+        <!--<record model="res.group" id="group_menu_menu_hrp_inventory_inventory">-->
+        <!--<field name="name">Menu_hrp_inventory_inventory</field>-->
+        <!--</record>-->
+
+        <!--<record model="res.user-res.group" id="user_admin_group_menu_hrp_inventory_inventory">-->
+        <!--<field name="user" ref="res.user_admin"/>-->
+        <!--<field name="group" ref="group_menu_menu_hrp_inventory_inventory"/>-->
+        <!--</record>-->
+
+        <!--<record model="ir.ui.menu-res.group" id="group_menu_hrp_inventory_inventory">-->
+        <!--<field name="menu" ref="hrp_inventory.menu_hrp_inventory_inventory"/>-->
+        <!--<field name="group" ref="group_menu_menu_hrp_inventory_inventory"/>-->
+        <!--</record>-->
+
+
+        <!--药品需求计划-->
+        <record model="res.group" id="group_menu_menu_new_purchase_mrp_create">
+            <field name="name">Menu_new_purchase_mrp_create</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_new_purchase_mrp_create">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_new_purchase_mrp_create"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_new_purchase_mrp_create">
+            <field name="menu" ref="hrp_purchase_mrp.menu_new_purchase_mrp_create"/>
+            <field name="group" ref="group_menu_menu_new_purchase_mrp_create"/>
+        </record>
+
+
+        <!--采购申请-->
+        <record model="res.group" id="group_menu_menu_purchase_mrp_lines">
+            <field name="name">Menu_purchase_mrp_lines</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_purchase_mrp_lines">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_purchase_mrp_lines"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_purchase_mrp_lines">
+            <field name="menu" ref="hrp_purchase_mrp.menu_purchase_mrp_lines"/>
+            <field name="group" ref="group_menu_menu_purchase_mrp_lines"/>
+        </record>
+
+
+        <!--二级药库管理-->
+        <record model="res.group" id="group_menu_menu_hrp_secondary_library_management">
+            <field name="name">Menu_hrp_secondary_library_management</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_hrp_secondary_library_management">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_hrp_secondary_library_management"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_hrp_secondary_library_management">
+            <field name="menu" ref="hrp_party.menu_hrp_secondary_library_management"/>
+            <field name="group" ref="group_menu_menu_hrp_secondary_library_management"/>
+        </record>
+
+
+        <!--二级库盘点-->
+        <record model="res.group" id="group_menu_menu_hrp_inventory_inventory_two">
+            <field name="name">Menu_hrp_inventory_inventory_two</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_hrp_inventory_inventory_two">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_hrp_inventory_inventory_two"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_hrp_inventory_inventory_two">
+            <field name="menu" ref="hrp_inventory.menu_hrp_inventory_inventory_two"/>
+            <field name="group" ref="group_menu_menu_hrp_inventory_inventory_two"/>
+        </record>
+
+
+
+        <!--请领单修改-->
+        <record model="res.group" id="group_menu_menu_apply_modify">
+            <field name="name">Menu_apply_modify</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_apply_modify">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_apply_modify"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_apply_modify">
+            <field name="menu" ref="menu_apply_modify"/>
+            <field name="group" ref="group_menu_menu_apply_modify"/>
+        </record>
+
+        <!--直送请领单查询-->
+        <record model="res.group" id="group_menu_menu_apply_direct">
+            <field name="name">Menu_apply_direct</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_apply_direct">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_apply_direct"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_apply_direct">
+            <field name="menu" ref="menu_apply_direct"/>
+            <field name="group" ref="group_menu_menu_apply_direct"/>
+        </record>
+
+
+        <!--请领申请-->
+        <record model="res.group" id="group_menu_menu_internal_apply">
+            <field name="name">Menu_internal_apply</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_internal_apply">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_internal_apply"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_internal_apply">
+            <field name="menu" ref="menu_internal_apply"/>
+            <field name="group" ref="group_menu_menu_internal_apply"/>
+        </record>
+
+        <record model="ir.model.access" id="access_group_ir_sequence">
+            <field name="model" search="[('model','=','ir.sequence')]"/>
+            <field name="group" ref="group_menu_menu_internal_apply"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+
+        <!--请退申请-->
+        <record model="res.group" id="group_menu_menu_internal_retreat">
+            <field name="name">Menu_internal_retreat</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_internal_retreat">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_internal_retreat"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_internal_retreat">
+            <field name="menu" ref="menu_internal_retreat"/>
+            <field name="group" ref="group_menu_menu_internal_retreat"/>
+        </record>
+
+
+        <!--药房间调拨-->
+        <record model="res.group" id="group_menu_menu_internal_straights">
+            <field name="name">Menu_internal_straights</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_internal_straights">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_internal_straights"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_internal_straights">
+            <field name="menu" ref="menu_internal_straights"/>
+            <field name="group" ref="group_menu_menu_internal_straights"/>
+        </record>
+
+
+        <!--手工药品消耗／退药（科室）-->
+        <record model="res.group" id="group_menu_menu_act_hrp_create_sale">
+            <field name="name">Menu_act_hrp_create_sale</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_act_hrp_create_sale">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_act_hrp_create_sale"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_act_hrp_create_sale">
+            <field name="menu" ref="hrp_shipment.menu_act_hrp_create_sale"/>
+            <field name="group" ref="group_menu_menu_act_hrp_create_sale"/>
+        </record>
+
+        <record model="ir.model.access" id="access_group_stock_lot_hrp_create_sale">
+            <field name="model" search="[('model', '=', 'stock.lot')]"/>
+            <field name="group" ref="group_menu_menu_act_hrp_create_sale"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+
+        <!--无采购订单入库（药房）-->
+        <record model="res.group" id="group_menu_menu_act_create_shipment_order">
+            <field name="name">Menu_act_create_shipment_order</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_act_create_shipment_order">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_act_create_shipment_order"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_act_create_shipment_order">
+            <field name="menu" ref="hrp_shipment.menu_act_create_shipment_order"/>
+            <field name="group" ref="group_menu_menu_act_create_shipment_order"/>
+        </record>
+
+
+        <!--药品报废审核-->
+        <record model="res.group" id="group_menu_menu_hrp_shipment_audit_caustic_excessive_create">
+            <field name="name">menu_hrp_shipment_audit_caustic_excessive_create</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_hrp_shipment_audit_caustic_excessive_create">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_hrp_shipment_audit_caustic_excessive_create"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_hrp_shipment_audit_caustic_excessive_create">
+            <field name="menu" ref="hrp_shipment.menu_hrp_shipment_audit_caustic_excessive_create"/>
+            <field name="group" ref="group_menu_menu_hrp_shipment_audit_caustic_excessive_create"/>
+        </record>
+
+        <record model="ir.model.access" id="access_hrp_shipments_audit_caustic_excessive_create">
+            <field name="model" search="[('model', '=', 'stock.lot')]"/>
+            <field name="group" ref="group_menu_menu_hrp_shipment_audit_caustic_excessive_create"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+        <record model="ir.model.access" id="access_hrp_shipments_internal_stock">
+            <field name="model" search="[('model', '=', 'stock.shipment.internal')]"/>
+            <field name="group" ref="group_menu_menu_hrp_shipment_audit_caustic_excessive_create"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+
+        <!--药品报废管理-->
+        <record model="res.group" id="group_menu_menu_hrp_shipment_caustic_excessive_create">
+            <field name="name">Menu_hrp_shipment_caustic_excessive_create</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_hrp_shipment_caustic_excessive_create">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_hrp_shipment_caustic_excessive_create"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_hrp_shipment_caustic_excessive_create">
+            <field name="menu" ref="hrp_shipment.menu_hrp_shipment_caustic_excessive_create"/>
+            <field name="group" ref="group_menu_menu_hrp_shipment_caustic_excessive_create"/>
+        </record>
+
+        <record model="ir.model.access" id="access_group_shipment_caustic_excessive_create">
+            <field name="model" search="[('model', '=', 'stock.lot')]"/>
+            <field name="group" ref="group_menu_menu_hrp_shipment_caustic_excessive_create"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+
+        <!--不合格品管理-->
+        <record model="res.group" id="group_menu_menu_internal_frozens">
+            <field name="name">Menu_internal_frozens</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_internal_frozens">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_internal_frozens"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_internal_frozens">
+            <field name="menu" ref="menu_internal_frozens"/>
+            <field name="group" ref="group_menu_menu_internal_frozens"/>
+        </record>
+
+        <record model="ir.model.access" id="access_group_stock_lot">
+            <field name="model" search="[('model', '=', 'stock.lot')]"/>
+            <field name="group" ref="group_menu_menu_internal_frozens"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+        <record model="ir.model.access" id="access_group_stock_location">
+            <field name="model" search="[('model', '=', 'stock.location')]"/>
+            <field name="group" ref="group_menu_menu_internal_frozens"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+
+        <!--药库/药房盘点单位表-->
+        <record model="res.group" id="group_menu_menu_hrp_inventory_available_medicine">
+            <field name="name">Menu_hrp_inventory_available_medicine</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_hrp_inventory_available_medicine">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_hrp_inventory_available_medicine"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_hrp_inventory_available_medicine">
+            <field name="menu" ref="hrp_inventory.menu_hrp_inventory_available_medicine"/>
+            <field name="group" ref="group_menu_menu_hrp_inventory_available_medicine"/>
+        </record>
+
+
+        <!--药库/药品位置维护-->
+        <record model="res.group" id="group_menu_product_quantity">
+            <field name="name">Menu_product_quantity</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_product_quantity">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_product_quantity"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_product_quantitys">
+            <field name="menu" ref="hrp_wms.menu_product_quantity"/>
+            <field name="group" ref="group_menu_product_quantity"/>
+        </record>
+
+
+        <!--内部单据处理(集中)-->
+        <record model="res.group" id="group_menu_menu_internal_allocation">
+            <field name="name">Menu_internal_allocation</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_internal_allocation">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_internal_allocation"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_internal_allocation">
+            <field name="menu" ref="menu_internal_allocation"/>
+            <field name="group" ref="group_menu_menu_internal_allocation"/>
+        </record>
+
+        <record model="ir.model.access" id="access_group_stock_shipment_internal">
+            <field name="model" search="[('model', '=', 'stock.shipment.internal')]"/>
+            <field name="group" ref="group_menu_menu_internal_allocation"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_group_stock_move_allocation">
+            <field name="model" search="[('model', '=', 'stock.move')]"/>
+            <field name="group" ref="group_menu_menu_internal_allocation"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_group_stock_move_allocation_lot">
+            <field name="model" search="[('model', '=', 'stock.lot')]"/>
+            <field name="group" ref="group_menu_menu_internal_allocation"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+
+
+        <!--(中心药库)内部单据处理(集中)-->
+        <record model="res.group" id="group_menu_internal_core_drug">
+            <field name="name">Menu_internal_core_drug</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_internal_core_drug">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_internal_core_drug"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_group_menu_internal_core_drug">
+            <field name="menu" ref="menu_internal_core_drug"/>
+            <field name="group" ref="group_menu_internal_core_drug"/>
+        </record>
+
+        <record model="ir.model.access" id="access_group_stock_shipment_internal_core_drug">
+            <field name="model" search="[('model', '=','stock.shipment.internal')]"/>
+            <field name="group" ref="group_menu_internal_core_drug"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+        <record model="ir.model.access" id="access_group_stock_move_allocation_core_drug">
+            <field name="model" search="[('model', '=','stock.move')]"/>
+            <field name="group" ref="group_menu_internal_core_drug"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_group_stock_move_allocation_lot_core_drug">
+            <field name="model" search="[('model', '=', 'stock.lot')]"/>
+            <field name="group" ref="group_menu_internal_core_drug"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+
+
+        <!--后台作业-->
+        <record model="res.group" id="group_hrp_new_product_menu">
+            <field name="name">Hrp_new_product_menu</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_hrp_new_product_menu">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_hrp_new_product_menu"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_hrp_new_product_menu">
+            <field name="menu" ref="hrp_new_product.hrp_new_product_menu"/>
+            <field name="group" ref="group_hrp_new_product_menu"/>
+        </record>
+
+
+        <!--后台作业／药品请领信息获取-->
+        <record model="res.group" id="group_hrp_menu_product_condition">
+            <field name="name">Menu_product_condition</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_menu_product_condition">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_hrp_menu_product_condition"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_menu_product_condition">
+            <field name="menu" ref="hrp_new_product.menu_product_condition"/>
+            <field name="group" ref="group_hrp_menu_product_condition"/>
+        </record>
+
+
+        <!--hrp_report-->
+        <record model="res.group" id="group_hrp_report_menu">
+            <field name="name">Hrp_report_menu</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_hrp_report_menu">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_hrp_report_menu"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_hrp_report_menu">
+            <field name="menu" ref="hrp_report.hrp_report_menu"/>
+            <field name="group" ref="group_hrp_report_menu"/>
+        </record>
+
+
+        <!--库存报表-->
+        <record model="res.group" id="group_menu_menu_hrp_report">
+            <field name="name">Menu_hrp_report</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_hrp_report">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_hrp_report"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_hrp_report">
+            <field name="menu" ref="hrp_report.menu_hrp_report"/>
+            <field name="group" ref="group_menu_menu_hrp_report"/>
+        </record>
+
+
+         <!--失效期查询报表-->
+        <record model="res.group" id="group_menu_menu_hrp_expiry_lot_wizard">
+            <field name="name">Menu_hrp_expiry_lot_wizard</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_hrp_expiry_lot_wizard">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_hrp_expiry_lot_wizard"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_hrp_expiry_lot_wizard">
+            <field name="menu" ref="hrp_report.menu_hrp_expiry_lot_wizard"/>
+            <field name="group" ref="group_menu_menu_hrp_expiry_lot_wizard"/>
+        </record>
+
+
+
+
+        <!--调价查询报表-->
+        <record model="res.group" id="group_menu_price_adjustment">
+            <field name="name">menu_price_adjustment</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_price_adjustment">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_price_adjustment"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_price_adjustment">
+            <field name="menu" ref="hrp_report.menu_price_adjustment"/>
+            <field name="group" ref="group_menu_price_adjustment"/>
+        </record>
+
+
+        <!--调价盈亏报表-->
+        <record model="res.group" id="group_menu_price_profit_loss">
+            <field name="name">menu_price_profit_loss</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_price_profit_loss">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_price_profit_loss"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_price_profit_loss_res">
+            <field name="menu" ref="hrp_report.menu_price_profit_loss"/>
+            <field name="group" ref="group_menu_price_profit_loss"/>
+        </record>
+
+        <record model="ir.model.access" id="access_group_price_profit_loss">
+            <field name="model" search="[('model', '=', 'stock.location')]"/>
+            <field name="group" ref="group_menu_price_profit_loss"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+
+
+        <!--出库报表-->
+        <record model="res.group" id="group_menu_outbound_statistics_report">
+            <field name="name">menu_outbound_statistics_report</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_outbound_statistics_report">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_outbound_statistics_report"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_outbound_statistics_reports">
+            <field name="menu" ref="hrp_report.menu_hrp_outbound_statistics_wizard"/>
+            <field name="group" ref="group_menu_outbound_statistics_report"/>
+        </record>
+
+        <record model="ir.model.access" id="access_outbound_statistics_report">
+            <field name="model" search="[('model', '=', 'stock.shipment.out.return')]"/>
+            <field name="group" ref="group_menu_outbound_statistics_report"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+
+
+
+
+
+        <!--&lt;!&ndash;内部单据完成查询报表(中心药库)&ndash;&gt;-->
+        <!--<record model="res.group" id="group_menu_internal_core_query">-->
+            <!--<field name="name">internal_core_query</field>-->
+        <!--</record>-->
+
+        <!--<record model="res.user-res.group" id="user_admin_group_menu_internal_core_query">-->
+            <!--<field name="user" ref="res.user_admin"/>-->
+            <!--<field name="group" ref="group_menu_internal_core_query"/>-->
+        <!--</record>-->
+
+        <!--<record model="ir.ui.menu-res.group" id="group_menu_internal_core_query_group">-->
+            <!--<field name="menu" ref="hrp_internal_delivery.internal_core_query"/>-->
+            <!--<field name="group" ref="group_menu_internal_core_query"/>-->
+        <!--</record>-->
+
+
+        <!--内部单据完成查询报表(二级库)-->
+        <record model="res.group" id="group_menu_internal_query">
+            <field name="name">internal_query</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_internal_query">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_internal_query"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_internal_query_group">
+            <field name="menu" ref="hrp_internal_delivery.internal_query"/>
+            <field name="group" ref="group_menu_internal_query"/>
+        </record>
+
+
+        <!--交易方-->
+        <record model="res.group" id="group_menu_menu_party">
+            <field name="name">Menu_party</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_menu_party">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_party"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_party">
+            <field name="menu" ref="party.menu_party"/>
+            <field name="group" ref="group_menu_menu_party"/>
+        </record>
+
+
+        <!--系统模块-->
+        <!--产品-->
+        <record model="res.group" id="group_menu_menu_main_product">
+            <field name="name">Menu_main_product</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_main_product">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_main_product"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_main_product">
+            <field name="menu" ref="product.menu_main_product"/>
+            <field name="group" ref="group_menu_menu_main_product"/>
+        </record>
+
+
+        <!--产品／配置-->
+        <record model="res.group" id="group_menu_menu_configuration">
+            <field name="name">Menu_configuration</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_configuration">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_configuration"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_configuration">
+            <field name="menu" ref="product.menu_configuration"/>
+            <field name="group" ref="group_menu_menu_configuration"/>
+        </record>
+
+
+        <!--产品／配置／产品配置-->
+        <record model="res.group" id="group_menu_menu_product_configuration">
+            <field name="name">Menu_product_configuration</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_product_configuration">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_product_configuration"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_product_configuration">
+            <field name="menu" ref="product.menu_product_configuration"/>
+            <field name="group" ref="group_menu_menu_product_configuration"/>
+        </record>
+
+
+        <!--产品／产品-->
+        <record model="res.group" id="group_menu_menu_template">
+            <field name="name">Menu_template</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_template">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_template"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_template">
+            <field name="menu" ref="product.menu_template"/>
+            <field name="group" ref="group_menu_menu_template"/>
+        </record>
+
+
+        <!--产品／产品／变量-->
+        <record model="res.group" id="group_menu_menu_product">
+            <field name="name">Menu_product</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_product">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_product"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_product">
+            <field name="menu" ref="product.menu_product"/>
+            <field name="group" ref="group_menu_menu_product"/>
+        </record>
+
+
+        <!--产品／分类--> 
+        <record model="res.group" id="group_menu_menu_category_tree"> 
+            <field name="name">Menu_category_tree</field> 
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_category_tree"> 
+            <field name="user" ref="res.user_admin"/> 
+            <field name="group" ref="group_menu_menu_category_tree"/> 
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_category_tree"> 
+            <field name="menu" ref="product.menu_category_tree"/> 
+            <field name="group" ref="group_menu_menu_category_tree"/> 
+        </record>
+
+
+        <!--产品／分类／分类-->
+         
+        <record model="res.group" id="group_menu_menu_category_list"> 
+            <field name="name">Menu_category_list</field> 
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_category_list"> 
+            <field name="user" ref="res.user_admin"/> 
+            <field name="group" ref="group_menu_menu_category_list"/> 
+        </record>
+
+         
+        <record model="ir.ui.menu-res.group" id="group_menu_category_list"> 
+            <field name="menu" ref="product.menu_category_list"/> 
+            <field name="group" ref="group_menu_menu_category_list"/> 
+        </record>
+
+
+        <!--产品／计量单位-->
+        <record model="res.group" id="group_menu_menu_uom_form">
+            <field name="name">Menu_uom_form</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_uom_form">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_uom_form"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_uom_form">
+            <field name="menu" ref="product.menu_uom_form"/>
+            <field name="group" ref="group_menu_menu_uom_form"/>
+        </record>
+
+
+        <!--产品／计量单位／分类-->
+        <record model="res.group" id="group_menu_menu_uom_category_form">
+            <field name="name">Menu_uom_category_form</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_uom_category_form">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_uom_category_form"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_uom_category_form">
+            <field name="menu" ref="product.menu_uom_category_form"/>
+            <field name="group" ref="group_menu_menu_uom_category_form"/>
+        </record>
+
+
+         <!--产品／产品供应商-->
+         
+        <record model="res.group" id="group_menu_menu_product_supplier_purchase"> 
+            <field name="name">Menu_purchase_supplier_purchase</field> 
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_product_supplier_purchase"> 
+            <field name="user" ref="res.user_admin"/> 
+            <field name="group" ref="group_menu_menu_product_supplier_purchase"/> 
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_product_supplier_purchase"> 
+            <field name="menu" ref="purchase.menu_product_supplier"/> 
+            <field name="group" ref="group_menu_menu_product_supplier_purchase"/> 
+        </record>
+         
+
+
+        <!--库存和进货-->
+        <record model="res.group" id="group_menu_menu_stock">
+            <field name="name">Menu_stock</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_stock">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_stock"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_stock">
+            <field name="menu" ref="stock.menu_stock"/>
+            <field name="group" ref="group_menu_menu_stock"/>
+        </record>
+
+
+        <!--库存和进货／配置-->
+        <record model="res.group" id="group_menu_menu_configuration_stock">
+            <field name="name">Menu_configuration_stock</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_configuration_stock">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_configuration_stock"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_configuration_stock">
+            <field name="menu" ref="stock.menu_configuration"/>
+            <field name="group" ref="group_menu_menu_configuration_stock"/>
+        </record>
+
+
+        <!--库存和进货／配置／库存地-->
+        <record model="res.group" id="group_menu_menu_location_tree">
+            <field name="name">Menu_location_tree</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_group_menu_menu_location_tree">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_location_tree"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_location_tree">
+            <field name="menu" ref="stock.menu_location_tree"/>
+            <field name="group" ref="group_menu_menu_location_tree"/>
+        </record>
+
+
+        <!--库存和进货／供应商交货-->
+        <record model="res.group" id="group_menu_shipment_in_form">
+            <field name="name">Menu_shipment_in_form</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_group_menu_shipment_in_form">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_shipment_in_form"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_shipment_in_forms">
+            <field name="menu" ref="stock.menu_shipment_in_form"/>
+            <field name="group" ref="group_menu_shipment_in_form"/>
+        </record>
+
+
+        <!--库存和进货／客户交货-->
+        <record model="res.group" id="group_menu_shipment_out_form">
+            <field name="name">Menu_shipment_out_form</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_group_menu_shipment_out_form">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_shipment_out_form"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_stock_menu_shipment_out_form">
+            <field name="menu" ref="stock.menu_shipment_out_form"/>
+            <field name="group" ref="group_menu_shipment_out_form"/>
+        </record>
+
+
+        <!--库存和进货／内部交货-->
+        <record model="res.group" id="group_stock_menu_shipment_internal_form">
+            <field name="name">Menu_shipment_internal_form</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_group_menu_shipment_internal_form">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_stock_menu_shipment_internal_form"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="menu_shipment_internal_form">
+            <field name="menu" ref="stock.menu_shipment_internal_form"/>
+            <field name="group" ref="group_stock_menu_shipment_internal_form"/>
+        </record>
+
+
+        <!--库存和进货／移动-->
+        <record model="res.group" id="group_menu_move_form">
+            <field name="name">Menu_move_form</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_group_menu_move_form">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_move_form"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="menu_move_form">
+            <field name="menu" ref="stock.menu_move_form"/>
+            <field name="group" ref="group_menu_move_form"/>
+        </record>
+
+
+        <!--库存和进货／Lot-->
+        <record model="res.group" id="group_menu_lot_form">
+            <field name="name">Menu_lot_form</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_group_menu_lot_form">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_lot_form"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="menu_lot_form">
+            <field name="menu" ref="stock_lot.menu_lot_form"/>
+            <field name="group" ref="group_menu_lot_form"/>
+        </record>
+
+
+        <!--库存和进货／库存-->
+        <record model="res.group" id="group_menu_inventory_form">
+            <field name="name">Menu_inventory_form</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_group_menu_inventory_form">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_inventory_form"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="menu_inventory_form">
+            <field name="menu" ref="stock.menu_inventory_form"/>
+            <field name="group" ref="group_menu_inventory_form"/>
+        </record>
+
+
+        <!--库存和进货／订货点-->
+        <record model="res.group" id="group_menu_menu_order_point_form">
+            <field name="name">Menu_order_point_form</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_order_point_form">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_order_point_form"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_order_point_form">
+            <field name="menu" ref="stock_supply.menu_order_point_form"/>
+            <field name="group" ref="group_menu_menu_order_point_form"/>
+        </record>
+
+        <record model="ir.model.access" id="access_group_menu_menu_order_point_form">
+            <field name="model" search="[('model', '=', 'stock.shipment.out')]"/>
+            <field name="group" ref="group_menu_menu_order_point_form"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_group_stock_move">
+            <field name="model" search="[('model', '=', 'stock.move')]"/>
+            <field name="group" ref="group_menu_menu_order_point_form"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.model.access" id="access_group_stock_order_point">
+            <field name="model" search="[('model', '=','stock.order_point')]"/>
+            <field name="group" ref="group_menu_menu_order_point_form"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+
+        <!--采购-->
+        <record model="res.group" id="group_menu_menu_purchase">
+            <field name="name">Menu_purchase</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_purchase">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_purchase"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_purchase">
+            <field name="menu" ref="purchase.menu_purchase"/>
+            <field name="group" ref="group_menu_menu_purchase"/>
+        </record>
+
+
+        <!--采购／采购-->
+        <record model="res.group" id="group_menu_menu_purchase_form">
+            <field name="name">Menu_purchase_form</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_purchase_form">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_purchase_form"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_purchase_form">
+            <field name="menu" ref="purchase.menu_purchase_form"/>
+            <field name="group" ref="group_menu_menu_purchase_form"/>
+        </record>
+
+
+        <record model="ir.model.access" id="access_group_stock_party_party">
+            <field name="model" search="[('model', '=', 'party.party')]"/>
+            <field name="group" ref="group_menu_menu_purchase_form"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+
+        <record model="ir.model.access" id="access_group_purchases_purchases">
+            <field name="model" search="[('model', '=', 'purchase.purchase')]"/>
+            <field name="group" ref="group_menu_menu_purchase_form"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+
+        <!--采购／配置-->
+        <record model="res.group" id="group_menu_menu_configuration_purchase">
+            <field name="name">Menu_configuration_purchase</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_configuration_purchase">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_menu_configuration_purchase"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_configuration_purchase">
+            <field name="menu" ref="purchase.menu_configuration"/>
+            <field name="group" ref="group_menu_menu_configuration_purchase"/>
+        </record>
+
+
+        <!--采购／配置／采购配置-->
+        <record model="res.group" id="group_menu_purchase_configuration">
+            <field name="name">Menu_purchase_configuration</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_group_menu_purchase_configuration">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_purchase_configuration"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_menu_purchase_configuration">
+            <field name="menu" ref="purchase.menu_purchase_configuration"/>
+            <field name="group" ref="group_menu_purchase_configuration"/>
+        </record>
+
+
+        <!--采购／采购申请-->
+        <record model="res.group" id="group_menu_purchase_request_form">
+            <field name="name">Menu_purchase_request_form</field>
+        </record>
+
+        <record model="res.user-res.group" id="user_admin_menu_purchase_request_form">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_menu_purchase_request_form"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="group_menu_menu_purchase_request_form">
+            <field name="menu" ref="purchase_request.menu_purchase_request_form"/>
+            <field name="group" ref="group_menu_purchase_request_form"/>
+        </record>
+    </data>
+</tryton>

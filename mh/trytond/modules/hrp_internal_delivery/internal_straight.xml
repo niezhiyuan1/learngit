@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+        <!--straights-->
+        <record model="ir.ui.view" id="internal_straights_view_form">
+            <field name="model">hrp_internal_delivery.internal_straights</field>
+            <field name="type">form</field>
+            <field name="name">internal_straights_form</field>
+        </record>
+        <record model="ir.action.wizard" id="act_internal_straights">
+            <field name="name">Hrp Straight</field>
+            <field name="wiz_name">hrp_internal_delivery.internal_straights_wizard</field>
+        </record>
+        <menuitem parent="hrp_party.menu_hrp_secondary_library_management"
+            action="act_internal_straights"
+            id="menu_internal_straights" sequence="4" />
+
+        <!--Test Straight-->
+        <record model="ir.ui.view" id="test_straight_view_form">
+            <field name="model">hrp_internal_delivery.test_straight</field>
+            <field name="type">form</field>
+            <field name="name">test_straight_form</field>
+        </record>
+        <record model="ir.ui.view" id="test_straight_view_tree">
+            <field name="model">hrp_internal_delivery.test_straight</field>
+            <field name="type">tree</field>
+            <field name="name">test_straight_tree</field>
+        </record>
+    </data>
+</tryton>

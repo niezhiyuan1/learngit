@@ -1,0 +1,3 @@
+lxml
+python-sql >= 0.4
+trytond >= 4.0, < 4.1

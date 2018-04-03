@@ -1,0 +1,336 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+
+#############可供药目录##########
+msgctxt "model:ir.ui.menu,name:menu_hrp_inventory_available_medicine"
+msgid "Available Medicine"
+msgstr "药库/药房盘点单位表"
+
+msgctxt "model:ir.action,name:hrp_inventory_available_medicine_act"
+msgid "Available Medicine"
+msgstr "药库/药房盘点单位表"
+
+msgctxt "view:hrp_inventory.available_medicine:"
+msgid "Create the inventory"
+msgstr "创建可供药详情"
+
+msgctxt "field:hrp_inventory.available_medicine,warehouse:"
+msgid "Warehouse"
+msgstr "供药仓库"
+
+msgctxt "field:hrp_inventory.available_medicine,varieties_num:"
+msgid "Varieties Num"
+msgstr "物资数量"
+
+msgctxt "field:hrp_inventory.available_medicine,lines:"
+msgid "Lines"
+msgstr "物资清单"
+
+msgctxt "field:hrp_inventory.available_medicine_line,lines:"
+msgid "Line"
+msgstr "序列"
+
+msgctxt "field:hrp_inventory.available_medicine_line,product_code:"
+msgid "product_code"
+msgstr "物资编码"
+
+msgctxt "field:hrp_inventory.available_medicine_line,product_name:"
+msgid "product_name"
+msgstr "物资名称"
+
+msgctxt "field:hrp_inventory.available_medicine_line,safety_stock:"
+msgid "Safety stock"
+msgstr "安全库存"
+
+msgctxt "field:hrp_inventory.available_medicine_line,scattered_uom:"
+msgid "Default UOM"
+msgstr "单位"
+
+msgctxt "field:hrp_inventory.available_medicine_line,drug_specifications:"
+msgid "Drug Speic"
+msgstr "规格"
+
+msgctxt "field:hrp_inventory.available_medicine_line,manufacturers_code:"
+msgid "Manufacturers_code"
+msgstr "厂商编码"
+
+msgctxt "field:hrp_inventory.available_medicine_line,manufacturers:"
+msgid "manufacturers"
+msgstr "厂商"
+
+###########二级库盘点##########
+
+msgctxt "field:hrp_inventory.inventory_two,inventory_time:"
+msgid "Inventory Time"
+msgstr "盘库时间"
+
+msgctxt "field:hrp_inventory.inventory_two,warehouse:"
+msgid "Warehouse"
+msgstr "仓库"
+
+msgctxt "field:hrp_inventory.inventory_two,state:"
+msgid "State"
+msgstr "状态"
+
+msgctxt "field:hrp_inventory.inventory_two,categories_two:"
+msgid "categories_two"
+msgstr "物资类型"
+
+msgctxt "field:hrp_inventory.inventory_two,varieties_num:"
+msgid "Varieties Num"
+msgstr "品种数"
+
+msgctxt "field:hrp_inventory.inventory_two,shelves_inventory:"
+msgid "shelves_inventory"
+msgstr "按货位打印"
+
+msgctxt "field:hrp_inventory.inventory_two,drug_inventory:"
+msgid "drug_inventory"
+msgstr "按物资打印"
+
+msgctxt "field:hrp_inventory.inventory_two,amount:"
+msgid "amount"
+msgstr "总批发金额"
+
+msgctxt "field:hrp_inventory.inventory_two,Inventory_details:"
+msgid "Inventory details"
+msgstr "品种清单"
+
+msgctxt "field:hrp_inventory.inventory_two_lines,lines:"
+msgid "Line"
+msgstr "序列"
+
+msgctxt "field:hrp_inventory.inventory_two_lines,product:"
+msgid "Product"
+msgstr ""
+
+msgctxt "field:hrp_inventory.inventory_two_lines,code:"
+msgid "Code"
+msgstr "物资编码"
+
+msgctxt "field:hrp_inventory.inventory_two_lines,name:"
+msgid "Name"
+msgstr "物资名称"
+
+msgctxt "field:hrp_inventory.inventory_two_lines,drug_specifications:"
+msgid "Drug Speic"
+msgstr "规格"
+
+msgctxt "field:hrp_inventory.inventory_two_lines,uom:"
+msgid "Default UOM"
+msgstr "单位"
+
+msgctxt "field:hrp_inventory.inventory_two_lines,warehouse_num:"
+msgid "Warehouse Num"
+msgstr "非限制(账面)"
+
+msgctxt "field:hrp_inventory.inventory_two_lines,freeze_num:"
+msgid "Freeze Num"
+msgstr "冻结(账面)"
+
+msgctxt "field:hrp_inventory.inventory_two_lines,cost_pice:"
+msgid "Cost Price"
+msgstr "批发价"
+
+msgctxt "field:hrp_inventory.inventory_two_lines,wholesale_amount:"
+msgid "Wholesale amount"
+msgstr "批发金额"
+
+msgctxt "field:hrp_inventory.inventory_two_lines,warehouse_real_num:"
+msgid "Warehouse Real Num"
+msgstr "非限制(实盘)"
+
+msgctxt "field:hrp_inventory.inventory_two_lines,freeze_real_num:"
+msgid "Freeze Real Num"
+msgstr "冻结(实盘)"
+
+msgctxt "field:hrp_inventory.inventory_two_lines,references_to:"
+msgid "References to"
+msgstr "实存"
+
+msgctxt "field:hrp_inventory.inventory_two_lines,medicine_machine:"
+msgid "medicine_machine"
+msgstr "摆药机数量"
+
+msgctxt "field:hrp_inventory.inventory_two_lines,scanning:"
+msgid "Scanning"
+msgstr "扫描数"
+
+msgctxt "field:hrp_inventory.inventory_two_lines,lot_warehouse:"
+msgid "Lot Warehouse"
+msgstr "非限制批次"
+
+msgctxt "field:hrp_inventory.inventory_two_lines,lot_freeze:"
+msgid "Lot Freeze"
+msgstr "限制批次"
+
+msgctxt "field:hrp_inventory.inventory_two_lines,shelves:"
+msgid "shelves"
+msgstr "货位号"
+
+msgctxt "field:hrp_inventory.inventory_two_lines,note:"
+msgid "Note"
+msgstr "备注"
+
+msgctxt "field:hrp_inventory.inventory_two_lines,differences_why:"
+msgid "Differences Why"
+msgstr "差异原因"
+
+msgctxt "model:ir.action,name:report_inventory_two"
+msgid "Inventory Two"
+msgstr "库房盘点报告"
+
+msgctxt "model:ir.ui.menu,name:menu_hrp_inventory_inventory_two"
+msgid "Inventory Two"
+msgstr "库房盘点"
+
+msgctxt "model:ir.action,name:hrp_inventory_inventory_two_act"
+msgid "Inventory Two"
+msgstr "库房盘点"
+
+msgctxt "view:hrp_inventory.inventory_two:"
+msgid "Create the inventory"
+msgstr "创建盘点详情"
+
+msgctxt "view:hrp_inventory.inventory_two:"
+msgid "Create wizard"
+msgstr "平衡库存"
+
+msgctxt "view:hrp_inventory.inventory_two:"
+msgid "The balance of inventory"
+msgstr "保存"
+
+#############平衡库存################
+
+msgctxt "view:modify_the:"
+msgid "ModifyTheInventory"
+msgstr "平衡库存"
+
+msgctxt "model:ir.action,name:wizard_modify_the_inventory"
+msgid "Modify The Inventory"
+msgstr "平衡库存"
+
+msgctxt "field:modify_the,product:"
+msgid "Product"
+msgstr "产品"
+
+msgctxt "field:modify_the,uom:"
+msgid "Default UOM"
+msgstr "单位"
+
+msgctxt "field:modify_the,drug_specifications:"
+msgid "Drug Speic"
+msgstr "规格"
+
+msgctxt "field:modify_the,warehouse_real_num:"
+msgid "Warehouse Real Num"
+msgstr "非限制(实盘)"
+
+msgctxt "field:modify_the,freeze_real_num:"
+msgid "Freeze Real Num"
+msgstr "冻结(实盘)"
+
+msgctxt "field:modify_the,lot_warehouse:"
+msgid "Lot Warehouse"
+msgstr "非限制批次"
+
+msgctxt "field:modify_the,lot_freeze:"
+msgid "Lot Freeze"
+msgstr "限制批次"
+
+msgctxt "field:modify_the,differences_why:"
+msgid "Differences Why"
+msgstr "原因"
+
+msgctxt "field:modify_the,balance_why:"
+msgid "Balance Why"
+msgstr "平衡"
+
+msgctxt "field:modify_the,type:"
+msgid "Type"
+msgstr "类型"
+
+msgctxt "field:modify_the,shortages_why:"
+msgid "Shortages Why"
+msgstr "原因"
+
+msgctxt "field:modify_the,surplus_why:"
+msgid "Surplus Why"
+msgstr "原因"
+
+msgctxt "field:modify_the,confirm:"
+msgid "Confirm"
+msgstr "完成"
+
+msgctxt "field:modify_the,line:"
+msgid "line"
+msgstr "行项目"
+
+msgctxt "field:modify_the,note:"
+msgid "Note"
+msgstr "备注"
+#############行项目#################
+msgctxt "field:modify_the_inventory_lines,product:"
+msgid "Product"
+msgstr "物资"
+
+msgctxt "field:modify_the_inventory_lines,uom:"
+msgid "Default UOM"
+msgstr "单位"
+
+msgctxt "field:modify_the_inventory_lines,drug_specifications:"
+msgid "Drug Speic"
+msgstr "规格"
+
+msgctxt "field:modify_the_inventory_lines,warehouse_real_num:"
+msgid "Warehouse Real Num"
+msgstr "非限制(实盘)"
+
+msgctxt "field:modify_the_inventory_lines,freeze_real_num:"
+msgid "Freeze Real Num"
+msgstr "冻结(实盘)"
+
+msgctxt "field:modify_the_inventory_lines,lot_freeze:"
+msgid "Lot Freeze"
+msgstr "批次2"
+
+msgctxt "field:modify_the_inventory_lines,lot_warehouse:"
+msgid "Lot Warehouse"
+msgstr "批次1"
+
+msgctxt "field:modify_the_inventory_lines,differences_why:"
+msgid "Differences Why"
+msgstr "原因"
+
+msgctxt "field:modify_the_inventory_lines,note:"
+msgid "Note"
+msgstr "备注"
+
+msgctxt "field:hrp_inventory.inventory_time,start_time:"
+msgid "start_time"
+msgstr "开始时间"
+
+msgctxt "field:hrp_inventory.inventory_time,end_time:"
+msgid "end_time"
+msgstr "结束时间"
+
+msgctxt "field:hrp_inventory.available_medicine_line,product:"
+msgid "Product"
+msgstr "产品"
+
+msgctxt "field:hrp_inventory.available_medicine_line,warehouse:"
+msgid "Warehouse"
+msgstr "仓库"
+
+msgctxt "field:hrp_inventory.available_medicine_line,new_shelves_code:"
+msgid "new_shelves_code"
+msgstr "修改货架编码"
+
+msgctxt "field:hrp_inventory.available_medicine_line,shelves_code:"
+msgid "shelves_code"
+msgstr "货架编码"
+
+
+

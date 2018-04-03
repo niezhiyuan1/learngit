@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<tree string="Stock Shipment Order In Report" >
+
+    <field name="number"/>
+
+    <field name="order"/>
+
+    <field name="time_end"/>
+
+    <field name="actual_payment"/>
+
+    <field name="wholesale_payment"/>
+
+    <field name="retail_payment"/>
+
+</tree>

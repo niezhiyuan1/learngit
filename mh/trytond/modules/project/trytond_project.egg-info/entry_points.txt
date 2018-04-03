@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    project = trytond.modules.project
+    

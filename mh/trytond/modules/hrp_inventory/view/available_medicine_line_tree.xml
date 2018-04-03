@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<tree string="InventoryLines">
+
+    <field name="warehouse"/>
+
+    <field name="product_code"/>
+
+    <field name="product_name"/>
+
+    <field name="drug_specifications"/>
+
+    <field name="safety_stock"/>
+
+    <field name="scattered_uom"/>
+
+    <field name="shelves_code"/>
+
+    <field name="new_shelves_code"/>
+
+    <field name="manufacturers_code"/>
+
+    <field name="manufacturers"/>
+
+</tree>

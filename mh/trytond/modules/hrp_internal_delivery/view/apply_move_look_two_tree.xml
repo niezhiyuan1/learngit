@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--editable ="top" 对tree可以修改-->
+<tree sequence="1" editable ="top">
+    <field name="code"/>
+    <field name="product" width="300"/>
+    <field name="drug_specifications"/>
+    <field name="company"/>
+    <field name="lot"/>
+    <field name="shelf_life_expiration_date"/>
+    <field name="a_charge"/>
+    <field name="odd_numbers"/>
+    <field name="proposal"/>
+    <field name="storage"/>
+
+    <!--<field name="stock_level"/>-->
+    <!--<field name="outpatient_7days"/>-->
+    <!--<field name="is_direct_sending"/>-->
+    <!--<field name="is_collar"/>-->
+</tree>

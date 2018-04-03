@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+
+    <xpath expr="/form/notebook/page[@id='general']/label[@name='description']" position="replace">
+         <label name="description" invisible="1"/>
+    </xpath>
+
+    <xpath expr="/form/notebook/page[@id='general']/field[@name='description']" position="replace">
+         <field name="description" colspan="3" yexpand="0" invisible="1"/>
+    </xpath>
+
+</data>

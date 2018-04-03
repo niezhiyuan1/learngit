@@ -1,0 +1,3 @@
+trytond_purchase >= 4.0, < 4.1
+trytond_product >= 4.0, < 4.1
+trytond >= 4.0, < 4.1

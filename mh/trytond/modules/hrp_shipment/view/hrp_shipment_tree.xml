@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<tree string="Hrp Shipment Tree" sequence="1" editable="bottom">
+
+    <field name="supply_name"/>
+
+    <field name="purchase_code"/>
+
+    <field name="retrieve_the_code"/>
+
+    <field name="into_code"/>
+
+    <field name="hrp_shipment_lines"/>
+</tree>

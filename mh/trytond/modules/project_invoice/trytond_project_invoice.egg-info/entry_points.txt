@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    project_invoice = trytond.modules.project_invoice
+    

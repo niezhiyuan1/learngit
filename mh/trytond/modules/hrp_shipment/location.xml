@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="hrp_shipment_location_form">
+            <field name="model">stock.location</field>
+            <field name="inherit" ref="stock.location_view_form"/>
+            <field name="name">hrp_shipment_location</field>
+        </record>
+
+        <record model="ir.ui.view" id="hrp_shipment_location_tree">
+            <field name="model">stock.location</field>
+            <field name="inherit" ref="stock.location_view_list"/>
+            <field name="name">hrp_shipment_location_tree</field>
+        </record>
+    </data>
+</tryton>

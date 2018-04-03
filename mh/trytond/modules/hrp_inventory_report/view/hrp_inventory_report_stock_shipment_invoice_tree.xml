@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<tree string="Stock Shipment Invoice Report" >
+
+    <field name="number"/>
+
+    <field name="order"/>
+
+    <field name="actual_payment"/>
+
+    <field name="invoice_number"/>
+
+</tree>

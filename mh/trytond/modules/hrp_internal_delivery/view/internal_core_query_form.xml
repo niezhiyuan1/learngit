@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form>
+    <label name="location"/>
+    <field name="location"/>
+    <label name="document_type"/>
+    <field name="document_type"/>
+    <label name="start_time"/>
+    <field name="start_time"/>
+    <label name="end_time"/>
+    <field name="end_time"/>
+
+    <label name="drug_type"/>
+    <field name="drug_type"/>
+    <label name="product"/>
+    <field name="product"/>
+
+    <label name="number"/>
+    <field name="number"/>
+
+    <label name="detailed_project"/>
+    <field name="detailed_project"/>
+    <label name="message_find"/>
+    <field name="message_find"/>
+
+
+    <label name="location_frozen"/>
+    <field name="location_frozen"/>
+    <label name="get_user_warehouse"/>
+    <field name="get_user_warehouse"/>
+    <field name="move_project" colspan="4"/>
+    <field name="move_query_apply" colspan="4"/>
+    <field name="move_query_return" colspan="4"/>
+    <field name="move_query_frozen" colspan="4"/>
+</form>

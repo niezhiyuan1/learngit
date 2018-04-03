@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<tree string="InventoryTwoLines" >
+
+    <field name="lines"/>
+
+    <field name="shelves"/>
+
+    <field name="code"/>
+
+    <field name="name"/>
+
+    <field name="drug_specifications"/>
+
+    <field name="uom"/>
+
+     <field name="warehouse_real_num"/>
+
+    <field name="freeze_real_num"/>
+
+    <field name="scanning"/>
+
+    <field name="medicine_machine"/>
+
+    <field name="cost_pice"/>
+
+    <field name="wholesale_amount"/>
+
+    <field name="references_to"/>
+
+    <field name="lot_warehouse"/>
+
+    <field name="lot_freeze"/>
+
+    <field name="differences_why"/>
+
+    <field name="note"/>
+
+    <field name="state"/>
+
+</tree>

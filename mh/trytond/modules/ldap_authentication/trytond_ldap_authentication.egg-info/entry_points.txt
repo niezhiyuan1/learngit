@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    ldap_authentication = trytond.modules.ldap_authentication
+    

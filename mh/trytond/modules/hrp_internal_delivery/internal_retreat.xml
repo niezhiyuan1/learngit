@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+        <!--Retreat-->
+        <record model="ir.ui.view" id="internal_retreat_view_form">
+            <field name="model">hrp_internal_delivery.internal_retreat</field>
+            <field name="type">form</field>
+            <field name="name">internal_retreat_form</field>
+        </record>
+        <record model="ir.action.wizard" id="act_internal_retreat">
+            <field name="name">Hrp Retreatl</field>
+            <field name="wiz_name">hrp_internal_delivery.internal_retreat_wizard</field>
+        </record>
+        <menuitem parent="hrp_party.menu_hrp_secondary_library_management"
+            action="act_internal_retreat"
+            id="menu_internal_retreat" sequence="3" />
+
+        <!--Test Return-->
+        <record model="ir.ui.view" id="test_retreat_view_form">
+            <field name="model">hrp_internal_delivery.test_retreat</field>
+            <field name="type">form</field>
+            <field name="name">test_retreat_form</field>
+        </record>
+       <record model="ir.ui.view" id="test_retreat_view_tree">
+            <field name="model">hrp_internal_delivery.test_retreat</field>
+            <field name="type">tree</field>
+            <field name="name">test_retreat_tree</field>
+        </record>
+    </data>
+</tryton>

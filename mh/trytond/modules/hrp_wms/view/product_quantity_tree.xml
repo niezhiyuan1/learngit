@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<tree string="Quantity">
+
+    <field name="categories"/>
+
+    <field name="product_code"/>
+
+    <field name="product_name"/>
+
+    <field name="additional" />
+
+    <field name="drug_specifications"/>
+
+    <field name="quantity"/>
+
+    <field name="default_uom"/>
+
+    <field name="sequence"/>
+
+    <field name="location" />
+
+</tree>

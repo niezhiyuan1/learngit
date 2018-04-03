@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="internal_query_view_form">
+            <field name="model">hrp_internal_delivery.internal_query</field>
+            <field name="type">form</field>
+            <field name="name">internal_query_form</field>
+        </record>
+
+        <record model="ir.action.wizard" id="act_hrp_internal_query">
+            <field name="name">Hrp Query</field>
+            <field name="wiz_name">hrp_internal_delivery.internal_query_wizard</field>
+        </record>
+
+        <menuitem parent="hrp_party.menu_hrp_secondary_library_management"
+            action="act_hrp_internal_query" icon="tryton-print" id="internal_query" sequence="-14" />
+
+
+        <!--internal_detailed-->
+        <record model="ir.ui.view" id="internal_detailed_view_form">
+            <field name="model">hrp_internal_delivery.internal_detailed</field>
+            <field name="type">form</field>
+            <field name="name">internal_detailed_form</field>
+        </record>
+        <record model="ir.ui.view" id="internal_detailed_view_tree">
+            <field name="model">hrp_internal_delivery.internal_detailed</field>
+            <field name="type">tree</field>
+            <field name="name">internal_detailed_tree</field>
+        </record>
+
+
+        <!--internal_project-->
+        <record model="ir.ui.view" id="internal_project_view_form">
+            <field name="model">hrp_internal_delivery.internal_project</field>
+            <field name="type">form</field>
+            <field name="name">internal_project_form</field>
+        </record>
+        <record model="ir.ui.view" id="internal_project_view_tree">
+            <field name="model">hrp_internal_delivery.internal_project</field>
+            <field name="type">tree</field>
+            <field name="name">internal_project_tree</field>
+        </record>
+
+
+
+        <!--content_internal_project-->
+        <record model="ir.ui.view" id="content_internal_project_view_form">
+            <field name="model">hrp_internal_delivery.content_internal_project</field>
+            <field name="type">form</field>
+            <field name="name">content_internal_project_form</field>
+        </record>
+        <record model="ir.ui.view" id="content_internal_project_view_tree">
+            <field name="model">hrp_internal_delivery.content_internal_project</field>
+            <field name="type">tree</field>
+            <field name="name">content_internal_project_tree</field>
+        </record>
+
+
+
+
+
+        <!--query_apply_done-->
+        <record model="ir.ui.view" id="query_apply_done_view_form">
+            <field name="model">hrp_internal_delivery.query_apply_done</field>
+            <field name="type">form</field>
+            <field name="name">query_apply_done_form</field>
+        </record>
+        <record model="ir.ui.view" id="query_apply_done_view_tree">
+            <field name="model">hrp_internal_delivery.query_apply_done</field>
+            <field name="type">tree</field>
+            <field name="name">query_apply_done_tree</field>
+        </record>
+
+
+        <!--query_return_done-->
+        <record model="ir.ui.view" id="query_return_done_view_form">
+            <field name="model">hrp_internal_delivery.query_return_done</field>
+            <field name="type">form</field>
+            <field name="name">query_return_done_form</field>
+        </record>
+        <record model="ir.ui.view" id="query_return_done_view_tree">
+            <field name="model">hrp_internal_delivery.query_return_done</field>
+            <field name="type">tree</field>
+            <field name="name">query_return_done_tree</field>
+        </record>
+
+
+        <!--query_allocation_done-->
+        <record model="ir.ui.view" id="query_allocation_done_view_form">
+            <field name="model">hrp_internal_delivery.query_allocation_done</field>
+            <field name="type">form</field>
+            <field name="name">query_allocation_done_form</field>
+        </record>
+        <record model="ir.ui.view" id="query_allocation_done_view_tree">
+            <field name="model">hrp_internal_delivery.query_allocation_done</field>
+            <field name="type">tree</field>
+            <field name="name">query_allocation_done_tree</field>
+        </record>
+
+        <!--query_frozen_done-->
+        <record model="ir.ui.view" id="query_frozen_done_view_form">
+            <field name="model">hrp_internal_delivery.query_frozen_done</field>
+            <field name="type">form</field>
+            <field name="name">query_frozen_done_form</field>
+        </record>
+        <record model="ir.ui.view" id="query_frozen_done_view_tree">
+            <field name="model">hrp_internal_delivery.query_frozen_done</field>
+            <field name="type">tree</field>
+            <field name="name">query_frozen_done_tree</field>
+        </record>
+
+
+        <!--query_scrap_done-->
+        <record model="ir.ui.view" id="query_scrap_done_view_form">
+            <field name="model">hrp_internal_delivery.query_scrap_done</field>
+            <field name="type">form</field>
+            <field name="name">query_scrap_done_form</field>
+        </record>
+        <record model="ir.ui.view" id="query_scrap_done_view_tree">
+            <field name="model">hrp_internal_delivery.query_scrap_done</field>
+            <field name="type">tree</field>
+            <field name="name">query_scrap_done_tree</field>
+        </record>
+
+        <!--query_purchase_done-->
+        <record model="ir.ui.view" id="query_purchase_done_view_form">
+            <field name="model">hrp_internal_delivery.query_purchase_done</field>
+            <field name="type">form</field>
+            <field name="name">query_purchase_done_form</field>
+        </record>
+        <record model="ir.ui.view" id="query_purchase_done_view_tree">
+            <field name="model">hrp_internal_delivery.query_purchase_done</field>
+            <field name="type">tree</field>
+            <field name="name">query_purchase_done_tree</field>
+        </record>
+
+        <!--query_department_done-->
+        <record model="ir.ui.view" id="query_department_done_view_form">
+            <field name="model">hrp_internal_delivery.query_department_done</field>
+            <field name="type">form</field>
+            <field name="name">query_department_done_form</field>
+        </record>
+        <record model="ir.ui.view" id="query_department_done_view_tree">
+            <field name="model">hrp_internal_delivery.query_department_done</field>
+            <field name="type">tree</field>
+            <field name="name">query_department_done_tree</field>
+        </record>
+
+
+        <record model="ir.action.report" id="internal_delivery_report_general_journal">
+            <field name="name">General Journal</field>
+            <field name="model">hrp_internal_delivery.internal_query</field>
+            <field name="report_name">hrp_internal_delivery.general_journal</field>
+            <field name="report">hrp_internal_delivery/report.odt</field>
+        </record>
+    </data>
+</tryton>

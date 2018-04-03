@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+
+
+        <menuitem name="Drug_level_management" id="menu_hrp_Drug_level_management" sequence="-18" icon="tryton-list"/>
+
+        <menuitem name="secondary_library_management" id="menu_hrp_secondary_library_management" sequence="-17" icon="tryton-list"/>
+
+        <menuitem  name="master_data" sequence="-20" id="menu_hrp_master_data" icon="tryton-list"/>
+
+        <menuitem  name="purchase_order" sequence="-19" id="menu_hrp_purchase_order" icon="tryton-list"/>
+
+        <record model="ir.ui.view" id="party_view_form">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="party.party_view_form"/>
+            <field name="name">party_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="party_view_tree">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="party.party_view_tree"/>
+            <field name="name">party_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="new_party_view_tree">
+            <field name="model">hrp_party.new_party</field>
+            <field name="type">tree</field>
+            <field name="name">new_party_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="new_party_view_form">
+            <field name="model">hrp_party.new_party</field>
+            <field name="type">form</field>
+            <field name="name">new_party_form</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_hrp_party">
+            <field name="name">hrp_party</field>
+            <field name="res_model">hrp_party.new_party</field>
+        </record>
+
+        <menuitem parent="menu_hrp_master_data" sequence="1" id="menu_hrp_party" icon="tryton-list"
+                  action="act_hrp_party"/>
+    </data>
+</tryton>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<form string="Quantity" col="12">
+
+    <label name="location" colspan="1"/>
+    <field name="location" colspan="5"/>
+
+    <label name="drug_specifications" colspan="1"/>
+    <field name="drug_specifications" colspan="5"/>
+
+    <label name="categories" colspan="1"/>
+    <field name="categories" colspan="5"/>
+
+    <label name="default_uom" colspan="1"/>
+    <field name="default_uom" colspan="5"/>
+
+    <label name="product" colspan="1"/>
+    <field name="product" colspan="5"/>
+
+    <label name="additional" colspan="1"/>
+    <field name="additional" colspan="5"/>
+
+    <label name="sequence" colspan="1"/>
+    <field name="sequence" colspan="2"/>
+
+    <label name="quantity" colspan="1"/>
+    <field name="quantity" colspan="2"/>
+
+</form>
+

@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    project_plan = trytond.modules.project_plan
+    

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<tree string="InventoryTime">
+    <field name="start_time" widget="date"/>
+    <field name="start_time" widget="time"/>
+
+    <field name="end_time" widget="date"/>
+    <field name="end_time" widget="time"/>
+
+</tree>

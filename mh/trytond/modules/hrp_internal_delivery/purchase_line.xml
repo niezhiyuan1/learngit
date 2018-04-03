@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="purchase_line_view_form">
+            <field name="model">purchase.line</field>
+            <field name="inherit" ref="purchase.purchase_line_view_form"/>
+            <field name="name">purchase_line_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="purchase_line_view_tree_sequence">
+            <field name="model">purchase.line</field>
+            <field name="inherit" ref="purchase.purchase_line_view_tree_sequence"/>
+            <field name="name">purchase_line_tree</field>
+        </record>
+
+    </data>
+</tryton>

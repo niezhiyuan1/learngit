@@ -1,0 +1,462 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+
+msgctxt "field:hrp_report.hrp_stock_report,product:"
+msgid "product"
+msgstr "物资编码"
+
+msgctxt "field:hrp_report.hrp_stock_report,lot:"
+msgid "lot"
+msgstr "批次"
+
+msgctxt "field:hrp_report.hrp_stock_report,drug_type:"
+msgid "drug_type"
+msgstr "物资类型"
+
+msgctxt "field:hrp_report.hrp_stock_report,time:"
+msgid "time"
+msgstr "时间"
+
+msgctxt "field:hrp_report.hrp_stock_report,location:"
+msgid "location"
+msgstr "库存地"
+
+msgctxt "field:hrp_report.hrp_stock_report,medicine:"
+msgid "medicine"
+msgstr "毒性级别"
+
+
+##################   hrp_report.hrp_report_display   #############
+
+msgctxt "model:ir.ui.menu,name:menu_hrp_report"
+msgid "Hrp Stock Report"
+msgstr "库存报表"
+
+
+msgctxt "model:ir.action,name:act_hrp_stock_report_wizard"
+msgid "Hrp Stock Report"
+msgstr "库存报表"
+
+msgctxt "model:ir.action,name:act_hrp_report_display"
+msgid "Hrp Report Display"
+msgstr "库存报表"
+
+
+msgctxt "model:ir.ui.menu,name:hrp_report_menu"
+msgid "hrp_report"
+msgstr "报表"
+
+msgctxt "field:hrp_report.hrp_report_display,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_report.hrp_report_display,name:"
+msgid "name"
+msgstr "物资名称"
+
+msgctxt "field:hrp_report.hrp_report_display,drug_specifications:"
+msgid "drug_specifications"
+msgstr "物资规格"
+
+msgctxt "field:hrp_report.hrp_report_display,lot:"
+msgid "lot"
+msgstr "批次"
+
+msgctxt "field:hrp_report.hrp_report_display,term_of_validity:"
+msgid "term_of_validity"
+msgstr "有效期至"
+
+msgctxt "field:hrp_report.hrp_report_display,frozen:"
+msgid "frozen"
+msgstr "冻结(一)"
+
+msgctxt "field:hrp_report.hrp_report_display,frozen_two:"
+msgid "frozen_two"
+msgstr "冻结(二)"
+
+msgctxt "field:hrp_report.hrp_report_display,unrestricted:"
+msgid "unrestricted"
+msgstr "非限制(一)"
+
+msgctxt "field:hrp_report.hrp_report_display,unrestricted_two:"
+msgid "unrestricted_two"
+msgstr "非限制(二)"
+
+
+##################   hrp_report.hrp_expiry_lot_message_report   #############
+
+
+msgctxt "field:hrp_report.hrp_expiry_lot_content,product:"
+msgid "product"
+msgstr "物资编码"
+
+msgctxt "field:hrp_report.hrp_expiry_lot_content,drug_type:"
+msgid "drug_type"
+msgstr "物资类型"
+
+msgctxt "field:hrp_report.hrp_expiry_lot_content,start_time:"
+msgid "start_time"
+msgstr "开始时间"
+
+msgctxt "field:hrp_report.hrp_expiry_lot_content,end_time:"
+msgid "end_time"
+msgstr "结束时间"
+
+msgctxt "field:hrp_report.hrp_expiry_lot_content,location:"
+msgid "location"
+msgstr "库存地"
+
+msgctxt "field:hrp_report.hrp_expiry_lot_content,condition:"
+msgid "condition"
+msgstr "三个月／半年／过期"
+
+
+msgctxt "model:ir.ui.menu,name:menu_hrp_expiry_lot_wizard"
+msgid "Hrp Expiry Lot Wizard"
+msgstr "失效期查询报表"
+
+
+msgctxt "model:ir.action,name:act_hrp_expiry_lot_wizard"
+msgid "Hrp Expiry Lot Wizard"
+msgstr "失效期查询报表"
+
+msgctxt "model:ir.action,name:act_hrp_expiry_lot_message_report"
+msgid "Hrp Expiry Lot Report Message"
+msgstr "失效期查询报表"
+
+
+msgctxt "field:hrp_report.hrp_expiry_lot_message_report,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_report.hrp_expiry_lot_message_report,name:"
+msgid "name"
+msgstr "物资名称"
+
+msgctxt "field:hrp_report.hrp_expiry_lot_message_report,drug_specifications:"
+msgid "drug_specifications"
+msgstr "物资规格"
+
+msgctxt "field:hrp_report.hrp_expiry_lot_message_report,lot:"
+msgid "lot"
+msgstr "批次"
+
+msgctxt "field:hrp_report.hrp_expiry_lot_message_report,term_of_validity:"
+msgid "term_of_validity"
+msgstr "有效期至"
+
+msgctxt "field:hrp_report.hrp_expiry_lot_message_report,frozen:"
+msgid "frozen"
+msgstr "冻结(一)"
+
+msgctxt "field:hrp_report.hrp_expiry_lot_message_report,frozen_two:"
+msgid "frozen_two"
+msgstr "冻结(二)"
+
+msgctxt "field:hrp_report.hrp_expiry_lot_message_report,unrestricted:"
+msgid "unrestricted"
+msgstr "非限制(一)"
+
+msgctxt "field:hrp_report.hrp_expiry_lot_message_report,unrestricted_two:"
+msgid "unrestricted_two"
+msgstr "非限制(二)"
+
+
+
+
+
+####################    price_adjustment_report   ####################
+
+msgctxt "model:ir.ui.menu,name:menu_price_adjustment"
+msgid "Hrp Price Adjustment Wizard"
+msgstr "调价查询报表"
+
+
+msgctxt "model:ir.action,name:act_price_adjustment_wizard"
+msgid "Hrp Price Adjustment Wizard"
+msgstr "调价查询报表"
+
+msgctxt "model:ir.action,name:act_hrp_price_adjustment_message"
+msgid "Price Adjustment Message"
+msgstr "调价查询报表"
+
+msgctxt "view:hrp_report.price_adjustment:"
+msgid "Hrp Price Adjustment Wizard"
+msgstr "库存清点表"
+
+
+msgctxt "field:hrp_report.price_adjustment,type:"
+msgid "type"
+msgstr "查询类型"
+
+msgctxt "field:hrp_report.price_adjustment,drug_code:"
+msgid "drug_code"
+msgstr "物资简码"
+
+msgctxt "field:hrp_report.price_adjustment,start_time:"
+msgid "start_time"
+msgstr "开始时间"
+
+msgctxt "field:hrp_report.price_adjustment,end_time:"
+msgid "end_time"
+msgstr "结束时间"
+
+msgctxt "field:hrp_report.price_adjustment,find:"
+msgid "find"
+msgstr "查找"
+
+msgctxt "field:hrp_report.price_adjustment,moves:"
+msgid "moves"
+msgstr "详情"
+
+
+msgctxt "field:hrp_report.price_adjustment_message,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_report.price_adjustment_message,product:"
+msgid "product"
+msgstr "物资名称"
+
+msgctxt "field:hrp_report.price_adjustment_message,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_report.price_adjustment_message,list_price:"
+msgid "list_price"
+msgstr "零售价"
+
+msgctxt "field:hrp_report.price_adjustment_message,cost_price:"
+msgid "cost_price"
+msgstr "批发价"
+
+msgctxt "field:hrp_report.price_adjustment_message,new_list_price:"
+msgid "new_list_price"
+msgstr "新零售价"
+
+msgctxt "field:hrp_report.price_adjustment_message,new_cost_price:"
+msgid "new_cost_price"
+msgstr "新批发价"
+
+msgctxt "field:hrp_report.price_adjustment_message,effective_date:"
+msgid "effective_date"
+msgstr "生效日期"
+
+msgctxt "field:hrp_report.price_adjustment_message,modify_reason:"
+msgid "modify_reason"
+msgstr "原因"
+
+
+
+#################
+
+msgctxt "model:ir.ui.menu,name:menu_price_profit_loss"
+msgid "Price Profit Loss Wizard"
+msgstr "调价盈亏报表"
+
+msgctxt "model:ir.action,name:act_price_profit_loss_wizard"
+msgid "Price Profit Loss Wizard"
+msgstr "调价盈亏报表"
+
+msgctxt "model:ir.action,name:act_hrp_price_profit_loss_message"
+msgid "act_hrp_price_profit_loss_message"
+msgstr "调价盈亏报表"
+
+msgctxt "field:hrp_report.price_profit_loss_message,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_report.price_profit_loss_message,number:"
+msgid "number"
+msgstr "序号"
+
+msgctxt "field:hrp_report.price_profit_loss_message,product:"
+msgid "product"
+msgstr "物资名称"
+
+msgctxt "field:hrp_report.price_profit_loss_message,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_report.price_profit_loss_message,list_price:"
+msgid "list_price"
+msgstr "旧零售价"
+
+msgctxt "field:hrp_report.price_profit_loss_message,cost_price:"
+msgid "cost_price"
+msgstr "旧批发价"
+
+msgctxt "field:hrp_report.price_profit_loss_message,new_list_price:"
+msgid "new_list_price"
+msgstr "新零售价"
+
+msgctxt "field:hrp_report.price_profit_loss_message,new_cost_price:"
+msgid "new_cost_price"
+msgstr "新批发价"
+
+msgctxt "field:hrp_report.price_profit_loss_message,uom:"
+msgid "uom"
+msgstr "单位"
+
+msgctxt "field:hrp_report.price_profit_loss_message,inventory:"
+msgid "inventory"
+msgstr "库存数"
+
+msgctxt "field:hrp_report.price_profit_loss_message,price_profit_loss:"
+msgid "price_profit_loss"
+msgstr "批发盈亏金额"
+
+msgctxt "field:hrp_report.price_profit_loss_message,price_list_profit_loss:"
+msgid "price_list_profit_loss"
+msgstr "零售盈亏金额"
+
+msgctxt "field:hrp_report.price_profit_loss_message,effective_date:"
+msgid "effective_date"
+msgstr "生效时间"
+
+msgctxt "field:hrp_report.price_profit_loss_message,party:"
+msgid "party"
+msgstr "药批名称"
+
+##############
+msgctxt "field:hrp_report.price_profit_loss,location:"
+msgid "location"
+msgstr "部门"
+
+msgctxt "field:hrp_report.price_profit_loss,start_time:"
+msgid "start_time"
+msgstr "开始时间"
+
+msgctxt "field:hrp_report.price_profit_loss,end_time:"
+msgid "end_time"
+msgstr "结束时间"
+
+msgctxt "field:hrp_report.price_profit_loss,drug_type:"
+msgid "drug_type"
+msgstr "物资类型"
+
+
+####################
+
+msgctxt "model:ir.ui.menu,name:menu_hrp_outbound_statistics_wizard"
+msgid "Hrp Outbound Statistics Wizard"
+msgstr "药房出库统计"
+
+
+msgctxt "model:ir.action,name:act_hrp_outbound_statistics_wizard"
+msgid "Hrp Outbound Statistics Wizard"
+msgstr "药房出库统计"
+
+msgctxt "model:ir.action,name:act_hrp_outbound_statistics_one"
+msgid "Hrp Outbound Statistics Report One"
+msgstr "药房出库统计"
+
+msgctxt "model:ir.action,name:act_hrp_outbound_statistics_product"
+msgid "Hrp Outbound Statistics Report Product"
+msgstr "药房出库统计"
+
+msgctxt "model:ir.action,name:act_hrp_hrp_outbound_statistics_customer"
+msgid "Hrp Outbound Statistics Report Customer"
+msgstr "药房出库统计"
+
+
+msgctxt "field:hrp_report.hrp_outbound_statistics_content,statistical_type:"
+msgid "statistical_type"
+msgstr "统计类型"
+
+msgctxt "field:hrp_report.hrp_outbound_statistics_content,drug_type:"
+msgid "drug_type"
+msgstr "物资类型"
+
+msgctxt "field:hrp_report.hrp_outbound_statistics_content,location:"
+msgid "location"
+msgstr "所在部门"
+
+msgctxt "field:hrp_report.hrp_outbound_statistics_content,customer:"
+msgid "customer"
+msgstr "领／退药科室"
+
+msgctxt "field:hrp_report.hrp_outbound_statistics_content,start_time:"
+msgid "start_time"
+msgstr "开始时间"
+
+msgctxt "field:hrp_report.hrp_outbound_statistics_content,end_time:"
+msgid "end_time"
+msgstr "结束时间"
+
+
+
+msgctxt "field:hrp_report.hrp_outbound_statistics_report_one,customer:"
+msgid "customer"
+msgstr "领药科室"
+
+msgctxt "field:hrp_report.hrp_outbound_statistics_report_one,number:"
+msgid "number"
+msgstr "出库单号"
+
+msgctxt "field:hrp_report.hrp_outbound_statistics_report_one,effective_date:"
+msgid "effective_date"
+msgstr "出库日期"
+
+msgctxt "field:hrp_report.hrp_outbound_statistics_report_one,list_price:"
+msgid "list_price"
+msgstr "零售金额"
+
+msgctxt "field:hrp_report.hrp_outbound_statistics_report_one,cost_price:"
+msgid "cost_price"
+msgstr "批发金额"
+
+
+
+msgctxt "field:hrp_report.hrp_outbound_statistics_report_product,customer:"
+msgid "customer"
+msgstr "领药科室"
+
+msgctxt "field:hrp_report.hrp_outbound_statistics_report_product,effective_date:"
+msgid "effective_date"
+msgstr "出库日期"
+
+msgctxt "field:hrp_report.hrp_outbound_statistics_report_product,product:"
+msgid "product"
+msgstr "产品名称"
+
+msgctxt "field:hrp_report.hrp_outbound_statistics_report_product,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_report.hrp_outbound_statistics_report_product,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_report.hrp_outbound_statistics_report_product,list_price:"
+msgid "list_price"
+msgstr "零售金额"
+
+msgctxt "field:hrp_report.hrp_outbound_statistics_report_product,cost_price:"
+msgid "cost_price"
+msgstr "批发金额"
+
+msgctxt "field:hrp_report.hrp_outbound_statistics_report_product,quantity:"
+msgid "quantity"
+msgstr "数量"
+
+
+msgctxt "field:hrp_report.hrp_outbound_statistics_customer,customer:"
+msgid "customer"
+msgstr "领药科室"
+
+msgctxt "field:hrp_report.hrp_outbound_statistics_customer,list_price:"
+msgid "list_price"
+msgstr "零售金额"
+
+msgctxt "field:hrp_report.hrp_outbound_statistics_customer,cost_price:"
+msgid "cost_price"
+msgstr "批发金额"
+
+
+
+
+
+

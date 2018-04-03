@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<form string="Hrp Shipment">
+
+    <label name="supply_name"/>
+    <field name="supply_name"/>
+
+    <label name="purchase_code"/>
+    <field name="purchase_code"/>
+
+    <label name="retrieve_the_code"/>
+    <field name="retrieve_the_code"/>
+
+    <label name="electronic_invoice"/>
+    <field name="electronic_invoice" />
+
+
+    <field name="hrp_shipment_lines" colspan="4"/>
+
+</form>

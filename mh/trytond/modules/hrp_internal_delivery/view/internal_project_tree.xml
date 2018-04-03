@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!--editable ="top" 对tree可以修改sequence="1" 三角的排序-->
+<tree >
+    <field name="number"/>
+    <field name="processing_time"/>
+    <!--<field name="project_query"/>-->
+    <!--<field name="document_type"/>-->
+</tree>

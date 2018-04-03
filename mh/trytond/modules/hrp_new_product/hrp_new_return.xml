@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <!-- Hrp New Return -->
+        <record model="ir.ui.view" id="hrp_new_return_form">
+            <field name="model">hrp_new_product.new_return</field>
+            <field name="type">form</field>
+            <field name="name">hrp_new_return_form</field>
+        </record>
+        <record model="ir.ui.view" id="hrp_new_return_tree">
+            <field name="model">hrp_new_product.new_return</field>
+            <field name="type">tree</field>
+            <field name="name">hrp_new_return_tree</field>
+        </record>
+        <record model="ir.action.act_window" id="hrp_new_product_act_new_return">
+            <field name="name">Hrp New Return</field>
+            <field name="res_model">hrp_new_product.new_return</field>
+        </record>
+        <!--<menuitem parent="hrp_new_product_menu" sequence="1" id="menu_hrp_new_product_new_return" icon="tryton-list"-->
+                  <!--action="hrp_new_product_act_new_return"/>-->
+    </data>
+</tryton>

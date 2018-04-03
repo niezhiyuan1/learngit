@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    party_relationship = trytond.modules.party_relationship
+    

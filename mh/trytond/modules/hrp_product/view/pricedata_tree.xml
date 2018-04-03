@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<tree string="PriceData">
+    <!--<field name="retrieve_the_code"/>-->
+    <field name="product_code"/>
+    <field name="product_name"/>
+    <!--<field name="code"/>-->
+    <!--<field name="name"/>-->
+    <field name="attach"/>
+    <field name="drug_specifications"/>
+    <field name="cost_price"/>
+    <field name="list_price"/>
+    <field name="new_cost_price"/>
+    <field name="new_list_price"/>
+    <field name="modify_reason"/>
+    <field name="effective_date"/>
+
+</tree>

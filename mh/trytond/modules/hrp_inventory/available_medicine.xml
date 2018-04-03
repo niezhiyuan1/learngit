@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+
+        <record model="ir.ui.view" id="hrp_inventory_available_medicine_line_view_tree">
+            <field name="model">hrp_inventory.available_medicine_line</field>
+            <field name="type">tree</field>
+            <field name="name">available_medicine_line_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="hrp_inventory_available_medicine_line_view_form">
+            <field name="model">hrp_inventory.available_medicine_line</field>
+            <field name="type">form</field>
+            <field name="name">available_medicine_line_form</field>
+        </record>
+
+        <record model="ir.action.act_window" id="hrp_inventory_available_medicine_act">
+            <field name="name">Available Medicine</field>
+            <field name="res_model">hrp_inventory.available_medicine_line</field>
+        </record>
+
+        <menuitem name = 'available_medicine' sequence="-15" id="menu_hrp_inventory_available_medicine" icon="tryton-list"
+                  action="hrp_inventory_available_medicine_act"/>
+
+    </data>
+</tryton>

@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    account_tax_rule_country = trytond.modules.account_tax_rule_country
+    

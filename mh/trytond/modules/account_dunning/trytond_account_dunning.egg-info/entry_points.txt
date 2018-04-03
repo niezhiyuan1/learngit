@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    account_dunning = trytond.modules.account_dunning
+    

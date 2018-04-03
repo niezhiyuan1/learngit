@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<form>
+    <label name="code"/>
+    <field name="code"/>
+    <label name="product"/>
+    <field name="product"/>
+    <label name="company"/>
+    <field name="company"/>
+    <label name="a_charge"/>
+    <field name="a_charge"/>
+    <label name="stock_level"/>
+    <field name="stock_level"/>
+    <label name="outpatient_7days"/>
+    <field name="outpatient_7days"/>
+    <label name="proposal"/>
+    <field name="proposal"/>
+    <label name="odd_numbers"/>
+    <field name="odd_numbers"/>
+    <label name="party"/>
+    <field name="party"/>
+    <label name="unit_price"/>
+    <field name="unit_price"/>
+    <label name="outgoing_audit"/>
+    <field name="outgoing_audit"/>
+    <label name="prompt"/>
+    <field name="prompt"/>
+    <!--<label name="is_direct_sending"/>-->
+    <!--<field name="is_direct_sending"/>-->
+    <!--<label name="drug_specifications"/>-->
+    <!--<field name="drug_specifications"/>-->
+</form>

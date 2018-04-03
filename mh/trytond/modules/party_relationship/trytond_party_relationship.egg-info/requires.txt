@@ -1,0 +1,3 @@
+python-sql >= 0.4
+trytond_party >= 4.0, < 4.1
+trytond >= 4.0, < 4.1

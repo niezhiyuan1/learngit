@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<tree string="Hrp New Product">
+    <!--<field name="warehouse_location"/>-->
+    <field name="drug_type"/>
+    <field name="from_location"/>
+    <field name="to_location"/>
+    <field name="product"/>
+    <field name="code"/>
+    <field name="drug_specifications"/>
+    <field name="uom"/>
+    <field name="a_charge"/>
+    <field name="stock_level"/>
+    <field name="outpatient_7days"/>
+    <field name="befor_number"/>
+    <field name="odd_numbers"/>
+    <field name="proposal"/>
+    <field name="is_direct_sending"/>
+    <field name="lot"/>
+    <field name="is_collar"/>
+    <field name="retrieve_the_code"/>
+    <field name="party"/>
+    <field name="unit_price"/>
+    <field name="interim"/>
+</tree>

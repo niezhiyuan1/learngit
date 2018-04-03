@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    product_classification = trytond.modules.product_classification
+    

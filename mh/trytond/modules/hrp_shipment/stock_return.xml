@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="hrp_shipment_return_in_form">
+            <field name="model">stock.shipment.in.return</field>
+            <field name="inherit" ref="stock.shipment_in_return_view_form"/>
+            <field name="name">hrp_shipment_return_in_form</field>
+        </record>
+
+         <record model="ir.ui.view" id="stock_return_lines_tree">
+            <field name="model">stock_return_lines</field>
+            <field name="type">tree</field>
+            <field name="name">stock_return_lines_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="stock_return_lines_form">
+            <field name="model">stock_return_lines</field>
+            <field name="type">form</field>
+            <field name="name">stock_return_lines_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="stock_return_form">
+            <field name="model">stock_return</field>
+            <field name="type">form</field>
+            <field name="name">stock_return_form</field>
+        </record>
+
+        <record model="ir.action.wizard" id="act_create_stock_return">
+            <field name="name">Create Stock Return</field>
+            <field name="wiz_name">create_stock_return</field>
+        </record>
+
+        <menuitem name="stock_return" sequence="-19" action="act_create_stock_return" id="menu_act_create_stock_return"/>
+
+        <record model="ir.ui.view" id="order_no_form">
+            <field name="model">order_no</field>
+            <field name="type">form</field>
+            <field name="name">order_no_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="order_no_tree">
+            <field name="model">order_no</field>
+            <field name="type">tree</field>
+            <field name="name">order_no_tree</field>
+        </record>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </data>
+</tryton>

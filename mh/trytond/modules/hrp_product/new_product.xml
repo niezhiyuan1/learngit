@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="template_view_form">
+            <field name="model">product.template</field>
+            <field name="inherit" ref="product.template_view_form"/>
+            <field name="name">template_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="template_view_tree">
+            <field name="model">product.template</field>
+            <field name="inherit" ref="product.template_view_tree"/>
+            <field name="name">template_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="new_product_view_tree">
+            <field name="model">hrp_product.new_products</field>
+            <field name="type">tree</field>
+            <field name="name">new_product_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="new_product_view_form">
+            <field name="model">hrp_product.new_products</field>
+            <field name="type">form</field>
+            <field name="name">new_product_form</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_PIS_menu">
+            <field name="name">hrp_product</field>
+            <field name="res_model">hrp_product.new_products</field>
+        </record>
+
+        <menuitem parent="hrp_party.menu_hrp_master_data" sequence="2" id="menu_product_menu" icon="tryton-list"
+                  action="act_PIS_menu"/>
+    </data>
+</tryton>

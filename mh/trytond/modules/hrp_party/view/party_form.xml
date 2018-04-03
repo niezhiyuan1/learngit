@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<data>
+    <xpath expr="/form/notebook/page[@id='general']/field[@name='addresses']" position="after">
+        <label name="new_name" />
+        <field name="new_name" />
+        <label name="finance_code" />
+        <field name="finance_code" />
+        <label name="settlement" />
+        <field name="settlement" />
+        <label name="currency" />
+        <field name="currency" />
+        <label name="phone" />
+        <field name="phone" />
+        <label name="contact_name" />
+        <field name="contact_name" />
+        <label name="type_" />
+        <field name="type_" />
+    </xpath>
+</data>

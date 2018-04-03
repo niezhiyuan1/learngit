@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--editable ="top" 对tree可以修改-->
+<!--sequence="1" 排序-->
+<tree string="Hrp Report Display">
+    <field name="product"/>
+    <field name="code"/>
+    <field name="name"/>
+    <field name="drug_specifications"/>
+    <field name="lot"/>
+    <field name="term_of_validity"/>
+    <field name="unrestricted"/>
+    <field name="unrestricted_two"/>
+    <field name="frozen"/>
+    <field name="frozen_two"/>
+</tree>

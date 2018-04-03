@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <!-- Price Data -->
+
+        <record model="ir.ui.view" id="price_master_datas_pricedata_tree">
+            <field name="model">price_master_datas.pricedata</field>
+            <field name="type">tree</field>
+            <field name="name">pricedata_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="price_master_datas_pricedata_form">
+            <field name="model">price_master_datas.pricedata</field>
+            <field name="type">form</field>
+            <field name="name">pricedata_form</field>
+        </record>
+
+        <record model="ir.action.act_window" id="price_master_datas_act_pricedata">
+            <field name="name">Hrp Price Master Data</field>
+            <field name="res_model">price_master_datas.pricedata</field>
+        </record>
+
+        <menuitem parent="hrp_party.menu_hrp_master_data" sequence="3" id="menu_price_master_datas_pricedata" icon="tryton-list"
+                  action="price_master_datas_act_pricedata"/>
+    </data>
+</tryton>

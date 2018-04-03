@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/field[@name='company']" position="after">
+        <label name="straights"/>
+        <field name="straights"/>
+        <label name="place_of_service"/>
+        <field name="place_of_service"/>
+        <label name="starts"/>
+        <field name="starts"/>
+        <label name="return_shipment"/>
+        <field name="return_shipment"/>
+        <label name="drug_starts"/>
+        <field name="drug_starts"/>
+    </xpath>
+</data>

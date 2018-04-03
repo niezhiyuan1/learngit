@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    account_payment_sepa_cfonb = trytond.modules.account_payment_sepa_cfonb
+    

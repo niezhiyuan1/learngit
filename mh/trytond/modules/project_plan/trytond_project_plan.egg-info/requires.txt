@@ -1,0 +1,4 @@
+trytond_company >= 4.0, < 4.1
+trytond_project >= 4.0, < 4.1
+trytond_timesheet >= 4.0, < 4.1
+trytond >= 4.0, < 4.1

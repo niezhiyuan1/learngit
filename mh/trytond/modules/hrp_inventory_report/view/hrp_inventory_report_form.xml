@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<form string="Inventory Report">
+
+    <label name="code"/>
+    <field name="code"/>
+
+    <label name="name"/>
+    <field name="name"/>
+
+    <label name="drug_specifications"/>
+    <field name="drug_specifications"/>
+
+    <label name="quantity"/>
+    <field name="quantity"/>
+
+    <label name="uom"/>
+    <field name="uom"/>
+
+    <label name="cost_pice"/>
+    <field name="cost_pice"/>
+
+    <label name="wholesale_amount"/>
+    <field name="wholesale_amount"/>
+
+    <label name="differences_why"/>
+    <field name="differences_why"/>
+
+    <label name="type"/>
+    <field name="type"/>
+
+
+</form>

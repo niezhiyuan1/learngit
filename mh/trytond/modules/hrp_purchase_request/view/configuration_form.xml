@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+
+<data>
+    <xpath expr="/form/field[@name='purchase_invoice_method']" position="after">
+        <label name="default_" />
+        <field name="default_" />
+
+        <label name="in_storage" />
+        <field name="in_storage" />
+
+        <label name="warehouse" />
+        <field name="warehouse" />
+
+        <label name="outpatient_service" />
+        <field name="outpatient_service" />
+
+        <label name="hospital" />
+        <field name="hospital" />
+
+        <label name="medical" />
+        <field name="medical" />
+        
+        <label name="endoscopic" />
+        <field name="endoscopic" />
+
+        <label name="preparation" />
+        <field name="preparation" />
+
+        <label name="ward" />
+        <field name="ward" />
+
+        <label name="herbs" />
+        <field name="herbs" />
+
+        <label name="caustic_excessive" />
+        <field name="caustic_excessive" />
+
+        <label name="return_of" />
+        <field name="return_of" />
+
+        <label name="loss_sequence" />
+        <field name="loss_sequence" />
+
+        <label name="overflow_sequence" />
+        <field name="overflow_sequence" />
+
+        <label name="outpatient_sequence" />
+        <field name="outpatient_sequence" />
+
+        <label name="hospital_sequence" />
+        <field name="hospital_sequence" />
+
+        <label name="straight_sequence" />
+        <field name="straight_sequence" />
+
+        <label name="complete_sequence" />
+        <field name="complete_sequence" />
+
+        <label name="outpatient_freeze" />
+        <field name="outpatient_freeze" />
+
+        <label name="hospital_freeze" />
+        <field name="hospital_freeze" />
+
+        <label name="supplier_payment_term" />
+        <field name="supplier_payment_term" />
+
+        <label name="transfers" />
+        <field name="transfers" />
+
+        <label name="default_scrap" />
+        <field name="default_scrap" />
+    </xpath>
+</data>
+

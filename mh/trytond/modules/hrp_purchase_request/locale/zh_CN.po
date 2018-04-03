@@ -1,0 +1,192 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:purchase.configuration,default_:"
+msgid "Default"
+msgstr "默认供应商"
+
+msgctxt "field:purchase.configuration,warehouse:"
+msgid "Warehouse"
+msgstr "默认一级库"
+
+msgctxt "field:purchase.configuration,medical:"
+msgid "medical"
+msgstr "默认体检药房"
+
+msgctxt "field:purchase.configuration,endoscopic:"
+msgid "endoscopic"
+msgstr "默认内镜药房"
+
+msgctxt "field:purchase.configuration,preparation:"
+msgid "preparation"
+msgstr "默认制剂室"
+
+msgctxt "field:purchase.configuration,ward:"
+msgid "ward"
+msgstr "默认放射药房"
+
+msgctxt "field:purchase.configuration,herbs:"
+msgid "herbs"
+msgstr "默认草药房"
+
+msgctxt "field:purchase.configuration,overflow_sequence:"
+msgid "overflow_sequence"
+msgstr "报溢序列"
+
+msgctxt "field:purchase.configuration,loss_sequence:"
+msgid "loss_sequence"
+msgstr "报损序列"
+
+msgctxt "field:purchase.configuration,outpatient_service:"
+msgid "Outpatient service"
+msgstr "门诊药库"
+
+msgctxt "field:purchase.configuration,hospital:"
+msgid "Hospital"
+msgstr "住院药库"
+
+msgctxt "field:purchase.configuration,in_storage:"
+msgid "in_storage"
+msgstr "入库号"
+
+msgctxt "field:purchase.configuration,hospital_sequence:"
+msgid "hospital_sequence"
+msgstr "住院序列"
+
+msgctxt "field:purchase.configuration,outpatient_sequence:"
+msgid "outpatient_sequence"
+msgstr "门诊序列"
+
+msgctxt "field:purchase.configuration,straight_sequence:"
+msgid "straight_sequence"
+msgstr "直送序列"
+
+msgctxt "field:purchase.configuration,complete_sequence:"
+msgid "complete_sequence"
+msgstr "完成序列"
+
+msgctxt "field:purchase.configuration,return_of:"
+msgid "Return of"
+msgstr "药库冻结区"
+
+msgctxt "field:purchase.configuration,outpatient_freeze:"
+msgid "Outpatient Freeze"
+msgstr "门诊冻结区"
+
+msgctxt "field:purchase.configuration,hospital_freeze:"
+msgid "Hospital Freeze"
+msgstr "住院冻结区"
+
+msgctxt "field:purchase.configuration,caustic_excessive:"
+msgid "Caustic excessive"
+msgstr "报损报溢科室"
+
+msgctxt "field:purchase.configuration,default_scrap:"
+msgid "Default Scrap"
+msgstr "报废区"
+
+msgctxt "field:purchase.configuration,transfers:"
+msgid "Transfers"
+msgstr "中转库存地"
+
+msgctxt "field:purchase.configuration,supplier_payment_term:"
+msgid "Supplier Payment Term"
+msgstr "结算账期"
+
+msgctxt "field:hrp_purchase_request.request.create.start,product:"
+msgid "Product"
+msgstr "物资名称"
+
+msgctxt "field:hrp_purchase_request.request.create.start,quantity:"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "field:hrp_purchase_request.request.create.start,product_uom_category:"
+msgid "Product Uom Category"
+msgstr "最小包装"
+
+msgctxt "field:hrp_purchase_request.request.create.start,uom:"
+msgid "UOM"
+msgstr "单位"
+
+msgctxt "field:hrp_purchase_request.request.create.start,stock_level:"
+msgid "Stock at Supply Date"
+msgstr "当前库存"
+
+msgctxt "field:hrp_purchase_request.request.create.start,warehouse:"
+msgid "Warehouse"
+msgstr "仓库"
+
+msgctxt "field:hrp_purchase_request.request.create.start,a_charge:"
+msgid "A_charge"
+msgstr "件装量"
+
+msgctxt "field:hrp_purchase_request.request.create.start,attach:"
+msgid "Attach"
+msgstr "附加"
+
+msgctxt "field:hrp_purchase_request.request.create.start,retrieve_the_code:"
+msgid "Retrieve_the_code"
+msgstr "拼音简码"
+
+msgctxt "field:hrp_purchase_request.request.create.start,drug_specifications:"
+msgid "Drug_specifications"
+msgstr "物资规格"
+
+msgctxt "field:hrp_purchase_request.request.create.start,is_direct_sending:"
+msgid "Is_direct_sending"
+msgstr "是否直送"
+
+msgctxt "field:hrp_purchase_request.CreateShipmentInReturn,effective_date:"
+msgid "Effective Date"
+msgstr "生效时间"
+
+msgctxt "field:hrp_purchase_request.CreateShipmentInReturn,planned_date:"
+msgid "Planned Date"
+msgstr "计划时间"
+
+msgctxt "field:hrp_purchase_request.CreateShipmentInReturn,company:"
+msgid "Company"
+msgstr "公司"
+
+msgctxt "field:hrp_purchase_request.CreateShipmentInReturn,number:"
+msgid "Number"
+msgstr "单号"
+
+msgctxt "field:hrp_purchase_request.CreateShipmentInReturn,reference:"
+msgid "Reference"
+msgstr "参考"
+
+msgctxt "field:hrp_purchase_request.CreateShipmentInReturn,supplier:"
+msgid "Supplier"
+msgstr "供应商"
+
+msgctxt "field:hrp_purchase_request.CreateShipmentInReturn,delivery_address:"
+msgid "Delivery Address"
+msgstr "交货地址"
+
+msgctxt "field:hrp_purchase_request.CreateShipmentInReturn,from_location:"
+msgid "From Location"
+msgstr "始发地"
+
+msgctxt "field:hrp_purchase_request.CreateShipmentInReturn,to_location:"
+msgid "To Location"
+msgstr "到达地"
+
+msgctxt "field:hrp_purchase_request.CreateShipmentInReturn,moves:"
+msgid "Moves"
+msgstr ""
+
+msgctxt "field:hrp_purchase_request.CreateShipmentInReturn,origins:"
+msgid "Origins"
+msgstr ""
+
+msgctxt "field:hrp_purchase_request.CreateShipmentInReturn,State:"
+msgid "State"
+msgstr ""
+
+
+msgctxt "field:account.invoice,amount:"
+msgid "amount"
+msgstr "实收金额"

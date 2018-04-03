@@ -1,0 +1,264 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+
+msgctxt "model:ir.ui.menu,name:menu_hrp_inventory_report"
+msgid "Inventory Report"
+msgstr "盘点盈亏报表"
+
+msgctxt "model:ir.action,name:act_inventory_report_conditions"
+msgid "Inventory Report"
+msgstr "盘点盈亏报表"
+
+msgctxt "model:ir.action,name:act_hrp_inventory_report"
+msgid "Hrp Inventory Report"
+msgstr "盘点盈亏报表"
+
+msgctxt "view:hrp_inventory_report.inventory_report:"
+msgid "Inventory Report"
+msgstr "盘点盈亏报表"
+
+msgctxt "view:hrp_inventrory_report.inventory_report_conditions_start:"
+msgid "Inventory Report"
+msgstr "盘点盈亏报表"
+
+msgctxt "field:hrp_inventory_report.inventory_report,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_inventory_report.inventory_report,name:"
+msgid "name"
+msgstr "名称"
+
+msgctxt "field:hrp_inventory_report.inventory_report,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_inventory_report.inventory_report,quantity:"
+msgid "quantity"
+msgstr "数量"
+
+msgctxt "field:hrp_inventory_report.inventory_report,uom:"
+msgid "Default UOM"
+msgstr "单位"
+
+msgctxt "field:hrp_inventory_report.inventory_report,cost_pice:"
+msgid "Cost Price"
+msgstr "批发价"
+
+msgctxt "field:hrp_inventory_report.inventory_report,wholesale_amount:"
+msgid "Wholesale amount"
+msgstr "批发金额"
+
+msgctxt "field:hrp_inventory_report.inventory_report,differences_why:"
+msgid "Differences Why"
+msgstr "原因"
+
+msgctxt "field:hrp_inventory_report.inventory_report,type:"
+msgid "Type"
+msgstr "状态"
+
+msgctxt "field:hrp_inventrory_report.inventory_report_conditions_start,location:"
+msgid "location"
+msgstr "部门"
+
+msgctxt "field:hrp_inventrory_report.inventory_report_conditions_start,category:"
+msgid "Category"
+msgstr "类型"
+
+msgctxt "field:hrp_inventrory_report.inventory_report_conditions_start,inventor_time:"
+msgid "InventoryTime"
+msgstr "盘库时间"
+
+
+#### 库存清点表
+
+msgctxt "field:hrp_inventory_report.stock_inventory_report,shelves_code:"
+msgid "shelves_code"
+msgstr "货架编码"
+
+msgctxt "field:hrp_inventory_report.stock_inventory_report,name:"
+msgid "name"
+msgstr "名称"
+
+
+msgctxt "field:hrp_inventory_report.stock_inventory_report,drug_specifications:"
+msgid "drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_inventory_report.stock_inventory_report,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_inventory_report.stock_inventory_report,quantity:"
+msgid "quantity"
+msgstr "非限制数量"
+
+msgctxt "field:hrp_inventory_report.stock_inventory_report,freeze_quantity:"
+msgid "freeze_quantity"
+msgstr "冻结数量"
+
+msgctxt "field:hrp_inventory_report.stock_inventory_report,scanning_quantity:"
+msgid "scanning_quantity"
+msgstr "扫描数量"
+
+msgctxt "field:hrp_inventory_report.stock_inventory_report,uom:"
+msgid "uom"
+msgstr "单位"
+
+
+msgctxt "field:hrp_inventrory_report.stock_inventory_report_start,location:"
+msgid "location"
+msgstr "部门"
+
+msgctxt "field:hrp_inventrory_report.stock_inventory_report_start,category:"
+msgid "Category"
+msgstr "物资类型"
+
+msgctxt "field:hrp_inventrory_report.stock_inventory_report_start,shelves_code:"
+msgid "shelves_code"
+msgstr "货架编码"
+
+msgctxt "model:ir.ui.menu,name:menu_hrp_inventory_report_stock"
+msgid "Stock Inventory Report"
+msgstr "库存清点表"
+
+msgctxt "model:ir.action,name:act_inventory_report_stock"
+msgid "Stock Inventory Report"
+msgstr "库存清点表"
+
+msgctxt "model:ir.action,name:act_hrp_inventory_report_stock"
+msgid "Stock Inventory Report"
+msgstr "库存清点表"
+
+msgctxt "view:hrp_inventory_report.stock_inventory_report:"
+msgid "Stock Inventory Report"
+msgstr "库存清点表"
+
+msgctxt "view:hrp_inventrory_report.stock_inventory_report_start:"
+msgid "Stock Inventory Report"
+msgstr "库存清点表"
+
+###### 物资入库统计表
+
+
+msgctxt "field:hrp_inventory_report.stock_shipment_category_report,number:"
+msgid "number"
+msgstr "序号"
+
+msgctxt "field:hrp_inventory_report.stock_shipment_category_report,name:"
+msgid "name"
+msgstr "药批名称"
+
+msgctxt "field:hrp_inventory_report.stock_shipment_category_report,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:hrp_inventory_report.stock_shipment_category_report,category:"
+msgid "category"
+msgstr "物资类型"
+
+msgctxt "field:hrp_inventory_report.stock_shipment_category_report,actual_payment:"
+msgid "actual_payment"
+msgstr "实付金额"
+
+msgctxt "field:hrp_inventory_report.stock_shipment_category_report,wholesale_payment:"
+msgid "wholesale_payment"
+msgstr "批发金额"
+
+msgctxt "field:hrp_inventory_report.stock_shipment_category_report,retail_payment:"
+msgid "retail_payment"
+msgstr "零售金额"
+
+msgctxt "field:hrp_inventory_report.stock_shipment_order_in_report,number:"
+msgid "number"
+msgstr "序号"
+
+msgctxt "field:hrp_inventory_report.stock_shipment_order_in_report,order:"
+msgid "order"
+msgstr "入库单号"
+
+msgctxt "field:hrp_inventory_report.stock_shipment_order_in_report,time_end:"
+msgid "time_end"
+msgstr "日期"
+
+msgctxt "field:hrp_inventory_report.stock_shipment_order_in_report,actual_payment:"
+msgid "actual_payment"
+msgstr "实付金额"
+
+msgctxt "field:hrp_inventory_report.stock_shipment_order_in_report,wholesale_payment:"
+msgid "wholesale_payment"
+msgstr "批发金额"
+
+msgctxt "field:hrp_inventory_report.stock_shipment_order_in_report,retail_payment:"
+msgid "retail_payment"
+msgstr "零售金额"
+
+msgctxt "field:hrp_inventory_report.stock_shipment_invoice_report,number:"
+msgid "number"
+msgstr "序号"
+
+msgctxt "field:hrp_inventory_report.stock_shipment_invoice_report,order:"
+msgid "order"
+msgstr "入库单号"
+
+msgctxt "field:hrp_inventory_report.stock_shipment_invoice_report,actual_payment:"
+msgid "actual_payment"
+msgstr "金额"
+
+msgctxt "field:hrp_inventory_report.stock_shipment_invoice_report,invoice_number:"
+msgid "invoice_number"
+msgstr "发票号"
+
+msgctxt "field:hrp_inventory_report.stock_shipment_report_start,time_start:"
+msgid "time_start"
+msgstr "开始时间"
+
+msgctxt "field:hrp_inventory_report.stock_shipment_report_start,time_end:"
+msgid "time_end"
+msgstr "结束时间"
+
+msgctxt "field:hrp_inventory_report.stock_shipment_report_start,type:"
+msgid "type"
+msgstr "查询类型"
+
+msgctxt "field:hrp_inventory_report.stock_shipment_report_start,party:"
+msgid "party"
+msgstr "供应商"
+
+msgctxt "model:ir.ui.menu,name:menu_hrp_inventory_report_stock_shipment"
+msgid "Stock Shipment Report"
+msgstr "物资出入库统计表"
+
+msgctxt "model:ir.action,name:act_inventory_report_stock_shipment"
+msgid "Stock Shipment Report"
+msgstr "物资出入库统计表"
+
+msgctxt "view:hrp_inventory_report.stock_shipment_invoice_report:"
+msgid "Stock Shipment Invoice Report"
+msgstr "按结算票号统计"
+
+msgctxt "view:hrp_inventory_report.stock_shipment_order_in_report:"
+msgid "Stock Shipment Order In Report"
+msgstr "按入库单号统计"
+
+msgctxt "view:hrp_inventory_report.stock_shipment_category_report:"
+msgid "Stock Shipment Report"
+msgstr "按物资类型统计"
+
+msgctxt "view:hrp_inventory_report.stock_shipment_report_start:"
+msgid "Stock Shipment Report"
+msgstr "物资出入库统计表"
+
+msgctxt "model:ir.action,name:act_hrp_inventory_report_stock_shipment"
+msgid "Stock Shipment Report"
+msgstr "按物资类型统计"
+
+msgctxt "model:ir.action,name:act_hrp_inventory_report_stock_shipment_order"
+msgid "Stock Shipment Order Report"
+msgstr "按入库单号统计"
+
+msgctxt "model:ir.action,name:act_hrp_inventory_report_stock_shipment_invoice"
+msgid "Stock Shipment Invoice Report"
+msgstr "按结算票号统计"

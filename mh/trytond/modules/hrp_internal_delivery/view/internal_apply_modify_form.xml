@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<form>
+    <label name="state"/>
+    <field name="state"/>
+    <label name="move_time"/>
+    <field name="move_time"/>
+    <label name="move_number"/>
+    <field name="move_number"/>
+    <label name="message_confirm"/>
+    <field name="message_confirm"/>
+    <field name="moves" colspan="4"/>
+    <!--<group colspan="2" col="3" id="buttons">-->
+            <!--<button string="Cancel" name="cancel" icon="tryton-cancel" />-->
+    <!--</group>-->
+</form>

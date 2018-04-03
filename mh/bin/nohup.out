@@ -1,0 +1,1113 @@
+/home/wangpeng/.local/lib/python2.7/site-packages/relatorio/templates/__init__.py:29: UserWarning: Unable to load plugin 'chart'
+  warnings.warn("Unable to load plugin '%s'" % name)
+30053 139863349995328 [2017-03-19 10:21:42,110] INFO trytond.config using /home/wangpeng/hrp/config/wangd.conf as configuration file
+Traceback (most recent call last):
+  File "./trytond", line 50, in <module>
+    use_reloader=options.dev)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 708, in run_simple
+    inner()
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 670, in inner
+    fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 558, in make_server
+    passthrough_errors, ssl_context, fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 476, in __init__
+    HTTPServer.__init__(self, (host, int(port)), handler)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+/home/wangpeng/.local/lib/python2.7/site-packages/relatorio/templates/__init__.py:29: UserWarning: Unable to load plugin 'chart'
+  warnings.warn("Unable to load plugin '%s'" % name)
+Traceback (most recent call last):
+  File "./trytond", line 50, in <module>
+    use_reloader=options.dev)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 708, in run_simple
+    inner()
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 670, in inner
+    fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 558, in make_server
+    passthrough_errors, ssl_context, fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 476, in __init__
+    HTTPServer.__init__(self, (host, int(port)), handler)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+/home/wangpeng/.local/lib/python2.7/site-packages/relatorio/templates/__init__.py:29: UserWarning: Unable to load plugin 'chart'
+  warnings.warn("Unable to load plugin '%s'" % name)
+Traceback (most recent call last):
+  File "./trytond", line 50, in <module>
+    use_reloader=options.dev)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 708, in run_simple
+    inner()
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 670, in inner
+    fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 558, in make_server
+    passthrough_errors, ssl_context, fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 476, in __init__
+    HTTPServer.__init__(self, (host, int(port)), handler)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+/home/wangpeng/.local/lib/python2.7/site-packages/relatorio/templates/__init__.py:29: UserWarning: Unable to load plugin 'chart'
+  warnings.warn("Unable to load plugin '%s'" % name)
+/home/wangpeng/.local/lib/python2.7/site-packages/relatorio/templates/__init__.py:29: UserWarning: Unable to load plugin 'chart'
+  warnings.warn("Unable to load plugin '%s'" % name)
+30087 139625913628480 [2017-03-19 10:22:46,348] INFO trytond.config using /home/wangpeng/hrp/config/wangd.conf as configuration file
+Traceback (most recent call last):
+  File "./trytond", line 50, in <module>
+    use_reloader=options.dev)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 708, in run_simple
+    inner()
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 670, in inner
+    fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 558, in make_server
+    passthrough_errors, ssl_context, fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 476, in __init__
+    HTTPServer.__init__(self, (host, int(port)), handler)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+/home/wangpeng/.local/lib/python2.7/site-packages/relatorio/templates/__init__.py:29: UserWarning: Unable to load plugin 'chart'
+  warnings.warn("Unable to load plugin '%s'" % name)
+30094 139738757617472 [2017-03-19 10:22:59,301] INFO trytond.config using /home/wangpeng/hrp/config/wangd.conf as configuration file
+Traceback (most recent call last):
+  File "./trytond", line 50, in <module>
+    use_reloader=options.dev)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 708, in run_simple
+    inner()
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 670, in inner
+    fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 558, in make_server
+    passthrough_errors, ssl_context, fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 476, in __init__
+    HTTPServer.__init__(self, (host, int(port)), handler)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+/home/wangpeng/.local/lib/python2.7/site-packages/relatorio/templates/__init__.py:29: UserWarning: Unable to load plugin 'chart'
+  warnings.warn("Unable to load plugin '%s'" % name)
+/home/wangpeng/.local/lib/python2.7/site-packages/relatorio/templates/__init__.py:29: UserWarning: Unable to load plugin 'chart'
+  warnings.warn("Unable to load plugin '%s'" % name)
+Traceback (most recent call last):
+  File "./trytond", line 17, in <module>
+    from trytond.application import app
+  File "/home/wangpeng/hrp/trytond/application.py", line 8, in <module>
+    Pool.start()
+  File "/home/wangpeng/hrp/trytond/pool.py", line 97, in start
+    register_classes()
+  File "/home/wangpeng/hrp/trytond/modules/__init__.py", line 365, in register_classes
+    the_module.register()
+  File "/home/wangpeng/hrp/trytond/modules/hrp_shipment/__init__.py", line 26, in register
+    AuditCausticExcessiveLines,
+NameError: global name 'AuditCausticExcessiveLines' is not defined
+/home/wangpeng/.local/lib/python2.7/site-packages/relatorio/templates/__init__.py:29: UserWarning: Unable to load plugin 'chart'
+  warnings.warn("Unable to load plugin '%s'" % name)
+Traceback (most recent call last):
+  File "./trytond", line 50, in <module>
+    use_reloader=options.dev)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 708, in run_simple
+    inner()
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 670, in inner
+    fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 558, in make_server
+    passthrough_errors, ssl_context, fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 476, in __init__
+    HTTPServer.__init__(self, (host, int(port)), handler)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+/home/wangpeng/.local/lib/python2.7/site-packages/relatorio/templates/__init__.py:29: UserWarning: Unable to load plugin 'chart'
+  warnings.warn("Unable to load plugin '%s'" % name)
+Traceback (most recent call last):
+  File "./trytond", line 50, in <module>
+    use_reloader=options.dev)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 708, in run_simple
+    inner()
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 670, in inner
+    fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 558, in make_server
+    passthrough_errors, ssl_context, fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 476, in __init__
+    HTTPServer.__init__(self, (host, int(port)), handler)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+/home/wangpeng/.local/lib/python2.7/site-packages/relatorio/templates/__init__.py:29: UserWarning: Unable to load plugin 'chart'
+  warnings.warn("Unable to load plugin '%s'" % name)
+/home/wangpeng/.local/lib/python2.7/site-packages/relatorio/templates/__init__.py:29: UserWarning: Unable to load plugin 'chart'
+  warnings.warn("Unable to load plugin '%s'" % name)
+Traceback (most recent call last):
+  File "./trytond", line 50, in <module>
+    use_reloader=options.dev)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 708, in run_simple
+    inner()
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 670, in inner
+    fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 558, in make_server
+    passthrough_errors, ssl_context, fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 476, in __init__
+    HTTPServer.__init__(self, (host, int(port)), handler)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+/home/wangpeng/.local/lib/python2.7/site-packages/relatorio/templates/__init__.py:29: UserWarning: Unable to load plugin 'chart'
+  warnings.warn("Unable to load plugin '%s'" % name)
+/home/wangpeng/.local/lib/python2.7/site-packages/relatorio/templates/__init__.py:29: UserWarning: Unable to load plugin 'chart'
+  warnings.warn("Unable to load plugin '%s'" % name)
+Traceback (most recent call last):
+  File "./trytond", line 17, in <module>
+    from trytond.application import app
+  File "/home/wangpeng/mh/trytond/application.py", line 8, in <module>
+    Pool.start()
+  File "/home/wangpeng/mh/trytond/pool.py", line 97, in start
+    register_classes()
+  File "/home/wangpeng/mh/trytond/modules/__init__.py", line 362, in register_classes
+    mod_file, pathname, description)
+  File "/home/wangpeng/mh/trytond/modules/hrp_inventory/__init__.py", line 1, in <module>
+    from .inventory import *
+  File "/home/wangpeng/mh/trytond/modules/hrp_inventory/inventory.py", line 9, in <module>
+    import arrow
+ImportError: No module named arrow
+Traceback (most recent call last):
+  File "./trytond", line 17, in <module>
+    from trytond.application import app
+  File "/home/wangpeng/mh/trytond/application.py", line 8, in <module>
+    Pool.start()
+  File "/home/wangpeng/mh/trytond/pool.py", line 97, in start
+    register_classes()
+  File "/home/wangpeng/mh/trytond/modules/__init__.py", line 362, in register_classes
+    mod_file, pathname, description)
+  File "/home/wangpeng/mh/trytond/modules/hrp_inventory/__init__.py", line 1, in <module>
+    from .inventory import *
+  File "/home/wangpeng/mh/trytond/modules/hrp_inventory/inventory.py", line 9, in <module>
+    import arrow
+ImportError: No module named arrow
+8028 139635225261824 [2017-12-08 07:00:22,479] ERROR trytond.protocols.dispatcher fail to connect to Mhyytext
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 66, in login
+    Database(database_name).connect()
+  File "/home/wangpeng/mh/trytond/backend/postgresql/database.py", line 93, in connect
+    minconn, maxconn, self.dsn(self.name))
+  File "/usr/lib64/python2.7/site-packages/psycopg2/pool.py", line 161, in __init__
+    self, minconn, maxconn, *args, **kwargs)
+  File "/usr/lib64/python2.7/site-packages/psycopg2/pool.py", line 58, in __init__
+    self._connect()
+  File "/usr/lib64/python2.7/site-packages/psycopg2/pool.py", line 62, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "/usr/lib64/python2.7/site-packages/psycopg2/__init__.py", line 130, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+OperationalError: FATAL:  database "Mhyytext" does not exist
+
+8028 139635225261824 [2017-12-08 07:00:31,989] ERROR trytond.protocols.dispatcher fail to connect to Mhyytext
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 66, in login
+    Database(database_name).connect()
+  File "/home/wangpeng/mh/trytond/backend/postgresql/database.py", line 93, in connect
+    minconn, maxconn, self.dsn(self.name))
+  File "/usr/lib64/python2.7/site-packages/psycopg2/pool.py", line 161, in __init__
+    self, minconn, maxconn, *args, **kwargs)
+  File "/usr/lib64/python2.7/site-packages/psycopg2/pool.py", line 58, in __init__
+    self._connect()
+  File "/usr/lib64/python2.7/site-packages/psycopg2/pool.py", line 62, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "/usr/lib64/python2.7/site-packages/psycopg2/__init__.py", line 130, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+OperationalError: FATAL:  database "Mhyytext" does not exist
+
+8028 139635449345792 [2017-12-08 09:29:23,588] ERROR werkzeug 172.18.45.64 - - [08/Dec/2017 09:29:23] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\xa2;J\x8a\x92\xd3\x13\x94\xf2i\xee\xa1t&\x92Y\xad\xd8\xa9\x93\xb9\xed\xa5i\x8a\xe4l\xc4V\x92?\x7f\x00\x00\x94\xc00\xc0,\xc02\xc0.\xc0/\xc0+\xc01\xc0-\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00\xa4\x00\xa2\x00\xa0\x00\x9e\xc0(\xc0$\xc0\x14\xc0')
+8028 139635449345792 [2017-12-12 07:39:36,392] ERROR werkzeug 172.18.45.114 - - [12/Dec/2017 07:39:36] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03OD\x0e7\x82g\x86\x8dR\xe8O\x8e{\x15&\xedo\\v\xe4\x86i\xf9Oi|Z\xe5\xaf@\xe9\xe3\x00\x00\x94\xc00\xc0,\xc02\xc0.\xc0/\xc0+\xc01\xc0-\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00\xa4\x00\xa2\x00\xa0\x00\x9e\xc0(\xc0$\xc0\x14\xc0')
+8028 139635225261824 [2017-12-21 09:41:27,066] ERROR trytond.protocols.dispatcher fail to connect to Mhyytext
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 66, in login
+    Database(database_name).connect()
+  File "/home/wangpeng/mh/trytond/backend/postgresql/database.py", line 93, in connect
+    minconn, maxconn, self.dsn(self.name))
+  File "/usr/lib64/python2.7/site-packages/psycopg2/pool.py", line 161, in __init__
+    self, minconn, maxconn, *args, **kwargs)
+  File "/usr/lib64/python2.7/site-packages/psycopg2/pool.py", line 58, in __init__
+    self._connect()
+  File "/usr/lib64/python2.7/site-packages/psycopg2/pool.py", line 62, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "/usr/lib64/python2.7/site-packages/psycopg2/__init__.py", line 130, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+OperationalError: FATAL:  database "Mhyytext" does not exist
+
+Traceback (most recent call last):
+  File "./trytond", line 50, in <module>
+    use_reloader=options.dev)
+  File "/usr/lib/python2.7/site-packages/werkzeug/serving.py", line 739, in run_simple
+    inner()
+  File "/usr/lib/python2.7/site-packages/werkzeug/serving.py", line 699, in inner
+    fd=fd)
+  File "/usr/lib/python2.7/site-packages/werkzeug/serving.py", line 587, in make_server
+    passthrough_errors, ssl_context, fd=fd)
+  File "/usr/lib/python2.7/site-packages/werkzeug/serving.py", line 504, in __init__
+    HTTPServer.__init__(self, (host, int(port)), handler)
+  File "/usr/lib64/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib64/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib64/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+24288 139800965158656 [2018-01-09 05:34:38,199] ERROR werkzeug 172.18.45.108 - - [09/Jan/2018 05:34:38] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\xf7)8\xe0\xe3\x95lp?\xbb\xa3\xb8\x08\xfd\xd0\xb9\xf2`\x9e`;g9\x8f\x83\x84s\xd4\x1c\xe6.\xb0\x00\x00\x94\xc00\xc0,\xc02\xc0.\xc0/\xc0+\xc01\xc0-\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00\xa4\x00\xa2\x00\xa0\x00\x9e\xc0(\xc0$\xc0\x14\xc0')
+24288 139800990336768 [2018-03-05 05:46:19,882] ERROR werkzeug 172.18.45.191 - - [05/Mar/2018 05:46:19] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03X\x12\xfev\xa0\x04\xeb\xf5\xf8o<\xc9\xaa\xad\x8b\xbe\x86\x9d\x10')
+24288 139800990336768 [2018-03-05 06:17:54,978] ERROR werkzeug 172.18.45.191 - - [05/Mar/2018 06:17:54] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\x89y\xfd\xa3\xe5\xbd\x96\xc2\x9e\xd14')
+24288 139800990336768 [2018-03-12 09:40:44,513] ERROR werkzeug 172.18.45.117 - - [12/Mar/2018 09:40:44] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\xf2N~;\xd1u\xe9\xf1M\x84\xcf\x96J\xb5\xc4h\xa3\xa3G_\xf2\x8f%\xa1T0`\x19<:\x03\x82\x00\x00\x94\xc00\xc0,\xc02\xc0.\xc0/\xc0+\xc01\xc0-\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00\xa4\x00\xa2\x00\xa0\x00\x9e\xc0(\xc0$\xc0\x14\xc0')
+Traceback (most recent call last):
+  File "./trytond", line 50, in <module>
+    use_reloader=options.dev)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 708, in run_simple
+    inner()
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 670, in inner
+    fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 558, in make_server
+    passthrough_errors, ssl_context, fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 476, in __init__
+    HTTPServer.__init__(self, (host, int(port)), handler)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "./trytond", line 50, in <module>
+    use_reloader=options.dev)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 708, in run_simple
+    inner()
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 670, in inner
+    fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 558, in make_server
+    passthrough_errors, ssl_context, fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 476, in __init__
+    HTTPServer.__init__(self, (host, int(port)), handler)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+pg_restore: [archiver (db)] Error while PROCESSING TOC:
+pg_restore: [archiver (db)] Error from TOC entry 6526; 0 0 COMMENT EXTENSION plpgsql 
+pg_restore: [archiver (db)] could not execute query: ERROR:  must be owner of extension plpgsql
+    Command was: COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
+
+
+
+29203 140422570776320 [2018-03-12 10:07:02,035] ERROR werkzeug 218.249.137.18 - - [12/Mar/2018 10:07:02] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\x83sL\x0e\xcd\xe2RA\xc1<\x11oz40\x04\x1fbfa\xa2\\\xd8\xa8\x91w~6d>tM\x00\x00\x94\xc00\xc0,\xc02\xc0.\xc0/\xc0+\xc01\xc0-\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00\xa4\x00\xa2\x00\xa0\x00\x9e\xc0(\xc0$\xc0\x14\xc0')
+pg_restore: WARNING:  no privileges could be revoked for "public"
+pg_restore: WARNING:  no privileges could be revoked for "public"
+pg_restore: WARNING:  no privileges were granted for "public"
+pg_restore: WARNING:  no privileges were granted for "public"
+WARNING: errors ignored on restore: 1
+usage: trytond [-h] [--version] [-c FILE] [-v] [--dev]
+               [-d DATABASE [DATABASE ...]] [--logconf FILE] [--pidfile FILE]
+trytond: error: unrecognized arguments: $
+15933 139768449382144 [2018-03-13 00:26:19,601] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_inventory_report.inventory_report.hrp_inventory_report.stock_inventory_report'>.search(*([], 0, 1000, None, {u'category': 5, u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'location': 4, u'groups': [319, 321, 322, 333, 325, 367, 318, 352, 361, 339, 340, 335, 332, 334, 301, 252], u'employee': None, u'company': 1}), **{}) from zxyk@61.148.245.232//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/model/modelsql.py", line 1103, in search
+    tables, expression = cls.search_domain(domain)
+  File "/home/wangpeng/mh/trytond/model/modelsql.py", line 1258, in search_domain
+    tables[None] = (cls.__table__(), None)
+  File "/home/wangpeng/mh/trytond/model/modelsql.py", line 119, in __table__
+    return cls.table_query() or Table(cls._table)
+  File "/home/wangpeng/mh/trytond/modules/hrp_inventory_report/inventory_report.py", line 174, in table_query
+    [Transaction().context['location'], Location(Transaction().context['location']).freeze_location.id],
+AttributeError: 'NoneType' object has no attribute 'id'
+14890 140542967613184 [2018-03-15 06:07:35,679] ERROR werkzeug 218.249.137.18 - - [15/Mar/2018 06:07:35] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03D\xa1\xa8(\xd7)\xe6@\xb5\xe9\xc2Ux\xc7F@xt\x9f\xe9)6\xb1e\xba=\x8cj\x888\xc4\xa0\x00\x00\x94\xc00\xc0,\xc02\xc0.\xc0/\xc0+\xc01\xc0-\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00\xa4\x00\xa2\x00\xa0\x00\x9e\xc0(\xc0$\xc0\x14\xc0')
+14890 140542967613184 [2018-03-15 06:09:43,339] ERROR trytond.protocols.dispatcher fail to connect to wf_testdb
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 66, in login
+    Database(database_name).connect()
+  File "/home/wangpeng/mh/trytond/backend/postgresql/database.py", line 93, in connect
+    minconn, maxconn, self.dsn(self.name))
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/psycopg2/pool.py", line 156, in __init__
+    self, minconn, maxconn, *args, **kwargs)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/psycopg2/pool.py", line 58, in __init__
+    self._connect()
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/psycopg2/pool.py", line 62, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/psycopg2/__init__.py", line 164, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, async=async)
+OperationalError: could not connect to server: Connection timed out
+	Is the server running on host "172.18.45.52" and accepting
+	TCP/IP connections on port 5432?
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+14890 140542967613184 [2018-03-15 06:15:54,155] ERROR trytond.protocols.dispatcher fail to connect to Mhdb
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 66, in login
+    Database(database_name).connect()
+  File "/home/wangpeng/mh/trytond/backend/postgresql/database.py", line 93, in connect
+    minconn, maxconn, self.dsn(self.name))
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/psycopg2/pool.py", line 156, in __init__
+    self, minconn, maxconn, *args, **kwargs)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/psycopg2/pool.py", line 58, in __init__
+    self._connect()
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/psycopg2/pool.py", line 62, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/psycopg2/__init__.py", line 164, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, async=async)
+OperationalError: could not connect to server: Connection timed out
+	Is the server running on host "172.18.45.52" and accepting
+	TCP/IP connections on port 5432?
+
+23505 140269105620736 [2018-03-15 06:40:43,091] ERROR werkzeug 223.104.3.153 - - [15/Mar/2018 06:40:43] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03Vp\xd8\xc4\xdck\xd2\x11\x13\x08\xdf\xb9r\xe5\xb3@\xdd\xe6\xa2H\xd6\xec\x83\x15\xbd=\x81F\x80\x96\xce+\x00\x00\x94\xc00\xc0,\xc02\xc0.\xc0/\xc0+\xc01\xc0-\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00\xa4\x00\xa2\x00\xa0\x00\x9e\xc0(\xc0$\xc0\x14\xc0')
+23505 140269105620736 [2018-03-15 06:40:51,210] ERROR werkzeug 223.104.3.153 - - [15/Mar/2018 06:40:51] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\xd5\xca\xaf\x8d\x08\x86M\xfeRr\xa0\x8bh\xd0\x0e\xb8\x80\x8d\xdb\x14\xff\xef+\x14b1\xcaS4\xdc9')
+23505 140269105620736 [2018-03-16 02:52:34,385] ERROR werkzeug 125.46.33.34 - - [16/Mar/2018 02:52:34] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\xd0\x18L\x85\xa0\xf0\xee\xf8:G\xe0\xd3\xc9X\xa1;\xa5\xd9\xb3\x01M\x13U\x8e\x97\xc0\xe2\x83')
+23505 140269105620736 [2018-03-16 03:10:44,377] ERROR werkzeug 125.46.33.34 - - [16/Mar/2018 03:10:44] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\xb4\x9e\xd6}#M\x92\x7fhm\x1b\x8bX\xe4z\xb2\xc4C\xaa\xc5-\xe7oE1u\xe9JRO\x9a\xb3\x00\x00\x94\xc00\xc0,\xc02\xc0.\xc0/\xc0+\xc01\xc0-\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00\xa4\x00\xa2\x00\xa0\x00\x9e\xc0(\xc0$\xc0\x14\xc0')
+23505 140268984588032 [2018-03-16 06:33:13,268] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_internal_delivery.internal_query.hrp_internal_delivery.internal_query'>.on_change_with(*({u'drug_type': None, u'product_id': [{u'id': 4}, {u'id': 5}, {u'id': 7}, {u'id': 9}, {u'id': 10}, {u'id': 11}, {u'id': 12}, {u'id': 13}, {u'id': 14}, {u'id': 15}, {u'id': 16}, {u'id': 17}, {u'id': 18}, {u'id': 19}, {u'id': 20}, {u'id': 21}, {u'id': 22}, {u'id': 23}, {u'id': 24}, {u'id': 35}, {u'id': 36}, {u'id': 37}, {u'id': 38}, {u'id': 39}, {u'id': 40}, {u'id': 41}, {u'id': 42}, {u'id': 43}, {u'id': 44}, {u'id': 45}, {u'id': 51}, {u'id': 52}, {u'id': 53}, {u'id': 54}, {u'id': 55}, {u'id': 56}, {u'id': 57}, {u'id': 58}, {u'id': 59}, {u'id': 60}, {u'id': 61}, {u'id': 66}, {u'id': 67}, {u'id': 68}, {u'id': 69}, {u'id': 70}, {u'id': 71}, {u'id': 72}, {u'id': 73}, {u'id': 74}, {u'id': 75}, {u'id': 76}, {u'id': 77}, {u'id': 78}, {u'id': 79}, {u'id': 80}, {u'id': 81}, {u'id': 82}, {u'id': 83}, {u'id': 84}, {u'id': 85}, {u'id': 86}, {u'id': 87}, {u'id': 88}, {u'id': 89}, {u'id': 90}, {u'id': 91}, {u'id': 92}, {u'id': 93}, {u'id': 94}, {u'id': 95}, {u'id': 96}, {u'id': 97}, {u'id': 98}, {u'id': 99}, {u'id': 100}, {u'id': 101}, {u'id': 102}, {u'id': 103}, {u'id': 104}, {u'id': 105}, {u'id': 106}, {u'id': 107}, {u'id': 108}, {u'id': 109}, {u'id': 110}, {u'id': 111}, {u'id': 112}, {u'id': 113}, {u'id': 114}, {u'id': 115}, {u'id': 116}, {u'id': 117}, {u'id': 118}, {u'id': 119}, {u'id': 120}, {u'id': 121}, {u'id': 122}, {u'id': 123}, {u'id': 124}, {u'id': 125}, {u'id': 126}, {u'id': 127}, {u'id': 128}, {u'id': 129}, {u'id': 130}, {u'id': 131}, {u'id': 132}, {u'id': 133}, {u'id': 134}, {u'id': 135}, {u'id': 136}, {u'id': 137}, {u'id': 138}, {u'id': 139}, {u'id': 140}, {u'id': 141}, {u'id': 142}, {u'id': 143}, {u'id': 144}, {u'id': 145}, {u'id': 146}, {u'id': 147}, {u'id': 148}, {u'id': 149}, {u'id': 150}, {u'id': 151}, {u'id': 152}, {u'id': 153}, {u'id': 154}, {u'id': 155}, {u'id': 156}, {u'id': 157}, {u'id': 158}, {u'id': 159}, {u'id': 160}, {u'id': 161}, {u'id': 162}, {u'id': 163}, {u'id': 164}, {u'id': 165}, {u'id': 166}, {u'id': 167}, {u'id': 168}, {u'id': 169}, {u'id': 170}, {u'id': 171}, {u'id': 172}, {u'id': 173}, {u'id': 174}, {u'id': 175}, {u'id': 176}, {u'id': 177}, {u'id': 178}, {u'id': 179}, {u'id': 180}], u'id': -54}, [u'product_id'], {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [3, 319, 321, 322, 333, 309, 311, 312, 310, 313, 323, 329, 330, 369, 328, 327, 325, 326, 341, 342, 345, 351, 346, 347, 348, 349, 350, 343, 344, 336, 367, 368, 318, 337, 338, 352, 359, 355, 357, 356, 360, 358, 361, 353, 354, 324, 339, 404, 340, 405, 406, 335, 331, 332, 334, 362, 314, 317, 315, 316, 364, 365, 363, 366, 407, 301, 302, 306, 305, 307, 308, 304, 303, 11, 12, 4, 2, 6, 7, 5, 1, 252, 9, 10, 14, 17, 13, 15, 16], u'employee': None, u'company': 1}), **{}) from admin@218.249.137.18//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 204, in _dispatch
+    result = rpc.result(meth(inst, *c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/model/modelview.py", line 669, in on_change_with
+    changes[fieldname] = getattr(self, method_name)()
+  File "/home/wangpeng/mh/trytond/model/fields/field.py", line 89, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/wangpeng/mh/trytond/modules/hrp_internal_delivery/internal_query.py", line 140, in on_change_with_product_id
+    categories_id = uom_category[0].id
+IndexError: list index out of range
+23505 140269001373440 [2018-03-19 01:02:34,898] ERROR werkzeug 125.46.33.34 - - [19/Mar/2018 01:02:34] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\x03\xfa\xdaO\x9cUsj\xb3\x84\xc6\xc0q`?\x11=kJ\xab\xc0\xfb\xedn\xfb4\x956\xa2"\x80Y\x00\x00\x94\xc00\xc0,\xc02\xc0.\xc0/\xc0+\xc01\xc0-\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00\xa4\x00\xa2\x00\xa0\x00\x9e\xc0(\xc0$\xc0\x14\xc0')
+23505 140269080729344 [2018-03-19 01:09:22,274] ERROR trytond.protocols.dispatcher <class 'trytond.pool.hrp_internal_delivery.general_journal'>.execute(*([], {u'start': {u'drug_type': u'\u897f\u836f', u'move_project': [], u'product': None, u'move_query_apply': [], 'location_name': u'\u4e2d\u5fc3\u836f\u5e93', u'product_id': [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], u'location_frozen': None, u'start_time': datetime.date(2018, 3, 1), u'number': u'', u'move_query_return': [], u'message_find': False, u'get_user_warehouse': 25, u'location': 24, u'detailed_project': u'detailed_query', u'document_type': u'00', u'move_query_frozen': [], u'end_time': datetime.date(2018, 3, 19)}, u'action_id': 356}, {u'date_format': u'%Y-%m-%d', u'direct_print': False, u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'company': 1, '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'email': {}, u'email_print': False, u'groups': [319, 321, 322, 333, 325, 367, 318, 352, 361, 339, 340, 335, 332, 334, 301, 252], u'employee': None, u'language_direction': u'ltr'}), **{}) from zxyk@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/report/report.py", line 147, in execute
+    cls.render(action_report, report_context))
+  File "/home/wangpeng/mh/trytond/report/report.py", line 232, in render
+    data = rel_report(**report_context).render()
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/relatorio/templates/base.py", line 34, in render
+    return self.serializer(self.events)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/relatorio/templates/opendocument.py", line 984, in __call__
+    for kind, data, pos in stream:
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/core.py", line 289, in _ensure
+    for event in stream:
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/filters/i18n.py", line 690, in __call__
+    for kind, data, pos in stream:
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/template/base.py", line 618, in _include
+    for event in stream:
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/template/markup.py", line 326, in _match
+    for event in stream:
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/template/base.py", line 578, in _flatten
+    result = _eval_expr(data, ctxt, vars)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/template/base.py", line 289, in _eval_expr
+    retval = expr.evaluate(ctxt)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/template/eval.py", line 177, in evaluate
+    return eval(self.code, _globals, {'__data__': data})
+  File "<string>", line 1, in <Expression u'Inventory.start.move_query_apply[0].processing_time'>
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/template/eval.py", line 334, in lookup_item
+    return obj[key]
+IndexError: list index out of range
+23505 140269105620736 [2018-03-19 01:20:19,366] ERROR trytond.protocols.dispatcher <class 'trytond.pool.hrp_internal_delivery.general_journal'>.execute(*([], {u'start': {u'drug_type': u'\u897f\u836f', u'move_project': [], u'product': None, u'move_query_apply': [], 'location_name': u'\u4e2d\u5fc3\u836f\u5e93', u'product_id': [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], u'location_frozen': None, u'start_time': datetime.date(2018, 3, 19), u'number': u'', u'move_query_return': [], u'message_find': False, u'get_user_warehouse': 25, u'location': 24, u'detailed_project': u'detailed_query', u'document_type': u'00', u'move_query_frozen': [], u'end_time': datetime.date(2018, 3, 19)}, u'action_id': 356}, {u'date_format': u'%Y-%m-%d', u'direct_print': False, u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'company': 1, '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'email': {}, u'email_print': False, u'groups': [319, 321, 322, 333, 325, 367, 318, 352, 361, 339, 340, 335, 332, 334, 301, 252], u'employee': None, u'language_direction': u'ltr'}), **{}) from zxyk@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/report/report.py", line 147, in execute
+    cls.render(action_report, report_context))
+  File "/home/wangpeng/mh/trytond/report/report.py", line 232, in render
+    data = rel_report(**report_context).render()
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/relatorio/templates/base.py", line 34, in render
+    return self.serializer(self.events)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/relatorio/templates/opendocument.py", line 984, in __call__
+    for kind, data, pos in stream:
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/core.py", line 289, in _ensure
+    for event in stream:
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/filters/i18n.py", line 690, in __call__
+    for kind, data, pos in stream:
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/template/base.py", line 618, in _include
+    for event in stream:
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/template/markup.py", line 326, in _match
+    for event in stream:
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/template/base.py", line 578, in _flatten
+    result = _eval_expr(data, ctxt, vars)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/template/base.py", line 289, in _eval_expr
+    retval = expr.evaluate(ctxt)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/template/eval.py", line 177, in evaluate
+    return eval(self.code, _globals, {'__data__': data})
+  File "<string>", line 1, in <Expression u'Inventory.start.move_query_apply[0].processing_time'>
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/template/eval.py", line 334, in lookup_item
+    return obj[key]
+IndexError: list index out of range
+23505 140269080729344 [2018-03-19 02:01:54,533] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_party.new_party.hrp_party.new_party'>.write(*([11], {u'phone': u'15738378280', u'contact_name': u'wang.y.z', u'street': u'\u91d1\u6c34\u533a', u'invoice': True}, {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/modules/hrp_party/new_party.py", line 261, in write
+    if values['mark'] is not None:
+KeyError: 'mark'
+23505 140269080729344 [2018-03-19 02:02:02,460] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_party.new_party.hrp_party.new_party'>.write(*([11], {u'phone': u'15738378280', u'contact_name': u'wang.y.z', u'street': u'\u91d1\u6c34\u533a', u'invoice': False}, {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/modules/hrp_party/new_party.py", line 261, in write
+    if values['mark'] is not None:
+KeyError: 'mark'
+23505 140269080729344 [2018-03-19 02:02:21,440] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_party.new_party.hrp_party.new_party'>.write(*([11], {u'phone': u'15738378280', u'contact_name': u'', u'street': u'\u91d1\u6c34\u533a', u'invoice': False}, {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/modules/hrp_party/new_party.py", line 261, in write
+    if values['mark'] is not None:
+KeyError: 'mark'
+23505 140269080729344 [2018-03-19 02:02:38,188] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_party.new_party.hrp_party.new_party'>.write(*([11], {u'phone': u'', u'contact_name': u'', u'street': u'', u'invoice': False}, {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/modules/hrp_party/new_party.py", line 261, in write
+    if values['mark'] is not None:
+KeyError: 'mark'
+23505 140269080729344 [2018-03-19 02:02:51,490] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_party.new_party.hrp_party.new_party'>.write(*([11], {u'invoice': True}, {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/modules/hrp_party/new_party.py", line 261, in write
+    if values['mark'] is not None:
+KeyError: 'mark'
+23505 140269080729344 [2018-03-19 02:03:07,851] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_party.new_party.hrp_party.new_party'>.write(*([11], {u'contact_name': u'wang.y.z'}, {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/modules/hrp_party/new_party.py", line 261, in write
+    if values['mark'] is not None:
+KeyError: 'mark'
+23505 140269080729344 [2018-03-19 02:04:45,077] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_party.new_party.hrp_party.new_party'>.write(*([11], {u'invoice': False}, {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/modules/hrp_party/new_party.py", line 261, in write
+    if values['mark'] is not None:
+KeyError: 'mark'
+23505 140269080729344 [2018-03-19 02:05:24,581] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_party.new_party.hrp_party.new_party'>.write(*([11], {u'invoice': False}, {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/modules/hrp_party/new_party.py", line 261, in write
+    if values['mark'] is not None:
+KeyError: 'mark'
+23505 140269080729344 [2018-03-19 02:06:01,871] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_party.new_party.hrp_party.new_party'>.write(*([11], {u'invoice': False}, {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/modules/hrp_party/new_party.py", line 261, in write
+    if values['mark'] is not None:
+KeyError: 'mark'
+23505 140269080729344 [2018-03-19 02:06:38,363] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_party.new_party.hrp_party.new_party'>.write(*([11], {u'new_name': u'\u6cb3\u5357\u534e\u6da6\u533b\u836f'}, {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/modules/hrp_party/new_party.py", line 261, in write
+    if values['mark'] is not None:
+KeyError: 'mark'
+23505 140269080729344 [2018-03-19 02:07:52,126] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_party.new_party.hrp_party.new_party'>.write(*([11], {u'new_name': u'\u6cb3\u5357\u534e\u6da6\u533b\u836f'}, {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/modules/hrp_party/new_party.py", line 261, in write
+    if values['mark'] is not None:
+KeyError: 'mark'
+23505 140269080729344 [2018-03-19 02:10:20,590] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_party.new_party.hrp_party.new_party'>.write(*([10], {u'invoice': True}, {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/modules/hrp_party/new_party.py", line 261, in write
+    if values['mark'] is not None:
+KeyError: 'mark'
+23505 140269080729344 [2018-03-19 02:47:18,043] ERROR trytond.protocols.dispatcher <class 'trytond.pool.hrp_internal_delivery.general_journal'>.execute(*([], {u'start': {u'drug_type': u'06', u'move_project': [{u'processing_time': u'2018-03-15', u'move_query_apply': [{u'product': u'\u9752\u9709\u7d20\u76ae\u8bd5\u5242', u'code': u'AA01-4', u'list_price': Decimal('5016.00'), u'additional': u'', u'processing_time': u'2018-03-15', u'company': 44, u'drug_specifications': u'0.25\u4e07u*1\u652f', u'number': u'YX2018030029', u'lot': u'AA01-4-170719', u'time': u'2018-07-19', u'proposal': u'220.0', u'odd_numbers': u'None', u'cost_price': Decimal('4362.60')}, {u'product': u'\u6ce8\u5c04\u7528\u5934\u5b62\u5c3c\u897f\u94a0', u'code': u'AA24-2', u'list_price': Decimal('3519.00'), u'additional': u'', u'processing_time': u'', u'company': 48, u'drug_specifications': u'0.5g*1\u652f', u'number': u'', u'lot': u'AA24-2170629', u'time': u'2018-06-29', u'proposal': u'100.0', u'odd_numbers': u'222.0', u'cost_price': Decimal('3060.00')}, {u'product': u'\u9752\u9709\u7d20\u76ae\u8bd5\u5242', u'code': u'AA01-4', u'list_price': Decimal('45.60'), u'additional': u'', u'processing_time': u'', u'company': 44, u'drug_specifications': u'0.25\u4e07u*1\u652f', u'number': u'', u'lot': u'AA01-4170621', u'time': u'2018-06-21', u'proposal': u'2.0', u'odd_numbers': u'222.0', u'cost_price': Decimal('39.66')}], u'number': u'YX2018030029'}, {u'processing_time': u'2018-03-13', u'move_query_apply': [{u'product': u'\u5b89\u8111\u4e38', u'code': u'A2-1', u'list_price': Decimal('1205.97'), u'additional': u'', u'processing_time': u'2018-03-13', u'company': 40, u'drug_specifications': u'3\u514b*6\u4e38', u'number': u'YX2018030028', u'lot': u'A2-1-170717', u'time': u'2018-07-17', u'proposal': u'20.0', u'odd_numbers': u'40.0', u'cost_price': Decimal('1048.60')}], u'number': u'YX2018030028'}, {u'processing_time': u'2018-03-13', u'move_query_apply': [{u'product': u'\u6ce8\u5c04\u7528\u5934\u5b62\u567b\u809f\u94a0\u8212\u5df4\u5766\u94a0', u'code': u'AA102-1', u'list_price': Decimal('2000.00'), u'additional': u'(2:1)', u'processing_time': u'2018-03-13', u'company': 46, u'drug_specifications': u'1.5g*1\u74f6', u'number': u'YX2018030027', u'lot': u'AA102-1-170704', u'time': u'2018-07-04', u'proposal': u'10.0', u'odd_numbers': u'10.0', u'cost_price': Decimal('1000.00')}], u'number': u'YX2018030027'}, {u'processing_time': u'2018-03-12', u'move_query_apply': [{u'product': u'\u6ce8\u5c04\u7528\u5934\u5b62\u567b\u809f\u94a0\u8212\u5df4\u5766\u94a0', u'code': u'AA102-1', u'list_price': Decimal('20000.00'), u'additional': u'(2:1)', u'processing_time': u'2018-03-12', u'company': 46, u'drug_specifications': u'1.5g*1\u74f6', u'number': u'YX2018030001', u'lot': u'AA102-1-170704', u'time': u'2018-07-04', u'proposal': u'100.0', u'odd_numbers': u'100.0', u'cost_price': Decimal('10000.00')}], u'number': u'YX2018030001'}, {u'processing_time': u'2018-03-12', u'move_query_apply': [{u'product': u'\u6ce8\u5c04\u7528\u5934\u5b62\u5511\u809f\u94a0', u'code': u'AA29-1', u'list_price': Decimal('5600.00'), u'additional': u'[\u8fbe\u529b]', u'processing_time': u'2018-03-12', u'company': 52, u'drug_specifications': u'1g*1\u652f', u'number': u'YX2018030001', u'lot': u'aa29-1170619', u'time': u'2018-06-19', u'proposal': u'200.0', u'odd_numbers': u'200.0', u'cost_price': Decimal('4600.00')}], u'number': u'YX2018030001'}, {u'processing_time': u'2018-03-16', u'move_query_apply': [{u'product': u'\u5b89\u8111\u4e38', u'code': u'A2-1', u'list_price': Decimal('60.30'), u'additional': u'', u'processing_time': u'2018-03-16', u'company': 40, u'drug_specifications': u'3\u514b*6\u4e38', u'number': u'YB2017060009', u'lot': u'A2-1-170717', u'time': u'2018-07-17', u'proposal': u'1.0', u'odd_numbers': u'1.0', u'cost_price': Decimal('52.43')}], u'number': u'YB2017060009'}], u'product': None, u'move_query_apply': [], 'location_name': u'\u4e2d\u5fc3\u836f\u5e93', u'product_id': [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], u'location_frozen': None, u'start_time': datetime.date(2018, 3, 1), u'number': u'', u'move_query_return': [], u'message_find': True, u'get_user_warehouse': 25, u'location': 24, u'detailed_project': u'project_query', u'document_type': u'00', u'move_query_frozen': [], u'end_time': datetime.date(2018, 3, 19)}, u'action_id': 356}, {u'date_format': u'%Y-%m-%d', u'direct_print': False, u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'company': 1, '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'email': {}, u'email_print': False, u'groups': [319, 321, 322, 333, 325, 367, 318, 352, 361, 339, 340, 335, 332, 334, 301, 252], u'employee': None, u'language_direction': u'ltr'}), **{}) from zxyk@218.249.137.18//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/report/report.py", line 147, in execute
+    cls.render(action_report, report_context))
+  File "/home/wangpeng/mh/trytond/report/report.py", line 232, in render
+    data = rel_report(**report_context).render()
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/relatorio/templates/base.py", line 34, in render
+    return self.serializer(self.events)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/relatorio/templates/opendocument.py", line 984, in __call__
+    for kind, data, pos in stream:
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/core.py", line 289, in _ensure
+    for event in stream:
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/filters/i18n.py", line 690, in __call__
+    for kind, data, pos in stream:
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/template/base.py", line 618, in _include
+    for event in stream:
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/template/markup.py", line 326, in _match
+    for event in stream:
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/template/base.py", line 578, in _flatten
+    result = _eval_expr(data, ctxt, vars)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/template/base.py", line 289, in _eval_expr
+    retval = expr.evaluate(ctxt)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/template/eval.py", line 177, in evaluate
+    return eval(self.code, _globals, {'__data__': data})
+  File "<string>", line 1, in <Expression u'Inventory.start.move_query_apply[0].processing_time'>
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/template/eval.py", line 334, in lookup_item
+    return obj[key]
+IndexError: list index out of range
+23505 140268984588032 [2018-03-20 01:23:59,132] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_party.new_party.hrp_party.new_party'>.write(*([11], {u'supplier_payment_term': 4}, {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/modules/hrp_party/new_party.py", line 261, in write
+    if values['mark'] is not None:
+KeyError: 'mark'
+23505 140268984588032 [2018-03-20 01:31:02,920] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_product.new_product.hrp_product.new_products'>.create(*([{u'manufacturers_describtion': u'', u'code': u'YPJBXX001739', u'list_price': Decimal('0.0432'), u'retail_package': None, u'dose': u'5', u'drup_level': u'', u'uom_default_uom': u'\u76d2', u'interim': u'00', u'default_uom': None, u'approval_number': u'', u'concentration': u'', u'poison_hemp_spirit': None, u'new_term': u'', u'capacity': u'', u'purchasable': True, u'cost_price_method': u'fixed', u'salable': True, u'manufacturers_code': u'', u'is_direct_sending': False, u'attach': u'', u'state': u'', u'national_essential_medicines': False, u'homemade': False, u'dosage_form_description': u'', u'party': 24, u'type': u'goods', u'a_charge': None, u'cost_price': Decimal('0.0432'), u'medical_insurance_description': u'', u'is_atict': False, u'purchase_code': u'20000011', u'medical_insurance_code': u'', u'compound_dose': None, u'retrieve_the_code': u'YSP', u'consumable': False, u'dose_unit': u'mg', u'categories': 5, u'name': u'[\uff2a]\u53f6\u9178\u7247', u'is_antimicrobials': False, u'uom_min_Package': u'\u7247', u'concentration_unit': u''}], {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/modules/hrp_product/new_product.py", line 643, in create
+    u'rate': round(1 / float(int(value['capacity'])), 12),
+ValueError: invalid literal for int() with base 10: ''
+23505 140268984588032 [2018-03-20 01:31:23,502] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_product.new_product.hrp_product.new_products'>.create(*([{u'manufacturers_describtion': u'', u'code': u'YPJBXX001739', u'list_price': Decimal('0.0432'), u'retail_package': None, u'dose': u'5', u'drup_level': u'', u'uom_default_uom': u'\u76d2', u'interim': u'00', u'default_uom': None, u'approval_number': u'', u'concentration': u'', u'poison_hemp_spirit': None, u'new_term': u'', u'capacity': u'', u'purchasable': True, u'cost_price_method': u'fixed', u'salable': True, u'manufacturers_code': u'', u'is_direct_sending': False, u'attach': u'', u'state': u'', u'national_essential_medicines': False, u'homemade': False, u'dosage_form_description': u'', u'party': 24, u'type': u'goods', u'a_charge': None, u'cost_price': Decimal('0.0432'), u'medical_insurance_description': u'', u'is_atict': False, u'purchase_code': u'20000011', u'medical_insurance_code': u'', u'compound_dose': None, u'retrieve_the_code': u'YSP', u'consumable': False, u'dose_unit': u'mg', u'categories': 5, u'name': u'[\uff2a]\u53f6\u9178\u7247', u'is_antimicrobials': False, u'uom_min_Package': u'\u7247', u'concentration_unit': u''}], {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/modules/hrp_product/new_product.py", line 643, in create
+    u'rate': round(1 / float(int(value['capacity'])), 12),
+ValueError: invalid literal for int() with base 10: ''
+23505 140269105620736 [2018-03-20 06:52:51,107] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_product.new_product.hrp_product.new_products'>.create(*([{u'manufacturers_describtion': u'', u'code': u'Y00000011922', u'list_price': Decimal('138.000'), u'retail_package': None, u'dose': u'0.5', u'drup_level': u'', u'uom_default_uom': u'\u652f', u'interim': u'00', u'default_uom': None, u'approval_number': u'', u'concentration': u'', u'poison_hemp_spirit': None, u'new_term': u'', u'capacity': u'', u'purchasable': True, u'cost_price_method': u'fixed', u'salable': True, u'manufacturers_code': u'', u'is_direct_sending': False, u'attach': u'', u'state': u'', u'national_essential_medicines': False, u'homemade': False, u'dosage_form_description': u'', u'party': 24, u'type': u'goods', u'a_charge': None, u'cost_price': Decimal('138.000'), u'medical_insurance_description': u'', u'is_atict': False, u'purchase_code': u'20170219', u'medical_insurance_code': u'', u'compound_dose': None, u'retrieve_the_code': u'ZLJZ', u'consumable': False, u'dose_unit': u'mg', u'categories': 5, u'name': u'\u6a1f\u67f3\u78b1\u9488', u'is_antimicrobials': False, u'uom_min_Package': u'\u652f', u'concentration_unit': u''}], {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/modules/hrp_product/new_product.py", line 643, in create
+    u'rate': round(1 / float(int(value['capacity'])), 12),
+ValueError: invalid literal for int() with base 10: ''
+23505 140269105620736 [2018-03-20 07:22:11,028] ERROR werkzeug 125.46.33.34 - - [20/Mar/2018 07:22:11] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\xbafm\xc4\x18\xeen?\x96\xb6\x8e\xd7')
+23505 140269001373440 [2018-03-20 08:44:29,228] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_party.new_party.hrp_party.new_party'>.write(*([11], {u'contact_name': u'wang.y.z'}, {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/modules/hrp_party/new_party.py", line 261, in write
+    if values['mark'] is not None:
+KeyError: 'mark'
+23505 140269001373440 [2018-03-20 08:46:30,267] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_party.new_party.hrp_party.new_party'>.write(*([11], {u'finance_code': u'1'}, {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@218.249.137.18//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/modules/hrp_party/new_party.py", line 261, in write
+    if values['mark'] is not None:
+KeyError: 'mark'
+23505 140269001373440 [2018-03-20 08:46:34,928] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_party.new_party.hrp_party.new_party'>.write(*([11], {u'contact_name': u'wang.y.z', u'invoice': True}, {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/modules/hrp_party/new_party.py", line 261, in write
+    if values['mark'] is not None:
+KeyError: 'mark'
+23505 140269001373440 [2018-03-20 08:46:39,008] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_party.new_party.hrp_party.new_party'>.write(*([11], {u'contact_name': u'wang.y.z', u'invoice': True}, {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/modules/hrp_party/new_party.py", line 261, in write
+    if values['mark'] is not None:
+KeyError: 'mark'
+23505 140269001373440 [2018-03-20 08:47:20,621] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_party.new_party.hrp_party.new_party'>.write(*([6], {u'currency': u'123'}, {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@218.249.137.18//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/modules/hrp_party/new_party.py", line 261, in write
+    if values['mark'] is not None:
+KeyError: 'mark'
+23505 140269001373440 [2018-03-20 08:47:49,538] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_party.new_party.hrp_party.new_party'>.write(*([6], {u'currency': u'12'}, {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@218.249.137.18//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/modules/hrp_party/new_party.py", line 261, in write
+    if values['mark'] is not None:
+KeyError: 'mark'
+pre_init_start 0.588682889938
+init: 0.276124954224
+warehouse: 0.00315880775452
+loop_all_past 0.00359392166138
+warehouse: 0.00303602218628
+loop_all_past 0.00340104103088
+warehouse: 0.00361084938049
+loop_all_past 0.0040910243988
+warehouse: 0.00261306762695
+loop_all_past 0.00294589996338
+warehouse: 0.00277495384216
+loop_all_past 0.00310301780701
+warehouse: 0.00265717506409
+loop_all_past 0.003005027771
+warehouse: 0.00271105766296
+loop_all_past 0.00304293632507
+warehouse: 0.00259184837341
+loop_all_past 0.00291800498962
+warehouse: 0.00279021263123
+loop_all_past 0.0031259059906
+warehouse: 0.00274300575256
+loop_all_past 0.0030779838562
+warehouse: 0.00267386436462
+loop_all_past 0.00304985046387
+warehouse: 0.00263404846191
+loop_all_past 0.0029890537262
+warehouse: 0.00268697738647
+loop_all_past 0.00305104255676
+warehouse: 0.00276303291321
+loop_all_past 0.00312519073486
+warehouse: 0.00304889678955
+loop_all_past 0.00344705581665
+warehouse: 0.00276684761047
+loop_all_past 0.00315093994141
+g: -2.7939119339
+硝酸甘油片
+硝酸甘油片
+硝酸甘油片
+硝酸甘油片
+pre_init_start 0.0922620296478
+init: 0.140153169632
+warehouse: 0.00293397903442
+loop_all_past 0.00333189964294
+warehouse: 0.0029981136322
+loop_all_past 0.00344491004944
+warehouse: 0.00336408615112
+loop_all_past 0.00372505187988
+warehouse: 0.00277996063232
+loop_all_past 0.00311923027039
+warehouse: 0.00285291671753
+loop_all_past 0.00319004058838
+warehouse: 0.00279593467712
+loop_all_past 0.00315999984741
+warehouse: 0.00297498703003
+loop_all_past 0.00334811210632
+warehouse: 0.00264596939087
+loop_all_past 0.00305604934692
+warehouse: 0.0031750202179
+loop_all_past 0.00357294082642
+warehouse: 0.00263214111328
+loop_all_past 0.00302195549011
+warehouse: 0.00262713432312
+loop_all_past 0.00298690795898
+warehouse: 0.00270295143127
+loop_all_past 0.00304889678955
+warehouse: 0.00321197509766
+loop_all_past 0.00358295440674
+warehouse: 0.00282311439514
+loop_all_past 0.00324106216431
+warehouse: 0.0028350353241
+loop_all_past 0.0031750202179
+warehouse: 0.00305795669556
+loop_all_past 0.00339818000793
+g: -1.94741892815
+pre_init_start 0.0409331321716
+init: 0.0547740459442
+warehouse: 0.0026969909668
+loop_all_past 0.0030529499054
+warehouse: 0.00298690795898
+loop_all_past 0.00335884094238
+warehouse: 0.00318503379822
+loop_all_past 0.00356101989746
+warehouse: 0.00362300872803
+loop_all_past 0.00404191017151
+warehouse: 0.00269794464111
+loop_all_past 0.00306296348572
+warehouse: 0.00281286239624
+loop_all_past 0.00320100784302
+warehouse: 0.00269889831543
+loop_all_past 0.00303101539612
+warehouse: 0.00295090675354
+loop_all_past 0.00331282615662
+warehouse: 0.002925157547
+loop_all_past 0.00330281257629
+warehouse: 0.0027449131012
+loop_all_past 0.00311803817749
+warehouse: 0.00280213356018
+loop_all_past 0.00317096710205
+warehouse: 0.00271701812744
+loop_all_past 0.0030779838562
+warehouse: 0.00266599655151
+loop_all_past 0.00302505493164
+warehouse: 0.0026798248291
+loop_all_past 0.00304102897644
+warehouse: 0.0029149055481
+loop_all_past 0.00328993797302
+warehouse: 0.00323605537415
+loop_all_past 0.00363683700562
+g: -1.28282904625
+pre_init_start 0.0429129600525
+init: 0.0578911304474
+warehouse: 0.00284910202026
+loop_all_past 0.00326490402222
+warehouse: 0.0027539730072
+loop_all_past 0.00308895111084
+warehouse: 0.00275492668152
+loop_all_past 0.00311398506165
+warehouse: 0.00420498847961
+loop_all_past 0.00456786155701
+warehouse: 0.00261807441711
+loop_all_past 0.00296092033386
+warehouse: 0.00264191627502
+loop_all_past 0.00297498703003
+warehouse: 0.00266790390015
+loop_all_past 0.00308704376221
+warehouse: 0.00316715240479
+loop_all_past 0.00356197357178
+warehouse: 0.00267004966736
+loop_all_past 0.00300192832947
+warehouse: 0.0028018951416
+loop_all_past 0.00315093994141
+warehouse: 0.003005027771
+loop_all_past 0.00335812568665
+warehouse: 0.00269222259521
+loop_all_past 0.00303101539612
+warehouse: 0.00266218185425
+loop_all_past 0.00301003456116
+warehouse: 0.0027859210968
+loop_all_past 0.00312185287476
+warehouse: 0.00283312797546
+loop_all_past 0.00321102142334
+warehouse: 0.00291705131531
+loop_all_past 0.00327610969543
+g: -0.99739789962Traceback (most recent call last):
+  File "./trytond", line 50, in <module>
+    use_reloader=options.dev)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 708, in run_simple
+    inner()
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 670, in inner
+    fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 558, in make_server
+    passthrough_errors, ssl_context, fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 476, in __init__
+    HTTPServer.__init__(self, (host, int(port)), handler)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+14730 140681141307136 [2018-03-21 03:38:51,215] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_shipment.shipment.hrp_shipment_lines'>.on_change(*({u'quantity': 700, u'list_price': None, u'id': -7, u'invoice_amount': None, u'cost_price': None}, [u'quantity'], {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 204, in _dispatch
+    result = rpc.result(meth(inst, *c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/model/modelview.py", line 661, in on_change
+    method()
+  File "/home/wangpeng/mh/trytond/model/modelview.py", line 82, in wrapper
+    result = func(self, *args, **kwargs)
+  File "/home/wangpeng/mh/trytond/model/fields/field.py", line 89, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/wangpeng/mh/trytond/modules/hrp_shipment/shipment.py", line 233, in on_change_quantity
+    self.retail_amount = decimal.Decimal(str(self.quantity)) * self.list_price
+TypeError: unsupported operand type(s) for *: 'Decimal' and 'NoneType'
+14730 140681175115520 [2018-03-21 07:16:13,104] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_shipment.shipment.hrp_shipment_lines'>.on_change(*({u'quantity': 100, u'list_price': None, u'id': -2, u'invoice_amount': None, u'cost_price': None}, [u'quantity'], {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 204, in _dispatch
+    result = rpc.result(meth(inst, *c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/model/modelview.py", line 661, in on_change
+    method()
+  File "/home/wangpeng/mh/trytond/model/modelview.py", line 82, in wrapper
+    result = func(self, *args, **kwargs)
+  File "/home/wangpeng/mh/trytond/model/fields/field.py", line 89, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/wangpeng/mh/trytond/modules/hrp_shipment/shipment.py", line 233, in on_change_quantity
+    self.retail_amount = decimal.Decimal(str(self.quantity)) * self.list_price
+TypeError: unsupported operand type(s) for *: 'Decimal' and 'NoneType'
+14730 140681175115520 [2018-03-21 07:27:51,252] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_shipment.shipment.create_purchase_shipment'>.execute(*(2421, {u'start': {u'hrp_shipment_lines': [{u'manufacturers_describtion': u'', u'drug_approval_number': u'', u'retail_package': None, u'drug_code': u'', u'is_electronic_invoice': False, u'number': u'', u'exp_date': datetime.date(2020, 12, 31), u'invoice_code': u'88888888', u'list_price': None, u'id': -2, u'retail_amount': Decimal('200.000'), u'supply_name': None, u'state': False, u'lot': 46, u'cost_price': None, u'product': 181, u'line_code': None, u'invoice_amount': Decimal('200.000'), u'drug_specifications': u'', u'invoice_date': datetime.date(2018, 3, 21), u'item_code': None, u'purchase_code': u'', u'arriving': 25, u'name': u'', u'dom': datetime.date(2018, 3, 1), u'error_message': u'', u'quantity': 100}], u'purchase_code': u'', u'electronic_invoice': False, u'supply_name': None, u'retrieve_the_code': None, u'id': -1}}, u'create_', {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'active_model': u'ir.ui.menu', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'action_id': 256, u'employee': None, u'active_ids': [196], u'company': 1, u'active_id': 196}), **{}) from cg@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/wizard/wizard.py", line 275, in execute
+    return wizard._execute(state_name)
+  File "/home/wangpeng/mh/trytond/wizard/wizard.py", line 301, in _execute
+    do_result = do(action)
+  File "/home/wangpeng/mh/trytond/modules/hrp_shipment/shipment.py", line 428, in do_create_
+    purchase_bills = PurchaseBills.search([('id', '=', hrp_shipment_lines['purchase_bills'])])
+KeyError: 'purchase_bills'
+14730 140681132914432 [2018-03-21 07:31:00,362] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_party.new_party.hrp_party.new_party'>.write(*([11], {u'invoice': True}, {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@218.249.137.18//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/modules/hrp_party/new_party.py", line 261, in write
+    if values['mark'] is not None:
+KeyError: 'mark'
+14730 140681132914432 [2018-03-21 07:31:10,116] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_party.new_party.hrp_party.new_party'>.write(*([10], {u'invoice': False}, {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@218.249.137.18//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/modules/hrp_party/new_party.py", line 261, in write
+    if values['mark'] is not None:
+KeyError: 'mark'
+14730 140681149699840 [2018-03-21 11:02:07,261] ERROR werkzeug 112.90.176.198 - - [21/Mar/2018 11:02:07] code 400, message Bad request syntax ('\x80\xf1\x01\x03\x03\x00\xd8\x00\x00\x00\x10\x00\x00\x05\x00\x00\x04\x01\x00\x80\x00\x00\x02\x00\x00\x01\x00\x00\x16\x00\x003\x00\x009\x00\x00:\x00\x00\x18\x00\x005\x00\x00')
+14730 140681149699840 [2018-03-21 11:02:07,403] ERROR werkzeug 112.90.176.198 - - [21/Mar/2018 11:02:07] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\x05\xcbD\xc4\x8e}\xc2yl\xca\xfb\xd9\x17\x8d\x87\xd7\xef\x94\xee\xb6V\x95,\xa8`\x97A\x8c<\xc8\xd2\x83\x00\x00\xda\x00\x05\x00\x04\x00\x02\x00\x01\x00\x16\x003\x009\x00:\x00\x18\x005\x00')
+14730 140681141307136 [2018-03-22 01:23:45,375] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_internal_delivery.internal_apply.hrp_internal_delivery.internal_apply_wizard'>.execute(*(2449, {u'start': {u'to_location': 19, u'from_location': 24, u'planned_date': datetime.date(2018, 3, 22), u'warehouse_to_location': None, u'starts': None, u'medicine': None, u'moves': [{u'code': u'', u'outpatient_7days': u'', u'is_collar': True, u'company': None, u'drug_specifications': u'', u'is_direct_sending': False, u'product_name': u'', u'unit_price': None, u'a_charge': u'', u'party': None, u'stock_level': u'', u'odd_numbers': u'', u'id': -4, u'proposal': None}], u'type': u'00', u'id': -3, u'special': None}}, u'create_', {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'active_model': u'ir.ui.menu', u'groups': [333, 323, 329, 330, 369, 328, 327, 325, 326, 336, 368, 352, 361, 324, 339, 340, 332, 334, 303, 252], u'action_id': 347, u'employee': None, u'active_ids': [273], u'company': 1, u'active_id': 273}), **{}) from mzyf@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/wizard/wizard.py", line 275, in execute
+    return wizard._execute(state_name)
+  File "/home/wangpeng/mh/trytond/wizard/wizard.py", line 301, in _execute
+    do_result = do(action)
+  File "/home/wangpeng/mh/trytond/modules/hrp_internal_delivery/internal_apply.py", line 382, in do_create_
+    dict['product'] = each['product']
+KeyError: 'product'
+14730 140681141307136 [2018-03-22 01:25:02,206] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_internal_delivery.internal_apply.hrp_internal_delivery.internal_apply_wizard'>.execute(*(2449, {u'start': {u'to_location': 19, u'from_location': 24, u'planned_date': datetime.date(2018, 3, 22), u'warehouse_to_location': None, u'starts': None, u'medicine': None, u'moves': [{u'code': u'', u'outpatient_7days': u'', u'is_collar': True, u'company': None, u'drug_specifications': u'', u'is_direct_sending': False, u'product_name': u'', u'unit_price': None, u'a_charge': u'', u'party': None, u'stock_level': u'', u'odd_numbers': u'', u'id': -4, u'proposal': None}], u'type': u'00', u'id': -3, u'special': None}}, u'create_', {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'active_model': u'ir.ui.menu', u'groups': [333, 323, 329, 330, 369, 328, 327, 325, 326, 336, 368, 352, 361, 324, 339, 340, 332, 334, 303, 252], u'action_id': 347, u'employee': None, u'active_ids': [273], u'company': 1, u'active_id': 273}), **{}) from mzyf@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/wizard/wizard.py", line 275, in execute
+    return wizard._execute(state_name)
+  File "/home/wangpeng/mh/trytond/wizard/wizard.py", line 301, in _execute
+    do_result = do(action)
+  File "/home/wangpeng/mh/trytond/modules/hrp_internal_delivery/internal_apply.py", line 382, in do_create_
+    dict['product'] = each['product']
+KeyError: 'product'
+14730 140680915580672 [2018-03-26 08:25:22,690] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_inventory_report.inventory_report.hrp_inventory_report.inventory_report_conditions'>.execute(*(2540, {u'start': {u'category': None, u'inventor_time': 4, u'inventor_times': [{u'id': 37}, {u'id': 36}, {u'id': 35}], u'location': 20, u'id': -62}}, u'report', {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'active_model': u'ir.ui.menu', u'groups': [333, 323, 329, 330, 369, 328, 327, 325, 326, 336, 368, 352, 361, 324, 339, 340, 332, 334, 303, 252], u'action_id': 362, u'employee': None, u'active_ids': [284], u'company': 1, u'active_id': 284}), **{}) from mzyf@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/wizard/wizard.py", line 275, in execute
+    return wizard._execute(state_name)
+  File "/home/wangpeng/mh/trytond/wizard/wizard.py", line 301, in _execute
+    do_result = do(action)
+  File "/home/wangpeng/mh/trytond/modules/hrp_inventory_report/inventory_report.py", line 130, in do_report
+    'category': self.start.category.id
+AttributeError: 'NoneType' object has no attribute 'id'
+14730 140680915580672 [2018-03-26 08:35:22,607] ERROR werkzeug Error on request:
+Traceback (most recent call last):
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 205, in run_wsgi
+    execute(self.server.app)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 193, in execute
+    application_iter = app(environ, start_response)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/wsgi.py", line 599, in __call__
+    return self.app(environ, start_response)
+  File "/home/wangpeng/mh/trytond/wsgi.py", line 84, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/wangpeng/mh/trytond/wsgi.py", line 74, in wsgi_app
+    response = cls.response(data, request)
+  File "/home/wangpeng/mh/trytond/protocols/jsonrpc.py", line 152, in response
+    response = {'id': request.parsed_data.get('id', 0)}
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/utils.py", line 73, in __get__
+    value = self.func(obj)
+  File "/home/wangpeng/mh/trytond/protocols/jsonrpc.py", line 129, in parsed_data
+    raise BadRequest('Unable to read JSON request')
+BadRequest: 400: Bad Request
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+14730 140680907187968 [2018-03-26 08:39:17,130] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_shipment.shipment.hrp_shipment'>.on_change(*({u'electronic_invoice': True, u'retrieve_the_code': 181, u'hrp_shipment_lines': [], u'id': -30}, [u'retrieve_the_code'], {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [322, 309, 311, 312, 310, 313, 362, 314, 317, 315, 316, 363, 304, 6, 5, 14, 17], u'employee': None, u'company': 1}), **{}) from cg@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 204, in _dispatch
+    result = rpc.result(meth(inst, *c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/model/modelview.py", line 661, in on_change
+    method()
+  File "/home/wangpeng/mh/trytond/model/modelview.py", line 82, in wrapper
+    result = func(self, *args, **kwargs)
+  File "/home/wangpeng/mh/trytond/model/fields/field.py", line 89, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/wangpeng/mh/trytond/modules/hrp_shipment/shipment.py", line 287, in on_change_retrieve_the_code
+    if self.supply_name:
+  File "/home/wangpeng/mh/trytond/model/model.py", line 376, in __getattr__
+    % (self.__name__, name, self._values))
+AttributeError: 'hrp_shipment' Model has no attribute 'supply_name': {'electronic_invoice': True, 'retrieve_the_code': Pool().get('product.product')(181), 'hrp_shipment_lines': ()}
+14730 140680907187968 [2018-03-26 08:49:36,854] ERROR trytond.protocols.dispatcher <class 'trytond.pool.hrp_internal_delivery.general_journal'>.execute(*([], {u'start': {u'drug_type': u'06', u'move_project': [], u'product': None, u'move_query_apply': [], 'location_name': u'\u95e8\u8bca\u836f\u623f', u'product_id': [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}], u'location_frozen': None, u'start_time': datetime.date(2018, 3, 26), u'number': u'', u'move_query_return': [], u'message_find': True, u'get_user_warehouse': 20, u'move_query_purchase': [], u'move_query_allocation': [], u'end_time': datetime.date(2018, 3, 26), u'detailed_project': u'detailed_query', u'document_type': u'01', u'move_query_scrap': [], u'move_query_frozen': [], u'move_query_department': [], u'location': 19}, u'action_id': 356}, {u'date_format': u'%Y-%m-%d', u'direct_print': False, u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'company': 1, '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'email': {}, u'email_print': False, u'groups': [333, 323, 329, 330, 369, 328, 327, 325, 326, 336, 368, 352, 361, 324, 339, 340, 332, 334, 303, 252], u'employee': None, u'language_direction': u'ltr'}), **{}) from mzyf@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/report/report.py", line 147, in execute
+    cls.render(action_report, report_context))
+  File "/home/wangpeng/mh/trytond/report/report.py", line 232, in render
+    data = rel_report(**report_context).render()
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/relatorio/templates/base.py", line 34, in render
+    return self.serializer(self.events)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/relatorio/templates/opendocument.py", line 984, in __call__
+    for kind, data, pos in stream:
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/core.py", line 289, in _ensure
+    for event in stream:
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/filters/i18n.py", line 690, in __call__
+    for kind, data, pos in stream:
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/template/base.py", line 618, in _include
+    for event in stream:
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/template/markup.py", line 326, in _match
+    for event in stream:
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/template/base.py", line 578, in _flatten
+    result = _eval_expr(data, ctxt, vars)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/template/base.py", line 289, in _eval_expr
+    retval = expr.evaluate(ctxt)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/template/eval.py", line 177, in evaluate
+    return eval(self.code, _globals, {'__data__': data})
+  File "<string>", line 1, in <Expression u'Inventory.start.move_query_apply[0].processing_time'>
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/genshi/template/eval.py", line 334, in lookup_item
+    return obj[key]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "./trytond", line 50, in <module>
+    use_reloader=options.dev)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 708, in run_simple
+    inner()
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 670, in inner
+    fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 558, in make_server
+    passthrough_errors, ssl_context, fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 476, in __init__
+    HTTPServer.__init__(self, (host, int(port)), handler)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_activate()
+  File "/usr/lib/python2.7/SocketServer.py", line 439, in server_activate
+    self.socket.listen(self.request_queue_size)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "./trytond", line 50, in <module>
+    use_reloader=options.dev)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 708, in run_simple
+    inner()
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 670, in inner
+    fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 558, in make_server
+    passthrough_errors, ssl_context, fd=fd)
+  File "/home/wangpeng/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 476, in __init__
+    HTTPServer.__init__(self, (host, int(port)), handler)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+32092 140540114007808 [2018-03-27 01:23:28,652] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_internal_delivery.internal_core_drug.hrp_internal_delivery.internal_core_drug'>.on_change(*({u'to_location': 24, u'starts': u'01', u'message_find': True, u'number': u'', u'state': u'01', u'department': None, u'drug_starts': u'00', u'moves': [], u'id': -1}, [u'message_find'], {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [319, 321, 322, 333, 325, 367, 318, 352, 361, 339, 340, 335, 332, 334, 301, 252], u'employee': None, u'company': 1}), **{}) from zxyk@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 204, in _dispatch
+    result = rpc.result(meth(inst, *c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/model/modelview.py", line 661, in on_change
+    method()
+  File "/home/wangpeng/mh/trytond/model/modelview.py", line 82, in wrapper
+    result = func(self, *args, **kwargs)
+  File "/home/wangpeng/mh/trytond/model/fields/field.py", line 89, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/wangpeng/mh/trytond/modules/hrp_internal_delivery/internal_core_drug.py", line 158, in on_change_message_find
+    ('place_of_service', '=', department_frozen_id),
+UnboundLocalError: local variable 'department_frozen_id' referenced before assignment
+32092 140540114007808 [2018-03-27 01:23:39,237] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_internal_delivery.internal_core_drug.hrp_internal_delivery.internal_core_drug'>.on_change(*({u'to_location': 24, u'starts': u'01', u'message_find': True, u'number': u'', u'state': u'01', u'department': None, u'drug_starts': u'00', u'moves': [], u'id': -1}, [u'message_find'], {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [319, 321, 322, 333, 325, 367, 318, 352, 361, 339, 340, 335, 332, 334, 301, 252], u'employee': None, u'company': 1}), **{}) from zxyk@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 204, in _dispatch
+    result = rpc.result(meth(inst, *c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/model/modelview.py", line 661, in on_change
+    method()
+  File "/home/wangpeng/mh/trytond/model/modelview.py", line 82, in wrapper
+    result = func(self, *args, **kwargs)
+  File "/home/wangpeng/mh/trytond/model/fields/field.py", line 89, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/wangpeng/mh/trytond/modules/hrp_internal_delivery/internal_core_drug.py", line 158, in on_change_message_find
+    ('place_of_service', '=', department_frozen_id),
+UnboundLocalError: local variable 'department_frozen_id' referenced before assignment
+32092 140540114007808 [2018-03-27 01:24:21,034] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_internal_delivery.internal_core_drug.hrp_internal_delivery.internal_core_drug'>.on_change(*({u'to_location': 24, u'starts': u'01', u'message_find': True, u'number': u'', u'state': u'01', u'department': None, u'drug_starts': u'00', u'moves': [], u'id': -1}, [u'message_find'], {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [319, 321, 322, 333, 325, 367, 318, 352, 361, 339, 340, 335, 332, 334, 301, 252], u'employee': None, u'company': 1}), **{}) from zxyk@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 204, in _dispatch
+    result = rpc.result(meth(inst, *c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/model/modelview.py", line 661, in on_change
+    method()
+  File "/home/wangpeng/mh/trytond/model/modelview.py", line 82, in wrapper
+    result = func(self, *args, **kwargs)
+  File "/home/wangpeng/mh/trytond/model/fields/field.py", line 89, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/wangpeng/mh/trytond/modules/hrp_internal_delivery/internal_core_drug.py", line 158, in on_change_message_find
+    ('place_of_service', '=', department_frozen_id),
+UnboundLocalError: local variable 'department_frozen_id' referenced before assignment
+32092 140540114007808 [2018-03-27 01:29:46,702] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_internal_delivery.internal_core_drug.hrp_internal_delivery.internal_core_drug'>.on_change(*({u'to_location': 24, u'starts': u'01', u'message_find': True, u'number': u'', u'state': u'01', u'department': None, u'drug_starts': u'00', u'moves': [{u'to_location': 21, u'place_of_service': 16, u'starts': u'01', u'move_return': [{u'comment': u'', u'return_quantity': 5.0, u'product': u'\u785d\u9178\u7518\u6cb9\u7247', u'code': u'Y00000003183', u'drug_specifications': u'0.5mg*100\u7247', u'is_direct_sending': False, u'reason': u'09', u'move_id': 769, u'lot': 47, u'shelf_life_expiration_date': datetime.date(2018, 12, 31), u'id': -3, u'uom': 408}], u'move_time': datetime.date(2018, 3, 27), u'shipment_id': 335, u'state': u'draft', u'location': 16, u'message_confirm': False, u'move_number': u'X2018030034', u'id': -2, u'from_location': 8}, {u'to_location': 21, u'place_of_service': 16, u'starts': u'01', u'move_return': [{u'comment': u'', u'return_quantity': 1.0, u'product': u'\u5c3c\u9ea6\u89d2\u6797\u80f6\u56ca', u'code': u'TH110-2', u'drug_specifications': u'30mg*10\u7c92', u'is_direct_sending': False, u'reason': u'10', u'move_id': 711, u'lot': 29, u'shelf_life_expiration_date': datetime.date(2018, 7, 19), u'id': -5, u'uom': 228}], u'move_time': datetime.date(2018, 3, 12), u'shipment_id': 306, u'state': u'draft', u'location': 16, u'message_confirm': False, u'move_number': u'X2018030025', u'id': -4, u'from_location': 8}, {u'to_location': 21, u'place_of_service': 16, u'starts': u'01', u'move_return': [{u'comment': u'', u'return_quantity': 3.0, u'product': u'\u5c3c\u9ea6\u89d2\u6797\u80f6\u56ca', u'code': u'TH110-2', u'drug_specifications': u'30mg*10\u7c92', u'is_direct_sending': False, u'reason': u'09', u'move_id': 709, u'lot': 29, u'shelf_life_expiration_date': datetime.date(2018, 7, 19), u'id': -7, u'uom': 228}], u'move_time': datetime.date(2018, 3, 12), u'shipment_id': 304, u'state': u'draft', u'location': 16, u'message_confirm': False, u'move_number': u'X2018030024', u'id': -6, u'from_location': 8}], u'id': -1}, [u'message_find'], {u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'groups': [319, 321, 322, 333, 325, 367, 318, 352, 361, 339, 340, 335, 332, 334, 301, 252], u'employee': None, u'company': 1}), **{}) from zxyk@125.46.33.34//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 204, in _dispatch
+    result = rpc.result(meth(inst, *c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/model/modelview.py", line 661, in on_change
+    method()
+  File "/home/wangpeng/mh/trytond/model/modelview.py", line 82, in wrapper
+    result = func(self, *args, **kwargs)
+  File "/home/wangpeng/mh/trytond/model/fields/field.py", line 89, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/wangpeng/mh/trytond/modules/hrp_internal_delivery/internal_core_drug.py", line 158, in on_change_message_find
+    ('place_of_service', '=', department_frozen_id),
+UnboundLocalError: local variable 'department_frozen_id' referenced before assignment
+32092 140540083848960 [2018-03-27 08:43:50,933] ERROR trytond.protocols.dispatcher <class 'trytond.modules.hrp_inventory_report.inventory_report.hrp_inventory_report.stock_inventory_report'>.search(*([], 0, 1000, None, {u'category': 5, u'date_format': u'%Y-%m-%d', u'language': u'zh_CN', u'locale': {u'date': u'%Y-%m-%d', u'thousands_sep': u',', u'decimal_point': u'.', u'grouping': [3, 0]}, u'language_direction': u'ltr', '_check_access': True, u'company.rec_name': u'\u6c11\u822a\u603b\u533b\u9662', u'employee': None, u'location': 29, u'groups': [333, 323, 329, 330, 369, 328, 327, 325, 326, 336, 368, 352, 361, 324, 339, 340, 332, 334, 302, 252], u'shelves_code': 1, u'company': 1}), **{}) from zyyf@218.249.137.18//Mhdb/
+Traceback (most recent call last):
+  File "/home/wangpeng/mh/trytond/protocols/dispatcher.py", line 199, in _dispatch
+    result = rpc.result(meth(*c_args, **c_kwargs))
+  File "/home/wangpeng/mh/trytond/model/modelsql.py", line 1158, in search
+    cursor.execute(*select)
+ProgrammingError: syntax error at or near ")"
+LINE 1: ...8, 182, 181, 7, 6, 97, 9, 59))) AND ("b"."id" IN ())) GROUP ...
+                                                             ^
+

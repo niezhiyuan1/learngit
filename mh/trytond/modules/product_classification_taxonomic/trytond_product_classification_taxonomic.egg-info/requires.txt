@@ -1,0 +1,2 @@
+trytond_product_classification >= 4.0, < 4.1
+trytond >= 4.0, < 4.1

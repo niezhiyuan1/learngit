@@ -1,0 +1,7 @@
+python-dateutil
+python-sql >= 0.4
+trytond_account >= 4.0, < 4.1
+trytond_account_invoice >= 4.0, < 4.1
+trytond_company >= 4.0, < 4.1
+trytond_party >= 4.0, < 4.1
+trytond >= 4.0, < 4.1

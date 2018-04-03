@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<tree string="Inventory Report" >
+
+    <field name="code"/>
+
+    <field name="name"/>
+
+    <field name="drug_specifications"/>
+
+    <field name="quantity"/>
+
+    <field name="uom"/>
+
+    <field name="cost_pice"/>
+
+    <field name="wholesale_amount"/>
+
+    <field name="differences_why"/>
+
+    <field name="type"/>
+
+</tree>

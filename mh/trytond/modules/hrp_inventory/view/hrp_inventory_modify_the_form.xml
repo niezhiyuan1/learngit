@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<form string="ModifyTheInventory" >
+    <label name="product"/>
+    <field name="product"/>
+
+    <label name="drug_specifications"/>
+    <field name="drug_specifications"/>
+
+    <label name="uom"/>
+    <field name="uom"/>
+
+    <label name="warehouse_real_num"/>
+    <field name="warehouse_real_num"/>
+
+    <label name="freeze_real_num"/>
+    <field name="freeze_real_num"/>
+
+    <label name="lot_warehouse"/>
+    <field name="lot_warehouse"/>
+
+    <label name="lot_freeze"/>
+    <field name="lot_freeze"/>
+
+    <label name="balance_why"/>
+    <field name="balance_why"/>
+
+    <label name="surplus_why"/>
+    <field name="surplus_why"/>
+
+    <label name="shortages_why"/>
+    <field name="shortages_why"/>
+
+    <label name="type"/>
+    <field name="type"/>
+
+    <label name="note"/>
+    <field name="note"/>
+
+
+    <label name="confirm"/>
+    <field name="confirm"/>
+
+    <field name="line" colspan="4"/>
+</form>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<form string="Stock Shipment Invoice Report">
+    <label name="number"/>
+    <field name="number"/>
+
+    <label name="order"/>
+    <field name="order"/>
+
+    <label name="actual_payment"/>
+    <field name="actual_payment"/>
+
+    <label name="invoice_number"/>
+    <field name="invoice_number"/>
+</form>

@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    analytic_purchase = trytond.modules.analytic_purchase
+    

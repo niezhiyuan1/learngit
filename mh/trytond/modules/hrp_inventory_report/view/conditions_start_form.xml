@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<form string="Inventory Report">
+
+    <label name="location"/>
+    <field name="location"/>
+
+    <label name="inventor_time"/>
+    <field name="inventor_time"/>
+
+    <label name="category"/>
+    <field name="category"/>
+</form>

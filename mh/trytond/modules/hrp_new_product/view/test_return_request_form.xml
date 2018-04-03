@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<form string="Hrp Test Return Request">
+    <!--<label name="product"/>-->
+    <!--<field name="product"/>    -->
+    <!--<label name="code"/>-->
+    <!--<field name="code"/>-->
+    <!--<label name="product_name"/>-->
+    <!--<field name="product_name"/>-->
+    <!--<label name="party"/>-->
+    <!--<field name="party"/>-->
+    <!--<label name="from_location"/>-->
+    <!--<field name="from_location"/>-->
+    <!--<label name="to_location"/>-->
+    <!--<field name="to_location"/>-->
+
+    <!--<label name="lot"/>-->
+    <!--<field name="lot"/>-->
+    <!--<label name="drug_specifications"/>-->
+    <!--<field name="drug_specifications"/>-->
+    <!--<label name="uom"/>-->
+    <!--<field name="uom"/>-->
+    <!--<label name="return_quantity"/>-->
+    <!--<field name="return_quantity"/>-->
+    <!--<label name="can_return_quantity"/>-->
+    <!--<field name="can_return_quantity"/>-->
+    <!--<label name="examine"/>-->
+    <!--<field name="examine"/>-->
+    <!--<label name="is_direct_sending"/>-->
+    <!--<field name="is_direct_sending"/>-->
+</form>

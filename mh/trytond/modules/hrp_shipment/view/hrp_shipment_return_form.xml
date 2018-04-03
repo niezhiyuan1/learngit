@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<form string="Hrp Shipment Return">
+
+    <label name="categories"/>
+    <field name="categories"/>
+
+    <newline/>
+
+    <label name="retrieve_the_code"/>
+    <field name="retrieve_the_code"/>
+
+    <label name="supply_name"/>
+    <field name="supply_name"/>
+
+    <label name="drug_specifications"/>
+    <field name="drug_specifications"/>
+    <label name="manufacturers_describtion"/>
+    <field name="manufacturers_describtion"/>
+
+    <label name="drug_approval_number"/>
+    <field name="drug_approval_number"/>
+
+
+
+    <label name="warehouse"/>
+    <field name="warehouse"/>
+
+    <label name="retail_package"/>
+    <field name="retail_package"/>
+
+    <label name="cost_price"/>
+    <field name="cost_price"/>
+
+    <label name="lot"/>
+    <field name="lot"/>
+
+    <label name="list_price"/>
+    <field name="list_price"/>
+
+    <label name="quantity"/>
+    <field name="quantity"/>
+
+    <label name="invoice_code"/>
+    <field name="invoice_code"/>
+
+    <label name="invoice_date"/>
+    <field name="invoice_date"/>
+
+    <label name="invoice_amount"/>
+    <field name="invoice_amount"/>
+
+    <label name="note"/>
+    <field name="note"/>
+
+    <label name="shipment_return"/>
+    <field name="shipment_return"/>
+
+    <!--<field name="product" colspan="4"/>-->
+
+    <field name="shipment_return_lines" colspan="4"/>
+
+
+</form>

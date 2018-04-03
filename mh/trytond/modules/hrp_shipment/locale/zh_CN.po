@@ -1,0 +1,880 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hrp_shipment_lines,is_electronic_invoice:"
+msgid "is_electronic_invoice"
+msgstr "下载电子发票"
+
+msgctxt "field:hrp_shipment_lines,number:"
+msgid "number"
+msgstr "采购编号"
+
+msgctxt "field:hrp_shipment_lines,line_code:"
+msgid "Line Code"
+msgstr "行序列"
+
+msgctxt "field:hrp_shipment_lines,state:"
+msgid "State"
+msgstr "校验标识"
+
+msgctxt "field:hrp_shipment_lines,name:"
+msgid "name"
+msgstr "物资名称"
+
+msgctxt "field:hrp_shipment_lines,supply_name:"
+msgid "Supply Name"
+msgstr "供应商"
+
+msgctxt "field:hrp_shipment_lines,purchase_code:"
+msgid "Puechase Code"
+msgstr "采购凭证"
+
+msgctxt "field:hrp_shipment_lines,item_code:"
+msgid "Item Code"
+msgstr "行项目号"
+
+msgctxt "field:hrp_shipment_lines,drug_code:"
+msgid "Drug Code"
+msgstr "物资编码"
+
+msgctxt "field:hrp_shipment_lines,drug_specifications:"
+msgid "Drug Speic"
+msgstr "规格"
+
+msgctxt "field:hrp_shipment_lines,manufacturers_describtion:"
+msgid "Manufacturers Describtion"
+msgstr "厂商"
+
+msgctxt "field:hrp_shipment_lines,quantity:"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "field:hrp_shipment_lines,retail_package:"
+msgid "Retail Package"
+msgstr "零售包装"
+
+msgctxt "field:hrp_shipment_lines,list_price:"
+msgid "List Price"
+msgstr "零售价"
+
+msgctxt "field:hrp_shipment_lines,cost_price:"
+msgid "Cost Price"
+msgstr "批发价"
+
+msgctxt "field:hrp_shipment_lines,invoice_code:"
+msgid "invoice Code"
+msgstr "发票号"
+
+msgctxt "field:hrp_shipment_lines,invoice_date:"
+msgid "Invoice Date"
+msgstr "发票日期"
+
+msgctxt "field:hrp_shipment_lines,invoice_amount:"
+msgid "Invoice Amount"
+msgstr "发票金额"
+
+msgctxt "field:hrp_shipment_lines,drug_approval_number:"
+msgid "Drug Approval Number"
+msgstr "批准文号"
+
+msgctxt "field:hrp_shipment_lines,product:"
+msgid "Product"
+msgstr "物资名称"
+
+msgctxt "field:hrp_shipment_lines,lot:"
+msgid "Lot"
+msgstr "批次"
+
+msgctxt "field:hrp_shipment_lines,dom:"
+msgid "DOM"
+msgstr "生产日期"
+
+msgctxt "field:hrp_shipment_lines,error_message:"
+msgid "Error Message"
+msgstr "错误信息"
+
+msgctxt "field:hrp_shipment_lines,exp_date:"
+msgid "Exp Date"
+msgstr "有效期"
+
+msgctxt "field:hrp_shipment_lines,arriving:"
+msgid "Arring"
+msgstr "送达地"
+
+msgctxt "field:hrp_shipment_lines,retail_amount:"
+msgid "retail_amount"
+msgstr "零售金额"
+
+msgctxt "field:hrp_shipment,supply_name:"
+msgid "Supply Name"
+msgstr "供应商"
+
+msgctxt "field:hrp_shipment,retrieve_the_code:"
+msgid "Retrieve The Code"
+msgstr "物资检索"
+
+msgctxt "field:hrp_shipment,purchase_code:"
+msgid "Purchase Code"
+msgstr "采购凭证"
+
+msgctxt "field:hrp_shipment,into_code:"
+msgid "Into Code"
+msgstr "入库单号"
+
+msgctxt "field:hrp_shipment,hrp_shipment_lines:"
+msgid "Hrp Shipment Lines"
+msgstr "行项目"
+
+msgctxt "field:hrp_shipment,incoming_information:"
+msgid "Incoming Information"
+msgstr "查询"
+
+msgctxt "field:hrp_shipment,electronic_invoice:"
+msgid "Electronic Invoice"
+msgstr "下载电子发票"
+
+msgctxt "field:hrp_shipment_return_lines,invoice_date:"
+msgid "invoice_date"
+msgstr "发票日期"
+
+msgctxt "field:hrp_shipment_return_lines,invoice_code:"
+msgid "invoice Code"
+msgstr "发票号"
+
+msgctxt "field:hrp_shipment_return_lines,cost_price:"
+msgid "Cost Price"
+msgstr "批发价"
+
+msgctxt "field:hrp_shipment_return_lines,supply_name:"
+msgid "Supply Name"
+msgstr "供应商"
+
+msgctxt "field:hrp_shipment_return_lines,code:"
+msgid "code"
+msgstr "物资编码"
+
+msgctxt "field:hrp_shipment_return_lines,product_name:"
+msgid "Product_name"
+msgstr "物资名称"
+
+msgctxt "field:hrp_shipment_return_lines,drug_specifications:"
+msgid "Drug Speic"
+msgstr "规格"
+
+msgctxt "field:hrp_shipment_return_lines,quantity:"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "field:hrp_shipment_return_lines,retail_package:"
+msgid "Retail Package"
+msgstr "单位"
+
+msgctxt "field:hrp_shipment_return_lines,invoice_amount:"
+msgid "Invoice Amount"
+msgstr "发票金额"
+
+msgctxt "field:hrp_shipment_return_lines,lot:"
+msgid "Lot"
+msgstr "批次"
+
+msgctxt "field:hrp_shipment_return_lines,drug_approval_number:"
+msgid "Drug_specifications"
+msgstr "批准文号"
+
+msgctxt "field:hrp_shipment_return_lines,manufacturers_describtion:"
+msgid "Manufacturers_describtion"
+msgstr "厂商"
+
+msgctxt "field:hrp_shipment_return_lines,note:"
+msgid "Note"
+msgstr "备注"
+
+msgctxt "field:hrp_shipment_return,supply_name:"
+msgid "Supply Name"
+msgstr "供应商"
+
+msgctxt "field:hrp_shipment_return,product:"
+msgid "Product"
+msgstr "物资名称"
+
+msgctxt "field:hrp_shipment_return,retrieve_the_code:"
+msgid "Retrieve The Code"
+msgstr "物资检索"
+
+msgctxt "field:hrp_shipment_return,drug_specifications:"
+msgid "Drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_shipment_return,drug_approval_number:"
+msgid "Drug Approval Number"
+msgstr "批准文号"
+
+msgctxt "field:hrp_shipment_return,manufacturers_describtion:"
+msgid "Manufacturers_describtion"
+msgstr "厂商"
+
+msgctxt "field:hrp_shipment_return,warehouse:"
+msgid "warehouse"
+msgstr "仓库"
+
+msgctxt "field:hrp_shipment_return,retail_package:"
+msgid "Retail Package"
+msgstr "单位"
+
+msgctxt "field:hrp_shipment_return,quantity:"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "field:hrp_shipment_return,lot:"
+msgid "Lot"
+msgstr "批次"
+
+msgctxt "field:hrp_shipment_return,list_price:"
+msgid "List Price"
+msgstr "零售价"
+
+msgctxt "field:hrp_shipment_return,cost_price:"
+msgid "Cost Price"
+msgstr "批发价"
+
+msgctxt "field:hrp_shipment_return,invoice_date:"
+msgid "invoice_date"
+msgstr "发票日期"
+
+msgctxt "field:hrp_shipment_return,invoice_code:"
+msgid "invoice Code"
+msgstr "发票号"
+
+msgctxt "field:hrp_shipment_return,invoice_amount:"
+msgid "Invoice Amount"
+msgstr "发票金额"
+
+msgctxt "field:hrp_shipment_return,note:"
+msgid "Note"
+msgstr "备注"
+
+msgctxt "field:hrp_shipment_return,shipment_return:"
+msgid "Shipment Return"
+msgstr "采退"
+
+msgctxt "field:hrp_shipment_return,shipment_return_lines:"
+msgid "HrpShipmentReturnLines"
+msgstr "行项目"
+
+msgctxt "field:shipment_order_lines,supply_name:"
+msgid "Supply Name"
+msgstr "供应商"
+
+msgctxt "field:shipment_order_lines,product:"
+msgid "Product"
+msgstr "物资名称"
+
+msgctxt "field:shipment_order_lines,location:"
+msgid "location"
+msgstr "仓库"
+
+msgctxt "field:shipment_order_lines,purchase_code:"
+msgid "Purchase Code"
+msgstr "物资编码"
+
+msgctxt "field:shipment_order_lines,manufacturers_describtion:"
+msgid "Manufacturers Describtion"
+msgstr "厂商"
+
+msgctxt "field:shipment_order_lines,quantity:"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "field:shipment_order_lines,retail_package:"
+msgid "Retail Package"
+msgstr "单位"
+
+msgctxt "field:shipment_order_lines,list_price:"
+msgid "List Price"
+msgstr "零售价"
+
+msgctxt "field:shipment_order_lines,cost_price:"
+msgid "Cost Price"
+msgstr "批发价"
+
+msgctxt "field:shipment_order_lines,lot:"
+msgid "Lot"
+msgstr "批次"
+
+msgctxt "field:shipment_order_lines,drug_specifications:"
+msgid "Drug Speic"
+msgstr "规格"
+
+msgctxt "field:shipment_order_lines,drug_approval_number:"
+msgid "Drug Approval Number"
+msgstr "批准文号"
+
+msgctxt "field:shipment_order,supply_name:"
+msgid "Supply Name"
+msgstr "供应商"
+
+msgctxt "field:shipment_order,product:"
+msgid "Product"
+msgstr "物资检索"
+
+msgctxt "field:shipment_order,location:"
+msgid "location"
+msgstr "仓库"
+
+msgctxt "field:shipment_order,purchase_code:"
+msgid "Purchase Code"
+msgstr "物资编码"
+
+msgctxt "field:shipment_order,manufacturers_describtion:"
+msgid "Manufacturers Describtion"
+msgstr "厂商"
+
+msgctxt "field:shipment_order,quantity:"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "field:shipment_order,retail_package:"
+msgid "Retail Package"
+msgstr "单位"
+
+msgctxt "field:shipment_order,list_price:"
+msgid "List Price"
+msgstr "零售价"
+
+msgctxt "field:shipment_order,cost_price:"
+msgid "Cost Price"
+msgstr "批发价"
+
+msgctxt "field:shipment_order,lot:"
+msgid "Lot"
+msgstr "批次"
+
+msgctxt "field:shipment_order,dom:"
+msgid "DOM"
+msgstr "生产日期"
+
+msgctxt "field:shipment_order,exp_date:"
+msgid "Exp Date"
+msgstr "有效期"
+
+msgctxt "field:shipment_order,drug_specifications:"
+msgid "Drug Speic"
+msgstr "规格"
+
+msgctxt "field:shipment_order,drug_approval_number:"
+msgid "Drug Approval Number"
+msgstr "批准文号"
+
+msgctxt "field:shipment_order,shipment_order_lines:"
+msgid "Shipment Order Lines"
+msgstr "行项目"
+
+msgctxt "field:shipment_order_lines,product_code:"
+msgid "product_code"
+msgstr "物资编码"
+
+msgctxt "field:shipment_order_lines,product_name:"
+msgid "product_name"
+msgstr "物资名称"
+
+msgctxt "field:shipment_order,shipment_order:"
+msgid "Shipment Order"
+msgstr "确认行项目"
+
+msgctxt "field:shipment_order,pick_out:"
+msgid "Pick Out"
+msgstr "类型"
+
+msgctxt "field:hrp_sale_lines,party:"
+msgid "department"
+msgstr "科室"
+
+msgctxt "field:hrp_sale_lines,code:"
+msgid "code"
+msgstr "物资编码"
+
+msgctxt "field:hrp_sale_lines,describe:"
+msgid "describe"
+msgstr "物资名称"
+
+msgctxt "field:hrp_sale_lines,product:"
+msgid "Product"
+msgstr "物资名称"
+
+msgctxt "field:hrp_sale_lines,quantity:"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "field:hrp_sale_lines,retail_package:"
+msgid "Retail Package"
+msgstr "单位"
+
+msgctxt "field:hrp_sale_lines,list_price:"
+msgid "List Price"
+msgstr "零售价"
+
+msgctxt "field:hrp_sale_lines,cost_price:"
+msgid "Cost Price"
+msgstr "批发价"
+
+msgctxt "field:hrp_sale_lines,lot:"
+msgid "Lot"
+msgstr "批次"
+
+msgctxt "field:hrp_sale_lines,exp_date:"
+msgid "Exp Date"
+msgstr "有效期"
+
+msgctxt "field:hrp_sale_lines,drug_specifications:"
+msgid "Drug Speic"
+msgstr "规格"
+
+msgctxt "field:hrp_sale_lines,location:"
+msgid "location"
+msgstr "仓库"
+
+msgctxt "field:hrp_sale_lines,manufacturers_describtion:"
+msgid "Manufacturers Describtion"
+msgstr "厂商"
+
+msgctxt "field:hrp_sale,party:"
+msgid "department"
+msgstr "科室"
+
+msgctxt "field:hrp_sale,product:"
+msgid "Product"
+msgstr "物资检索"
+
+msgctxt "field:hrp_sale,product_uom_category:"
+msgid "Product Uom Category"
+msgstr "最小包装"
+
+msgctxt "field:hrp_sale,retail_package:"
+msgid "Retail Package"
+msgstr "单位"
+
+msgctxt "field:hrp_sale,quantity:"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "field:hrp_sale,lot:"
+msgid "Lot"
+msgstr "批次"
+
+msgctxt "field:hrp_sale,describe:"
+msgid "describe"
+msgstr "描述"
+
+msgctxt "field:hrp_sale,drug_specifications:"
+msgid "Drug Speic"
+msgstr "规格"
+
+msgctxt "field:hrp_sale,location:"
+msgid "location"
+msgstr "仓库"
+
+msgctxt "field:hrp_sale,sale_lines:"
+msgid "Hrp Sale Lines"
+msgstr "行项目"
+
+msgctxt "field:hrp_sale,is_sale:"
+msgid "Is_Sale"
+msgstr "确定"
+
+msgctxt "field:hrp_sale,pick_out:"
+msgid "Pick Out"
+msgstr "类型"
+
+msgctxt "model:ir.ui.menu,name:menu_act_hrp_create_sale"
+msgid "Hrp Create Sale"
+msgstr "手工物资消耗/退药(科室)"
+
+msgctxt "model:ir.ui.menu,name:menu_act_create_shipment_order"
+msgid "Hrp Create Shipment Order"
+msgstr "无采购订单入库(药房)"
+
+msgctxt "model:ir.ui.menu,name:menu_hrp_shipment_return_create"
+msgid "Hrp Shipment Return"
+msgstr "采退订单维护"
+
+msgctxt "model:ir.ui.menu,name:menu_hrp_shipment_create"
+msgid "Hrp Shipment Create"
+msgstr "电子发票收货"
+
+msgctxt "model:ir.ui.menu,name:menu_hrp_shipment_caustic_excessive_create"
+msgid "Hrp Caustic Excessive Create"
+msgstr "报损管理"
+
+msgctxt "field:hrp_shipment_caustic_excessive,type:"
+msgid "Type"
+msgstr "类型"
+
+msgctxt "field:shipment_order_lines,cause:"
+msgid "Cause"
+msgstr "原因"
+
+msgctxt "field:shipment_order,cause:"
+msgid "Cause"
+msgstr "原因"
+
+msgctxt "field:hrp_shipment_caustic_excessive,retrieve_the_code:"
+msgid "Retrieve The Code"
+msgstr "物资检索"
+
+msgctxt "field:hrp_shipment_caustic_excessive,location:"
+msgid "location"
+msgstr "仓库"
+
+msgctxt "field:hrp_shipment_caustic_excessive,number:"
+msgid "Number"
+msgstr "单号"
+
+msgctxt "field:hrp_shipment_caustic_excessive,describe:"
+msgid "describe"
+msgstr "描述"
+
+msgctxt "field:hrp_shipment_caustic_excessive,drug_specifications:"
+msgid "Drug Speic"
+msgstr "规格"
+
+msgctxt "field:hrp_shipment_caustic_excessive,retail_package:"
+msgid "Retail Package"
+msgstr "单位"
+
+msgctxt "field:hrp_shipment_caustic_excessive,lot:"
+msgid "Lot"
+msgstr "批次"
+
+msgctxt "field:hrp_shipment_caustic_excessive,quantity:"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "field:hrp_shipment_caustic_excessive,caustic_why:"
+msgid "Caustic Why"
+msgstr "报损原因"
+
+msgctxt "field:hrp_shipment_caustic_excessive,done:"
+msgid "done"
+msgstr "确定"
+
+msgctxt "field:hrp_shipment_caustic_excessive_lines,product_name:"
+msgid "product_name"
+msgstr "物资名称"
+
+msgctxt "field:hrp_shipment_caustic_excessive_lines,product_code:"
+msgid "Retrieve The Code"
+msgstr "物资编码"
+
+
+msgctxt "field:hrp_shipment_return,categories:"
+msgid "Categories"
+msgstr "物资种类"
+
+msgctxt "field:hrp_shipment_caustic_excessive_lines,describe:"
+msgid "describe"
+msgstr "描述"
+
+msgctxt "field:hrp_shipment_caustic_excessive_lines,drug_specifications:"
+msgid "Drug Speic"
+msgstr "规格"
+
+msgctxt "field:hrp_shipment_caustic_excessive_lines,retail_package:"
+msgid "Retail Package"
+msgstr "单位"
+
+msgctxt "field:hrp_shipment_caustic_excessive_lines,lot:"
+msgid "Lot"
+msgstr "批次"
+
+msgctxt "field:hrp_shipment_caustic_excessive,excessive_why:"
+msgid "excessive_why"
+msgstr "原因"
+
+msgctxt "field:hrp_shipment_caustic_excessive_lines,exp_date:"
+msgid "Exp Date"
+msgstr "有效日期至"
+
+msgctxt "field:hrp_shipment_caustic_excessive_lines,quantity:"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "field:hrp_shipment_caustic_excessive_lines,caustic_why:"
+msgid "Caustic Why"
+msgstr "原因"
+
+msgctxt "field:hrp_shipment_caustic_excessive_lines,excessive_why:"
+msgid "excessive_why"
+msgstr "报溢原因"
+
+msgctxt "field:hrp_shipment_caustic_excessive,caustic_excessive_lines:"
+msgid "Caustic Excessive Lines"
+msgstr "行项目"
+
+msgctxt "model:ir.action,name:act_hrp_create_sale"
+msgid "Hrp Create Sale"
+msgstr "手工物资消耗/退药(科室)"
+
+msgctxt "model:ir.action,name:act_create_shipment_order"
+msgid "Hrp Create Shipment Order"
+msgstr "无采购订单入库(药房)"
+
+msgctxt "model:ir.action,name:act_hrp_shipment_return_create"
+msgid "Hrp Shipment Return"
+msgstr "采退订单维护"
+
+msgctxt "model:ir.action,name:act_hrp_shipment_create"
+msgid "Hrp Shipment Create"
+msgstr "电子发票收货"
+
+msgctxt "model:ir.action,name:act_hrp_shipment_caustic_excessive_create"
+msgid "Hrp Caustic Excessive Create"
+msgstr "报损管理"
+
+msgctxt "view:hrp_sale:"
+msgid "Hrp Sale"
+msgstr "手工物资消耗/退药(科室)"
+
+
+msgctxt "view:shipment_order:"
+msgid "Shipment Order"
+msgstr "无采购订单入库(药房)"
+
+msgctxt "view:hrp_shipment_return:"
+msgid "Hrp Shipment Return"
+msgstr "采退订单维护"
+
+msgctxt "view:hrp_shipment:"
+msgid "Hrp Shipment"
+msgstr "电子发票收货"
+
+msgctxt "view:hrp_shipment_caustic_excessive:"
+msgid "Hrp Caustic Excessive"
+msgstr "报损管理"
+###################################
+msgctxt "field:stock.shipment.out.return,return_shipment:"
+msgid "Return Shipment"
+msgstr "单号"
+
+msgctxt "field:hrp_shipment_Audit_caustic_excessive_lines,lines:"
+msgid "Lines"
+msgstr "序列"
+
+msgctxt "field:hrp_shipment_Audit_caustic_excessive_lines,product_name:"
+msgid "product_name"
+msgstr "物资名称"
+
+msgctxt "field:hrp_shipment_Audit_caustic_excessive_lines,product_code:"
+msgid "product_code"
+msgstr "物资编码"
+
+msgctxt "field:hrp_shipment_Audit_caustic_excessive_lines,retail_package:"
+msgid "Retail Package"
+msgstr "单位"
+
+msgctxt "field:hrp_shipment_Audit_caustic_excessive_lines,describe:"
+msgid "describe"
+msgstr "附加"
+
+msgctxt "field:hrp_shipment_Audit_caustic_excessive_lines,drug_specifications:"
+msgid "Drug Speic"
+msgstr "规格"
+
+msgctxt "field:hrp_shipment_Audit_caustic_excessive_lines,quantity:"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "field:hrp_shipment_Audit_caustic_excessive_lines,why:"
+msgid "Why"
+msgstr "原因"
+
+msgctxt "field:hrp_shipment_Audit_caustic_excessive_lines,lot:"
+msgid "Lot"
+msgstr "批次"
+
+msgctxt "field:hrp_shipment_Audit_caustic_excessive_lines,exp_date:"
+msgid "Exp Date"
+msgstr "有效日期"
+
+msgctxt "field:hrp_shipment_Audit_caustic_excessive_lines,state:"
+msgid "State"
+msgstr "状态"
+
+msgctxt "field:hrp_shipment_Audit_caustic_excessive,type:"
+msgid "Type"
+msgstr "类型"
+
+msgctxt "field:hrp_shipment_Audit_caustic_excessive,state:"
+msgid "State"
+msgstr "状态"
+
+msgctxt "field:hrp_shipment_Audit_caustic_excessive,location:"
+msgid "location"
+msgstr "仓库"
+
+msgctxt "field:hrp_shipment_Audit_caustic_excessive,order_no:"
+msgid "Order"
+msgstr "单号"
+
+msgctxt "field:hrp_shipment_Audit_caustic_excessive,audit_caustic_excessive_lines:"
+msgid "Audit Caustic Excessive Lines"
+msgstr "行项目"
+
+msgctxt "model:ir.ui.menu,name:menu_hrp_shipment_audit_caustic_excessive_create"
+msgid "Audit Caustic Excessive Create"
+msgstr "报损审核"
+
+msgctxt "view:hrp_shipment_Audit_caustic_excessive:"
+msgid "Audit Caustic Excessive"
+msgstr "报损审核"
+
+msgctxt "model:ir.action,name:act_hrp_shipment_audit_caustic_excessive_create"
+msgid "Audit Caustic Excessive Create"
+msgstr "报损审核"
+
+
+##################################
+msgctxt "model:ir.ui.menu,name:menu_act_create_stock_return"
+msgid "Create Stock Return"
+msgstr "出入库确认"
+
+msgctxt "model:ir.action,name:act_create_stock_return"
+msgid "Create Stock Return"
+msgstr "出入库确认"
+
+msgctxt "view:stock_return:"
+msgid "Stock Return"
+msgstr "出入库确认"
+
+msgctxt "view:order_no:"
+msgid "Order"
+msgstr "采退订单编号"
+
+msgctxt "view:stock_return_lines:"
+msgid "Stock Order Lines"
+msgstr "采退行项目"
+
+
+msgctxt "field:order_no,number:"
+msgid "Number"
+msgstr "单号"
+
+msgctxt "field:order_no,time:"
+msgid "Time"
+msgstr "时间"
+
+msgctxt "field:stock_return,categories:"
+msgid "Categories"
+msgstr "物资种类"
+
+msgctxt "field:stock_return,order_no:"
+msgid "Order"
+msgstr "单号"
+
+msgctxt "field:stock_return,order_category:"
+msgid "order_category"
+msgstr "类型"
+
+msgctxt "field:stock_return,stock_return_lines:"
+msgid "HrpShipmentReturnLines"
+msgstr "行项目"
+
+msgctxt "field:stock_return,state:"
+msgid "State"
+msgstr "状态"
+
+msgctxt "field:stock_return,confirm:"
+msgid "confirm "
+msgstr "查询"
+
+msgctxt "field:stock_return_lines,return_id:"
+msgid "Return ID"
+msgstr "采退单"
+
+msgctxt "field:stock_return_lines,line:"
+msgid "line"
+msgstr "序列"
+
+msgctxt "field:stock_return_lines,order:"
+msgid "Order"
+msgstr "单号"
+
+msgctxt "field:stock_return_lines,code:"
+msgid "code"
+msgstr "编码"
+
+msgctxt "field:stock_return_lines,lot:"
+msgid "Lot"
+msgstr "批次"
+
+msgctxt "field:stock_return_lines,shelf_life_expiration_date:"
+msgid "shelf_life_expiration_date"
+msgstr "有效日期"
+
+msgctxt "field:stock_return_lines,product_name:"
+msgid "Product_name"
+msgstr "物资名称"
+
+msgctxt "field:stock_return_lines,drug_specifications:"
+msgid "Drug Speic"
+msgstr "规格"
+
+msgctxt "field:stock_return_lines,note:"
+msgid "Note"
+msgstr "附加"
+
+msgctxt "field:stock_return_lines,quantity:"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "field:stock_return_lines,ensure:"
+msgid "ensure"
+msgstr "确认"
+
+msgctxt "field:stock.location,is_freeze:"
+msgid "is_freeze"
+msgstr "是否为冻结区"
+
+msgctxt "field:stock.location,is_goods:"
+msgid "is_goods"
+msgstr "是否为货位"
+
+msgctxt "field:stock.location,ceiling:"
+msgid "ceiling"
+msgstr "库存上限"
+
+msgctxt "field:hrp_shipment_Audit_caustic_excessive_lines,list_price:"
+msgid "List Price"
+msgstr "零售金额"
+
+msgctxt "field:hrp_shipment_Audit_caustic_excessive_lines,cost_price:"
+msgid "Cost Price"
+msgstr "批发金额"
+
+msgctxt "field:hrp_shipment_caustic_excessive_lines,list_price:"
+msgid "List Price"
+msgstr "零售金额"
+
+msgctxt "field:hrp_shipment_caustic_excessive_lines,cost_price:"
+msgid "Cost Price"
+msgstr "批发金额"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

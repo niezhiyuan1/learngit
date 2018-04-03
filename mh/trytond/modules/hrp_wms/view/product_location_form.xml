@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<form string="WMS">
+
+    <label name="locations"/>
+    <field name="locations"/>
+
+    <label name="categories"/>
+    <field name="categories"/>
+
+
+    <field name="location" colspan="4"/>
+
+</form>
+

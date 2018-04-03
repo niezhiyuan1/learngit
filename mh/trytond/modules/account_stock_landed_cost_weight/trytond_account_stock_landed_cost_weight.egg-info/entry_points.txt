@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    account_stock_landed_cost_weight = trytond.modules.account_stock_landed_cost_weight
+    

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+        <!--hrp product condition-->
+        <record model="ir.ui.view" id="product_condition_view_form">
+            <field name="model">hrp_new_product.product_condition</field>
+            <field name="type">form</field>
+            <field name="name">product_condition_form</field>
+        </record>
+        <record model="ir.action.wizard" id="act_product_condition">
+            <field name="name">Hrp Product Condition</field>
+            <field name="wiz_name">hrp_new_product.product_condition_wizard</field>
+        </record>
+        <menuitem parent="hrp_new_product_menu"
+            action="act_product_condition"
+            id="menu_product_condition" sequence="5" />
+    </data>
+</tryton>

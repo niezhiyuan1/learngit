@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<form string="Hrp Sale">
+    <label name="pick_out"/>
+    <field name="pick_out"/>
+
+    <label name="location"/>
+    <field name="location"/>
+
+    <label name="product"/>
+    <field name="product"/>
+
+    <label name="drug_specifications"/>
+    <field name="drug_specifications"/>
+
+    <label name="lot"/>
+    <field name="lot"/>
+
+    <label name="quantity"/>
+    <field name="quantity"/>
+
+    <label name="retail_package"/>
+    <field name="retail_package"/>
+
+    <label name="party"/>
+    <field name="party"/>
+
+
+    <field name="lot" invisible="1" colspan="2"/>
+
+    <label name="is_sale"/>
+    <field name="is_sale"/>
+
+    <field name="sale_lines" colspan="4"/>
+
+
+</form>

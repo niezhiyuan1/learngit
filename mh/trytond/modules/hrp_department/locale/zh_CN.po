@@ -1,0 +1,39 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hrp_department.department,mark:"
+msgid "Mark"
+msgstr ""
+
+msgctxt "field:hrp_department.department,department_name:"
+msgid "Name"
+msgstr "科室名称"
+
+msgctxt "field:hrp_department.department,department_code:"
+msgid "Code"
+msgstr "科室编码"
+
+msgctxt "field:hrp_department.department,deivery:"
+msgid "Delivery"
+msgstr "是否传递"
+
+msgctxt "field:hrp_department.department,invoice:"
+msgid "Invoice"
+msgstr "是否发票"
+
+msgctxt "field:hrp_department.department,active:"
+msgid "Active"
+msgstr "是否激活"
+
+msgctxt "field:hrp_department.department,address_active:"
+msgid "Address_active"
+msgstr "地址激活"
+
+msgctxt "model:ir.ui.menu,name:menu_dep"
+msgid "hrp_department"
+msgstr "科室主数据"
+
+msgctxt "model:ir.action,name:act_PIS_menu"
+msgid "hrp_department"
+msgstr "科室主数据"

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+    <!--<xpath expr="/tree" position="replace_attributes">-->
+        <!--<tree string="Moves" keyword_open="1" editable="top"/>-->
+    <!--</xpath>-->
+    <!--<xpath expr="/tree/field[@name='product']" position="replace">-->
+         <!--<field name="product" tree_invisible="1"/>-->
+    <!--</xpath>-->
+    <xpath expr="/tree/field[@name='product']" position="after">
+        <field name="starts"/>
+        <field name="is_direct_sending"/>
+        <field name="outpatient_7days"/>
+     </xpath>
+     <xpath expr="/tree/field[@name='quantity']" position="before">
+         <field name="real_number"/>
+     </xpath>
+     <xpath expr="/tree/field[@name='quantity']" position="after">
+         <field name="outgoing_audit"/>
+         <field name="reason" tree_invisible="1" />
+         <field name="comment"/>
+         <field name="actual_return"/>
+     </xpath>
+</data>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<form string="Order">
+
+    <label name="number"/>
+    <field name="number"/>
+
+    <label name="time"/>
+    <field name="time"/>
+
+</form>

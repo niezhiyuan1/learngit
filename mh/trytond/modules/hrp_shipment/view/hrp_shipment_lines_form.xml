@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<form string="Hrp Shipment Lines">
+    <label name="line_code"/>
+    <field name="line_code"/>
+
+    <label name="supply_name"/>
+    <field name="supply_name"/>
+
+    <label name="purchase_code"/>
+    <field name="purchase_code"/>
+
+    <label name="item_code"/>
+    <field name="item_code"/>
+
+    <label name="drug_code"/>
+    <field name="drug_code"/>
+
+    <label name="drug_specifications"/>
+    <field name="drug_specifications"/>
+
+    <label name="product"/>
+    <field name="product"/>
+
+    <label name="manufacturers_describtion"/>
+    <field name="manufacturers_describtion"/>
+
+    <label name="quantity"/>
+    <field name="quantity"/>
+
+    <label name="retail_package"/>
+    <field name="retail_package"/>
+
+    <label name="cost_price"/>
+    <field name="cost_price"/>
+
+    <label name="list_price"/>
+    <field name="list_price"/>
+
+    <label name="invoice_code"/>
+    <field name="invoice_code"/>
+
+    <label name="invoice_date"/>
+    <field name="invoice_date"/>
+
+    <label name="invoice_amount"/>
+    <field name="invoice_amount"/>
+
+    <label name="retail_amount"/>
+    <field name="retail_amount"/>
+
+    <label name="drug_approval_number"/>
+    <field name="drug_approval_number"/>
+
+    <label name="lot"/>
+    <field name="lot"/>
+
+    <label name="dom"/>
+    <field name="dom"/>
+
+    <label name="exp_date"/>
+    <field name="exp_date"/>
+
+    <label name="arriving"/>
+    <field name="arriving"/>
+
+    <label name="state"/>
+    <field name="state"/>
+
+    <label name="is_electronic_invoice"/>
+    <field name="is_electronic_invoice"/>
+
+    <label name="number"/>
+    <field name="number"/>
+
+</form>

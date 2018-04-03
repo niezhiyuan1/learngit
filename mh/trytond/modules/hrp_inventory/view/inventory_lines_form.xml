@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<form string="InventoryLines">
+
+    <label name="lines"/>
+    <field name="lines "/>
+
+    <label name="code"/>
+    <field name="code"/>
+
+    <label name="name"/>
+    <field name="name"/>
+
+    <label name="drug_specifications"/>
+    <field name="drug_specifications"/>
+
+    <label name="warehouse_num"/>
+    <field name="warehouse_num"/>
+
+    <label name="freeze_num"/>
+    <field name="freeze_num"/>
+
+    <label name="cost_pice"/>
+    <field name="cost_pice"/>
+
+    <label name="wholesale_amount"/>
+    <field name="wholesale_amount"/>
+
+    <label name="warehouse_real_num"/>
+    <field name="warehouse_real_num"/>
+
+    <label name="freeze_real_num"/>
+    <field name="freeze_real_num"/>
+
+    <label name="references_to"/>
+    <field name="references_to"/>
+
+    <label name="lot_warehouse"/>
+    <field name="lot_warehouse"/>
+
+    <label name="lot_freeze"/>
+    <field name="lot_freeze"/>
+
+    <label name="differences_why"/>
+    <field name="differences_why"/>
+
+    <label name="note"/>
+    <field name="note"/>
+
+</form>

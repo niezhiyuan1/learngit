@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<tree string="New_products">
+
+    <field name="active"/>
+
+    <field name="is_direct_sending"/>
+
+    <field name="code"/>
+
+    <field name="name"/>
+
+    <field name="attach"/>
+
+    <field name="drug_specifications"/>
+
+    <field name="manufacturers_describtion"/>
+
+    <field name="default_uom"/>
+
+    <field name="cost_price"/>
+
+    <field name="list_price"/>
+
+    <field name="a_charge"/>
+
+    <field name="party"/>
+
+    <field name="categories"/>
+
+</tree>

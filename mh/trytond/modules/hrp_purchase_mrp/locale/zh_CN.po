@@ -1,0 +1,179 @@
+# 
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,product:"
+msgid "Product"
+msgstr "物资名称"
+
+msgctxt "model:ir.action.act_window.domain,name:act_purchase_lines_tree_domain_all"
+msgid "All"
+msgstr "全部"
+
+msgctxt "model:ir.action.act_window.domain,name:act_purchase_lines_domain_tree_purchase"
+msgid "All"
+msgstr "已采购"
+
+
+msgctxt "model:ir.action.act_window.domain,name:act_purchase_lines_domain_tree_draft"
+msgid "Draft"
+msgstr "起草"
+
+
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,party:"
+msgid "Party"
+msgstr "供应商"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,quantity:"
+msgid "Quantity"
+msgstr "数量"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,name:"
+msgid "name"
+msgstr "物资名称"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,advice_quantity:"
+msgid "Advice_quantity"
+msgstr "建议采购的数量"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,uom:"
+msgid "UOM"
+msgstr "单位"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,product_uom_category:"
+msgid "Product Uom Category"
+msgstr "最小包装"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,purchase_date:"
+msgid "Best Purchase Date"
+msgstr "采购日期"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,stock_level:"
+msgid "Stock at Supply Date"
+msgstr "当前库存"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,code:"
+msgid "Code"
+msgstr "物资编码"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,outpatient_7days:"
+msgid "Outpatient_7days"
+msgstr "门诊7天消耗"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,hospitalized_7days:"
+msgid "Hospitalized_7days"
+msgstr "住院7天消耗"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,outpatient_stock:"
+msgid "Outpatient_stock"
+msgstr "门诊当前库存"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,hospitalized_stock:"
+msgid "Hospitalized_stock"
+msgstr "住院当前库存"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,retrieve_the_code:"
+msgid "Retrieve_the_code"
+msgstr "拼音简码"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,drug_specifications:"
+msgid "Drug_specifications"
+msgstr "规格"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,attach:"
+msgid "Attach"
+msgstr "附加"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,a_charge:"
+msgid "A_charge"
+msgstr "件装量"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,interim:"
+msgid "interim"
+msgstr "是否临采"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,manufacturers_describtion:"
+msgid "manufacturers_describtion"
+msgstr "厂商"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,is_create:"
+msgid "is_create"
+msgstr "是否创建"
+
+msgctxt "field:hrp_purchase_mrp_create_purchase_mrp_start,category:"
+msgid "Category"
+msgstr "物资种类"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,state:"
+msgid "State"
+msgstr "订单状态"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,warehouse:"
+msgid "Warehouse"
+msgstr "仓库"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,category:"
+msgid "Category"
+msgstr "物资种类"
+
+msgctxt "field:hrp_purchase_mrp.create_purchase_ask_party,product:"
+msgid "Product"
+msgstr "物资名称"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,company:"
+msgid "Company"
+msgstr "货币"
+
+msgctxt "field:hrp_purchase_mrp.purchase_mrp_lines,party:"
+msgid "Supplier"
+msgstr "供应商"
+
+msgctxt "field:stock.lot,hrp_quantity:"
+msgid "Hrp Quantity"
+msgstr "数量(包装单位)"
+
+msgctxt "field:stock.lot,min_quantity:"
+msgid "Hrp Quantity"
+msgstr "数量(最小单位)"
+
+msgctxt "field:stock.lot,hrp_forecast_quantity:"
+msgid "Hrp Forecast Quantity"
+msgstr "可用数量(包装单位)"
+
+msgctxt "field:stock.lot,min_forecast_quantity:"
+msgid "Hrp Forecast Quantity"
+msgstr "可用数量(最小单位)"
+
+msgctxt "field:stock.lot,date_of_production:"
+msgid "date of production"
+msgstr "生产日期"
+
+msgctxt "model:ir.ui.menu,name:menu_new_purchase_mrp_create"
+msgid "Hrp Create Purchase Mrp"
+msgstr "物资需求计划"
+
+msgctxt "model:ir.ui.menu,name:menu_purchase_mrp_lines"
+msgid "Hrp Purchase Mrp Lines"
+msgstr "采购申请"
+
+msgctxt "view:hrp_purchase_mrp_create_purchase_mrp_start:"
+msgid "Create Purchase Mrp"
+msgstr "创建采购Mrp"
+
+msgctxt "model:ir.action,name:act_purchase_request_create"
+msgid "Hrp Create Purchase Mrp"
+msgstr "创建采购Mrp"
+
+msgctxt "model:ir.action,name:act_purchase_mrp_lines"
+msgid "Hrp Purchase Mrp Lines"
+msgstr "采购申请"
+
+msgctxt "model:ir.action,name:wizard_create_purchase"
+msgid "Purchase sddw"
+msgstr "采购申请"
+
+msgctxt "wizard_button:hrp_purchase_mrp_create_purchase_mrp.create,start,create_:"
+msgid "Create"
+msgstr "创建"

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--editable ="top" 对tree可以修改
+sequence="1" 三角的排序
+-->
+<tree >
+    <field name="number"/>
+    <field name="processing_time"/>
+    <field name="product_name"/>
+    <field name="drug_specifications"/>
+    <field name="company"/>
+    <field name="lot"/>
+    <field name="time"/>
+    <field name="unit_price"/>
+    <field name="list_price"/>
+    <field name="additional"/>
+</tree>

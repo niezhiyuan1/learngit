@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<tree string="Hrp Sale Lines" sequence="1" >
+
+    <field name="code"/>
+
+    <field name="describe"/>
+
+    <field name="drug_specifications"/>
+
+    <field name="quantity"/>
+
+    <field name="retail_package"/>
+
+    <field name="cost_price"/>
+
+    <field name="list_price"/>
+
+    <field name="lot"/>
+
+    <field name="manufacturers_describtion"/>
+
+</tree>

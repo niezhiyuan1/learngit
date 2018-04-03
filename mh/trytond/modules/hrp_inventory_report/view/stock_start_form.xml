@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<form string="Stock Inventory Report">
+
+    <label name="location"/>
+    <field name="location"/>
+
+    <label name="category"/>
+    <field name="category"/>
+
+    <label name="shelves_code"/>
+    <field name="shelves_code"/>
+</form>

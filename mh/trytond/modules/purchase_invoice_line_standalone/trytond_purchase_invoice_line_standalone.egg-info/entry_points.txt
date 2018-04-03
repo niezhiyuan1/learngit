@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    purchase_invoice_line_standalone =         trytond.modules.purchase_invoice_line_standalone
+    

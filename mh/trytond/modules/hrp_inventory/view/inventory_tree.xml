@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<tree string="Inventory">
+
+    <field name="inventory_time" widget="date"/>
+    <field name="inventory_time" widget="time"/>
+
+    <field name="warehouse"/>
+
+    <field name="categories"/>
+
+    <field name="amount"/>
+
+    <field name="varieties_num"/>
+
+    <field name="state"/>
+
+</tree>
